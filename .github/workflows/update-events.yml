@@ -1,6 +1,12 @@
 name: Eventdaten aktualisieren
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'backend/**'
+      - 'tests/**'
+      - '.github/workflows/update-events.yml'
   schedule:
     - cron: '23 */6 * * *'
 permissions:
