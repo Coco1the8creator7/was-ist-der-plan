@@ -23,6 +23,15 @@ class SourceParsingTests(unittest.TestCase):
     def test_ticket_time(self):
         self.assertEqual(known_time("Sa., 17. Oktober 2026, 18:00 Uhr", "kauz"), "18:00")
 
+    def test_hive_real_page_time(self):
+        self.assertEqual(known_time("Start: 17. October 2026 um 22:00", "hive"), "22:00")
+
+    def test_dynamo_real_page_time(self):
+        self.assertEqual(known_time("Sa. 17/10/2026 20:00–04:00", "dynamo"), "20:00")
+
+    def test_dynamo_real_page_date(self):
+        self.assertEqual(known_date("Sa. 17/10/2026 20:00–04:00"), date(2026, 10, 17))
+
     def test_detail(self):
         venue = next(v for v in VENUES if v.key == "hive")
         page = BeautifulSoup("<h1>Techno Nacht</h1><p>17. Oktober 2026</p><p>Start: 23:00</p>", "html.parser")
