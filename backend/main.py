@@ -7,6 +7,7 @@ from zoneinfo import ZoneInfo
 from backend.sources.venues import VENUES, PENDING, crawl_venue
 from backend.legacy_exil import crawl_exil
 from backend.sources.favourites import FAVORITES, crawl_favorite
+from backend.sources.images import discard_repeated_generic_images
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "site/data/events.json"
@@ -56,6 +57,7 @@ def main():
                 distinct[(event["source"], event["source_url"], event["date"], event["title"])] = event
             duplicates = len(events) - len(distinct)
             events = list(distinct.values())
+            generic_images_filtered, generic_image_urls = discard_repeated_generic_images(events)
             # Parsing a partial listing must never replace previously harvested good data.
             state = "success" if found > 0 and len(events) + duplicates == found and not errors else (
                 "partial" if events else "failed"
@@ -65,7 +67,9 @@ def main():
                 past = by_key.get(identity, {})
                 # A temporarily missing image metadata tag should not erase a
                 # previously checked URL for the exact same event and title.
-                if not event.get("image_url") and past.get("image_url") and past.get("title") == event["title"]:
+                if (not event.get("image_url") and past.get("image_url")
+                        and past.get("image_url") not in generic_image_urls
+                        and past.get("title") == event["title"]):
                     for field in ("image_url", "image_source", "image_type"):
                         event[field] = past.get(field)
                 event["first_seen"] = past.get("first_seen", now)
@@ -78,10 +82,12 @@ def main():
             found, events, duplicates, state = 0, [], 0, "failed"
             errors = [f"{type(exc).__name__}: {exc}"[:300]]
             meta = {}
+            generic_images_filtered = 0
         with_images = sum(bool(e.get("image_url")) for e in events)
         quality[key] = {
             "status": state, "last_attempt": now,
             "images_imported": with_images,
+            "generic_images_filtered": generic_images_filtered,
             "image_coverage": round(with_images / len(events), 3) if events else None,
             "last_successful_import": now if state == "success" else old_quality.get("last_successful_import"),
             "listed": found, "imported": len(events), "duplicates": duplicates,
