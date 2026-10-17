@@ -48,7 +48,7 @@ def _normalise_image(candidate, page_url: str):
         return None
     if parsed.hostname in {"localhost", "127.0.0.1", "::1"}:
         return None
-    if parsed.path.lower().endswith((".svg", ".ico", ".pdf")):
+    if not re.search(r"\.(?:png|jpe?g|webp|avif|gif)$", parsed.path, re.I):
         return None
     if GENERIC_IMAGE.search(parsed.path):
         return None
@@ -120,6 +120,13 @@ def _candidates(doc: BeautifulSoup):
                 if img.get(attr):
                     yield img[attr], "detail_image", attrs
                     break
+
+
+
+
+def is_valid_image_url(value: str | None) -> bool:
+    """Validate pre-existing image metadata before merging older snapshots."""
+    return _normalise_image(value, "https://example.org/") is not None
 
 
 def extract_event_image(doc: BeautifulSoup, event_url: str, source: str) -> dict:
