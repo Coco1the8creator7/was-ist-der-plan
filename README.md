@@ -32,3 +32,19 @@ python3 -m unittest discover -s tests -v
 python3 -m backend.main
 ```
 Die neue Version ist ein **Pilot**. Änderungen der Website-Strukturen, robots.txt oder Zugangsbeschränkungen können einzelne Adapter deaktivieren. Es werden keine Zugriffssperren umgangen.
+
+## Eventbilder / Flyer (v0.6)
+
+Der Crawler sucht auf **einzelnen Event-Detailseiten** zuerst nach Event-JSON-LD und dann nach Metadaten (`og:image`, Twitter-Vorschaubild) und ausdrücklich eventbezogenen Bildern.
+Die Datenfelder sind:
+
+- `image_url`: HTTPS-Bildadresse oder `null`
+- `image_source`: Herkunftsadapter, beispielsweise `exil`, oder `null`
+- `image_type`: `event_flyer`, wenn entsprechend bezeichnet; sonst `event_image` oder `null`
+
+**Keine Bilder werden heruntergeladen oder ins Git-Repository geschrieben.** Die Webseite zeigt externe Bilder mit Lazy Loading und 5:3-Ausschnitt, und fällt bei fehlenden/gesperrten Bildern auf die bisherige Farbfläche zurück. Generische Logos/Platzhalter werden gefiltert. Vor einem breiten öffentlichen Einsatz sind die Bild-Nutzungsrechte und Hotlink-Richtlinien der Betreiber zu prüfen.
+
+Programmseiten ohne eindeutige Bildzuordnung (etwa Gonzo oder Stereo) behalten zunächst bewusst leere Bildfelder. Das verhindert, dass ein beliebiges Clubfoto einem konkreten Event zugeordnet wird. Quellenadapter mit Event-Detailseiten (EXIL, Hive, Kaufleuten, Plaza, Kauz, Moods, Dynamo, Frieda via UBWG) lesen die Bild-URL aus demselben HTML, das ohnehin für das Event geladen wird.
+
+`site/data/quality.json` protokolliert `images_imported` und `image_coverage` pro Quelle. Die Bildabdeckung ist **keine** vollständige Veranstaltungs-Erfassungsquote. Vorhandene ältere Events werden beim nächsten regulären Import um die Bildfelder ergänzt; ein Mangel an Bilddaten ist kein Crawlerfehler.
+
