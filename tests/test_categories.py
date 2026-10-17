@@ -55,6 +55,16 @@ class ThreeCategoryTests(unittest.TestCase):
         self.assertEqual(self.category("LOCO HOUSE", source="kaufleuten",
                                        venue="Kaufleuten"), SOUND)
 
+    def test_kaufleuten_late_night_unknown_title(self):
+        self.assertEqual(self.category("HOTLINE", source="kaufleuten",
+                                       venue="Kaufleuten", start_time="23:00"), SOUND)
+        self.assertEqual(self.category("ADDICTION", source="kaufleuten",
+                                       venue="Kaufleuten", start_time="23:00"), SOUND)
+
+    def test_kaufleuten_late_cultural_event_stays_cultural(self):
+        self.assertEqual(self.category("Autorenlesung", source="kaufleuten",
+                                       venue="Kaufleuten", start_time="23:00"), CULTURE)
+
     def test_kaufleuten_party_from_actual_event_details(self):
         self.assertEqual(self.category("HOTLINE", source="kaufleuten", venue="Kaufleuten",
                         details="HOTLINE by Kobragypsy Samstag Türöffnung 23:00 "
