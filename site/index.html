@@ -356,6 +356,7 @@ button,input,select,textarea{font-family:inherit}
 'use strict';
 
 const CITIES={zurich:{name:'Zürich',lat:47.3769,lon:8.5417},baden:{name:'Baden',lat:47.4738,lon:8.3066},winterthur:{name:'Winterthur',lat:47.499,lon:8.7241},zug:{name:'Zug',lat:47.1662,lon:8.5155},luzern:{name:'Luzern',lat:47.0502,lon:8.3093},bern:{name:'Bern',lat:46.9480,lon:7.4474}};
+const PUBLIC_CATEGORIES=['Sound & Clöb','Kultur & Workshops','Konzerte'];
 const KEYWORDS=[
  ['Hardtechno',/hard[ -]?techno|schranz|industrial|hardcore|hard dance|hard trance/i],
  ['Techno',/techno|warehouse|schranz/i],
@@ -393,7 +394,16 @@ const KEYWORDS=[
 const $=id=>document.getElementById(id);
 function cleanUrl(value){try{const u=new URL(String(value));return ['http:','https:'].includes(u.protocol)?u.href:''}catch{return ''}}
 function coord(e){return Number.isFinite(e.lat)&&Number.isFinite(e.lon)&&Math.abs(e.lat)<=90&&Math.abs(e.lon)<=180?{lat:e.lat,lon:e.lon}:null}
-function tagsFor(e){const corpus=[e.title,e.description,e.category,e.venue,e.tags?.join(' ')].filter(Boolean).join(' ');const derived=KEYWORDS.filter(([name,rx])=>rx.test(corpus)).map(([name])=>name);if(e.category==='Festival')derived.push('Festival');if(e.category==='Techno & Rave')derived.push('Rave');if(e.category==='House & Electronic')derived.push('House');if(e.category==='Wissen & Nachhaltigkeit')derived.push('Wissen','Nachhaltigkeit');if(e.category==='Community & Social')derived.push('Community');return [...new Set([...(Array.isArray(e.tags)?e.tags:[]),...derived])].filter(x=>typeof x==='string').slice(0,18)}
+// Tags depend on event content, not the venue or the broad public category.
+function tagsFor(e){const corpus=[e.title,e.description,e.tags?.join(' ')].filter(Boolean).join(' ');const derived=KEYWORDS.filter(([name,rx])=>rx.test(corpus)).map(([name])=>name);return [...new Set([...(Array.isArray(e.tags)?e.tags:[]),...derived])].filter(x=>typeof x==='string').slice(0,18)}
+function frontendCategory(raw){
+ const name=String(raw.category||'');
+ if(PUBLIC_CATEGORIES.includes(name))return name;
+ // Compatibility while a browser still sees a pre-migration JSON snapshot.
+ if(name==='Clubs & Nachtleben'||name==='Bars & Musik')return 'Sound & Clöb';
+ if(name==='Konzerte')return 'Konzerte';
+ return 'Kultur & Workshops';
+}
 function safeFlyerUrl(value){
   if(value&&typeof value==='object')value=value.url||value.src||value.href;
   if(typeof value!=='string'||value.length>2048)return null;
@@ -423,7 +433,7 @@ function normalize(raw){
   const lonRaw=raw.longitude!==undefined?raw.longitude:raw.lon;
   const e={id:String(raw.id||url),title:raw.title.slice(0,180),start:String(start),end:raw.end_at||raw.end||null,
     city:String(raw.city||'Zürich'),venue:String(raw.venue||''),price:Number.isFinite(price)&&price>=0?price:null,
-    category:String(raw.category||'Sonstiges'),description:typeof raw.description==='string'?raw.description:'',url,imageUrl:getFlyer(raw),status:String(raw.status||'scheduled'),
+    category:frontendCategory(raw),description:typeof raw.description==='string'?raw.description:'',url,imageUrl:getFlyer(raw),status:String(raw.status||'scheduled'),
     lat:latRaw==null||latRaw===''?null:Number(latRaw),lon:lonRaw==null||lonRaw===''?null:Number(lonRaw),
     tags:Array.isArray(raw.tags)?raw.tags.filter(t=>typeof t==='string').slice(0,18):[],
     source:String(raw.source||new URL(url).hostname),favorite:favorites.has(String(raw.id||url)),
@@ -452,7 +462,7 @@ function setPeriod(p){visibleLimit=PAGE_SIZE;datePeriod=p;const d=today(),day=ne
 function periodFilter(e){const start=e.start.slice(0,10),end=(e.end||e.start).slice(0,10);return end>=today()&&(!$('dateFrom').value||end>=$('dateFrom').value)&&(!$('dateTo').value||start<=$('dateTo').value)}
 function currentFiltered(){if($('home').value==='bern')return [];const q=$('search').value.trim().toLowerCase(),c=$('category').value,t=$('tagFilter').value,v=$('venueFilter').value,maxKm=Number($('distance').value),maxPrice=Number($('budget').value);let arr=state.events.filter(e=>{const km=distance(e),text=[e.title,e.description,e.city,e.venue,e.tags.join(' '),e.category].join(' ').toLowerCase();return periodFilter(e)&&(!q||text.includes(q))&&(!c||e.category===c)&&(!t||e.tags.includes(t))&&(!v||e.venue===v)&&(!$('onlyVenuePages').checked||e.homepageVenue)&&(!Number.isFinite(km)||km<=maxKm)&&((e.price===null&&$('unknownPrices').checked)||(e.price!==null&&e.price<=maxPrice))&&(!$('onlyFavorites').checked||e.favorite)});const sort=$('sort').value;arr.sort((a,b)=>sort==='date'?a.start.localeCompare(b.start):sort==='distance'?(distance(a)??9999)-(distance(b)??9999):sort==='price'?(a.price??Infinity)-(b.price??Infinity):a.start.localeCompare(b.start));return arr}
 function artHue(e){return e.tags.includes('Nachhaltigkeit')||e.tags.includes('Outdoor')?'mint':e.tags.includes('Kunst')||e.tags.includes('Food')?'gold':e.tags.includes('Trance')||e.tags.includes('House')?'blue':'purple'}
-function showCategories(){const selected=$('category').value;const cats=[...new Set(state.events.map(e=>e.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'de'));$('category').innerHTML='<option value="">Alle Kategorien</option>'+cats.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');$('category').value=cats.includes(selected)?selected:''}
+function showCategories(){const selected=$('category').value;$('category').innerHTML='<option value="">Alle Kategorien</option>'+PUBLIC_CATEGORIES.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');$('category').value=PUBLIC_CATEGORIES.includes(selected)?selected:''}
 function showTags(){const selected=$('tagFilter').value;const tags=[...new Set(state.events.flatMap(e=>e.tags))].sort((a,b)=>a.localeCompare(b,'de'));$('tagFilter').innerHTML='<option value="">Alle Tags</option>'+tags.map(t=>`<option value="${esc(t)}">${esc(t)}</option>`).join('');$('tagFilter').value=tags.includes(selected)?selected:''}
 function showVenues(){const selected=$('venueFilter').value;const venues=[...new Set(state.events.map(e=>e.venue).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'de'));$('venueFilter').innerHTML='<option value="">Alle Venues</option>'+venues.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');$('venueFilter').value=venues.includes(selected)?selected:''}
 // Image errors are captured on the results container, including after pagination or filtering.

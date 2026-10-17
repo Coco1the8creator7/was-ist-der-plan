@@ -6,6 +6,7 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 from backend.sources.images import extract_event_image
+from backend.categories import classify_category
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "site/data/events.json"
@@ -71,7 +72,7 @@ def crawl_exil():
                 "id": "exil-" + __import__("hashlib").sha256(url.encode()).hexdigest()[:16],
                 "title": title, "date": day.isoformat(), "time": f"{hour:02d}:{minute:02d}",
                 "start_at": local.isoformat(), "venue": "EXIL Club",
-                "category": "Clubs & Nachtleben", "tags": [],
+                "category": classify_category(title, source="exil", venue="EXIL Club", url=url, details=text[:1600]), "tags": [],
                 "source": "exil", "source_url": url,
                 "sources": [{"source":"exil", "url":url}],
                 "status": "cancelled" if "abgesagt" in title.lower() else "scheduled",

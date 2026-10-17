@@ -8,6 +8,7 @@ from backend.sources.venues import VENUES, PENDING, crawl_venue
 from backend.legacy_exil import crawl_exil
 from backend.sources.favourites import FAVORITES, crawl_favorite
 from backend.sources.images import discard_repeated_generic_images, is_valid_image_url, empty_image_fields
+from backend.categories import CATEGORIES, categorize_record
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "site/data/events.json"
@@ -115,6 +116,13 @@ def main():
                 catalog.append(e)
         except (KeyError, TypeError, ValueError):
             continue
+    # All published records, including retained historical imports, must use
+    # the same three categories. Verified classifications are never downgraded.
+    # Events with legacy categories are reclassified by title/source/venue/URL.
+    # New crawls classify with richer detail-page evidence at extraction time.
+    for event in catalog:
+        if event.get("category") not in CATEGORIES:
+            event["category"] = categorize_record(event)
     # Clear stale invalid links from previous snapshots (e.g. HTML event pages).
     for event in catalog:
         if not is_valid_image_url(event.get("image_url")):
