@@ -5,6 +5,7 @@ from zoneinfo import ZoneInfo
 from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
+from backend.sources.images import extract_event_image
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "site/data/events.json"
@@ -55,6 +56,7 @@ def crawl_exil():
             r = s.get(url, timeout=25)
             r.raise_for_status()
             doc = BeautifulSoup(r.text, "html.parser")
+            art = extract_event_image(doc, url, "exil")
             for node in doc(["nav", "footer", "script", "style"]):
                 node.decompose()
             text = doc.get_text(" ", strip=True)
@@ -75,6 +77,7 @@ def crawl_exil():
                 "status": "cancelled" if "abgesagt" in title.lower() else "scheduled",
                 "price_chf": None, "description": None,
                 "latitude": None, "longitude": None,
+                **art,
             })
         except Exception as exc:
             errors.append(f"{url}: {str(exc)[:140]}")
