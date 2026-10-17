@@ -16,6 +16,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
+from backend.sources.images import extract_event_image, empty_image_fields
 
 TZ = ZoneInfo("Europe/Zurich")
 UA = "was-ist-der-plan/0.2 (+https://github.com/Coco1the8creator7/was-ist-der-plan)"
@@ -148,7 +149,7 @@ def make_event(v: Venue, title: str, day: date, clock: str, url: str,
     local = datetime(day.year, day.month, day.day, h, m, tzinfo=TZ)
     identity = f"{v.key}|{url}|{day.isoformat()}" + (f"|{title.casefold()}" if v.key == "supermarket" else "")
     price = re.search(r"\bCHF\s*(\d{1,4}(?:[.,]\d{1,2})?)", text, re.I)
-    return {
+    event = {
         "id": f"{v.key}-{hashlib.sha256(identity.encode()).hexdigest()[:16]}",
         "title": title, "date": day.isoformat(), "time": clock,
         "start_at": local.isoformat(), "venue": venue_name or v.name,
@@ -160,6 +161,8 @@ def make_event(v: Venue, title: str, day: date, clock: str, url: str,
         "price_chf": float(price[1].replace(",", ".")) if price else None,
         "description": None, "latitude": None, "longitude": None,
     }
+    event.update(empty_image_fields())
+    return event
 
 
 class RespectfulClient:
@@ -209,6 +212,7 @@ def title_from_document(doc: BeautifulSoup, key: str) -> str | None:
 
 
 def parse_detail(v: Venue, doc: BeautifulSoup, url: str, today: date) -> dict | None:
+    art = extract_event_image(doc, url, v.key)
     title = title_from_document(doc, v.key)
     if not title:
         return None
@@ -229,7 +233,10 @@ def parse_detail(v: Venue, doc: BeautifulSoup, url: str, today: date) -> dict | 
         venue_match = re.search(r"Veranstaltungsort\s*:\s*(.{3,65}?)(?=\s+(?:Teilen|Samstag|Freitag|Sonntag|Montag|Dienstag|Mittwoch|Donnerstag|Tickets)\b|$)", near_title, re.I)
         if venue_match:
             venue_name = venue_match[1].strip()
-    return make_event(v, title, day, clock, url, today, detail_text[:3000], venue_name)
+    event = make_event(v, title, day, clock, url, today, detail_text[:3000], venue_name)
+    if event:
+        event.update(art)
+    return event
 
 
 def discover_links(v: Venue, index: BeautifulSoup, today: date) -> list[str]:
@@ -311,6 +318,7 @@ def supermarket_events(v: Venue, doc: BeautifulSoup, today: date):
 
 
 def dynamo_events(v: Venue, doc: BeautifulSoup, url: str, today: date):
+    art = extract_event_image(doc, url, v.key)
     title = title_from_document(doc, v.key)
     if not title:
         return [], 0, "Missing event title"
@@ -335,6 +343,7 @@ def dynamo_events(v: Venue, doc: BeautifulSoup, url: str, today: date):
             seen.add(when)
             event = make_event(v, title, day, f"{hour:02d}:{minute:02d}", url, today, body)
             if event:
+                event.update(art)
                 results.append(event)
         except ValueError:
             continue
@@ -348,6 +357,7 @@ def dynamo_events(v: Venue, doc: BeautifulSoup, url: str, today: date):
         return [], 1, None
     event = parse_detail(v, doc, url, today)
     if event:
+        event.update(art)
         return [event], skipped, None
     return [], skipped, "No verifiable future occurrence with start time"
 
