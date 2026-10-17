@@ -47,9 +47,16 @@ class SourceParsingTests(unittest.TestCase):
     def test_supermarket_programme(self):
         venue = next(v for v in VENUES if v.key == "supermarket")
         page = BeautifulSoup("<main><p>OKTOBER 2026</p><p>SA 17 23H SOME DJs</p></main>", "html.parser")
-        found, events, errors = supermarket_events(venue, page, date(2026, 10, 17))
+        found, events, errors, meta = supermarket_events(venue, page, date(2026, 10, 17))
         self.assertEqual((found, len(events), len(errors)), (1, 1, 0))
         self.assertEqual(events[0]["time"], "23:00")
+
+    def test_supermarket_split_html_text(self):
+        venue = next(v for v in VENUES if v.key == "supermarket")
+        page = BeautifulSoup("<p>OKTOBER 2026</p><div>SA</div><div>17</div><div>23H</div><div>PARTY NAME: DJs</div>", "html.parser")
+        found, events, errors, meta = supermarket_events(venue, page, date(2026, 10, 17))
+        self.assertEqual((found, len(events), len(errors)), (1, 1, 0))
+        self.assertEqual(events[0]["title"], "PARTY NAME")
 
 
 if __name__ == "__main__":
