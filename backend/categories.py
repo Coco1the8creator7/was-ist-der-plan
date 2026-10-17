@@ -23,7 +23,7 @@ NIGHTLIFE_SOURCES = frozenset({
 # The strongest evidence is an explicit event type in the title or URL.
 CULTURE_EVENT = re.compile(
     r"\b(?:literatur|lesung(?:en)?|buchvernissage|buchpräsentation|"
-    r"poetry[ -]?slam|spoken[ -]?word|theater|schauspiel|kabarett|"
+    r"poetry[ -]?slam|spoken[ -]?word|kultur(?:anlass|event)?|theater|schauspiel|kabarett|"
     r"comedy|stand[ -]?up|satire|kunst|vernissage|galerie|"
     r"ausstellung|museum|filmvorführung|filmabend|kino|"
     r"workshop|kurs(?:e)?|seminar|vortrag|lecture|talk(?:s)?|"
