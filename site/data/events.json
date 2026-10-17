@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T12:14:28+02:00",
+  "generated_at": "2026-10-17T12:37:28+02:00",
   "timezone": "Europe/Zurich",
-  "total": 331,
+  "total": 412,
   "events": [
     {
       "id": "dynamo-0eb95a6fa9cbf7a6",
@@ -27,7 +27,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-2d80e6ee5129dd48",
@@ -52,7 +52,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-6944db1cc874eba8",
@@ -77,7 +77,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-adc725f96e5b2e0a",
@@ -102,7 +102,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-26e2cc75d620315d",
@@ -127,7 +127,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-65b0100e996bff2d",
@@ -152,7 +152,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-7a8742b0fbc434be",
@@ -177,7 +177,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-ac36a94ccc49498c",
@@ -202,7 +202,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-4056749553590764",
@@ -227,7 +227,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-f914474470ea5cc6",
@@ -252,7 +252,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-c7fbd52bc703843f",
@@ -277,7 +277,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-27be01291ea29d44",
@@ -302,7 +302,108 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "supermarket-81b00643f78afed8",
+      "title": "MYSTIKA w/ Afrokillerz",
+      "date": "2026-10-17",
+      "time": "23:00",
+      "start_at": "2026-10-17T23:00:00+02:00",
+      "venue": "Supermarket",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "supermarket",
+      "source_url": "https://www.supermarket.li/programm",
+      "sources": [
+        {
+          "source": "supermarket",
+          "url": "https://www.supermarket.li/programm"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "gonzo-09ea0a72b87888c0",
+      "title": "BARKADA BASS",
+      "date": "2026-10-17",
+      "time": "23:00",
+      "start_at": "2026-10-17T23:00:00+02:00",
+      "venue": "Gonzo Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "gonzo",
+      "source_url": "https://gonzoclub.ch/",
+      "sources": [
+        {
+          "source": "gonzo",
+          "url": "https://gonzoclub.ch/"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 20.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "year_basis": "inferred_from_current_programme",
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "friedas_buexe-c04d232e5de38b56",
+      "title": "House Of Frieda",
+      "date": "2026-10-17",
+      "time": "23:00",
+      "start_at": "2026-10-17T23:00:00+02:00",
+      "venue": "Friedas Büxe",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "friedas_buexe",
+      "source_url": "https://ubwg.ch/event/house-of-frieda-friedas-buexe-zuerich-17-10-2026/",
+      "sources": [
+        {
+          "source": "friedas_buexe",
+          "url": "https://ubwg.ch/event/house-of-frieda-friedas-buexe-zuerich-17-10-2026/"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-cf8476e7e3e372ee",
+      "title": "Messerschmiedekurs 2 Sonntage",
+      "date": "2026-10-18",
+      "time": "09:00",
+      "start_at": "2026-10-18T09:00:00+02:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/messerschmiedekurs-2-sonntage-11",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/messerschmiedekurs-2-sonntage-11"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 320.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-b1324a1cfe1714e0",
@@ -327,7 +428,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-1dfa464795828876",
@@ -352,7 +453,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-e91f135168bc33ff",
@@ -377,7 +478,57 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-97df76b6f7766c3e",
+      "title": "Siebdruck Wochenendkurs",
+      "date": "2026-10-18",
+      "time": "12:00",
+      "start_at": "2026-10-18T12:00:00+02:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/siebdruck-wochenendkurs-41",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/siebdruck-wochenendkurs-41"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 185.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-a5744deeee1578cd",
+      "title": "Experimental Jam",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "start_at": "2026-10-18T14:00:00+02:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/experimental-jam",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/experimental-jam"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-3711abefd0bf20b6",
@@ -402,7 +553,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-5cde03da0adbe1fe",
@@ -427,7 +578,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-540808e7bff35738",
@@ -452,7 +603,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-c1caf2fcaa49e3be",
@@ -477,7 +628,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-474b167c69562ed7",
@@ -502,7 +653,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-dd38bafc5b0aa952",
@@ -527,7 +678,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-f9d33f5af6262685",
@@ -552,7 +703,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-bf634c31e4b8e3dc",
+      "title": "K-Pop Dancers (20:00 Uhr)",
+      "date": "2026-10-19",
+      "time": "20:00",
+      "start_at": "2026-10-19T20:00:00+02:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-20e863d1b5eecdae",
@@ -577,7 +753,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-fa61e4be70de9a7a",
+      "title": "K-Pop für Erwachene (21:00 Uhr)",
+      "date": "2026-10-19",
+      "time": "21:00",
+      "start_at": "2026-10-19T21:00:00+02:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-3bd59a544ba7fc2e",
@@ -602,7 +803,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-38fcd5092caae0ef",
@@ -627,7 +828,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-0e6d02fdcf0e7217",
@@ -652,7 +853,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-b681d4bb88e5a8e6",
@@ -677,7 +878,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-b25f5e85a82a5a58",
@@ -702,7 +903,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-bb4e6c4813e48e76",
@@ -727,7 +928,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-615cf8feaa2371cd",
@@ -752,7 +953,33 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "gonzo-fe6a7da36b3461cb",
+      "title": "TRAPPED",
+      "date": "2026-10-21",
+      "time": "23:00",
+      "start_at": "2026-10-21T23:00:00+02:00",
+      "venue": "Gonzo Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "gonzo",
+      "source_url": "https://gonzoclub.ch/",
+      "sources": [
+        {
+          "source": "gonzo",
+          "url": "https://gonzoclub.ch/"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 0.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "year_basis": "inferred_from_current_programme",
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-88324f93154fc610",
@@ -777,7 +1004,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-cc7008cd40e9356d",
@@ -802,7 +1029,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-57ac24caea9997a9",
@@ -827,7 +1054,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-9648afcd7a14101a",
@@ -852,7 +1079,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-4f5c9a25ce165762",
@@ -877,7 +1104,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-8abb412e6ac2872f",
@@ -902,7 +1129,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-146e280deab9fbc7",
+      "title": "House Dance Class",
+      "date": "2026-10-22",
+      "time": "20:15",
+      "start_at": "2026-10-22T20:15:00+02:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/house-dance-class",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/house-dance-class"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-f132a235cf8e9f12",
@@ -927,7 +1179,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-0bda719cd21643ac",
@@ -952,7 +1204,58 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "gonzo-643da255772ae694",
+      "title": "DAMN DUNNSTIG",
+      "date": "2026-10-22",
+      "time": "23:00",
+      "start_at": "2026-10-22T23:00:00+02:00",
+      "venue": "Gonzo Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "gonzo",
+      "source_url": "https://gonzoclub.ch/",
+      "sources": [
+        {
+          "source": "gonzo",
+          "url": "https://gonzoclub.ch/"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 0.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "year_basis": "inferred_from_current_programme",
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-e8f13142fa511b1f",
+      "title": "K-Pop Dreamers (Freitag)",
+      "date": "2026-10-23",
+      "time": "18:00",
+      "start_at": "2026-10-23T18:00:00+02:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-7879badd0e21b156",
@@ -977,7 +1280,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-b7aa3f073d1363cf",
@@ -1002,7 +1305,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-8b3a1f9b0c477bae",
@@ -1027,7 +1330,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-3ff21aa770ce1e79",
@@ -1052,7 +1355,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-c8dac029f5269923",
@@ -1077,7 +1380,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-750b7a9d77ccb590",
@@ -1102,7 +1405,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-964e1d9d25d0a53a",
@@ -1127,7 +1430,58 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "supermarket-92af31df2829d1b0",
+      "title": "Outer Space",
+      "date": "2026-10-23",
+      "time": "23:00",
+      "start_at": "2026-10-23T23:00:00+02:00",
+      "venue": "Supermarket",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "supermarket",
+      "source_url": "https://www.supermarket.li/programm",
+      "sources": [
+        {
+          "source": "supermarket",
+          "url": "https://www.supermarket.li/programm"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "gonzo-52c103285c11aa14",
+      "title": "BASEMENT JAM",
+      "date": "2026-10-23",
+      "time": "23:00",
+      "start_at": "2026-10-23T23:00:00+02:00",
+      "venue": "Gonzo Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "gonzo",
+      "source_url": "https://gonzoclub.ch/",
+      "sources": [
+        {
+          "source": "gonzo",
+          "url": "https://gonzoclub.ch/"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 20.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "year_basis": "inferred_from_current_programme",
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-602448cfb593b828",
@@ -1147,12 +1501,12 @@
         }
       ],
       "status": "scheduled",
-      "price_chf": null,
+      "price_chf": 120.0,
       "description": null,
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-35ef0cc4c3c26ba5",
@@ -1177,7 +1531,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-4851c265414dac08",
@@ -1202,7 +1556,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-07ae1ae441d79dbc",
@@ -1227,7 +1581,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-9118a9d7f802d56d",
@@ -1252,7 +1606,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-55702b4f3a3f7071",
@@ -1277,7 +1631,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-806fca4e0374d5c5",
@@ -1302,7 +1656,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-a8910f0ff6a1db76",
@@ -1327,7 +1681,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-23688e4daf6c8e02",
@@ -1352,7 +1706,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-7866cf0aa113eb19",
@@ -1377,7 +1731,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-dc7d3aebf97ea9e1",
@@ -1402,7 +1756,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-2b7414f48f856b6f",
@@ -1427,7 +1781,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-603421d42e5fe6d8",
@@ -1452,7 +1806,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-26e0f42703969d19",
@@ -1477,7 +1831,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-18014a075896a67e",
@@ -1502,7 +1856,58 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "supermarket-55abf30372df40ad",
+      "title": "under the tree",
+      "date": "2026-10-24",
+      "time": "23:00",
+      "start_at": "2026-10-24T23:00:00+02:00",
+      "venue": "Supermarket",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "supermarket",
+      "source_url": "https://www.supermarket.li/programm",
+      "sources": [
+        {
+          "source": "supermarket",
+          "url": "https://www.supermarket.li/programm"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "gonzo-4896e204d16895d2",
+      "title": "GO:OD AM",
+      "date": "2026-10-24",
+      "time": "23:00",
+      "start_at": "2026-10-24T23:00:00+02:00",
+      "venue": "Gonzo Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "gonzo",
+      "source_url": "https://gonzoclub.ch/",
+      "sources": [
+        {
+          "source": "gonzo",
+          "url": "https://gonzoclub.ch/"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 20.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "year_basis": "inferred_from_current_programme",
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-2b6e1fe8f8247497",
@@ -1527,7 +1932,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-73faade665fe91fe",
@@ -1552,7 +1957,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-5e0a47bfdeef0331",
@@ -1577,7 +1982,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-1ac2514362be7806",
@@ -1602,7 +2007,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kauz-48d1682ca6697aa7",
@@ -1627,7 +2032,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-69b3f9a8c579c928",
@@ -1647,12 +2052,37 @@
         }
       ],
       "status": "scheduled",
-      "price_chf": null,
+      "price_chf": 120.0,
       "description": null,
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-a2881e1cc85cb32a",
+      "title": "SIEBDRUCK WOCHENENDKURS",
+      "date": "2026-10-25",
+      "time": "12:00",
+      "start_at": "2026-10-25T12:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/siebdruck-wochenendkurs-11",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/siebdruck-wochenendkurs-11"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 185.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-fc2a3d1304bcd5cf",
@@ -1677,7 +2107,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-510e4ef21d2dffb4",
@@ -1702,7 +2132,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-8c00be8a9167e8d6",
@@ -1727,7 +2157,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-93e83df89953d532",
@@ -1752,7 +2182,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-f02c9b4df8475d11",
@@ -1777,7 +2207,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-7730e8395fc7f5c8",
@@ -1802,7 +2232,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-3bcdc7046b6e520c",
@@ -1827,7 +2257,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-79559e2f02aae717",
+      "title": "Analoge Fotografie & Fotolabor",
+      "date": "2026-10-26",
+      "time": "17:30",
+      "start_at": "2026-10-26T17:30:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/analoge-fotografie-fotolabor-13",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/analoge-fotografie-fotolabor-13"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 255.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-c2dd8a1d08a93dad",
@@ -1852,7 +2307,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-fc6b0d6372499656",
+      "title": "K-Pop Krushers (18:00 Uhr)",
+      "date": "2026-10-26",
+      "time": "18:00",
+      "start_at": "2026-10-26T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-466cebb5666511e2",
@@ -1877,7 +2357,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-3e5cf5ac6b0cc8a5",
@@ -1902,7 +2382,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-02d8666fd1530d08",
+      "title": "K-Pop Dancers (20:00 Uhr)",
+      "date": "2026-10-26",
+      "time": "20:00",
+      "start_at": "2026-10-26T20:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-b83daf0a59d26d00",
@@ -1927,7 +2432,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-bb70f52c53b305a5",
+      "title": "K-Pop für Erwachene (21:00 Uhr)",
+      "date": "2026-10-26",
+      "time": "21:00",
+      "start_at": "2026-10-26T21:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-88b1644cd8ea0490",
@@ -1952,7 +2482,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-6d5d1da2cb7713d6",
@@ -1977,7 +2507,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-8bed9e6a6b77fee0",
@@ -2002,7 +2532,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-3bd3faf5b19563ae",
@@ -2027,7 +2557,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-4fabd34c690a4aee",
@@ -2052,7 +2582,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-cb381c3360412a7e",
@@ -2077,7 +2607,33 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "gonzo-e7ccc4a3b9229ccb",
+      "title": "TRAPPED",
+      "date": "2026-10-28",
+      "time": "23:00",
+      "start_at": "2026-10-28T23:00:00+01:00",
+      "venue": "Gonzo Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "gonzo",
+      "source_url": "https://gonzoclub.ch/",
+      "sources": [
+        {
+          "source": "gonzo",
+          "url": "https://gonzoclub.ch/"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 0.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "year_basis": "inferred_from_current_programme",
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-ba8a5dd1002791aa",
@@ -2102,7 +2658,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-16f12a567952ad32",
@@ -2127,7 +2683,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-b5e4b475e678726c",
@@ -2152,7 +2708,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-8b7a618d3b145559",
@@ -2177,7 +2733,57 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "supermarket-56901a1001103927",
+      "title": "Planet Voltage - Halloween Night of the Machines",
+      "date": "2026-10-29",
+      "time": "20:00",
+      "start_at": "2026-10-29T20:00:00+01:00",
+      "venue": "Supermarket",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "supermarket",
+      "source_url": "https://www.supermarket.li/programm",
+      "sources": [
+        {
+          "source": "supermarket",
+          "url": "https://www.supermarket.li/programm"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-3b11d7f71e8f1c2d",
+      "title": "House Dance Class",
+      "date": "2026-10-29",
+      "time": "20:15",
+      "start_at": "2026-10-29T20:15:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/house-dance-class",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/house-dance-class"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-308c0c495d817bed",
@@ -2202,7 +2808,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-1cbbd97332c2f9fa",
@@ -2227,7 +2833,58 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "gonzo-9fe9d59de0933445",
+      "title": "DAMN DUNNSTIG",
+      "date": "2026-10-29",
+      "time": "23:00",
+      "start_at": "2026-10-29T23:00:00+01:00",
+      "venue": "Gonzo Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "gonzo",
+      "source_url": "https://gonzoclub.ch/",
+      "sources": [
+        {
+          "source": "gonzo",
+          "url": "https://gonzoclub.ch/"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 0.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "year_basis": "inferred_from_current_programme",
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-beb414623b5f6116",
+      "title": "K-Pop Dreamers (Freitag)",
+      "date": "2026-10-30",
+      "time": "18:00",
+      "start_at": "2026-10-30T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-cdc1fe8225a2369b",
@@ -2252,7 +2909,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-214a955b18faa1ff",
@@ -2277,7 +2934,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "supermarket-d08cf96525f3a5d1",
+      "title": "HALLOWEEN by STAHLBOX37",
+      "date": "2026-10-30",
+      "time": "22:00",
+      "start_at": "2026-10-30T22:00:00+01:00",
+      "venue": "Supermarket",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "supermarket",
+      "source_url": "https://www.supermarket.li/programm",
+      "sources": [
+        {
+          "source": "supermarket",
+          "url": "https://www.supermarket.li/programm"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-628ff6437b322e17",
@@ -2302,7 +2984,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-2428310a87be5be6",
@@ -2327,7 +3009,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-420b88c4a2044ad5",
@@ -2352,7 +3034,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-9b2d5bceb791aa8d",
@@ -2377,7 +3059,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-33811514b654665e",
@@ -2402,7 +3084,33 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "gonzo-da00d526d673bb4e",
+      "title": "ENTER THE DRAGON",
+      "date": "2026-10-30",
+      "time": "23:00",
+      "start_at": "2026-10-30T23:00:00+01:00",
+      "venue": "Gonzo Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "gonzo",
+      "source_url": "https://gonzoclub.ch/",
+      "sources": [
+        {
+          "source": "gonzo",
+          "url": "https://gonzoclub.ch/"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 20.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "year_basis": "inferred_from_current_programme",
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-6df796e39476c68f",
@@ -2427,7 +3135,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-33812a8c5e719544",
@@ -2452,7 +3160,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-4b9d83b89a3c5125",
@@ -2477,7 +3185,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-7e72596508ae2286",
@@ -2502,7 +3210,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-d76402323cdf39de",
@@ -2527,7 +3235,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-19b60ad0e0794ccc",
@@ -2552,7 +3260,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-ae4f3a95826b5db6",
@@ -2577,7 +3285,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-5e831bb16fe97262",
@@ -2602,7 +3310,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-b02c6d5a3bbf80f2",
@@ -2627,7 +3335,108 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "supermarket-9550b28defcefc32",
+      "title": "Sauvage Halloween Special",
+      "date": "2026-10-31",
+      "time": "23:00",
+      "start_at": "2026-10-31T23:00:00+01:00",
+      "venue": "Supermarket",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "supermarket",
+      "source_url": "https://www.supermarket.li/programm",
+      "sources": [
+        {
+          "source": "supermarket",
+          "url": "https://www.supermarket.li/programm"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "gonzo-7b8b4979f4e7e8a9",
+      "title": "SHAWTY (Halloween Special ) - Karaoke Floor",
+      "date": "2026-10-31",
+      "time": "23:00",
+      "start_at": "2026-10-31T23:00:00+01:00",
+      "venue": "Gonzo Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "gonzo",
+      "source_url": "https://gonzoclub.ch/",
+      "sources": [
+        {
+          "source": "gonzo",
+          "url": "https://gonzoclub.ch/"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 20.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "year_basis": "inferred_from_current_programme",
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "friedas_buexe-76e22e518444b703",
+      "title": "Magic Mountain Zermatt",
+      "date": "2026-10-31",
+      "time": "23:00",
+      "start_at": "2026-10-31T23:00:00+01:00",
+      "venue": "Friedas Büxe",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "friedas_buexe",
+      "source_url": "https://ubwg.ch/event/magic-mountain-zermatt-friedas-buexe-zuerich-31-10-2026/",
+      "sources": [
+        {
+          "source": "friedas_buexe",
+          "url": "https://ubwg.ch/event/magic-mountain-zermatt-friedas-buexe-zuerich-31-10-2026/"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-66aa1c31a4ab7991",
+      "title": "Messerschmiedekurs 2 Sonntage",
+      "date": "2026-11-01",
+      "time": "09:00",
+      "start_at": "2026-11-01T09:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/messerschmiedekurs-2-sonntage-12",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/messerschmiedekurs-2-sonntage-12"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 320.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-d27bbc843d03901a",
@@ -2652,7 +3461,57 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-5aeec2d8b66c579a",
+      "title": "Siebdruck Wochenendkurs",
+      "date": "2026-11-01",
+      "time": "12:00",
+      "start_at": "2026-11-01T12:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/siebdruck-wochenendkurs-35",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/siebdruck-wochenendkurs-35"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 185.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-6c27c0de5bad4cae",
+      "title": "Experimental Jam",
+      "date": "2026-11-01",
+      "time": "14:00",
+      "start_at": "2026-11-01T14:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/experimental-jam",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/experimental-jam"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-ab3a05950c650d56",
@@ -2677,7 +3536,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-fe1f4029074d08d8",
@@ -2702,7 +3561,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-1d278595ed1e3e71",
@@ -2727,7 +3586,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-510b60b0f957addb",
@@ -2752,7 +3611,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-7523c9ef986cf219",
@@ -2777,7 +3636,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-641f87c8072806ea",
+      "title": "K-Pop Krushers (18:00 Uhr)",
+      "date": "2026-11-02",
+      "time": "18:00",
+      "start_at": "2026-11-02T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-af28a8e0f338e2e0",
@@ -2802,7 +3686,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-91de5cd77bf1d2a9",
@@ -2827,7 +3711,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-779750e511cfd976",
@@ -2852,7 +3736,57 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-6409c15681de2877",
+      "title": "THE HARDKISS",
+      "date": "2026-11-02",
+      "time": "19:00",
+      "start_at": "2026-11-02T19:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Kultur & Unterhaltung",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/veranstaltung/hardkiss",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/veranstaltung/hardkiss"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-85c4f0f1b250c909",
+      "title": "K-Pop Dancers (20:00 Uhr)",
+      "date": "2026-11-02",
+      "time": "20:00",
+      "start_at": "2026-11-02T20:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-54f4c2278f314101",
@@ -2877,7 +3811,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-64a6dc52cbc90179",
+      "title": "K-Pop für Erwachene (21:00 Uhr)",
+      "date": "2026-11-02",
+      "time": "21:00",
+      "start_at": "2026-11-02T21:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-b2d44ab852a33f3b",
@@ -2902,7 +3861,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-cbadee9ec5f077a3",
@@ -2927,7 +3886,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-daaf4566a3bc3430",
@@ -2952,7 +3911,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-83c4b64a27a527a7",
@@ -2977,7 +3936,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-e4c830cacf493c3c",
@@ -3002,7 +3961,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-5868a5415c00660d",
@@ -3027,7 +3986,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-227d5ebbbb2488fe",
@@ -3052,7 +4011,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-05bcc3275b36e02f",
@@ -3077,7 +4036,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-16adb391f87b919d",
@@ -3102,7 +4061,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-ce351e2fa1dbfca2",
@@ -3127,7 +4086,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-70e754434f7056be",
@@ -3152,7 +4111,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-e309fbbe8bb9bfcb",
@@ -3177,7 +4136,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-804c004a4bb746f3",
@@ -3202,7 +4161,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-30d63078114570fe",
+      "title": "House Dance Class",
+      "date": "2026-11-05",
+      "time": "20:15",
+      "start_at": "2026-11-05T20:15:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/house-dance-class",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/house-dance-class"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-61e293f5ca3fa9b9",
@@ -3227,7 +4211,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-1598edef95fb3a05",
+      "title": "K-Pop Dreamers (Freitag)",
+      "date": "2026-11-06",
+      "time": "18:00",
+      "start_at": "2026-11-06T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-ba8834858464627b",
@@ -3252,7 +4261,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kauz-353069a7f02f72d6",
@@ -3277,7 +4286,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-1d0aa0c8eade6d09",
@@ -3302,7 +4311,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-4a50cc527b6a25f3",
@@ -3327,7 +4336,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-f161971a4f0b3d24",
@@ -3352,7 +4361,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-bde0efe5a1c67c7e",
@@ -3377,7 +4386,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-de98c053c392eff1",
@@ -3402,7 +4411,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-ea51e53cd54218ef",
@@ -3427,7 +4436,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-6e13394d9ab3055d",
@@ -3452,7 +4461,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-5c2345eb90982506",
@@ -3477,7 +4486,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-5a42645ccf9d3ad0",
@@ -3502,7 +4511,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-d4bd34fd4fe382ff",
@@ -3527,7 +4536,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-7e1050bbddfe9c8f",
@@ -3552,7 +4561,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-140742ca4b50877a",
@@ -3577,7 +4586,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-51166d81eb58ca26",
@@ -3602,7 +4611,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-e54e66b2411c93db",
@@ -3627,7 +4636,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-08a7b01dc837a86f",
@@ -3652,7 +4661,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-75cf6f6909314b09",
@@ -3677,7 +4686,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-1cf7e2ac8d1bc3cf",
@@ -3702,7 +4711,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-9205dac348502415",
@@ -3727,7 +4736,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-2695b482bf72b0e3",
@@ -3752,7 +4761,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-0ed8d87fc1958ec7",
@@ -3777,7 +4786,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-eec9657188d29aa5",
@@ -3802,7 +4811,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-86423c6ea63c3508",
@@ -3827,7 +4836,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-a03658cd0bc2f27a",
@@ -3852,7 +4861,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-671b7c4956649f64",
@@ -3877,7 +4886,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-dc1c8b9abce4cb96",
@@ -3902,7 +4911,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-a535220b8877924f",
@@ -3927,7 +4936,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-a7a944de5a37e641",
@@ -3952,7 +4961,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-e295f473e98c898c",
@@ -3977,7 +4986,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-d59586ddb4f68c30",
@@ -4002,7 +5011,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-f359b9e74b5410bd",
@@ -4027,7 +5036,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-818852b0f478a3ff",
+      "title": "K-Pop Krushers (18:00 Uhr)",
+      "date": "2026-11-09",
+      "time": "18:00",
+      "start_at": "2026-11-09T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-cdda2f7c7cd4aded",
@@ -4052,7 +5086,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-eb0d28ff40c522a1",
@@ -4077,7 +5111,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-23b1a180c6b5e30a",
+      "title": "K-Pop Dancers (20:00 Uhr)",
+      "date": "2026-11-09",
+      "time": "20:00",
+      "start_at": "2026-11-09T20:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-8f986750cec343c1",
@@ -4102,7 +5161,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-28a9c53b0802fe2f",
+      "title": "K-Pop für Erwachene (21:00 Uhr)",
+      "date": "2026-11-09",
+      "time": "21:00",
+      "start_at": "2026-11-09T21:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-e394e7e473eada9c",
@@ -4127,7 +5211,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-1543e8279f32ac35",
@@ -4152,7 +5236,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-afc6556448f65abb",
@@ -4177,7 +5261,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-851744cfb07d50ae",
@@ -4202,7 +5286,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "hive-d84095d31545eb06",
@@ -4227,7 +5311,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-59315028ace3f6e1",
@@ -4252,7 +5336,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-82084b6b5ffbc18a",
@@ -4277,7 +5361,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-2de5dca6a89174d3",
@@ -4302,7 +5386,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-450eb0004eade902",
@@ -4327,7 +5411,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-7aa217a935c2e64c",
@@ -4352,7 +5436,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-0d568688134b24a7",
+      "title": "Music Production Ableton Live Kurs November 26 (5 Abende am Donnerstag)",
+      "date": "2026-11-12",
+      "time": "19:00",
+      "start_at": "2026-11-12T19:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/music-production-ableton-live-kurs-november-26-5-abende-am-donnerstag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/music-production-ableton-live-kurs-november-26-5-abende-am-donnerstag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-3c409473b703fa6e",
@@ -4377,7 +5486,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-2d0b9832964526b1",
+      "title": "House Dance Class",
+      "date": "2026-11-12",
+      "time": "20:15",
+      "start_at": "2026-11-12T20:15:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/house-dance-class",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/house-dance-class"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-5bfa8bd1b19ad9fe",
@@ -4402,7 +5536,57 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-f9fbbdd1ea5d5574",
+      "title": "Tauchglasurevent",
+      "date": "2026-11-13",
+      "time": "17:00",
+      "start_at": "2026-11-13T17:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/tauchglasurevent-22",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/tauchglasurevent-22"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-c0e7426c29d219ac",
+      "title": "K-Pop Dreamers (Freitag)",
+      "date": "2026-11-13",
+      "time": "18:00",
+      "start_at": "2026-11-13T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-3974161867c12e89",
@@ -4427,7 +5611,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-9e8dd1150a0d4325",
@@ -4452,7 +5636,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-ac1e77bfce2e1bf1",
@@ -4477,7 +5661,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-d22c78f09c089da1",
@@ -4502,7 +5686,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-f8abf336cc2074e4",
@@ -4527,7 +5711,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-537a91d00bc8004c",
@@ -4552,7 +5736,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-d345d9fc3f1baed3",
@@ -4577,7 +5761,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-49f6cc09bc858b4c",
@@ -4602,7 +5786,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-c4cdf0853c1eb768",
@@ -4627,7 +5811,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-6d8915190e091d60",
@@ -4652,7 +5836,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-81ee544d41e3148d",
@@ -4677,7 +5861,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-a72cee744f517159",
@@ -4702,7 +5886,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-d39c62861434cc82",
@@ -4727,7 +5911,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-b3772abb6e6c7b80",
@@ -4752,7 +5936,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-a5073d631ea9e7cc",
@@ -4777,7 +5961,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-21c1d2720a0d6032",
@@ -4802,7 +5986,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-ff23116cbcc8d0aa",
@@ -4827,7 +6011,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-f242caef4ee2d4f0",
@@ -4852,7 +6036,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-4ef18c5ce4261061",
@@ -4877,7 +6061,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-0ac523244d2402c6",
@@ -4902,7 +6086,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-453c1246c47a0eea",
@@ -4927,7 +6111,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-01c149ed67ca4c90",
@@ -4952,7 +6136,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "moods-24db3134fe0cc926",
@@ -4977,7 +6161,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-c334d029c1bd8f61",
@@ -5002,7 +6186,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-78e8ada66fe0fccd",
@@ -5027,7 +6211,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-fc4ca6b1ac3a712d",
@@ -5052,7 +6236,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-a72e7dd30da0fd18",
@@ -5077,7 +6261,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-35e1656c0d558e73",
@@ -5102,7 +6286,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-d93b01405e332acf",
+      "title": "K-Pop Krushers (18:00 Uhr)",
+      "date": "2026-11-16",
+      "time": "18:00",
+      "start_at": "2026-11-16T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-55f9fa6d99db96c0",
@@ -5127,7 +6336,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-a6ebe2830c792c40",
@@ -5152,7 +6361,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-5b579192790f8715",
@@ -5177,7 +6386,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-3087140f987aac36",
@@ -5202,7 +6411,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-fd78a27db9f90da2",
+      "title": "K-Pop Dancers (20:00 Uhr)",
+      "date": "2026-11-16",
+      "time": "20:00",
+      "start_at": "2026-11-16T20:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-6c88bfeeecd7b67b",
@@ -5227,7 +6461,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-2c2b5c1d2e8eace7",
@@ -5252,7 +6486,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-f83360bc68660ce8",
@@ -5277,7 +6511,57 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-c532fb728cc17f83",
+      "title": "Einführungskurs 3D-Druck mit Keramik",
+      "date": "2026-11-17",
+      "time": "18:30",
+      "start_at": "2026-11-17T18:30:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/einfuehrungskurs-3d-druck-mit-keramik-7",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/einfuehrungskurs-3d-druck-mit-keramik-7"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 165.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-8c475069535682c1",
+      "title": "Einführungskurs 3D-Druck mit Keramik",
+      "date": "2026-11-17",
+      "time": "18:30",
+      "start_at": "2026-11-17T18:30:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/einfuehrungskurs-3d-druck-mit-keramik-8",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/einfuehrungskurs-3d-druck-mit-keramik-8"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 165.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-0963ca0589b5c939",
@@ -5302,7 +6586,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-a827bac3b85243e5",
@@ -5327,7 +6611,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-2f1de66661d739ba",
@@ -5352,7 +6636,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-90afc8b2756aa04f",
+      "title": "Tauchglasurevent",
+      "date": "2026-11-19",
+      "time": "17:00",
+      "start_at": "2026-11-19T17:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/tauchglasurevent-22",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/tauchglasurevent-22"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-3a39a24a25336b47",
@@ -5377,7 +6686,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-c73a0d3e4cdf3c9c",
+      "title": "Music Production Ableton Live Kurs November 26 (5 Abende am Donnerstag)",
+      "date": "2026-11-19",
+      "time": "19:00",
+      "start_at": "2026-11-19T19:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/music-production-ableton-live-kurs-november-26-5-abende-am-donnerstag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/music-production-ableton-live-kurs-november-26-5-abende-am-donnerstag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-4c08a7dcd72e2394",
@@ -5402,7 +6736,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-82bc847a7b1d23c4",
@@ -5427,7 +6761,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-608206a20ca52d2e",
+      "title": "House Dance Class",
+      "date": "2026-11-19",
+      "time": "20:15",
+      "start_at": "2026-11-19T20:15:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/house-dance-class",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/house-dance-class"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-ebdc575cffe88cec",
@@ -5452,7 +6811,57 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-9ded69a901784dce",
+      "title": "Tauchglasurevent",
+      "date": "2026-11-20",
+      "time": "17:00",
+      "start_at": "2026-11-20T17:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/tauchglasurevent-22",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/tauchglasurevent-22"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-2d3c5cb8ade66725",
+      "title": "K-Pop Dreamers (Freitag)",
+      "date": "2026-11-20",
+      "time": "18:00",
+      "start_at": "2026-11-20T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-2511db6c4dd599ca",
@@ -5477,7 +6886,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-db7456639b4df6a2",
@@ -5502,7 +6911,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-5d3ac10ce94328b2",
@@ -5527,7 +6936,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-70e13aea9afd9ac0",
@@ -5552,7 +6961,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-c4e22f6401b4d78c",
@@ -5577,7 +6986,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-9211436b0a1cadf4",
@@ -5602,7 +7011,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-d52af8cccb955f3c",
@@ -5627,7 +7036,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-5a3c5da93749d353",
@@ -5652,7 +7061,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-4ea93bc88bf851a3",
@@ -5677,7 +7086,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-5d731afd28411d7a",
@@ -5702,7 +7111,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-6d8ac0ceb18fc36b",
@@ -5727,7 +7136,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-279258193d7affa0",
@@ -5752,7 +7161,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-a4690bbc988e191a",
@@ -5777,7 +7186,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-3063cdc94e909358",
@@ -5802,7 +7211,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-39a3d1523a6aef12",
+      "title": "SIEBDRUCK WOCHENENDKURS",
+      "date": "2026-11-22",
+      "time": "11:00",
+      "start_at": "2026-11-22T11:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/siebdruck-wochenendkurs-43",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/siebdruck-wochenendkurs-43"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 195.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-4a081ad16c05dd29",
@@ -5827,7 +7261,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-8ea0f9cab8d33576",
@@ -5852,7 +7286,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-cebccf67adbb89aa",
@@ -5877,7 +7311,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-f6a7c82a069f8d54",
@@ -5902,7 +7336,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-4f68c411fb0f0168",
@@ -5927,7 +7361,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-367e935ec1953e6c",
@@ -5952,7 +7386,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-825f468bb1309276",
@@ -5977,7 +7411,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-1d90d23441c29ec3",
+      "title": "K-Pop Krushers (18:00 Uhr)",
+      "date": "2026-11-23",
+      "time": "18:00",
+      "start_at": "2026-11-23T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-f49455950a492708",
@@ -6002,7 +7461,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-0c6790907b67397e",
@@ -6027,7 +7486,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-17532dfda9dc0267",
@@ -6052,7 +7511,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-b4204c5accfacb98",
+      "title": "K-Pop Dancers (20:00 Uhr)",
+      "date": "2026-11-23",
+      "time": "20:00",
+      "start_at": "2026-11-23T20:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-8c27bc79724af4df",
@@ -6077,7 +7561,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-b190e43beb9b8692",
+      "title": "K-Pop für Erwachene (21:00 Uhr)",
+      "date": "2026-11-23",
+      "time": "21:00",
+      "start_at": "2026-11-23T21:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-f2e2a884c33cad23",
@@ -6102,7 +7611,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-f6c3a4f33815cb5d",
@@ -6127,7 +7636,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-ec93a6de39153c9c",
@@ -6152,7 +7661,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-34f5e89c5e62ebf7",
@@ -6177,7 +7686,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-d1b32d8de58f15fb",
@@ -6202,7 +7711,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-c4334e86b481fe11",
@@ -6227,7 +7736,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-6e2f0b9b590f8bef",
@@ -6252,7 +7761,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-2a4dcb5dddb15698",
@@ -6277,7 +7786,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-ebfbdb2f598e495f",
+      "title": "Music Production Ableton Live Kurs November 26 (5 Abende am Donnerstag)",
+      "date": "2026-11-26",
+      "time": "19:00",
+      "start_at": "2026-11-26T19:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/music-production-ableton-live-kurs-november-26-5-abende-am-donnerstag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/music-production-ableton-live-kurs-november-26-5-abende-am-donnerstag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-89c15e2b00125589",
@@ -6302,7 +7836,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-988e39605d5cfb45",
+      "title": "House Dance Class",
+      "date": "2026-11-26",
+      "time": "20:15",
+      "start_at": "2026-11-26T20:15:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/house-dance-class",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/house-dance-class"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-ac2b5afe0dd50dc2",
@@ -6327,7 +7886,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-ee51c30f0f879046",
+      "title": "K-Pop Dreamers (Freitag)",
+      "date": "2026-11-27",
+      "time": "18:00",
+      "start_at": "2026-11-27T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-a72b794e745835d9",
@@ -6352,7 +7936,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-2240a45929328388",
@@ -6377,7 +7961,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-4e19ec6862b328dc",
@@ -6402,7 +7986,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-06e6496c538135ef",
@@ -6427,7 +8011,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-e5f00d865ffd738b",
@@ -6452,7 +8036,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-21b198186256f2a5",
@@ -6477,7 +8061,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-ee9192bc70470798",
@@ -6502,7 +8086,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-a263cd86071d3ed2",
@@ -6527,7 +8111,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-3c0ac60e25e9ba4d",
@@ -6552,7 +8136,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-1766e7919242d09f",
@@ -6577,7 +8161,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-274ef734806ceee3",
@@ -6602,7 +8186,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-46654edbf452eefb",
@@ -6627,7 +8211,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-4af173f7dd664eb4",
@@ -6652,7 +8236,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-45c5410a2d8a02d9",
@@ -6677,7 +8261,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-515a5fd78ccd225c",
@@ -6702,7 +8286,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-ea0fb6acf060e314",
@@ -6727,7 +8311,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "dynamo-94d4e38a019eb51f",
@@ -6752,7 +8336,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-58286c5651874317",
@@ -6777,7 +8361,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-9e81a8d6caa96ee1",
+      "title": "K-Pop Krushers (18:00 Uhr)",
+      "date": "2026-11-30",
+      "time": "18:00",
+      "start_at": "2026-11-30T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-48c8f8215202a89e",
@@ -6802,7 +8411,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-59cf9ab72c7eeff0",
@@ -6827,7 +8436,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-efd47974a5d9a964",
@@ -6852,7 +8461,57 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-80059d390fd23aeb",
+      "title": "The Scratch",
+      "date": "2026-11-30",
+      "time": "19:30",
+      "start_at": "2026-11-30T19:30:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Kultur & Unterhaltung",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/veranstaltung/scratch",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/veranstaltung/scratch"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-8f6a2c7a75232df0",
+      "title": "K-Pop Dancers (20:00 Uhr)",
+      "date": "2026-11-30",
+      "time": "20:00",
+      "start_at": "2026-11-30T20:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-cc847d75a008ae37",
@@ -6877,7 +8536,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-a0befda97e44d122",
+      "title": "K-Pop für Erwachene (21:00 Uhr)",
+      "date": "2026-11-30",
+      "time": "21:00",
+      "start_at": "2026-11-30T21:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-06d28ca9ed05188b",
@@ -6902,7 +8586,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-65a9c1211c0f1f87",
@@ -6927,7 +8611,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-0b754abe6d1efe88",
+      "title": "Music Production Ableton Live Kurs November 26 (5 Abende am Donnerstag)",
+      "date": "2026-12-03",
+      "time": "19:00",
+      "start_at": "2026-12-03T19:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/music-production-ableton-live-kurs-november-26-5-abende-am-donnerstag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/music-production-ableton-live-kurs-november-26-5-abende-am-donnerstag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-f3306a18a7d7c76e",
@@ -6952,7 +8661,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-7760cb75d3f0ccbc",
+      "title": "House Dance Class",
+      "date": "2026-12-03",
+      "time": "20:15",
+      "start_at": "2026-12-03T20:15:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/house-dance-class",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/house-dance-class"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-4f8cf08f159308af",
@@ -6977,7 +8711,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-287e801589f15d7f",
+      "title": "K-Pop Dreamers (Freitag)",
+      "date": "2026-12-04",
+      "time": "18:00",
+      "start_at": "2026-12-04T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-54f4b46040026ba0",
@@ -7002,7 +8761,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-e4c172c365031948",
@@ -7027,7 +8786,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-fb7684e248c22de3",
@@ -7052,7 +8811,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-1ed45a6a3261d950",
@@ -7077,7 +8836,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-c4aa9fdc287eeb78",
+      "title": "Experimental Jam",
+      "date": "2026-12-06",
+      "time": "14:00",
+      "start_at": "2026-12-06T14:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/experimental-jam",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/experimental-jam"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-ea8222c573c91632",
@@ -7102,7 +8886,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-6f05c8090f20c59f",
+      "title": "K-Pop Krushers (18:00 Uhr)",
+      "date": "2026-12-07",
+      "time": "18:00",
+      "start_at": "2026-12-07T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-143866e4f4226ce2",
@@ -7127,7 +8936,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-38127ff81d42d51c",
@@ -7152,7 +8961,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-e8022e4af2fdfc3a",
+      "title": "K-Pop Dancers (20:00 Uhr)",
+      "date": "2026-12-07",
+      "time": "20:00",
+      "start_at": "2026-12-07T20:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-3341b339696f2e4a",
@@ -7177,7 +9011,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-fd81572b29293d35",
+      "title": "K-Pop für Erwachene (21:00 Uhr)",
+      "date": "2026-12-07",
+      "time": "21:00",
+      "start_at": "2026-12-07T21:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-109dddd6613704a8",
@@ -7202,7 +9061,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-899cee61fefe8b39",
@@ -7227,7 +9086,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-701a312c7bd5d99d",
+      "title": "House Dance Class",
+      "date": "2026-12-10",
+      "time": "20:15",
+      "start_at": "2026-12-10T20:15:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/house-dance-class",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/house-dance-class"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-1461e5ed86146915",
@@ -7252,7 +9136,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-5801cc7d1a94390a",
+      "title": "K-Pop Dreamers (Freitag)",
+      "date": "2026-12-11",
+      "time": "18:00",
+      "start_at": "2026-12-11T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-86052c33f7a681db",
@@ -7277,7 +9186,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-b350f51d0a17f0d1",
@@ -7302,7 +9211,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-2a08fe7a8c7ecb8e",
@@ -7327,7 +9236,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-67cd8419f333412a",
@@ -7352,7 +9261,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-6086a6aeb9130776",
@@ -7377,7 +9286,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-0b076e0dce97abd4",
@@ -7402,7 +9311,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-4e9a28ea1442b83d",
@@ -7427,7 +9336,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-45e858172aca361d",
@@ -7452,7 +9361,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-3f8fefb98bbb7590",
@@ -7477,7 +9386,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-b7ed8106050e62a3",
+      "title": "K-Pop Krushers (18:00 Uhr)",
+      "date": "2026-12-14",
+      "time": "18:00",
+      "start_at": "2026-12-14T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-krushers-1800-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-2762fc1e93807a9c",
@@ -7502,7 +9436,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-ffea9779db8cab35",
@@ -7527,7 +9461,57 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-ad7c7b226361161d",
+      "title": "K-Pop Dancers (20:00 Uhr)",
+      "date": "2026-12-14",
+      "time": "20:00",
+      "start_at": "2026-12-14T20:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dancers-2000-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-a6242f2be0cb949e",
+      "title": "K-Pop für Erwachene (21:00 Uhr)",
+      "date": "2026-12-14",
+      "time": "21:00",
+      "start_at": "2026-12-14T21:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-fuer-erwachene-2100-uhr"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-e1fad77b6c8bee69",
@@ -7552,7 +9536,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-d6dabf7e8a503833",
@@ -7577,7 +9561,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-2ffe4380c0a1835a",
+      "title": "House Dance Class",
+      "date": "2026-12-17",
+      "time": "20:15",
+      "start_at": "2026-12-17T20:15:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/house-dance-class",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/house-dance-class"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-c67e2c20cd7a3d42",
@@ -7602,7 +9611,32 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
+    },
+    {
+      "id": "dynamo-8cb81c312138cbd3",
+      "title": "K-Pop Dreamers (Freitag)",
+      "date": "2026-12-18",
+      "time": "18:00",
+      "start_at": "2026-12-18T18:00:00+01:00",
+      "venue": "Dynamo Zürich",
+      "category": "Workshops & Kurse",
+      "tags": [],
+      "source": "dynamo",
+      "source_url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag",
+      "sources": [
+        {
+          "source": "dynamo",
+          "url": "https://www.dynamo.ch/kurs/k-pop-dreamers-freitag"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T12:37:28+02:00",
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-41e8012d73d0ffd8",
@@ -7627,7 +9661,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-c7b852d7ec73b35a",
@@ -7652,7 +9686,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-bd246bafae629ddb",
@@ -7677,7 +9711,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "exil-c2fe578429825a99",
@@ -7702,7 +9736,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-6cb1c7a000463241",
@@ -7727,7 +9761,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-d0d685951e1cac7f",
@@ -7752,7 +9786,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-4e11bb5d4afc586a",
@@ -7777,7 +9811,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-8287522d0a03f07d",
@@ -7802,7 +9836,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-5618235a2979b48e",
@@ -7827,7 +9861,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-6e87d62474c40997",
@@ -7852,7 +9886,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-132aa7f328db1a14",
@@ -7877,7 +9911,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-1fc076385077be9c",
@@ -7902,7 +9936,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "plaza-bc6fb941b0fdc95b",
@@ -7927,7 +9961,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-f0bc5f8a81e2abfb",
@@ -7952,7 +9986,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-17d1f577e6e4f17d",
@@ -7977,7 +10011,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-af2357a71cfc8fa6",
@@ -8002,7 +10036,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-b44029a7bff0323b",
@@ -8027,7 +10061,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-1140044a5a5a8d52",
@@ -8052,7 +10086,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-e54d5ed6a84375fc",
@@ -8077,7 +10111,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-7626f83e65632a18",
@@ -8102,7 +10136,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-3c5acb43eb16cdd3",
@@ -8127,7 +10161,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-a52aa6c395200d45",
@@ -8152,7 +10186,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-627f2dd0c246e378",
@@ -8177,7 +10211,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-3a2aa98200379423",
@@ -8202,7 +10236,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-abc84b6832cce145",
@@ -8227,7 +10261,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-be905ab4d6f56472",
@@ -8252,7 +10286,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     },
     {
       "id": "kaufleuten-ae2c4c5f7ee9412f",
@@ -8277,7 +10311,7 @@
       "latitude": null,
       "longitude": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T12:14:28+02:00"
+      "last_seen": "2026-10-17T12:37:28+02:00"
     }
   ]
 }
