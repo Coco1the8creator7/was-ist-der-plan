@@ -18,13 +18,14 @@ from bs4 import BeautifulSoup
 
 from backend.sources.venues import Venue, MONTHS, RespectfulClient, is_future, make_event
 from backend.sources.images import extract_event_image
+from backend.categories import SOUND
 
 TZ = ZoneInfo("Europe/Zurich")
 
 FAVORITES = (
-    Venue("gonzo", "Gonzo Club", "https://gonzoclub.ch/", (), "Clubs & Nachtleben", "gonzo"),
-    Venue("friedas_buexe", "Friedas Büxe", "https://ubwg.ch/location/friedas-buexe/", (), "Clubs & Nachtleben", "ubwg"),
-    Venue("stereo_bar", "Stereo Bar", "https://www.stereo-bar.ch/", (), "Bars & Musik", "stereo"),
+    Venue("gonzo", "Gonzo Club", "https://gonzoclub.ch/", (), SOUND, "gonzo"),
+    Venue("friedas_buexe", "Friedas Büxe", "https://ubwg.ch/location/friedas-buexe/", (), SOUND, "ubwg"),
+    Venue("stereo_bar", "Stereo Bar", "https://www.stereo-bar.ch/", (), SOUND, "stereo"),
 )
 
 # Gonzo uses "SAMSTAG 17. Oktober, 23H" rather than a calendar/API.
