@@ -42,7 +42,7 @@ DJ_EVENT = re.compile(
 )
 SOUND_EVENT = re.compile(
     r"\b(?:party|parties|afterparty|aftershow|clubbing|clubnacht|"
-    r"nachtleben|nightlife|night[ -]?out|club[ -]?night|"
+    r"nachtleben|nightlife|night[ -]?out|girls[ -]?night|club[ -]?night|"
     r"dancefloor|daydance|rave|disco|techno|hardtechno|"
     r"trance|house|hip[ -]?hop|karaoke|basslines?|beats?|"
     r"dancehall|reggaeton|musikabend|live[ -]?musik|"
@@ -51,7 +51,7 @@ SOUND_EVENT = re.compile(
 )
 CLUB_LOCATION = re.compile(
     r"\b(?:club|klub|bar|büxe|buexe|exil|hive|gonzo|plaza|"
-    r"supermarket|kauz|jade|pelikanbar)\b", re.I
+    r"supermarket|kauz|jade|klubsaal|pelikanbar)\b", re.I
 )
 # Concert evidence in Moods detail: an actual on-stage lineup with instruments.
 INSTRUMENTS = re.compile(
@@ -80,6 +80,7 @@ def classify_category(
     venue: str = "",
     url: str = "",
     details: str = "",
+    start_time: str = "",
 ) -> str:
     """Return precisely one of CATEGORIES from verifiable event information.
 
@@ -130,6 +131,10 @@ def classify_category(
     if SOUND_EVENT.search(title):
         return SOUND
     if source == "kaufleuten":
+        # Late-night openings on this mixed-use venue are typically parties.
+        # Explicit concert/culture cues above always win.
+        if re.match(r"^(?:22|23):[0-5][0-9]$", start_time or ""):
+            return SOUND
         # Kaufleuten has cultural events *and* parties; prefer event-format
         # evidence, e.g. "LOCO HOUSE", over venue-only attribution.
         if re.search(
@@ -149,4 +154,5 @@ def categorize_record(event: dict) -> str:
         venue=str(event.get("venue") or ""),
         url=str(event.get("source_url") or event.get("url") or ""),
         details=str(event.get("classification_context") or ""),
+        start_time=str(event.get("time") or ""),
     )
