@@ -286,9 +286,11 @@ button,input,select,textarea{font-family:inherit}
 .event-card{border:1px solid #d7d2c9;background:#fbfaf7;border-radius:13px;box-shadow:none}
 .event-card:hover{border-color:#aba999;box-shadow:0 9px 25px #34332815}
 .art,.event-card[data-hue="mint"] .art,.event-card[data-hue="gold"] .art,.event-card[data-hue="blue"] .art{height:142px;background:#e7e3d9;color:#24241f;border-bottom:1px solid #d8d3c8;position:relative;isolation:isolate}
-.event-flyer{display:block;width:100%;height:100%;object-fit:cover;object-position:center 35%;position:absolute;inset:0;z-index:-1}
-.art.has-flyer:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.52),transparent 45%,rgba(0,0,0,.68));z-index:-1;pointer-events:none}
-.art.has-flyer .genre,.art.has-flyer .date-flag{color:#fff;text-shadow:0 1px 4px #0008}
+.event-flyer{display:block;width:100%;height:100%;object-fit:cover;object-position:center 35%;position:absolute;inset:0;z-index:0}
+.art.has-flyer::before{display:none}
+.art.has-flyer::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.52),transparent 45%,rgba(0,0,0,.68));z-index:1;pointer-events:none}
+.art.has-flyer .genre,.art.has-flyer .date-flag{color:#fff;text-shadow:0 1px 4px #0008;z-index:2}
+.art.has-flyer .heart{z-index:2}
 .genre{color:#47483e;font-size:10px;font-weight:700;letter-spacing:.07em;max-width:calc(100% - 55px)}
 .date-flag{color:#262820}.date-flag b{font-size:32px;font-weight:800}
 .heart{background:#fbfaf7ef;border:1px solid #d9d5cc;color:#33362c}
@@ -394,7 +396,8 @@ function safeFlyerUrl(value){
   try{
     const url=new URL(value,document.baseURI);
     if(!['https:','http:'].includes(url.protocol))return null;
-    if(!/\.(?:png|jpe?g|webp|gif|avif)(?:[?#]|$)/i.test(url.pathname+url.search) && !/^https?:/i.test(value))return null;
+    // A web page URL is not a flyer image, even if published in image_url.
+    if(!/\.(?:png|jpe?g|webp|gif|avif)$/i.test(url.pathname))return null;
     return url.href;
   }catch{return null;}
 }
