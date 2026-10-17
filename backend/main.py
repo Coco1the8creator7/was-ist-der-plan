@@ -21,13 +21,22 @@ def load(path, fallback):
         return fallback
 
 
+def event_identity(event):
+    # Programme pages can list several separate parties on one date.
+    source = event.get("source")
+    identity = (source, event.get("source_url"), event.get("date"))
+    if source in {"gonzo", "stereo_bar", "supermarket"}:
+        identity += (str(event.get("title", "")).casefold(),)
+    return identity
+
+
 def main():
     now = datetime.now(TZ).isoformat(timespec="seconds")
     today = datetime.now(TZ).date()
     old = load(OUT, {"events": []})
     prior = load(QUALITY, {"sources": {}})
     by_key = {
-        (event.get("source"), event.get("source_url"), event.get("date")): event
+        event_identity(event): event
         for event in old.get("events", [])
         if isinstance(event, dict) and event.get("source_url")
     }
@@ -52,8 +61,13 @@ def main():
                 "partial" if events else "failed"
             )
             for event in events:
-                identity = (key, event["source_url"], event["date"])
+                identity = event_identity(event)
                 past = by_key.get(identity, {})
+                # A temporarily missing image metadata tag should not erase a
+                # previously checked URL for the exact same event and title.
+                if not event.get("image_url") and past.get("image_url") and past.get("title") == event["title"]:
+                    for field in ("image_url", "image_source", "image_type"):
+                        event[field] = past.get(field)
                 event["first_seen"] = past.get("first_seen", now)
                 event["last_seen"] = now
                 by_key[identity] = event
@@ -64,8 +78,11 @@ def main():
             found, events, duplicates, state = 0, [], 0, "failed"
             errors = [f"{type(exc).__name__}: {exc}"[:300]]
             meta = {}
+        with_images = sum(bool(e.get("image_url")) for e in events)
         quality[key] = {
             "status": state, "last_attempt": now,
+            "images_imported": with_images,
+            "image_coverage": round(with_images / len(events), 3) if events else None,
             "last_successful_import": now if state == "success" else old_quality.get("last_successful_import"),
             "listed": found, "imported": len(events), "duplicates": duplicates,
             "invalid": len(errors), "errors": errors,
