@@ -48,3 +48,16 @@ Programmseiten ohne eindeutige Bildzuordnung (etwa Gonzo oder Stereo) behalten z
 
 `site/data/quality.json` protokolliert `images_imported` und `image_coverage` pro Quelle. Die Bildabdeckung ist **keine** vollständige Veranstaltungs-Erfassungsquote. Vorhandene ältere Events werden beim nächsten regulären Import um die Bildfelder ergänzt; ein Mangel an Bilddaten ist kein Crawlerfehler.
 
+## Öffentliche Hauptkategorien (v1)
+
+Alle Events werden in **genau einer** der folgenden drei Kategorien geführt:
+
+1. `Sound & Clöb` – DJ-Auftritte, Partys, Raves und musikbezogene Bar-/Clubveranstaltungen (inkl. Supermarket).
+2. `Kultur & Workshops` – Literatur, Kunst, Lesungen, Vorträge, Diskussionen, Community-Treffen, Workshops, Theater, Kulturformate (auch in Bars oder Clubs).
+3. `Konzerte` – ausschliesslich als Konzert ausgewiesene Live-Musikveranstaltungen; einzelne DJ-Sets sind keine Konzerte.
+
+Die verbindlichen Regeln stehen in `backend/categories.py`. Die jeweiligen Adapter rufen sie mit Titel, Veranstaltungsort, URL, Startzeit und – wenn verfügbar – einem Ausschnitt der spezifischen Event-Detailseite auf. Insbesondere ist **Moods keine pauschale Konzertzuordnung**: Konzert-Evidenz muss beim einzelnen Event vorliegen. Bei mangelnder Evidenz wird nicht spekulativ `Konzerte` vergeben.
+
+Das Frontend `site/index.html` stellt den Filter in fixer Reihenfolge bereit und übernimmt die Kategorie aus `events.json`. Frühere Kategoriebezeichnungen werden nur für ältere Browser-/JSON-Zwischenstände vorübergehend übersetzt. Kategoriezuordnung beeinflusst die **Erfassung** und den Import der Events nicht.
+
+Die historische `site/data/events.json` wurde migriert. Ein Event, dessen Kategorie mangels Detailinformationen noch unsicher ist, wird beim nächsten vollständigen Crawl erneut mit den Original-Detailinformationen klassifiziert. Die Kategorieabdeckung ist keine manuell verifizierte Klassifikationsgenauigkeit.
