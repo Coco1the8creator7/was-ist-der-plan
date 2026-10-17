@@ -17,6 +17,7 @@ from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 from backend.sources.images import extract_event_image, empty_image_fields
+from backend.categories import SOUND, CULTURE, CONCERTS, classify_category
 
 TZ = ZoneInfo("Europe/Zurich")
 UA = "was-ist-der-plan/0.2 (+https://github.com/Coco1the8creator7/was-ist-der-plan)"
@@ -52,18 +53,18 @@ class Venue:
     name: str
     index: str
     paths: tuple[str, ...]
-    category: str = "Clubs & Nachtleben"
+    category: str = SOUND
     mode: str = "detail"
 
 
 VENUES = (
     Venue("hive", "Hive Club", "https://www.hiveclub.ch/programm/", ("/events/",)),
-    Venue("kaufleuten", "Kaufleuten", "https://kaufleuten.ch/events/", ("/event/",), "Kultur & Unterhaltung"),
+    Venue("kaufleuten", "Kaufleuten", "https://kaufleuten.ch/events/", ("/event/",), CULTURE),
     Venue("plaza", "Plaza Klub", "https://tickets.plaza-zurich.ch/de/", ("/de/events/",)),
     Venue("kauz", "Kauz Klub", "https://tickets.kauzig.ch/", ("/events/",)),
-    Venue("moods", "Moods", "https://www.moods.ch/programm", ("/programm/",), "Konzerte"),
-    Venue("dynamo", "Dynamo Zürich", "https://www.dynamo.ch/events-kurse", ("/veranstaltung/", "/kurs/"), "Kultur & Unterhaltung"),
-    Venue("supermarket", "Supermarket", "https://www.supermarket.li/programm", (), "Clubs & Nachtleben", "supermarket"),
+    Venue("moods", "Moods", "https://www.moods.ch/programm", ("/programm/",), CULTURE),
+    Venue("dynamo", "Dynamo Zürich", "https://www.dynamo.ch/events-kurse", ("/veranstaltung/", "/kurs/"), CULTURE),
+    Venue("supermarket", "Supermarket", "https://www.supermarket.li/programm", (), SOUND, "supermarket"),
 )
 
 # Not silently presented as working: access/schema must first be established.
@@ -127,17 +128,11 @@ def known_time(text: str, key: str) -> str | None:
     return f"{hour:02d}:{minute:02d}" if hour < 24 and minute < 60 else None
 
 
-def category_for(key: str, title: str, default: str, path: str) -> str:
-    name = title.lower()
-    if key == "dynamo" and "/kurs/" in path:
-        return "Workshops & Kurse"
-    if any(x in name for x in ("yoga", "workshop", "crochet", "knit", "maschenrausch")):
-        return "Workshops & Kurse"
-    if any(x in name for x in ("konzert", "concert", "live musik")) or key == "moods":
-        return "Konzerte"
-    if any(x in name for x in ("lesung", "literatur", "podcast", "comedy", "kabarett", "theater")):
-        return "Kultur & Unterhaltung"
-    return default
+def category_for(key: str, title: str, default: str, path: str,
+                 details: str = "", venue: str = "") -> str:
+    """Compatibility wrapper; the actual policy lives in backend.categories."""
+    return classify_category(title, source=key, venue=venue, url=path,
+                             details=details)
 
 
 def make_event(v: Venue, title: str, day: date, clock: str, url: str,
@@ -153,7 +148,7 @@ def make_event(v: Venue, title: str, day: date, clock: str, url: str,
         "id": f"{v.key}-{hashlib.sha256(identity.encode()).hexdigest()[:16]}",
         "title": title, "date": day.isoformat(), "time": clock,
         "start_at": local.isoformat(), "venue": venue_name or v.name,
-        "category": category_for(v.key, title, v.category, urlparse(url).path),
+        "category": category_for(v.key, title, v.category, url, text, venue_name or v.name),
         "tags": [], "source": v.key, "source_url": url,
         "sources": [{"source": v.key, "url": url}],
         "status": "cancelled" if re.search(r"abgesagt|cancelled", title, re.I) else
