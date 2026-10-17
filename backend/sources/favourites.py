@@ -38,7 +38,7 @@ GONZO_LIVE = re.compile(r"^(\d{1,2})\.(\d{1,2})\.(20\d{2})\s+(.+)$")
 
 STEREO_DATE = re.compile(r"^\s*(\d{1,2})\.(\d{1,2})\.\s+(.+?)\s*$")
 STEREO_OPEN = re.compile(
-    r"(?:donnerstags?,?\s*freitags?\s*und\s*samstags?).{0,70}?\bab\s*(\d{1,2})[:.](\d{2})\s*Uhr",
+    r"donnerstags?,?\s*freitags?\s*und\s*samstags?\s+ab\s+(\d{1,2})[:.](\d{2})\s*Uhr",
     re.I | re.S,
 )
 UBWG_LINK = re.compile(r"^/event/[^?#]*-friedas-buexe-zuerich-(\d{1,2})-(\d{1,2})-(20\d{2})/?$")
@@ -132,10 +132,10 @@ def parse_stereo(doc: BeautifulSoup, today: date):
     lines = lines_from(doc)
     all_text = " ".join(lines)
     # Opening hours at the end of the page (19:00) are NOT event start times.
-    first = next((i for i, line in enumerate(lines) if line.upper() in {"PROGRAMM", "[PROGRAMM]"}), -1)
+    first = next((i for i, line in enumerate(lines) if "PROGRAMM" == line.upper().strip("[]# ")), -1)
     if first < 0:
         return 0, [], ["STEREO: programme section not found"], {"discovered_links": 0, "skipped_out_of_range": 0}
-    end = next((j for j in range(first+1, len(lines)) if lines[j].upper() in {"MENU", "[MENU]"}), len(lines))
+    end = next((j for j in range(first+1, len(lines)) if lines[j].upper().strip("[]# ") == "MENU"), len(lines))
     programme = lines[first+1:end]
     # Standard Thursday/Friday/Saturday programmes explicitly start at 22:00.
     start = STEREO_OPEN.search(all_text)
