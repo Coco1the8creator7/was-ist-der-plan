@@ -122,11 +122,14 @@ def classify_category(
     if source == "moods":
         if re.search(r"\b(?:dance your style|battle|tanzwettbewerb)\b", title, re.I):
             return CULTURE
-        if not DJ_EVENT.search(title) and "Line-Up" in lead and INSTRUMENTS.search(lead):
+        if not DJ_EVENT.search(title) and (
+            ("Line-Up" in lead and INSTRUMENTS.search(lead))
+            or re.search(r"\b(?:live[ -]?trio|jazz[ -]?trio|orchester|orchestra|quartet|quartett|ensemble)\b", title, re.I)
+        ):
             return CONCERTS
 
     # Nightlife or bar music, unless an explicit cultural format above overrides.
-    if source in NIGHTLIFE_SOURCES or CLUB_LOCATION.search(venue):
+    if source in NIGHTLIFE_SOURCES or source == "moods" or CLUB_LOCATION.search(venue):
         return SOUND
     if SOUND_EVENT.search(title):
         return SOUND
