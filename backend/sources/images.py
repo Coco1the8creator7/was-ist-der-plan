@@ -135,3 +135,26 @@ def extract_event_image(doc: BeautifulSoup, event_url: str, source: str) -> dict
         kind = "event_flyer" if FLYER_HINT.search(urlparse(url).path + " " + hint) else "event_image"
         return {"image_url": url, "image_source": source, "image_type": kind}
     return empty_image_fields()
+
+
+
+def discard_repeated_generic_images(events: list[dict]) -> tuple[int, set[str]]:
+    """Suppress likely site-wide preview images shared by unrelated events.
+
+    Legitimate recurring editions often reuse a flyer under the *same* title;
+    therefore the threshold counts distinct titles, not calendar occurrences.
+    """
+    from collections import defaultdict
+
+    titles = defaultdict(set)
+    for event in events:
+        url = event.get("image_url")
+        if url:
+            titles[url].add(str(event.get("title", "")).casefold())
+    generic_urls = {url for url, names in titles.items() if len(names) >= 4}
+    rejected = 0
+    for event in events:
+        if event.get("image_url") in generic_urls:
+            event.update(empty_image_fields())
+            rejected += 1
+    return rejected, generic_urls
