@@ -1,0 +1,39 @@
+name: Backend und Kategorien testen
+on:
+  pull_request:
+    paths:
+      - 'backend/**'
+      - 'tests/**'
+      - 'site/index.html'
+      - 'site/data/events.json'
+      - '.github/workflows/test-backend.yml'
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Python-Parser und Kategorietests
+        run: python -m unittest discover -s tests -v
+      - name: JavaScript-Syntax der Webseite prüfen
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import subprocess
+
+          html = Path("site/index.html").read_text(encoding="utf-8")
+          scripts = re.findall(r'<script(?:\s[^>]*)?>([\s\S]*?)</script>', html, re.I)
+          inline = [s for s in scripts if s.strip()]
+          assert inline, "No embedded JavaScript was found"
+          for script in inline:
+              subprocess.run(["node", "--check"], input=script,
+                             text=True, check=True)
+          print(f"Checked {len(inline)} inline JavaScript blocks")
+          PY
