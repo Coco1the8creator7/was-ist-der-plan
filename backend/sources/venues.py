@@ -129,10 +129,10 @@ def known_time(text: str, key: str) -> str | None:
 
 
 def category_for(key: str, title: str, default: str, path: str,
-                 details: str = "", venue: str = "") -> str:
+                 details: str = "", venue: str = "", start_time: str = "") -> str:
     """Compatibility wrapper; the actual policy lives in backend.categories."""
     return classify_category(title, source=key, venue=venue, url=path,
-                             details=details)
+                             details=details, start_time=start_time)
 
 
 def make_event(v: Venue, title: str, day: date, clock: str, url: str,
@@ -148,7 +148,7 @@ def make_event(v: Venue, title: str, day: date, clock: str, url: str,
         "id": f"{v.key}-{hashlib.sha256(identity.encode()).hexdigest()[:16]}",
         "title": title, "date": day.isoformat(), "time": clock,
         "start_at": local.isoformat(), "venue": venue_name or v.name,
-        "category": category_for(v.key, title, v.category, url, text, venue_name or v.name),
+        "category": category_for(v.key, title, v.category, url, text, venue_name or v.name, clock),
         "tags": [], "source": v.key, "source_url": url,
         "sources": [{"source": v.key, "url": url}],
         "status": "cancelled" if re.search(r"abgesagt|cancelled", title, re.I) else
