@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 from backend.sources.venues import VENUES, PENDING, crawl_venue
 from backend.legacy_exil import crawl_exil
 from backend.sources.favourites import FAVORITES, crawl_favorite
-from backend.sources.images import discard_repeated_generic_images
+from backend.sources.images import discard_repeated_generic_images, is_valid_image_url, empty_image_fields
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "site/data/events.json"
@@ -68,6 +68,7 @@ def main():
                 # A temporarily missing image metadata tag should not erase a
                 # previously checked URL for the exact same event and title.
                 if (not event.get("image_url") and past.get("image_url")
+                        and is_valid_image_url(past.get("image_url"))
                         and past.get("image_url") not in generic_image_urls
                         and past.get("title") == event["title"]):
                     for field in ("image_url", "image_source", "image_type"):
@@ -114,6 +115,10 @@ def main():
                 catalog.append(e)
         except (KeyError, TypeError, ValueError):
             continue
+    # Clear stale invalid links from previous snapshots (e.g. HTML event pages).
+    for event in catalog:
+        if not is_valid_image_url(event.get("image_url")):
+            event.update(empty_image_fields())
     catalog.sort(key=lambda e: e["start_at"])
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
