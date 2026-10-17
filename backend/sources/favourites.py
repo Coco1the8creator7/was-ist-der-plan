@@ -17,6 +17,7 @@ from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 
 from backend.sources.venues import Venue, MONTHS, RespectfulClient, is_future, make_event
+from backend.sources.images import extract_event_image
 
 TZ = ZoneInfo("Europe/Zurich")
 
@@ -193,6 +194,8 @@ def parse_ubwg_detail(doc: BeautifulSoup, url: str, today: date):
     if (d.day, d.month) != (day, month) or hour > 23 or minute > 59:
         return None, "URL and displayed date/time disagree"
     event = make_event(v, title, d, f"{hour:02d}:{minute:02d}", url, today)
+    if event:
+        event.update(extract_event_image(doc, url, v.key))
     return (event, None) if event else (None, "Event validation failed")
 
 
