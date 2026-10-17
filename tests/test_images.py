@@ -2,7 +2,7 @@ import unittest
 from datetime import date
 from bs4 import BeautifulSoup
 
-from backend.sources.images import extract_event_image
+from backend.sources.images import extract_event_image, discard_repeated_generic_images
 from backend.sources.venues import Venue, make_event, parse_detail
 
 
@@ -62,6 +62,20 @@ class ArtworkTests(unittest.TestCase):
         self.assertIsNone(e["image_url"])
         self.assertIsNone(e["image_source"])
         self.assertIsNone(e["image_type"])
+
+
+    def test_repeated_brand_image_suppressed_without_harming_recurrent_flyer(self):
+        bad = "https://club.example/site-share.jpg"
+        good = "https://club.example/flyer-series.webp"
+        events = [{"title": f"Unrelated act {n}", "image_url": bad,
+                   "image_source": "club", "image_type": "event_image"} for n in range(5)]
+        events += [{"title": "Weekly Residents", "image_url": good,
+                    "image_source": "club", "image_type": "event_flyer"} for _ in range(5)]
+        n, rejected = discard_repeated_generic_images(events)
+        self.assertEqual(n, 5)
+        self.assertIn(bad, rejected)
+        self.assertTrue(all(e["image_url"] is None for e in events[:5]))
+        self.assertTrue(all(e["image_url"] == good for e in events[5:]))
 
     def test_detail_parser_retains_image_fields(self):
         v = Venue("hive", "Hive", "https://www.hiveclub.ch/", ("/events/",))
