@@ -259,37 +259,100 @@ def discover_links(v: Venue, index: BeautifulSoup, today: date) -> list[str]:
     return found[:250]
 
 
-def supermarket_events(v: Venue, doc: BeautifulSoup, today: date) -> tuple[int, list[dict], list[str]]:
-    # Supermarket publishes month/day/hour/title together on the programme page.
-    # Each record points to the official programme (there are no detail links).
-    lines = [re.sub(r"\s+", " ", s).strip() for s in doc.get_text("\n").splitlines()]
+
+# Tokenise the flattened calendar, because HTML nodes often split the month,
+# weekday, date, time and artist line into separate elements.
+PROGRAM_TOKENS = re.compile(
+    r"(?P<month>JANUAR|FEBRUAR|MÄRZ|MAERZ|APRIL|MAI|JUNI|JULI|AUGUST|SEPTEMBER|OKTOBER|NOVEMBER|DEZEMBER)\s+(?P<year>20\d{2})"
+    r"|(?<!\w)(?P<weekday>MO|DI|MI|DO|FR|SA|SO)\s+(?P<day>\d{1,2})\s+(?P<hour>\d{1,2})H\b",
+    re.IGNORECASE,
+)
+DYNAMO_OCCURRENCE = re.compile(
+    r"\b(\d{1,2})/(\d{1,2})/(20\d{2})\s+(\d{1,2})[.:](\d{2})(?!\d)"
+)
+
+
+def supermarket_events(v: Venue, doc: BeautifulSoup, today: date):
+    text = re.sub(r"\s+", " ", doc.get_text(" ", strip=True))
+    tokens = list(PROGRAM_TOKENS.finditer(text))
     current_month, current_year = None, None
-    events, errors, listed = [], [], 0
-    for line in lines:
-        head = MONTH_HEADER.match(line)
-        if head:
-            current_month, current_year = MONTHS[head[1].lower()], int(head[2])
+    events, errors, skipped, candidates = [], [], 0, 0
+    for i, token in enumerate(tokens):
+        if token.group("month"):
+            current_month = MONTHS[token.group("month").lower()]
+            current_year = int(token.group("year"))
             continue
-        m = SUPERMARKET_LINE.match(line)
-        if not m or current_year is None:
+        if not token.group("weekday") or current_month is None:
             continue
+        candidates += 1
         try:
-            day = date(current_year, current_month, int(m[1]))
+            day = date(current_year, current_month, int(token.group("day")))
             if not is_future(day, today):
+                skipped += 1
                 continue
-            listed += 1
-            title = m[3].strip()
-            event = make_event(v, title, day, f"{int(m[2]):02d}:00", v.index, today)
+            hour = int(token.group("hour"))
+            if hour > 23:
+                raise ValueError("hour outside valid range")
+            next_pos = tokens[i+1].start() if i+1 < len(tokens) else len(text)
+            raw_title = text[token.end():next_pos].strip(" ›-–")
+            # The colon normally separates the event name from its DJ lineup.
+            title = raw_title.split(":", 1)[0].strip()
+            event = make_event(v, title, day, f"{hour:02d}:00", v.index, today)
             if event:
                 events.append(event)
             else:
-                errors.append(f"Cannot validate {day} {line[:100]}")
+                errors.append(f"Cannot validate {day}: {raw_title[:100]}")
         except ValueError as exc:
-            errors.append(f"Invalid programme line {line[:100]}: {exc}")
-    return listed, events, errors
+            errors.append(f"Invalid programme occurrence: {exc}")
+    return len(events)+len(errors), events, errors, {
+        "discovered_links": candidates,
+        "skipped_out_of_range": skipped,
+    }
 
 
-def crawl_venue(v: Venue, today: date | None = None) -> tuple[int, list[dict], list[str]]:
+def dynamo_events(v: Venue, doc: BeautifulSoup, url: str, today: date):
+    title = title_from_document(doc, v.key)
+    if not title:
+        return [], 0, "Missing event title"
+    for node in doc(["script", "style", "noscript", "footer"]):
+        node.decompose()
+    text = doc.get_text(" ", strip=True)
+    pos = text.find(title)
+    body = text[pos:pos+3500] if pos >= 0 else text[:3500]
+    seen, results, skipped = set(), [], 0
+    for match in DYNAMO_OCCURRENCE.finditer(body):
+        try:
+            day = date(int(match[3]), int(match[2]), int(match[1]))
+            hour, minute = int(match[4]), int(match[5])
+            if hour > 23 or minute > 59:
+                continue
+            if not is_future(day, today):
+                skipped += 1
+                continue
+            when = (day, hour, minute)
+            if when in seen:
+                continue
+            seen.add(when)
+            event = make_event(v, title, day, f"{hour:02d}:{minute:02d}", url, today, body)
+            if event:
+                results.append(event)
+        except ValueError:
+            continue
+    if results:
+        return results, skipped, None
+    if skipped and any(DYNAMO_OCCURRENCE.finditer(body)):
+        return [], skipped, None
+    # Some stand-alone events use a labelled clock and full textual date.
+    day = known_date(body)
+    if day and not is_future(day, today):
+        return [], 1, None
+    event = parse_detail(v, doc, url, today)
+    if event:
+        return [event], skipped, None
+    return [], skipped, "No verifiable future occurrence with start time"
+
+
+def crawl_venue(v: Venue, today: date | None = None):
     today = today or datetime.now(TZ).date()
     client = RespectfulClient(v.index)
     index = client.fetch(v.index)
@@ -297,16 +360,40 @@ def crawl_venue(v: Venue, today: date | None = None) -> tuple[int, list[dict], l
         return supermarket_events(v, index, today)
     urls = discover_links(v, index, today)
     if not urls:
-        return 0, [], ["No event detail links found (possibly changed markup or blocked rendering)"]
-    events, errors = [], []
+        return 0, [], ["No event detail links found (possible markup change or rendering required)"], {
+            "discovered_links": 0, "skipped_out_of_range": 0,
+        }
+    events, errors, skipped = [], [], 0
     for url in urls:
         try:
             doc = client.fetch(url)
+            if v.key == "dynamo":
+                occurrences, ignored, problem = dynamo_events(v, doc, url, today)
+                skipped += ignored
+                events.extend(occurrences)
+                if problem:
+                    errors.append(f"{url}: {problem}")
+                continue
+            title = title_from_document(doc, v.key)
+            if not title:
+                errors.append(f"{url}: missing title")
+                continue
+            text = doc.get_text(" ", strip=True)
+            pos = text.find(title)
+            detail = text[pos:pos+4500] if pos >= 0 else text[:4500]
+            day = known_date(detail, url if v.key == "moods" else "")
+            if day and not is_future(day, today):
+                skipped += 1
+                continue
             event = parse_detail(v, doc, url, today)
             if event:
                 events.append(event)
             else:
-                errors.append(f"Required title/date/start time missing or outside 90 days: {url}")
+                errors.append(f"{url}: date/time absent or unreadable")
         except (requests.RequestException, ValueError, RuntimeError) as exc:
             errors.append(f"{url}: {type(exc).__name__}: {str(exc)[:180]}")
-    return len(urls), events, errors
+    # "listed" counts only in-window event occurrences and failed parsing attempts,
+    # not historical or beyond-horizon detail pages.
+    return len(events) + len(errors), events, errors, {
+        "discovered_links": len(urls), "skipped_out_of_range": skipped,
+    }
