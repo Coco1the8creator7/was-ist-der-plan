@@ -6,6 +6,7 @@ from zoneinfo import ZoneInfo
 
 from backend.sources.venues import VENUES, PENDING, crawl_venue
 from backend.legacy_exil import crawl_exil
+from backend.sources.favourites import FAVORITES, crawl_favorite
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "site/data/events.json"
@@ -33,7 +34,7 @@ def main():
     quality = dict(prior.get("sources", {}))
     sources = [("exil", crawl_exil)] + [
         (v.key, lambda v=v: crawl_venue(v)) for v in VENUES
-    ]
+    ] + [(v.key, lambda v=v: crawl_favorite(v)) for v in FAVORITES]
     summary = []
     for key, crawler in sources:
         old_quality = quality.get(key, {})
@@ -75,6 +76,8 @@ def main():
         }
         summary.append(f"{key}: {state} ({len(events)}/{found})")
     for key, reason in PENDING.items():
+        if key in {v.key for v in FAVORITES}:
+            continue
         quality[key] = {
             "status": "inactive", "reason": reason, "last_attempt": None,
             "last_successful_import": None, "listed": 0, "imported": 0,
