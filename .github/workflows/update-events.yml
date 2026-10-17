@@ -1,0 +1,37 @@
+name: Eventdaten aktualisieren
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: event-crawl
+  cancel-in-progress: false
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: EXIL abrufen
+        id: scrape
+        continue-on-error: true
+        run: python -m backend.main
+      - name: Katalog speichern
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/data/events.json site/data/quality.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: update EXIL event catalog'
+            git push
+          fi
+      - name: Quellenstatus validieren
+        if: steps.scrape.outcome == 'failure'
+        run: exit 1
