@@ -1,7 +1,1458 @@
 {
   "schema_version": 1,
-  "generated_at": null,
+  "generated_at": "2026-10-17T11:49:10+02:00",
   "timezone": "Europe/Zurich",
-  "total": 0,
-  "events": []
+  "total": 58,
+  "events": [
+    {
+      "id": "exil-65b0100e996bff2d",
+      "title": "54 Ultra (abgesagt)",
+      "date": "2026-10-17",
+      "time": "20:00",
+      "start_at": "2026-10-17T20:00:00+02:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/54-ultra",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/54-ultra"
+        }
+      ],
+      "status": "cancelled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-4056749553590764",
+      "title": "INDIE ROCK",
+      "date": "2026-10-17",
+      "time": "23:00",
+      "start_at": "2026-10-17T23:00:00+02:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/indierock-okt26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/indierock-okt26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-474b167c69562ed7",
+      "title": "Felukah",
+      "date": "2026-10-18",
+      "time": "20:00",
+      "start_at": "2026-10-18T20:00:00+02:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/felukah",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/felukah"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-20e863d1b5eecdae",
+      "title": "MONTAGS 1142 NIK BÄRTSCH’S RONIN",
+      "date": "2026-10-19",
+      "time": "20:30",
+      "start_at": "2026-10-19T20:30:00+02:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/nik-baertschs-ronin-19-10-26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/nik-baertschs-ronin-19-10-26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-615cf8feaa2371cd",
+      "title": "Dub Pistols",
+      "date": "2026-10-21",
+      "time": "19:45",
+      "start_at": "2026-10-21T19:45:00+02:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/dub-pistols",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/dub-pistols"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-4f5c9a25ce165762",
+      "title": "Matterz",
+      "date": "2026-10-22",
+      "time": "20:00",
+      "start_at": "2026-10-22T20:00:00+02:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/matterz",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/matterz"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-7879badd0e21b156",
+      "title": "Biji",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "start_at": "2026-10-23T20:00:00+02:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/biji",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/biji"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-8b3a1f9b0c477bae",
+      "title": "¡Wepa! Bunny",
+      "date": "2026-10-23",
+      "time": "23:00",
+      "start_at": "2026-10-23T23:00:00+02:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/wepabunny-okt26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/wepabunny-okt26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-dc7d3aebf97ea9e1",
+      "title": "Luvre47",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "start_at": "2026-10-24T20:00:00+02:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/luvre47-2026",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/luvre47-2026"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-603421d42e5fe6d8",
+      "title": "Trash Pop",
+      "date": "2026-10-24",
+      "time": "23:00",
+      "start_at": "2026-10-24T23:00:00+02:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/trashpop-okt26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/trashpop-okt26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-3bcdc7046b6e520c",
+      "title": "Eli Preiss",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "start_at": "2026-10-25T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/eli-preiss-2026",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/eli-preiss-2026"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-b83daf0a59d26d00",
+      "title": "MONTAGS 1143 NIK BÄRTSCH’S RONIN",
+      "date": "2026-10-26",
+      "time": "20:30",
+      "start_at": "2026-10-26T20:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/nik-baertschs-ronin-26-10-26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/nik-baertschs-ronin-26-10-26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-cb381c3360412a7e",
+      "title": "Podcast Clash",
+      "date": "2026-10-28",
+      "time": "20:00",
+      "start_at": "2026-10-28T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/podcast-clash-2026-oktober",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/podcast-clash-2026-oktober"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-8b7a618d3b145559",
+      "title": "My Ugly Clementine",
+      "date": "2026-10-29",
+      "time": "20:00",
+      "start_at": "2026-10-29T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/my-ugly-clementine-2026",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/my-ugly-clementine-2026"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-628ff6437b322e17",
+      "title": "9 Years Waterfalls",
+      "date": "2026-10-30",
+      "time": "23:00",
+      "start_at": "2026-10-30T23:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/9-years-waterfalls",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/9-years-waterfalls"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-7e72596508ae2286",
+      "title": "Jonny5",
+      "date": "2026-10-31",
+      "time": "19:30",
+      "start_at": "2026-10-31T19:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/jonny5",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/jonny5"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-5e831bb16fe97262",
+      "title": "Zeitgeist - Halloween Special",
+      "date": "2026-10-31",
+      "time": "23:00",
+      "start_at": "2026-10-31T23:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/zeitgeist-okt26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/zeitgeist-okt26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-54f4c2278f314101",
+      "title": "MONTAGS 1144 NIK BÄRTSCH’S RONIN",
+      "date": "2026-11-02",
+      "time": "20:30",
+      "start_at": "2026-11-02T20:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/nik-baertschs-ronin-02-11-26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/nik-baertschs-ronin-02-11-26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-16adb391f87b919d",
+      "title": "$ono$ Cliq",
+      "date": "2026-11-04",
+      "time": "20:00",
+      "start_at": "2026-11-04T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/sonos-cliq",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/sonos-cliq"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-804c004a4bb746f3",
+      "title": "FHG PVP",
+      "date": "2026-11-05",
+      "time": "20:00",
+      "start_at": "2026-11-05T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/fhg-pvp",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/fhg-pvp"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-4a50cc527b6a25f3",
+      "title": "Soffie",
+      "date": "2026-11-06",
+      "time": "20:00",
+      "start_at": "2026-11-06T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/soffie",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/soffie"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-bde0efe5a1c67c7e",
+      "title": "F.A.G.",
+      "date": "2026-11-06",
+      "time": "23:00",
+      "start_at": "2026-11-06T23:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/f-a-g-nov26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/f-a-g-nov26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-51166d81eb58ca26",
+      "title": "The Meltdown",
+      "date": "2026-11-07",
+      "time": "19:30",
+      "start_at": "2026-11-07T19:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/the-meltdown",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/the-meltdown"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-08a7b01dc837a86f",
+      "title": "Rocknacht",
+      "date": "2026-11-07",
+      "time": "23:00",
+      "start_at": "2026-11-07T23:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/rocknacht-nov26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/rocknacht-nov26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-f359b9e74b5410bd",
+      "title": "Sports",
+      "date": "2026-11-08",
+      "time": "20:00",
+      "start_at": "2026-11-08T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/sports",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/sports"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-8f986750cec343c1",
+      "title": "MONTAGS 1145 NIK BÄRTSCH’S RONIN",
+      "date": "2026-11-09",
+      "time": "20:30",
+      "start_at": "2026-11-09T20:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/nik-baertschs-ronin-09-11-26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/nik-baertschs-ronin-09-11-26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-851744cfb07d50ae",
+      "title": "Westside Cowboy",
+      "date": "2026-11-10",
+      "time": "20:00",
+      "start_at": "2026-11-10T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/westsidecowboy",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/westsidecowboy"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-2de5dca6a89174d3",
+      "title": "Ceren",
+      "date": "2026-11-11",
+      "time": "20:00",
+      "start_at": "2026-11-11T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/ceren",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/ceren"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-ac1e77bfce2e1bf1",
+      "title": "Main Concept & Retrogott",
+      "date": "2026-11-13",
+      "time": "19:30",
+      "start_at": "2026-11-13T19:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/main-concept",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/main-concept"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-d345d9fc3f1baed3",
+      "title": "INDIE ROCK",
+      "date": "2026-11-13",
+      "time": "23:00",
+      "start_at": "2026-11-13T23:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/indierock-nov26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/indierock-nov26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-d39c62861434cc82",
+      "title": "MC Bomber",
+      "date": "2026-11-14",
+      "time": "19:30",
+      "start_at": "2026-11-14T19:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/mc-bomber-2026",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/mc-bomber-2026"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-a5073d631ea9e7cc",
+      "title": "Just Dance",
+      "date": "2026-11-14",
+      "time": "23:00",
+      "start_at": "2026-11-14T23:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/just-dance-nov26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/just-dance-nov26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-a72e7dd30da0fd18",
+      "title": "Infinity Song im Plaza",
+      "date": "2026-11-15",
+      "time": "20:00",
+      "start_at": "2026-11-15T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/infinity-song-im-plaza",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/infinity-song-im-plaza"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-35e1656c0d558e73",
+      "title": "Son Mieux",
+      "date": "2026-11-15",
+      "time": "20:00",
+      "start_at": "2026-11-15T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/son-mieux-2026",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/son-mieux-2026"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-6c88bfeeecd7b67b",
+      "title": "MONTAGS 1146 NIK BÄRTSCH’S RONIN",
+      "date": "2026-11-16",
+      "time": "20:30",
+      "start_at": "2026-11-16T20:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/nik-baertschs-ronin-16-11-26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/nik-baertschs-ronin-16-11-26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-82bc847a7b1d23c4",
+      "title": "Drunken Masters",
+      "date": "2026-11-19",
+      "time": "20:00",
+      "start_at": "2026-11-19T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/drunken-masters",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/drunken-masters"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-db7456639b4df6a2",
+      "title": "Sento",
+      "date": "2026-11-20",
+      "time": "19:30",
+      "start_at": "2026-11-20T19:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/sento",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/sento"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-5d3ac10ce94328b2",
+      "title": "Southstar",
+      "date": "2026-11-20",
+      "time": "23:00",
+      "start_at": "2026-11-20T23:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/southstar-26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/southstar-26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-5d731afd28411d7a",
+      "title": "Dizzy Dros",
+      "date": "2026-11-21",
+      "time": "19:30",
+      "start_at": "2026-11-21T19:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/dizzy-dros",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/dizzy-dros"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-6d8ac0ceb18fc36b",
+      "title": "Trash Pop",
+      "date": "2026-11-21",
+      "time": "23:00",
+      "start_at": "2026-11-21T23:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/trashpop-nov26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/trashpop-nov26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-8c27bc79724af4df",
+      "title": "MONTAGS 1147 NIK BÄRTSCH’S RONIN",
+      "date": "2026-11-23",
+      "time": "20:30",
+      "start_at": "2026-11-23T20:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/nik-baertschs-ronin-23-11-26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/nik-baertschs-ronin-23-11-26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-c4334e86b481fe11",
+      "title": "MNEK",
+      "date": "2026-11-25",
+      "time": "20:00",
+      "start_at": "2026-11-25T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/mnek",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/mnek"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-89c15e2b00125589",
+      "title": "Bellaire",
+      "date": "2026-11-26",
+      "time": "20:00",
+      "start_at": "2026-11-26T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/bellaire",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/bellaire"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-4e19ec6862b328dc",
+      "title": "JAS",
+      "date": "2026-11-27",
+      "time": "19:30",
+      "start_at": "2026-11-27T19:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/jas",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/jas"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-06e6496c538135ef",
+      "title": "Tanzleila",
+      "date": "2026-11-27",
+      "time": "23:00",
+      "start_at": "2026-11-27T23:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/tanzleila-nov26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/tanzleila-nov26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-3c0ac60e25e9ba4d",
+      "title": "Cordoba78",
+      "date": "2026-11-28",
+      "time": "20:00",
+      "start_at": "2026-11-28T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/cordoba78",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/cordoba78"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-274ef734806ceee3",
+      "title": "Zeitgeist",
+      "date": "2026-11-28",
+      "time": "23:00",
+      "start_at": "2026-11-28T23:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/zeitgeist-nov26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/zeitgeist-nov26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-58286c5651874317",
+      "title": "Sababa 5",
+      "date": "2026-11-29",
+      "time": "20:00",
+      "start_at": "2026-11-29T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/sababa-5",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/sababa-5"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-cc847d75a008ae37",
+      "title": "MONTAGS 1148 NIK BÄRTSCH’S RONIN",
+      "date": "2026-11-30",
+      "time": "20:30",
+      "start_at": "2026-11-30T20:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/nik-baertschs-ronin-30-11-26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/nik-baertschs-ronin-30-11-26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-65a9c1211c0f1f87",
+      "title": "Frytz",
+      "date": "2026-12-02",
+      "time": "20:00",
+      "start_at": "2026-12-02T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/frytz",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/frytz"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-f3306a18a7d7c76e",
+      "title": "Pablo",
+      "date": "2026-12-03",
+      "time": "20:00",
+      "start_at": "2026-12-03T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/pablo",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/pablo"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-54f4b46040026ba0",
+      "title": "Leila",
+      "date": "2026-12-04",
+      "time": "20:00",
+      "start_at": "2026-12-04T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/leila-2026",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/leila-2026"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-3341b339696f2e4a",
+      "title": "MONTAGS 1149 DUO NIK BÄRTSCH - ILVA EIGUS",
+      "date": "2026-12-07",
+      "time": "20:30",
+      "start_at": "2026-12-07T20:30:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/nik-baertschs-ronin-07-12-26",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/nik-baertschs-ronin-07-12-26"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-109dddd6613704a8",
+      "title": "Glueboys",
+      "date": "2026-12-08",
+      "time": "20:00",
+      "start_at": "2026-12-08T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/glueboys",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/glueboys"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-899cee61fefe8b39",
+      "title": "Mika Noé im Dynamo",
+      "date": "2026-12-10",
+      "time": "20:00",
+      "start_at": "2026-12-10T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/mika-noe-dynamo",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/mika-noe-dynamo"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-86052c33f7a681db",
+      "title": "Jamila",
+      "date": "2026-12-11",
+      "time": "20:00",
+      "start_at": "2026-12-11T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/jamila",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/jamila"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-6086a6aeb9130776",
+      "title": "Jamin (abgesagt)",
+      "date": "2026-12-12",
+      "time": "20:00",
+      "start_at": "2026-12-12T20:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/jamin",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/jamin"
+        }
+      ],
+      "status": "cancelled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    },
+    {
+      "id": "exil-c2fe578429825a99",
+      "title": "GOOD OLD DAYZ (Dayparty)",
+      "date": "2026-12-19",
+      "time": "23:00",
+      "start_at": "2026-12-19T23:00:00+01:00",
+      "venue": "EXIL Club",
+      "category": "Clubs & Nachtleben",
+      "tags": [],
+      "source": "exil",
+      "source_url": "https://exil.club/events/good-old-dayz-dayparty",
+      "sources": [
+        {
+          "source": "exil",
+          "url": "https://exil.club/events/good-old-dayz-dayparty"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": null,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "first_seen": "2026-10-17T11:49:10+02:00",
+      "last_seen": "2026-10-17T11:49:10+02:00"
+    }
+  ]
 }

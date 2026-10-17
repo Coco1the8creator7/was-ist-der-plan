@@ -1,5 +1,18 @@
 {
-  "generated_at": null,
-  "sources": {},
-  "catalog_total": 0
+  "generated_at": "2026-10-17T11:49:10+02:00",
+  "sources": {
+    "exil": {
+      "status": "success",
+      "last_attempt": "2026-10-17T11:49:10+02:00",
+      "last_successful_import": "2026-10-17T11:49:10+02:00",
+      "listed": 58,
+      "imported": 58,
+      "duplicates": 0,
+      "invalid": 0,
+      "errors": [],
+      "sample_coverage": null,
+      "sample_size": 0
+    }
+  },
+  "catalog_total": 58
 }
