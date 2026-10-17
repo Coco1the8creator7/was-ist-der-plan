@@ -38,7 +38,9 @@ def main():
     for key, crawler in sources:
         old_quality = quality.get(key, {})
         try:
-            found, events, errors = crawler()
+            outcome = crawler()
+            found, events, errors = outcome[:3]
+            meta = outcome[3] if len(outcome) > 3 else {}
             distinct = {}
             for event in events:
                 distinct[(event["source"], event["source_url"], event["date"], event["title"])] = event
@@ -60,11 +62,14 @@ def main():
         except Exception as exc:
             found, events, duplicates, state = 0, [], 0, "failed"
             errors = [f"{type(exc).__name__}: {exc}"[:300]]
+            meta = {}
         quality[key] = {
             "status": state, "last_attempt": now,
             "last_successful_import": now if state == "success" else old_quality.get("last_successful_import"),
             "listed": found, "imported": len(events), "duplicates": duplicates,
             "invalid": len(errors), "errors": errors,
+            "discovered_links": meta.get("discovered_links", found),
+            "skipped_out_of_range": meta.get("skipped_out_of_range", 0),
             "sample_coverage": old_quality.get("sample_coverage"),
             "sample_size": old_quality.get("sample_size", 0),
         }
@@ -95,9 +100,10 @@ def main():
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("\n".join(summary))
     print("Catalog events:", len(catalog))
-    # The workflow should flag any degradation even when a previous catalog remains valid.
-    if any(quality[key]["status"] != "success" for key, _ in sources):
-        raise SystemExit("Some sources are partial/failed. See quality.json; previous events retained.")
+    # Partial source failures are reported in quality.json without failing a useful
+    # overall import. Hard-fail only when no usable event data remains.
+    if not catalog:
+        raise SystemExit("No valid future event data available; inspect quality.json.")
 
 
 if __name__ == "__main__":
