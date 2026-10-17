@@ -105,12 +105,21 @@ def known_date(text: str, url: str = "") -> date | None:
 
 def known_time(text: str, key: str) -> str | None:
     m = TIME_LABEL.search(text)
+    if not m and key == "hive":
+        # Official Hive details: "Start: 17. October 2026 um 22:00"
+        m = re.search(
+            r"\b(?:Start\s*:\s*)?\d{1,2}\.\s+[A-Za-zäöüÄÖÜ]+\s+20\d{2}\s+um\s+(\d{1,2})[.:](\d{2})\b",
+            text, re.I,
+        )
     if not m and key in {"plaza", "kauz"}:
         # Ticketshop detail pages display "Sa., 17. Oktober 2026, 18:00 Uhr".
         m = re.search(r"\b20\d{2}\s*,\s*(\d{1,2})[.:](\d{2})\s*Uhr", text, re.I)
     if not m and key == "dynamo":
-        # Dynamo detail: "Fr. 09/01/2026 18:00–01:00".
+        # Official detail: "Sa. 17/10/2026 20:00–04:00"
         m = re.search(r"\b\d{1,2}/\d{1,2}/20\d{2}\s+(\d{1,2})[.:](\d{2})", text)
+        if not m:
+            # Date and time may be separate HTML elements.
+            m = re.search(r"\b\d{1,2}/\d{1,2}/20\d{2}\s+(\d{1,2})[.:](\d{2})\s*[–-]\s*\d", text)
     if not m:
         return None
     hour, minute = map(int, m.groups())
@@ -137,7 +146,7 @@ def make_event(v: Venue, title: str, day: date, clock: str, url: str,
         return None
     h, m = map(int, clock.split(":"))
     local = datetime(day.year, day.month, day.day, h, m, tzinfo=TZ)
-    identity = f"{v.key}|{url}|{day.isoformat()}|{title.casefold()}"
+    identity = f"{v.key}|{url}|{day.isoformat()}" + (f"|{title.casefold()}" if v.key == "supermarket" else "")
     price = re.search(r"\bCHF\s*(\d{1,4}(?:[.,]\d{1,2})?)", text, re.I)
     return {
         "id": f"{v.key}-{hashlib.sha256(identity.encode()).hexdigest()[:16]}",
@@ -206,9 +215,12 @@ def parse_detail(v: Venue, doc: BeautifulSoup, url: str, today: date) -> dict | 
     for x in doc(["script", "style", "noscript", "footer"]):
         x.decompose()
     text = doc.get_text(" ", strip=True)
-    # Date/time live in the detail itself. URL date applies only for Moods.
-    day = known_date(text[:1500], url if v.key == "moods" else "")
-    clock = known_time(text[:2500], v.key)
+    # Restrict the date search to the event heading and following content.
+    # Site-wide navigation, opening hours or recommendations may contain other dates.
+    position = text.find(title)
+    detail_text = text[position:position + 4500] if position >= 0 else text[:4500]
+    day = known_date(detail_text, url if v.key == "moods" else "")
+    clock = known_time(detail_text, v.key)
     if not day or not clock:
         return None
     venue_name = v.name
@@ -217,7 +229,7 @@ def parse_detail(v: Venue, doc: BeautifulSoup, url: str, today: date) -> dict | 
         venue_match = re.search(r"Veranstaltungsort\s*:\s*(.{3,65}?)(?=\s+(?:Teilen|Samstag|Freitag|Sonntag|Montag|Dienstag|Mittwoch|Donnerstag|Tickets)\b|$)", near_title, re.I)
         if venue_match:
             venue_name = venue_match[1].strip()
-    return make_event(v, title, day, clock, url, today, text[:3000], venue_name)
+    return make_event(v, title, day, clock, url, today, detail_text[:3000], venue_name)
 
 
 def discover_links(v: Venue, index: BeautifulSoup, today: date) -> list[str]:
