@@ -1,430 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T20:49:57+02:00",
+  "generated_at": "2026-10-18T03:03:08+02:00",
   "timezone": "Europe/Zurich",
-  "total": 414,
+  "total": 400,
   "events": [
-    {
-      "id": "dynamo-0eb95a6fa9cbf7a6",
-      "title": "Fotolabor: Entwickeln und Vergrössern",
-      "date": "2026-10-17",
-      "time": "09:00",
-      "start_at": "2026-10-17T09:00:00+02:00",
-      "venue": "Dynamo Zürich",
-      "category": "Kultur & Workshops",
-      "tags": [],
-      "source": "dynamo",
-      "source_url": "https://www.dynamo.ch/kurs/fotolabor-entwickeln-und-vergroessern-40",
-      "sources": [
-        {
-          "source": "dynamo",
-          "url": "https://www.dynamo.ch/kurs/fotolabor-entwickeln-und-vergroessern-40"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": 175.0,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://dynamo.nodehive.app/sites/default/files/styles/og_image/public/2024-05/45_0.jpg?itok=BfcTm37P",
-      "image_source": "dynamo",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "dynamo-2d80e6ee5129dd48",
-      "title": "✨ Nähkurs für Anfänger:innen✨",
-      "date": "2026-10-17",
-      "time": "09:30",
-      "start_at": "2026-10-17T09:30:00+02:00",
-      "venue": "Dynamo Zürich",
-      "category": "Kultur & Workshops",
-      "tags": [],
-      "source": "dynamo",
-      "source_url": "https://www.dynamo.ch/kurs/naehkurs-fuer-anfaengerinnen-6",
-      "sources": [
-        {
-          "source": "dynamo",
-          "url": "https://www.dynamo.ch/kurs/naehkurs-fuer-anfaengerinnen-6"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": 95.0,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://dynamo.nodehive.app/sites/default/files/styles/og_image/public/2026-08/IMG_015220Small_5_0.jpeg?itok=3KBMomwW",
-      "image_source": "dynamo",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "dynamo-6944db1cc874eba8",
-      "title": "Siebdruck Wochenendkurs",
-      "date": "2026-10-17",
-      "time": "10:00",
-      "start_at": "2026-10-17T10:00:00+02:00",
-      "venue": "Dynamo Zürich",
-      "category": "Kultur & Workshops",
-      "tags": [],
-      "source": "dynamo",
-      "source_url": "https://www.dynamo.ch/kurs/siebdruck-wochenendkurs-41",
-      "sources": [
-        {
-          "source": "dynamo",
-          "url": "https://www.dynamo.ch/kurs/siebdruck-wochenendkurs-41"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": 185.0,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://dynamo.nodehive.app/sites/default/files/styles/og_image/public/2024-05/profilbild_gelb%20Kopie.jpg?itok=46j-lio5",
-      "image_source": "dynamo",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "plaza-adc725f96e5b2e0a",
-      "title": "Vintage Radio Party",
-      "date": "2026-10-17",
-      "time": "18:00",
-      "start_at": "2026-10-17T18:00:00+02:00",
-      "venue": "Plaza Klub",
-      "category": "Sound & Clöb",
-      "tags": [],
-      "source": "plaza",
-      "source_url": "https://tickets.plaza-zurich.ch/de/events/vintage-radio-party",
-      "sources": [
-        {
-          "source": "plaza",
-          "url": "https://tickets.plaza-zurich.ch/de/events/vintage-radio-party"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": 29.0,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://storage.cpstatic.ch/storage/og_imagex2/6c52e9a1f74e5817c1b51dab8cfd5bd7-4085e029--1473963.webp",
-      "image_source": "plaza",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "moods-26e2cc75d620315d",
-      "title": "EKR",
-      "date": "2026-10-17",
-      "time": "19:30",
-      "start_at": "2026-10-17T19:30:00+02:00",
-      "venue": "Moods",
-      "category": "Konzerte",
-      "tags": [],
-      "source": "moods",
-      "source_url": "https://www.moods.ch/programm/ekr-2026-10-17",
-      "sources": [
-        {
-          "source": "moods",
-          "url": "https://www.moods.ch/programm/ekr-2026-10-17"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": 38.0,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://www.datocms-assets.com/74496/1783500030-20281017_ekr_114263_2_web.jpg?fit=crop&w=1200&h=630&fp-x=0.54&fp-y=0.3",
-      "image_source": "moods",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "exil-65b0100e996bff2d",
-      "title": "54 Ultra (abgesagt)",
-      "date": "2026-10-17",
-      "time": "20:00",
-      "start_at": "2026-10-17T20:00:00+02:00",
-      "venue": "EXIL Club",
-      "category": "Sound & Clöb",
-      "tags": [],
-      "source": "exil",
-      "source_url": "https://exil.club/events/54-ultra",
-      "sources": [
-        {
-          "source": "exil",
-          "url": "https://exil.club/events/54-ultra"
-        }
-      ],
-      "status": "cancelled",
-      "price_chf": null,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://exil.club/media/pages/events/54-ultra/e7311efc28-1776438652/54-ultra-press-photo-oct-2025-small.jpg",
-      "image_source": "exil",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "dynamo-7a8742b0fbc434be",
-      "title": "Enfant Terrible Records Release Party",
-      "date": "2026-10-17",
-      "time": "20:00",
-      "start_at": "2026-10-17T20:00:00+02:00",
-      "venue": "Dynamo Zürich",
-      "category": "Sound & Clöb",
-      "tags": [],
-      "source": "dynamo",
-      "source_url": "https://www.dynamo.ch/veranstaltung/enfant-terrible-records-release-party",
-      "sources": [
-        {
-          "source": "dynamo",
-          "url": "https://www.dynamo.ch/veranstaltung/enfant-terrible-records-release-party"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": null,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://dynamo.nodehive.app/sites/default/files/styles/og_image/public/2026-09/260904-ETR-ConcertFlyer-v3-1.png?itok=Kv6aLgOa",
-      "image_source": "dynamo",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "hive-ac36a94ccc49498c",
-      "title": "HIVEAHKASHA",
-      "date": "2026-10-17",
-      "time": "22:00",
-      "start_at": "2026-10-17T22:00:00+02:00",
-      "venue": "Hive Club",
-      "category": "Sound & Clöb",
-      "tags": [],
-      "source": "hive",
-      "source_url": "https://www.hiveclub.ch/events/hiveahkasha-4/",
-      "sources": [
-        {
-          "source": "hive",
-          "url": "https://www.hiveclub.ch/events/hiveahkasha-4/"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": null,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": null,
-      "image_source": null,
-      "image_type": null,
-      "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "exil-4056749553590764",
-      "title": "INDIE ROCK",
-      "date": "2026-10-17",
-      "time": "23:00",
-      "start_at": "2026-10-17T23:00:00+02:00",
-      "venue": "EXIL Club",
-      "category": "Sound & Clöb",
-      "tags": [],
-      "source": "exil",
-      "source_url": "https://exil.club/events/indierock-okt26",
-      "sources": [
-        {
-          "source": "exil",
-          "url": "https://exil.club/events/indierock-okt26"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": null,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://exil.club/media/pages/events/indierock-okt26/3d9fcc1abd-1789432017/indie-rock.png",
-      "image_source": "exil",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "kaufleuten-f914474470ea5cc6",
-      "title": "HOTLINE",
-      "date": "2026-10-17",
-      "time": "23:00",
-      "start_at": "2026-10-17T23:00:00+02:00",
-      "venue": "Kaufleuten",
-      "category": "Sound & Clöb",
-      "tags": [],
-      "source": "kaufleuten",
-      "source_url": "https://kaufleuten.ch/event/hotline-1/",
-      "sources": [
-        {
-          "source": "kaufleuten",
-          "url": "https://kaufleuten.ch/event/hotline-1/"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": 25.0,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://static-cdn.kaufleuten.ch/content/event-uploads/fa5572dd4fa4b03ae196370b3360e8c0.png",
-      "image_source": "kaufleuten",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "kaufleuten-c7fbd52bc703843f",
-      "title": "LOCO HOUSE",
-      "date": "2026-10-17",
-      "time": "23:00",
-      "start_at": "2026-10-17T23:00:00+02:00",
-      "venue": "Kaufleuten",
-      "category": "Sound & Clöb",
-      "tags": [],
-      "source": "kaufleuten",
-      "source_url": "https://kaufleuten.ch/event/loco-house-17/",
-      "sources": [
-        {
-          "source": "kaufleuten",
-          "url": "https://kaufleuten.ch/event/loco-house-17/"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": 30.0,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://static-cdn.kaufleuten.ch/content/event-uploads/23999abf8575a56f774f05fc18199f1a.png",
-      "image_source": "kaufleuten",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "plaza-27be01291ea29d44",
-      "title": "Smooth N Sexy",
-      "date": "2026-10-17",
-      "time": "23:00",
-      "start_at": "2026-10-17T23:00:00+02:00",
-      "venue": "Plaza Klub",
-      "category": "Sound & Clöb",
-      "tags": [],
-      "source": "plaza",
-      "source_url": "https://tickets.plaza-zurich.ch/de/events/smooth-n-sexy-2026-10-17",
-      "sources": [
-        {
-          "source": "plaza",
-          "url": "https://tickets.plaza-zurich.ch/de/events/smooth-n-sexy-2026-10-17"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": 30.0,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://storage.cpstatic.ch/storage/og_imagex2/502e464ee69aa6dec708b5af53ae2ee5-3f875ca6--1511110.webp",
-      "image_source": "plaza",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "supermarket-81b00643f78afed8",
-      "title": "MYSTIKA w/ Afrokillerz",
-      "date": "2026-10-17",
-      "time": "23:00",
-      "start_at": "2026-10-17T23:00:00+02:00",
-      "venue": "Supermarket",
-      "category": "Sound & Clöb",
-      "tags": [],
-      "source": "supermarket",
-      "source_url": "https://www.supermarket.li/programm",
-      "sources": [
-        {
-          "source": "supermarket",
-          "url": "https://www.supermarket.li/programm"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": null,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": null,
-      "image_source": null,
-      "image_type": null,
-      "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "gonzo-09ea0a72b87888c0",
-      "title": "BARKADA BASS",
-      "date": "2026-10-17",
-      "time": "23:00",
-      "start_at": "2026-10-17T23:00:00+02:00",
-      "venue": "Gonzo Club",
-      "category": "Sound & Clöb",
-      "tags": [],
-      "source": "gonzo",
-      "source_url": "https://gonzoclub.ch/",
-      "sources": [
-        {
-          "source": "gonzo",
-          "url": "https://gonzoclub.ch/"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": 20.0,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": null,
-      "image_source": null,
-      "image_type": null,
-      "year_basis": "inferred_from_current_programme",
-      "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
-    {
-      "id": "friedas_buexe-c04d232e5de38b56",
-      "title": "House Of Frieda",
-      "date": "2026-10-17",
-      "time": "23:00",
-      "start_at": "2026-10-17T23:00:00+02:00",
-      "venue": "Friedas Büxe",
-      "category": "Sound & Clöb",
-      "tags": [],
-      "source": "friedas_buexe",
-      "source_url": "https://ubwg.ch/event/house-of-frieda-friedas-buexe-zuerich-17-10-2026/",
-      "sources": [
-        {
-          "source": "friedas_buexe",
-          "url": "https://ubwg.ch/event/house-of-frieda-friedas-buexe-zuerich-17-10-2026/"
-        }
-      ],
-      "status": "scheduled",
-      "price_chf": null,
-      "description": null,
-      "latitude": null,
-      "longitude": null,
-      "image_url": "https://ubwg.ch/wp-content/uploads/2026/09/event-image-house-of-frieda-friedas-buexe-zuerich-17-10-2026.jpg",
-      "image_source": "friedas_buexe",
-      "image_type": "event_image",
-      "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
-    },
     {
       "id": "dynamo-cf8476e7e3e372ee",
       "title": "Messerschmiedekurs 2 Sonntage",
@@ -451,7 +30,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-b1324a1cfe1714e0",
@@ -479,7 +58,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-1dfa464795828876",
@@ -507,7 +86,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-e91f135168bc33ff",
@@ -535,7 +114,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-97df76b6f7766c3e",
@@ -563,7 +142,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-a5744deeee1578cd",
@@ -591,7 +170,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-3711abefd0bf20b6",
@@ -619,7 +198,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-5cde03da0adbe1fe",
@@ -647,7 +226,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-540808e7bff35738",
@@ -675,7 +254,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-c1caf2fcaa49e3be",
@@ -703,7 +282,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-474b167c69562ed7",
@@ -731,7 +310,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-dd38bafc5b0aa952",
@@ -759,7 +338,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-f9d33f5af6262685",
@@ -787,7 +366,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-bf634c31e4b8e3dc",
@@ -815,7 +394,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-20e863d1b5eecdae",
@@ -843,7 +422,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-fa61e4be70de9a7a",
@@ -871,7 +450,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-3bd59a544ba7fc2e",
@@ -899,7 +478,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-38fcd5092caae0ef",
@@ -927,7 +506,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-0e6d02fdcf0e7217",
@@ -955,7 +534,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-b681d4bb88e5a8e6",
@@ -983,7 +562,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-b25f5e85a82a5a58",
@@ -1011,7 +590,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-bb4e6c4813e48e76",
@@ -1039,7 +618,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-615cf8feaa2371cd",
@@ -1067,7 +646,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "gonzo-fe6a7da36b3461cb",
@@ -1096,7 +675,7 @@
       "image_type": null,
       "year_basis": "inferred_from_current_programme",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-88324f93154fc610",
@@ -1124,7 +703,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-cc7008cd40e9356d",
@@ -1152,7 +731,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-57ac24caea9997a9",
@@ -1180,7 +759,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-9648afcd7a14101a",
@@ -1208,7 +787,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-4f5c9a25ce165762",
@@ -1236,7 +815,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-8abb412e6ac2872f",
@@ -1264,7 +843,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-146e280deab9fbc7",
@@ -1292,7 +871,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-f132a235cf8e9f12",
@@ -1320,7 +899,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-0bda719cd21643ac",
@@ -1377,7 +956,7 @@
       "image_type": null,
       "year_basis": "inferred_from_current_programme",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-e8f13142fa511b1f",
@@ -1405,7 +984,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-7879badd0e21b156",
@@ -1433,7 +1012,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-b7aa3f073d1363cf",
@@ -1461,7 +1040,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-8b3a1f9b0c477bae",
@@ -1489,7 +1068,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-3ff21aa770ce1e79",
@@ -1517,7 +1096,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-c8dac029f5269923",
@@ -1545,7 +1124,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-750b7a9d77ccb590",
@@ -1573,7 +1152,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-964e1d9d25d0a53a",
@@ -1629,7 +1208,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "gonzo-52c103285c11aa14",
@@ -1658,7 +1237,7 @@
       "image_type": null,
       "year_basis": "inferred_from_current_programme",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-602448cfb593b828",
@@ -1686,7 +1265,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-35ef0cc4c3c26ba5",
@@ -1714,7 +1293,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-4851c265414dac08",
@@ -1742,7 +1321,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-07ae1ae441d79dbc",
@@ -1770,7 +1349,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-9118a9d7f802d56d",
@@ -1826,7 +1405,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-806fca4e0374d5c5",
@@ -1854,7 +1433,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-a8910f0ff6a1db76",
@@ -1882,7 +1461,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-23688e4daf6c8e02",
@@ -1910,7 +1489,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-7866cf0aa113eb19",
@@ -1938,7 +1517,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-dc7d3aebf97ea9e1",
@@ -1966,7 +1545,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-2b7414f48f856b6f",
@@ -1994,7 +1573,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-603421d42e5fe6d8",
@@ -2022,7 +1601,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-26e0f42703969d19",
@@ -2050,7 +1629,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-18014a075896a67e",
@@ -2078,7 +1657,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "supermarket-55abf30372df40ad",
@@ -2106,7 +1685,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "gonzo-4896e204d16895d2",
@@ -2135,7 +1714,7 @@
       "image_type": null,
       "year_basis": "inferred_from_current_programme",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-2b6e1fe8f8247497",
@@ -2163,7 +1742,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-73faade665fe91fe",
@@ -2191,7 +1770,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-5e0a47bfdeef0331",
@@ -2219,7 +1798,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-1ac2514362be7806",
@@ -2247,7 +1826,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kauz-48d1682ca6697aa7",
@@ -2275,7 +1854,7 @@
       "image_source": "kauz",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-69b3f9a8c579c928",
@@ -2303,7 +1882,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-a2881e1cc85cb32a",
@@ -2331,7 +1910,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-fc2a3d1304bcd5cf",
@@ -2359,7 +1938,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-510e4ef21d2dffb4",
@@ -2387,7 +1966,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-8c00be8a9167e8d6",
@@ -2415,7 +1994,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-93e83df89953d532",
@@ -2443,7 +2022,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-f02c9b4df8475d11",
@@ -2471,7 +2050,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-7730e8395fc7f5c8",
@@ -2499,7 +2078,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-3bcdc7046b6e520c",
@@ -2527,7 +2106,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-79559e2f02aae717",
@@ -2555,7 +2134,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-c2dd8a1d08a93dad",
@@ -2583,7 +2162,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-fc6b0d6372499656",
@@ -2611,7 +2190,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-466cebb5666511e2",
@@ -2639,7 +2218,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-3e5cf5ac6b0cc8a5",
@@ -2667,7 +2246,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-02d8666fd1530d08",
@@ -2695,7 +2274,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-b83daf0a59d26d00",
@@ -2723,7 +2302,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-bb70f52c53b305a5",
@@ -2751,7 +2330,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-88b1644cd8ea0490",
@@ -2779,7 +2358,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-6d5d1da2cb7713d6",
@@ -2807,7 +2386,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-8bed9e6a6b77fee0",
@@ -2835,7 +2414,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-3bd3faf5b19563ae",
@@ -2863,7 +2442,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-4fabd34c690a4aee",
@@ -2891,7 +2470,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-cb381c3360412a7e",
@@ -2919,7 +2498,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "gonzo-e7ccc4a3b9229ccb",
@@ -2948,7 +2527,7 @@
       "image_type": null,
       "year_basis": "inferred_from_current_programme",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-ba8a5dd1002791aa",
@@ -2976,7 +2555,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-16f12a567952ad32",
@@ -3004,7 +2583,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-b5e4b475e678726c",
@@ -3032,7 +2611,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-8b7a618d3b145559",
@@ -3060,7 +2639,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "supermarket-56901a1001103927",
@@ -3088,7 +2667,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-3b11d7f71e8f1c2d",
@@ -3116,7 +2695,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-308c0c495d817bed",
@@ -3144,7 +2723,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-1cbbd97332c2f9fa",
@@ -3201,7 +2780,7 @@
       "image_type": null,
       "year_basis": "inferred_from_current_programme",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-beb414623b5f6116",
@@ -3229,7 +2808,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-cdc1fe8225a2369b",
@@ -3257,7 +2836,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-214a955b18faa1ff",
@@ -3285,7 +2864,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "supermarket-d08cf96525f3a5d1",
@@ -3313,7 +2892,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-628ff6437b322e17",
@@ -3341,7 +2920,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-2428310a87be5be6",
@@ -3369,7 +2948,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-420b88c4a2044ad5",
@@ -3397,7 +2976,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-9b2d5bceb791aa8d",
@@ -3425,7 +3004,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-33811514b654665e",
@@ -3482,7 +3061,7 @@
       "image_type": null,
       "year_basis": "inferred_from_current_programme",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-6df796e39476c68f",
@@ -3510,7 +3089,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-33812a8c5e719544",
@@ -3538,7 +3117,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-4b9d83b89a3c5125",
@@ -3566,7 +3145,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-7e72596508ae2286",
@@ -3594,7 +3173,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-d76402323cdf39de",
@@ -3622,7 +3201,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-19b60ad0e0794ccc",
@@ -3650,7 +3229,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-ae4f3a95826b5db6",
@@ -3678,7 +3257,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-5e831bb16fe97262",
@@ -3706,7 +3285,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-b02c6d5a3bbf80f2",
@@ -3762,7 +3341,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "gonzo-7b8b4979f4e7e8a9",
@@ -3791,7 +3370,7 @@
       "image_type": null,
       "year_basis": "inferred_from_current_programme",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "friedas_buexe-76e22e518444b703",
@@ -3819,7 +3398,7 @@
       "image_source": "friedas_buexe",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-66aa1c31a4ab7991",
@@ -3847,7 +3426,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-d27bbc843d03901a",
@@ -3875,7 +3454,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-5aeec2d8b66c579a",
@@ -3903,7 +3482,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-6c27c0de5bad4cae",
@@ -3931,7 +3510,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-ab3a05950c650d56",
@@ -3987,7 +3566,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-1d278595ed1e3e71",
@@ -4015,7 +3594,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-510b60b0f957addb",
@@ -4043,7 +3622,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-7523c9ef986cf219",
@@ -4071,7 +3650,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-641f87c8072806ea",
@@ -4099,7 +3678,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-af28a8e0f338e2e0",
@@ -4127,7 +3706,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-91de5cd77bf1d2a9",
@@ -4155,7 +3734,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-779750e511cfd976",
@@ -4183,7 +3762,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-6409c15681de2877",
@@ -4211,7 +3790,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-85c4f0f1b250c909",
@@ -4239,7 +3818,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-54f4c2278f314101",
@@ -4267,7 +3846,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-64a6dc52cbc90179",
@@ -4295,7 +3874,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-b2d44ab852a33f3b",
@@ -4323,7 +3902,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-cbadee9ec5f077a3",
@@ -4351,7 +3930,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-daaf4566a3bc3430",
@@ -4379,7 +3958,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-83c4b64a27a527a7",
@@ -4407,7 +3986,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-e4c830cacf493c3c",
@@ -4435,7 +4014,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-5868a5415c00660d",
@@ -4463,7 +4042,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-227d5ebbbb2488fe",
@@ -4491,7 +4070,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-05bcc3275b36e02f",
@@ -4519,7 +4098,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-16adb391f87b919d",
@@ -4547,7 +4126,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-ce351e2fa1dbfca2",
@@ -4575,7 +4154,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-70e754434f7056be",
@@ -4603,7 +4182,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-e309fbbe8bb9bfcb",
@@ -4631,7 +4210,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-804c004a4bb746f3",
@@ -4659,7 +4238,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-30d63078114570fe",
@@ -4687,7 +4266,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-61e293f5ca3fa9b9",
@@ -4743,7 +4322,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-ba8834858464627b",
@@ -4771,7 +4350,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kauz-353069a7f02f72d6",
@@ -4799,7 +4378,7 @@
       "image_source": "kauz",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-1d0aa0c8eade6d09",
@@ -4827,7 +4406,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-4a50cc527b6a25f3",
@@ -4855,7 +4434,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-f161971a4f0b3d24",
@@ -4883,7 +4462,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-bde0efe5a1c67c7e",
@@ -4911,7 +4490,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-de98c053c392eff1",
@@ -4939,7 +4518,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-ea51e53cd54218ef",
@@ -4995,7 +4574,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-5c2345eb90982506",
@@ -5023,7 +4602,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-5a42645ccf9d3ad0",
@@ -5051,7 +4630,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-d4bd34fd4fe382ff",
@@ -5079,7 +4658,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-7e1050bbddfe9c8f",
@@ -5135,7 +4714,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-51166d81eb58ca26",
@@ -5163,7 +4742,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-e54e66b2411c93db",
@@ -5191,7 +4770,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-08a7b01dc837a86f",
@@ -5219,7 +4798,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-75cf6f6909314b09",
@@ -5247,7 +4826,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-1cf7e2ac8d1bc3cf",
@@ -5275,7 +4854,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-9205dac348502415",
@@ -5303,7 +4882,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-2695b482bf72b0e3",
@@ -5359,7 +4938,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-eec9657188d29aa5",
@@ -5387,7 +4966,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-86423c6ea63c3508",
@@ -5415,7 +4994,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-a03658cd0bc2f27a",
@@ -5443,7 +5022,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-671b7c4956649f64",
@@ -5471,7 +5050,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-dc1c8b9abce4cb96",
@@ -5499,7 +5078,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-a535220b8877924f",
@@ -5527,7 +5106,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-a7a944de5a37e641",
@@ -5555,7 +5134,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-e295f473e98c898c",
@@ -5583,7 +5162,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-d59586ddb4f68c30",
@@ -5611,7 +5190,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-f359b9e74b5410bd",
@@ -5639,7 +5218,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-818852b0f478a3ff",
@@ -5667,7 +5246,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-cdda2f7c7cd4aded",
@@ -5695,7 +5274,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-eb0d28ff40c522a1",
@@ -5723,7 +5302,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-23b1a180c6b5e30a",
@@ -5751,7 +5330,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-8f986750cec343c1",
@@ -5779,7 +5358,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-28a9c53b0802fe2f",
@@ -5807,7 +5386,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-e394e7e473eada9c",
@@ -5835,7 +5414,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-1543e8279f32ac35",
@@ -5863,7 +5442,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-afc6556448f65abb",
@@ -5891,7 +5470,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-cbe8fe2f2c00e23e",
@@ -5919,7 +5498,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T13:19:45+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-851744cfb07d50ae",
@@ -5947,7 +5526,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "hive-d84095d31545eb06",
@@ -5975,7 +5554,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-59315028ace3f6e1",
@@ -6003,7 +5582,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-82084b6b5ffbc18a",
@@ -6031,7 +5610,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-2de5dca6a89174d3",
@@ -6059,7 +5638,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-450eb0004eade902",
@@ -6087,7 +5666,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-7aa217a935c2e64c",
@@ -6115,7 +5694,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-0d568688134b24a7",
@@ -6143,7 +5722,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-3c409473b703fa6e",
@@ -6171,7 +5750,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-2d0b9832964526b1",
@@ -6199,7 +5778,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-5bfa8bd1b19ad9fe",
@@ -6255,7 +5834,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-c0e7426c29d219ac",
@@ -6283,7 +5862,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-3974161867c12e89",
@@ -6311,7 +5890,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-9e8dd1150a0d4325",
@@ -6339,7 +5918,7 @@
       "image_source": "dynamo",
       "image_type": "event_flyer",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-ac1e77bfce2e1bf1",
@@ -6367,7 +5946,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-d22c78f09c089da1",
@@ -6395,7 +5974,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-f8abf336cc2074e4",
@@ -6423,7 +6002,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-537a91d00bc8004c",
@@ -6451,7 +6030,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-d345d9fc3f1baed3",
@@ -6479,7 +6058,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-49f6cc09bc858b4c",
@@ -6535,7 +6114,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-6d8915190e091d60",
@@ -6563,7 +6142,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-81ee544d41e3148d",
@@ -6591,7 +6170,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-a72cee744f517159",
@@ -6619,7 +6198,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-d39c62861434cc82",
@@ -6647,7 +6226,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-b3772abb6e6c7b80",
@@ -6675,7 +6254,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-a5073d631ea9e7cc",
@@ -6703,7 +6282,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-21c1d2720a0d6032",
@@ -6731,7 +6310,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-ff23116cbcc8d0aa",
@@ -6787,7 +6366,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-4ef18c5ce4261061",
@@ -6815,7 +6394,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-0ac523244d2402c6",
@@ -6843,7 +6422,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-453c1246c47a0eea",
@@ -6871,7 +6450,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-01c149ed67ca4c90",
@@ -6899,7 +6478,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "moods-24db3134fe0cc926",
@@ -6927,7 +6506,7 @@
       "image_source": "moods",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-c334d029c1bd8f61",
@@ -6955,7 +6534,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-78e8ada66fe0fccd",
@@ -6983,7 +6562,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-fc4ca6b1ac3a712d",
@@ -6992,7 +6571,7 @@
       "time": "19:00",
       "start_at": "2026-11-15T19:00:00+01:00",
       "venue": "Dynamo Zürich",
-      "category": "Kultur & Workshops",
+      "category": "Konzerte",
       "tags": [],
       "source": "dynamo",
       "source_url": "https://www.dynamo.ch/veranstaltung/bergmal-presents-nordic-giants-uk-sunset-images-mx",
@@ -7011,7 +6590,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-a72e7dd30da0fd18",
@@ -7039,7 +6618,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-35e1656c0d558e73",
@@ -7067,7 +6646,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-d93b01405e332acf",
@@ -7095,7 +6674,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-55f9fa6d99db96c0",
@@ -7123,7 +6702,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-a6ebe2830c792c40",
@@ -7151,7 +6730,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-5b579192790f8715",
@@ -7179,7 +6758,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-3087140f987aac36",
@@ -7207,7 +6786,35 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
+    },
+    {
+      "id": "moods-dad42a308a3dc10d",
+      "title": "True Loves",
+      "date": "2026-11-16",
+      "time": "19:30",
+      "start_at": "2026-11-16T19:30:00+01:00",
+      "venue": "Moods",
+      "category": "Konzerte",
+      "tags": [],
+      "source": "moods",
+      "source_url": "https://www.moods.ch/programm/true-loves-2026-11-16",
+      "sources": [
+        {
+          "source": "moods",
+          "url": "https://www.moods.ch/programm/true-loves-2026-11-16"
+        }
+      ],
+      "status": "scheduled",
+      "price_chf": 38.0,
+      "description": null,
+      "latitude": null,
+      "longitude": null,
+      "image_url": "https://www.datocms-assets.com/74496/1773063632-20261116_true_114302_2_web.jpg?fit=crop&w=1200&h=630&fp-x=0.5&fp-y=0.4",
+      "image_source": "moods",
+      "image_type": "event_image",
+      "first_seen": "2026-10-18T03:03:08+02:00",
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-fd78a27db9f90da2",
@@ -7263,7 +6870,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-88377f85fa6843eb",
@@ -7319,7 +6926,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-f83360bc68660ce8",
@@ -7347,7 +6954,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-c532fb728cc17f83",
@@ -7375,7 +6982,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-8c475069535682c1",
@@ -7403,7 +7010,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-0963ca0589b5c939",
@@ -7431,7 +7038,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-a827bac3b85243e5",
@@ -7459,7 +7066,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-2f1de66661d739ba",
@@ -7487,7 +7094,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-90afc8b2756aa04f",
@@ -7515,7 +7122,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-3a39a24a25336b47",
@@ -7543,7 +7150,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-c73a0d3e4cdf3c9c",
@@ -7571,7 +7178,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-4c08a7dcd72e2394",
@@ -7599,7 +7206,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-82bc847a7b1d23c4",
@@ -7627,7 +7234,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-608206a20ca52d2e",
@@ -7655,7 +7262,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-ebdc575cffe88cec",
@@ -7711,7 +7318,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-2d3c5cb8ade66725",
@@ -7767,7 +7374,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-db7456639b4df6a2",
@@ -7795,7 +7402,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-5d3ac10ce94328b2",
@@ -7823,7 +7430,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-70e13aea9afd9ac0",
@@ -7851,7 +7458,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-c4e22f6401b4d78c",
@@ -7907,7 +7514,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-d52af8cccb955f3c",
@@ -7935,7 +7542,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-5a3c5da93749d353",
@@ -7963,7 +7570,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-4ea93bc88bf851a3",
@@ -7991,7 +7598,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-5d731afd28411d7a",
@@ -8019,7 +7626,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-6d8ac0ceb18fc36b",
@@ -8047,7 +7654,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-279258193d7affa0",
@@ -8075,7 +7682,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-a4690bbc988e191a",
@@ -8131,7 +7738,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-39a3d1523a6aef12",
@@ -8159,7 +7766,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-4a081ad16c05dd29",
@@ -8187,7 +7794,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-8ea0f9cab8d33576",
@@ -8215,7 +7822,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-cebccf67adbb89aa",
@@ -8243,7 +7850,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-f6a7c82a069f8d54",
@@ -8271,7 +7878,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-4f68c411fb0f0168",
@@ -8299,7 +7906,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-367e935ec1953e6c",
@@ -8327,7 +7934,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-825f468bb1309276",
@@ -8355,7 +7962,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-1d90d23441c29ec3",
@@ -8411,7 +8018,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-0c6790907b67397e",
@@ -8439,7 +8046,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-17532dfda9dc0267",
@@ -8467,7 +8074,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-b4204c5accfacb98",
@@ -8495,7 +8102,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-8c27bc79724af4df",
@@ -8523,7 +8130,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-b190e43beb9b8692",
@@ -8551,7 +8158,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-f2e2a884c33cad23",
@@ -8579,7 +8186,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-f6c3a4f33815cb5d",
@@ -8607,7 +8214,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-ec93a6de39153c9c",
@@ -8635,7 +8242,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-34f5e89c5e62ebf7",
@@ -8663,7 +8270,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-d1b32d8de58f15fb",
@@ -8691,7 +8298,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-c4334e86b481fe11",
@@ -8719,7 +8326,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-6e2f0b9b590f8bef",
@@ -8747,7 +8354,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-2a4dcb5dddb15698",
@@ -8775,7 +8382,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-ebfbdb2f598e495f",
@@ -8803,7 +8410,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-89c15e2b00125589",
@@ -8831,7 +8438,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-988e39605d5cfb45",
@@ -8859,7 +8466,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-ac2b5afe0dd50dc2",
@@ -8915,7 +8522,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-a72b794e745835d9",
@@ -8943,7 +8550,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-2240a45929328388",
@@ -8971,7 +8578,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-4e19ec6862b328dc",
@@ -8999,7 +8606,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-06e6496c538135ef",
@@ -9027,7 +8634,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-e5f00d865ffd738b",
@@ -9083,7 +8690,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-ee9192bc70470798",
@@ -9111,7 +8718,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-a263cd86071d3ed2",
@@ -9139,7 +8746,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-3c0ac60e25e9ba4d",
@@ -9167,7 +8774,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-1766e7919242d09f",
@@ -9195,7 +8802,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-274ef734806ceee3",
@@ -9223,7 +8830,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-46654edbf452eefb",
@@ -9279,7 +8886,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-45c5410a2d8a02d9",
@@ -9307,7 +8914,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-515a5fd78ccd225c",
@@ -9335,7 +8942,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-ea0fb6acf060e314",
@@ -9363,7 +8970,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-94d4e38a019eb51f",
@@ -9391,7 +8998,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-58286c5651874317",
@@ -9419,7 +9026,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-9e81a8d6caa96ee1",
@@ -9447,7 +9054,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-48c8f8215202a89e",
@@ -9475,7 +9082,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-59cf9ab72c7eeff0",
@@ -9503,7 +9110,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-efd47974a5d9a964",
@@ -9531,7 +9138,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-80059d390fd23aeb",
@@ -9559,7 +9166,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-8f6a2c7a75232df0",
@@ -9587,7 +9194,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-cc847d75a008ae37",
@@ -9615,7 +9222,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-a0befda97e44d122",
@@ -9643,7 +9250,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-06d28ca9ed05188b",
@@ -9671,7 +9278,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-65a9c1211c0f1f87",
@@ -9699,7 +9306,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-0b754abe6d1efe88",
@@ -9727,7 +9334,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-f3306a18a7d7c76e",
@@ -9755,7 +9362,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-7760cb75d3f0ccbc",
@@ -9783,7 +9390,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-4f8cf08f159308af",
@@ -9839,7 +9446,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-54f4b46040026ba0",
@@ -9867,7 +9474,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-e4c172c365031948",
@@ -9979,7 +9586,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-ea8222c573c91632",
@@ -10007,7 +9614,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-6f05c8090f20c59f",
@@ -10035,7 +9642,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-143866e4f4226ce2",
@@ -10063,7 +9670,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-38127ff81d42d51c",
@@ -10091,7 +9698,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-e8022e4af2fdfc3a",
@@ -10119,7 +9726,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-3341b339696f2e4a",
@@ -10147,7 +9754,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-fd81572b29293d35",
@@ -10175,7 +9782,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-109dddd6613704a8",
@@ -10203,7 +9810,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-899cee61fefe8b39",
@@ -10231,7 +9838,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-701a312c7bd5d99d",
@@ -10259,7 +9866,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-1461e5ed86146915",
@@ -10315,7 +9922,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-86052c33f7a681db",
@@ -10343,7 +9950,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-b350f51d0a17f0d1",
@@ -10371,7 +9978,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-2a08fe7a8c7ecb8e",
@@ -10455,7 +10062,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-0b076e0dce97abd4",
@@ -10483,7 +10090,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-4e9a28ea1442b83d",
@@ -10539,7 +10146,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-3f8fefb98bbb7590",
@@ -10567,7 +10174,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-b7ed8106050e62a3",
@@ -10595,7 +10202,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-2762fc1e93807a9c",
@@ -10623,7 +10230,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-ffea9779db8cab35",
@@ -10651,7 +10258,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-ad7c7b226361161d",
@@ -10679,7 +10286,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-a6242f2be0cb949e",
@@ -10707,7 +10314,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-e1fad77b6c8bee69",
@@ -10735,7 +10342,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-d6dabf7e8a503833",
@@ -10763,7 +10370,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "dynamo-2ffe4380c0a1835a",
@@ -10791,7 +10398,7 @@
       "image_source": "dynamo",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-c67e2c20cd7a3d42",
@@ -10847,7 +10454,7 @@
       "image_source": null,
       "image_type": null,
       "first_seen": "2026-10-17T12:37:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-41e8012d73d0ffd8",
@@ -10875,7 +10482,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-c7b852d7ec73b35a",
@@ -10931,7 +10538,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "exil-c2fe578429825a99",
@@ -10959,7 +10566,7 @@
       "image_source": "exil",
       "image_type": "event_image",
       "first_seen": "2026-10-17T11:49:10+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-6cb1c7a000463241",
@@ -11015,7 +10622,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-4e11bb5d4afc586a",
@@ -11043,7 +10650,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-8287522d0a03f07d",
@@ -11071,7 +10678,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-5618235a2979b48e",
@@ -11099,7 +10706,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-6e87d62474c40997",
@@ -11127,7 +10734,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-132aa7f328db1a14",
@@ -11155,7 +10762,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-1fc076385077be9c",
@@ -11183,7 +10790,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "plaza-bc6fb941b0fdc95b",
@@ -11239,7 +10846,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-17d1f577e6e4f17d",
@@ -11267,7 +10874,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-af2357a71cfc8fa6",
@@ -11295,7 +10902,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-b44029a7bff0323b",
@@ -11323,7 +10930,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-1140044a5a5a8d52",
@@ -11351,7 +10958,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-e54d5ed6a84375fc",
@@ -11379,7 +10986,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-7626f83e65632a18",
@@ -11407,7 +11014,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-3c5acb43eb16cdd3",
@@ -11435,7 +11042,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-a52aa6c395200d45",
@@ -11463,7 +11070,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-627f2dd0c246e378",
@@ -11491,7 +11098,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-3a2aa98200379423",
@@ -11519,7 +11126,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-abc84b6832cce145",
@@ -11547,7 +11154,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-be905ab4d6f56472",
@@ -11575,7 +11182,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     },
     {
       "id": "kaufleuten-ae2c4c5f7ee9412f",
@@ -11603,7 +11210,7 @@
       "image_source": "kaufleuten",
       "image_type": "event_image",
       "first_seen": "2026-10-17T12:14:28+02:00",
-      "last_seen": "2026-10-17T20:49:57+02:00"
+      "last_seen": "2026-10-18T03:03:08+02:00"
     }
   ]
 }
