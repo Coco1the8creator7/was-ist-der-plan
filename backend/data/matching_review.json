@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:29:50+02:00",
+  "generated_at": "2026-10-20T22:35:58+02:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1456,6 +1456,14 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
+    },
+    {
+      "left": "supermarket-56901a1001103927",
+      "right": "ubwg-cd03000e0bf728db",
+      "date": "2026-10-29",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
     },
     {
       "left": "supermarket-d08cf96525f3a5d1",
