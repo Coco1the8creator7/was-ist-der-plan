@@ -16,6 +16,7 @@ CATEGORIES = (SOUND, CULTURE, CONCERTS)
 
 # Sources whose published programmes are mostly parties, club nights or bar DJ sets.
 NIGHTLIFE_SOURCES = frozenset({
+    "ubwg",
     "exil", "hive", "plaza", "kauz", "gonzo", "friedas_buexe",
     "supermarket", "stereo_bar",
     "dachstock_bern", "gaskessel_bern", "isc_bern", "bierhuebeli_bern",

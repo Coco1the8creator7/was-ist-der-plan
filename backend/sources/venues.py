@@ -8,6 +8,8 @@ from __future__ import annotations
 import hashlib
 import re
 import time
+from threading import Lock
+from collections import defaultdict
 from dataclasses import dataclass
 from datetime import date, datetime
 from urllib.parse import urljoin, urlparse
@@ -21,6 +23,8 @@ from backend.categories import SOUND, CULTURE, CONCERTS, classify_category
 
 TZ = ZoneInfo("Europe/Zurich")
 UA = "was-ist-der-plan/0.2 (+https://github.com/Coco1the8creator7/was-ist-der-plan)"
+DOMAIN_LOCKS = defaultdict(Lock)
+DOMAIN_LAST_REQUEST = {}
 MONTHS = {
     "januar": 1, "january": 1, "jan": 1, "februar": 2, "february": 2, "feb": 2,
     "märz": 3, "maerz": 3, "march": 3, "mar": 3, "april": 4, "apr": 4,
@@ -140,14 +144,14 @@ def make_event(v: Venue, title: str, day: date, clock: str, url: str,
     title = re.sub(r"\s+", " ", title).strip(" -–|")
     if not title or len(title) < 2 or len(title) > 260 or not is_future(day, today):
         return None
-    h, m = map(int, clock.split(":"))
-    local = datetime(day.year, day.month, day.day, h, m, tzinfo=TZ)
+    local = datetime.combine(day, datetime.strptime(clock, "%H:%M").time(), TZ) if clock else None
     identity = f"{v.key}|{url}|{day.isoformat()}" + (f"|{title.casefold()}" if v.key == "supermarket" else "")
     price = re.search(r"\bCHF\s*(\d{1,4}(?:[.,]\d{1,2})?)", text, re.I)
     event = {
         "id": f"{v.key}-{hashlib.sha256(identity.encode()).hexdigest()[:16]}",
         "title": title, "date": day.isoformat(), "time": clock,
-        "start_at": local.isoformat(), "venue": venue_name or v.name,
+        "start_at": local.isoformat() if local else None, "time_unknown": not bool(clock),
+        "venue": venue_name or v.name,
         "category": category_for(v.key, title, v.category, url, text, venue_name or v.name, clock),
         "tags": [], "source": v.key, "source_url": url,
         "sources": [{"source": v.key, "url": url}],
@@ -177,19 +181,37 @@ class RespectfulClient:
             raise RuntimeError(f"robots.txt unavailable ({res.status_code}); crawl skipped")
         self.last_request = 0.0
 
-    def fetch(self, url: str) -> BeautifulSoup:
+    def request(self, url: str, method: str = "GET", redirects: int = 0):
+        if redirects > 5:
+            raise RuntimeError("Too many redirects")
         parsed = urlparse(url)
         if parsed.scheme != "https" or parsed.hostname != self.root_host:
             raise ValueError(f"foreign or insecure URL: {url}")
         if self.robots and not self.robots.can_fetch(UA, url):
             raise RuntimeError("robots.txt disallows requested page")
         # Gentle access; no attempts to evade blocks or CAPTCHA.
-        wait = 1.1 - (time.monotonic() - self.last_request)
-        if wait > 0:
-            time.sleep(wait)
-        res = self.s.get(url, timeout=25)
-        self.last_request = time.monotonic()
+        delay = max(1.1, self.robots.crawl_delay(UA) or self.robots.crawl_delay("*") or 0) if self.robots else 1.1
+        with DOMAIN_LOCKS[self.root_host]:
+            wait = delay - (time.monotonic() - DOMAIN_LAST_REQUEST.get(self.root_host, 0))
+            if wait > 0:
+                time.sleep(wait)
+            try:
+                res = self.s.request(method, url, timeout=25, allow_redirects=False,
+                                     headers={"X-Requested-With": "XMLHttpRequest"} if method == "POST" else {})
+            finally:
+                self.last_request = DOMAIN_LAST_REQUEST[self.root_host] = time.monotonic()
+        # Validate every redirect before following it; never leave this host or
+        # inadvertently follow a redirect into a robots-disallowed resource.
+        if res.is_redirect:
+            target = urljoin(url, res.headers["Location"])
+            if target == url:
+                raise RuntimeError("Redirect loop")
+            return self.request(target, method, redirects + 1)
         res.raise_for_status()
+        return res
+
+    def fetch(self, url: str, method: str = "GET") -> BeautifulSoup:
+        res = self.request(url, method)
         return BeautifulSoup(res.text, "html.parser")
 
 
