@@ -32,6 +32,7 @@ class MunicipalSource:
 MUNICIPAL_SOURCES = (
     MunicipalSource("gemeinde_belp", "https://www.belp.ch/de/veranstaltungen/", "Belp"),
     MunicipalSource("gemeinde_uttigen", "https://www.uttigen.ch/de/veranstaltungen/", "Uttigen"),
+    MunicipalSource("gemeinde_ostermundigen", "https://www.ostermundigen.ch/de/veranstaltungen/", "Ostermundigen"),
 )
 
 def event_links(doc: BeautifulSoup, index: str) -> list[str]:
