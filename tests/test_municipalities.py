@@ -75,5 +75,23 @@ class TownEventTests(unittest.TestCase):
         self.assertEqual(event_links(listing,src.index),
           ["https://www.belp.ch/de/veranstaltungen/679_b%C3%A4uper-musig-nacht"])
 
+    def test_ostermundigen_concert_detail(self):
+        src = next(v for v in MUNICIPAL_SOURCES if v.key == "gemeinde_ostermundigen")
+        doc = html("Konzert Tell _ jazz à bientôt",
+           "<p>Datum/Zeit</p><p>23.10.2026 | 20:00 Uhr - 23:30 Uhr</p>"
+           "<p>Kategorie</p><p>Anlässe im Treffpunkt Mundige, Konzert, Musik</p>"
+           "<p>Lokalität</p><p>Treffpunkt Mundige</p>"
+           "<p>Strasse</p><p>Bernstrasse 101</p><p>Ort</p><p>Ostermundigen</p>"
+           "<p>Veranstalter</p><p>Kulturverein Mundige</p>"
+           "<p>Beschreibung</p><p>Jazzevent im Treffpunkt mit Musikern und zeitgenössischer Musik</p>"
+           "<p>Termin in Kalender eintragen</p>")
+        event, error = parse_municipal_detail(
+            src, doc, "https://www.ostermundigen.ch/de/veranstaltungen/1122_konzert-tell",date(2026,10,20))
+        self.assertIsNone(error)
+        self.assertEqual(event["municipality"], "Ostermundigen")
+        self.assertEqual(event["venue"], "Treffpunkt Mundige")
+        self.assertEqual(event["category"], CONCERTS)
+        self.assertEqual(event["time"], "20:00")
+
 if __name__=="__main__":
     unittest.main()
