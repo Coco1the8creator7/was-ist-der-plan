@@ -30,6 +30,7 @@ class CatalogMetricsTest(unittest.TestCase):
             with patch.object(app, "OUT", events), patch.object(app, "QUALITY", quality), \
                  patch.object(app, "RAW", Path(root) / "raw.json"), \
                  patch.object(app, "MATCHES", Path(root) / "matches.json"), \
+                 patch.object(app, "PROVENANCE", Path(root) / "provenance.json"), \
                  patch.object(app, "ZURICH_SOURCES", ()), \
                  patch.object(app, "VENUES", ()), patch.object(app, "FAVORITES", ()), \
                  patch.object(app, "BERN_SOURCES", ()), patch.object(app, "MUNICIPAL_SOURCES", ()), \
@@ -60,6 +61,7 @@ class RetentionTest(unittest.TestCase):
                 out.write_text(json.dumps({'events':[old]}))
                 with patch.object(app,'OUT',out),patch.object(app,'QUALITY',quality), \
                      patch.object(app,'RAW',Path(root)/'raw.json'),patch.object(app,'MATCHES',Path(root)/'matches.json'), \
+                     patch.object(app,'PROVENANCE',Path(root)/'provenance.json'), \
                      patch.object(app,'VENUES',()),patch.object(app,'FAVORITES',()),patch.object(app,'BERN_SOURCES',()), \
                      patch.object(app,'MUNICIPAL_SOURCES',()),patch.object(app,'ZURICH_SOURCES',()), \
                      patch.object(app,'crawl_exil',return_value=outcome), \

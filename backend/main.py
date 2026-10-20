@@ -22,6 +22,7 @@ OUT = ROOT / "site/data/events.json"
 QUALITY = ROOT / "site/data/quality.json"
 RAW = ROOT / "backend/data/raw_events.json"
 MATCHES = ROOT / "backend/data/matching_review.json"
+PROVENANCE = ROOT / "backend/data/canonical_provenance.json"
 TZ = ZoneInfo("Europe/Zurich")
 
 
@@ -161,9 +162,13 @@ def main(rebuild=False, source_filter=None):
             "pagination_complete": meta.get("pagination_complete"),
             "upstream_total": meta.get("upstream_total"),
             "listing_pages": meta.get("listing_pages"),
-            "skipped_out_of_range": meta.get("skipped_out_of_range", 0),
+            "skipped_out_of_range": meta.get("skipped_out_of_range"),
+            "excluded_candidates": meta.get("excluded_candidates"),
+            "exclusion_scope": meta.get("exclusion_scope"),
             "sample_coverage": old_quality.get("sample_coverage"),
             "sample_size": old_quality.get("sample_size", 0),
+            "sample_checked_at": old_quality.get("sample_checked_at"),
+            "sample_method": old_quality.get("sample_method"),
         }
         summary.append(f"{key}: {state} ({len(events)}/{found})")
     for key, reason in PENDING.items():
@@ -195,7 +200,8 @@ def main(rebuild=False, source_filter=None):
             event.update(empty_image_fields())
     raw_catalog = catalog
     geocoding = enrich_coordinates(raw_catalog, limit=0 if rebuild else 40)
-    catalog, reviews, merged, unique = canonicalize(raw_catalog, old.get("events", []))
+    previous = load(PROVENANCE, old)
+    catalog, reviews, merged, unique = canonicalize(raw_catalog, previous.get("events", []))
     for key, q in quality.items():
         q["cross_source_merged"] = merged.get(key, 0)
         q["canonical_contribution"] = unique.get(key, 0)
@@ -206,10 +212,17 @@ def main(rebuild=False, source_filter=None):
     RAW.parent.mkdir(parents=True, exist_ok=True)
     RAW.write_text(json.dumps({"generated_at": now, "events": raw_catalog}, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     MATCHES.write_text(json.dumps({"generated_at": now, "candidates": reviews}, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+    PROVENANCE.write_text(json.dumps({"generated_at": now, "events": [
+        {k: e.get(k) for k in ("id", "raw_keys", "field_sources", "match_confidence")}
+        for e in catalog
+    ]}, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+    public = [{k: v for k, v in e.items() if k not in {
+        "raw_keys", "field_sources", "classification_context", "source_event_id", "retained_fields"
+    }} for e in catalog]
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps({
         "schema_version": 1, "generated_at": now, "timezone": "Europe/Zurich",
-        "total": len(catalog), "events": catalog,
+        "total": len(public), "events": public,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     QUALITY.write_text(json.dumps({
         "generated_at": now, "catalog_total": len(catalog),

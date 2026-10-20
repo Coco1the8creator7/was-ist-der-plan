@@ -53,7 +53,9 @@ def build(key, title, start, clock, url, venue, today, description="", city=None
 
 
 def result(events, errors, discovered, skipped=0, **meta):
-    return len(events) + len(errors), events, errors, dict(discovered_links=discovered, skipped_out_of_range=skipped, **meta)
+    return len(events) + len(errors), events, errors, dict(
+        discovered_links=discovered, excluded_candidates=skipped,
+        exclusion_scope="Outside date window or without a verified eligible locality", **meta)
 
 
 def parse_city(row, today):
@@ -335,7 +337,7 @@ def parse_petzi(doc, url, today):
 
 def crawl_petzi(today):
     c = RespectfulClient('https://www.petzi.ch/de/')
-    links, errors, events = set(), [], []
+    links, errors, events, ignored = set(), [], [], 0
     for city in ['Zürich', 'Winterthur', 'Baden', 'Wetzikon', 'Rapperswil']:
         for page in range(1,5):
             url = 'https://www.petzi.ch/de/search/?'+urlencode(dict(location=city,from_date=today.isoformat(),to_date=(today+timedelta(days=90)).isoformat(),page=page))
@@ -353,8 +355,9 @@ def crawl_petzi(today):
         try:
             e = parse_petzi(c.fetch(url),url,today)
             if e: events.append(e)
+            else: ignored += 1
         except Exception as exc: errors.append(f'{url}: {type(exc).__name__}: {str(exc)[:100]}')
-    return result(events, errors, len(links))
+    return result(events, errors, len(links), ignored)
 
 
 ICMS = {'gemeinde_thalwil':('https://www.thalwil.ch/anlaesseaktuelles','Thalwil'),

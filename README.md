@@ -23,6 +23,7 @@ Teilweise oder fehlgeschlagene Quellen stehen in `quality.json`. Der Gesamtimpor
 - `backend/canonical.py`: konservatives Matching, Feldherkunft und Quellenzusammenführung
 - `backend/geocoding.py`: eindeutige Schweizer Gebäudeadressen mit Cache
 - `backend/data/raw_events.json`: quellengetrennte Rohdatensätze
+- `backend/data/canonical_provenance.json`: Feldherkunft und Rohdatenzuordnung; nicht Teil des Browser-Downloads
 - `backend/data/matching_review.json`: wahrscheinliche und unklare Treffer, automatisch getrennt
 - `backend/data/venues.json`: verifizierte und ergebnislose Adressabfragen
 - `backend/sources/venues.py`: neue getrennt konfigurierte Pilot-Adapter für Veranstaltungsorte
