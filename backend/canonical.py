@@ -13,7 +13,7 @@ from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 import hashlib
 from math import cos, radians, hypot
 
-AGGREGATORS = {"kulturzueri", "petzi", "ubwg", "friedas_buexe"}
+AGGREGATORS = {"kulturzueri", "petzi", "ubwg", "friedas_buexe", "onthur"}
 ALIASES = {"hiveclub": "hive", "hiveclubzurich": "hive", "kauzklub": "kauz",
            "plazaklub": "plaza", "gonzoclub": "gonzo", "exilclub": "exil",
            "friedasbuexe": "friedasbuxe", "helsinkiklub": "helsinki",
@@ -114,6 +114,11 @@ def canonicalize(records, previous=()):
             groups.append(target)
         target.append(e)
     result = []
+    candidate_levels = {}
+    for review in reviews:
+        for side in ("left", "right"):
+            if candidate_levels.get(review[side]) != "probable":
+                candidate_levels[review[side]] = review["level"]
     merged_by_source = defaultdict(int)
     unique_by_source = defaultdict(int)
     used_ids = set()
@@ -140,7 +145,16 @@ def canonicalize(records, previous=()):
         # Preserve saved frontend favourites when an official source is added.
         base["id"] = next((previous_ids[k] for k in base["raw_keys"] if k in previous_ids),
                           min(group, key=lambda e: (e.get("first_seen", ""), e["id"]))["id"])
-        base["match_confidence"] = "certain" if len(group) > 1 else "independent"
+        base["tags"] = list(dict.fromkeys(tag for e in group for tag in e.get("tags", []) if isinstance(tag, str)))
+        for field, choose in (("first_seen", min), ("last_seen", max)):
+            seen = [e for e in group if e.get(field)]
+            if seen:
+                chosen = choose(seen, key=lambda e: e[field])
+                base[field] = chosen[field]
+                base["field_sources"][field] = chosen["source"]
+        levels = {candidate_levels.get(e["id"]) for e in group}
+        base["match_confidence"] = "certain" if len(group) > 1 else (
+            "probable" if "probable" in levels else "uncertain" if "uncertain" in levels else "independent")
         base["normalized_title"] = normalize(base.get("title"))
         base.setdefault("original_title", base.get("title"))
         if base["id"] in used_ids:

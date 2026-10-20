@@ -85,3 +85,14 @@ class ZurichFixtures(unittest.TestCase):
         self.assertTrue(events)
         self.assertTrue(errors)
         self.assertFalse(meta['pagination_complete'])
+
+    def test_onthur_shared_programme_explicit_formats(self):
+        from backend.sources.zurich import parse_onthur
+        _,events,errors,_=parse_onthur(doc('onthur'),TODAY)
+        self.assertEqual(len(events),3)
+        self.assertFalse(errors)
+        self.assertEqual(events[0]['category'],'Kultur & Workshops')
+        concert=next(e for e in events if 'Makthaverskan' in e['title'])
+        self.assertEqual(concert['category'],'Konzerte')
+        self.assertEqual(concert['city'],'Winterthur')
+        self.assertEqual(concert['date'],'2026-10-21')

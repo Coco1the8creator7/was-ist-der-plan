@@ -13,7 +13,7 @@ def event(source='official', **changes):
 class CanonicalTest(unittest.TestCase):
     def test_official_fields_win_missing_fields_enriched(self):
         a=event(price_chf=25)
-        b=event('ubwg',description='Details',price_chf=30)
+        b=event('ubwg',description='Details',price_chf=30,tags=['House'])
         records,review,merged,unique=canonicalize([b,a])
         self.assertEqual(len(records),1)
         self.assertEqual(records[0]['price_chf'],25)
@@ -21,6 +21,7 @@ class CanonicalTest(unittest.TestCase):
         self.assertEqual(records[0]['field_sources']['price_chf'],'official')
         self.assertEqual(len(records[0]['sources']),2)
         self.assertEqual(merged,{'ubwg':1})
+        self.assertEqual(records[0]['tags'],['House'])
 
     def test_other_dates_clocks_floors_and_cities_are_separate(self):
         for changes in [dict(date='2026-10-25'),dict(time='23:00'),dict(venue='Friedas Büxe Floor 2'),dict(city='Baden')]:

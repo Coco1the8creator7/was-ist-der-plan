@@ -13,7 +13,7 @@ from backend.sources.venues import RespectfulClient, Venue, TZ, make_event, is_f
 from backend.sources.images import extract_event_image, is_valid_image_url
 from backend.categories import classify_category
 
-SOURCES = ("stadt_zuerich", "rote_fabrik", "ubwg", "kulturzueri", "petzi", "gemeinde_thalwil", "gemeinde_regensdorf", "gemeinde_uster", "gemeinde_kloten")
+SOURCES = ("onthur", "stadt_zuerich", "rote_fabrik", "ubwg", "kulturzueri", "petzi", "gemeinde_thalwil", "gemeinde_regensdorf", "gemeinde_uster", "gemeinde_kloten")
 # Explicitly verified programme localities; unknown places remain excluded from
 # national feeds until independently verified. No guessed GPS coordinates.
 LOCALITIES = {"Zürich", "Winterthur", "Baden", "Wettingen", "Uster", "Wetzikon", "Dübendorf", "Wallisellen",
@@ -29,7 +29,7 @@ def text(value):
 
 def image(event, url):
     if is_valid_image_url(url):
-        event.update(image_url=url, image_type="event", image_source=event["source"])
+        event.update(image_url=url, image_type="event_image", image_source=event["source"])
 
 
 def build(key, title, start, clock, url, venue, today, description="", city=None, **fields):
@@ -125,7 +125,8 @@ def parse_rote(row, today):
     url = f"https://rotefabrik.ch/programm#/events/{row['id']}"
     e = build("rote_fabrik", obj["title"], day.isoformat(), clock, url, "Rote Fabrik " + obj.get("location", {}).get("name", ""), today,
               description, "Zürich", source_event_id=str(row["id"]), doors_time=(row.get("door") or "")[:5] or None,
-              ticket_url=obj.get("ticket_link") or None, tags=cats, venue_id="rotefabrik:"+str(obj.get("location_id")))
+              ticket_url=obj.get("ticket_link") or None, tags=cats, venue_id="rotefabrik:"+str(obj.get("location_id")),
+              address="Seestrasse 395", canton="ZH")
     if e:
         if obj.get("state") == 4:
             e["status"] = "cancelled"
@@ -337,7 +338,7 @@ def crawl_petzi(today):
     links, errors, events = set(), [], []
     for city in ['Zürich', 'Winterthur', 'Baden', 'Wetzikon', 'Rapperswil']:
         for page in range(1,5):
-            url = 'https://www.petzi.ch/de/search/?'+urlencode(dict(q=city,from_date=today.isoformat(),to_date=(today+timedelta(days=90)).isoformat(),page=page))
+            url = 'https://www.petzi.ch/de/search/?'+urlencode(dict(location=city,from_date=today.isoformat(),to_date=(today+timedelta(days=90)).isoformat(),page=page))
             try:
                 doc = c.fetch(url)
             except Exception as exc:
@@ -396,5 +397,47 @@ def crawl_zurich(key,today=None):
     if key in ICMS:
         index,_ = ICMS[key]
         return parse_icms(RespectfulClient(index).fetch(index),key,index,today)
-    return {'stadt_zuerich':crawl_city,'rote_fabrik':crawl_rote,'ubwg':crawl_ubwg,
+    return {'onthur':crawl_onthur,'stadt_zuerich':crawl_city,'rote_fabrik':crawl_rote,'ubwg':crawl_ubwg,
             'kulturzueri':crawl_kultur,'petzi':crawl_petzi}[key](today)
+
+
+def parse_onthur(doc,today):
+    """The Winterthur clubs' shared programme exposes ISO day groups in HTML."""
+    events,errors,skipped,found=[],[],0,0
+    venues={'Albani','Gaswerk','Kraftfeld','Portier','Salzhaus'}
+    for group in doc.select('.calendarDayGroup[data-date]'):
+        day=group['data-date']
+        for tile in group.select('article.calendarTile'):
+            found+=1
+            if not is_future(date.fromisoformat(day),today):
+                skipped+=1
+                continue
+            try:
+                link=tile.select_one('h2 a[href]')
+                where=tile.select_one('.locationBtn')
+                venue=where.get_text(' ',strip=True) if where else ''
+                if venue not in venues:
+                    errors.append(f'{day}: unverified OnThur venue {venue}')
+                    continue
+                label=tile.select_one('h4').get_text(' ',strip=True)
+                match=re.search(r'\b(\d{2}:\d{2})\s*Uhr',label)
+                clock=match[1] if match else None
+                url=link['href']
+                e=build('onthur',link.get_text(' ',strip=True),day,clock,url,venue,today,
+                        city='Winterthur',source_event_id=urlsplit(url).path)
+                if e:
+                    kind=label.split('|',1)[0].strip()
+                    e['category']=classify_category(e['title'],venue=venue,details='Format: '+kind)
+                    e['tags']=[kind] if kind else []
+                    art=tile.select_one('[data-src]')
+                    if art:image(e,art['data-src'])
+                    events.append(e)
+            except (AttributeError,KeyError,ValueError) as exc:
+                errors.append(f'{day}: {type(exc).__name__}: {exc}')
+    if not found: errors.append('No ISO-dated OnThur calendar groups found')
+    return result(events,errors,found,skipped,pagination_complete=True)
+
+
+def crawl_onthur(today):
+    c=RespectfulClient('https://www.onthur.ch/')
+    return parse_onthur(c.fetch('https://www.onthur.ch/'),today)

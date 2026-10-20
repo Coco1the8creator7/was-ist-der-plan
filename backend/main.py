@@ -36,7 +36,7 @@ def event_identity(event):
     return raw_identity(event)
 
 
-def main(rebuild=False):
+def main(rebuild=False, source_filter=None):
     now = datetime.now(TZ).isoformat(timespec="seconds")
     today = datetime.now(TZ).date()
     old = load(OUT, {"events": []})
@@ -60,6 +60,11 @@ def main(rebuild=False):
     if rebuild:
         # Deterministic re-publication after matching-policy changes; no HTTP.
         sources = []
+    elif source_filter:
+        unknown = set(source_filter) - {key for key, _ in sources}
+        if unknown:
+            raise ValueError(f"Unknown sources: {sorted(unknown)}")
+        sources = [(key, crawler) for key, crawler in sources if key in source_filter]
     # Independent domains may be fetched concurrently. Each source retains its own
     # robots-aware, rate-limited HTTP session; repository writes stay sequential.
     with ThreadPoolExecutor(max_workers=4) as pool:
@@ -225,4 +230,6 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--rebuild", action="store_true", help="Rebuild canonical catalog from stored raw events without crawling")
-    main(rebuild=parser.parse_args().rebuild)
+    parser.add_argument("--sources", help="Comma-separated source keys for a targeted crawl; all others retain their raw records")
+    args = parser.parse_args()
+    main(rebuild=args.rebuild, source_filter=args.sources.split(",") if args.sources else None)

@@ -467,7 +467,7 @@ function normalize(raw){
     lat:latRaw==null||latRaw===''?null:Number(latRaw),lon:lonRaw==null||lonRaw===''?null:Number(lonRaw),
     tags:Array.isArray(raw.tags)?raw.tags.filter(t=>typeof t==='string').slice(0,18):[],
     source:String(raw.source||new URL(url).hostname),favorite:favorites.has(String(raw.id||url)),
-    homepageVenue:!['kulturzueri','petzi','ubwg','friedas_buexe','stadt_zuerich'].includes(String(raw.source||''))&&!String(raw.source||'').startsWith('gemeinde_')};
+    homepageVenue:!['kulturzueri','petzi','ubwg','friedas_buexe','stadt_zuerich','onthur'].includes(String(raw.source||''))&&!String(raw.source||'').startsWith('gemeinde_')};
   e.tags=tagsFor(e);return e;
 }
 const FAVORITES_KEY='wip.favorites.v1';
