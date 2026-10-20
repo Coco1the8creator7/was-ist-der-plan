@@ -8,6 +8,7 @@ from zoneinfo import ZoneInfo
 from backend.sources.venues import VENUES, PENDING, crawl_venue
 from backend.sources.bern import BERN_SOURCES, crawl_bern
 from backend.sources.municipalities import MUNICIPAL_SOURCES, crawl_municipality
+from backend.sources.koeniz import crawl_koeniz
 from backend.legacy_exil import crawl_exil
 from backend.sources.favourites import FAVORITES, crawl_favorite
 from backend.sources.images import discard_repeated_generic_images, is_valid_image_url, empty_image_fields
@@ -54,7 +55,7 @@ def main():
         (v.key, lambda v=v: crawl_bern(v)) for v in BERN_SOURCES
     ] + [
         (v.key, lambda v=v: crawl_municipality(v)) for v in MUNICIPAL_SOURCES
-    ]
+    ] + [("gemeinde_koeniz", crawl_koeniz)]
     # Independent domains may be fetched concurrently. Each source retains its own
     # robots-aware, rate-limited HTTP session; repository writes stay sequential.
     with ThreadPoolExecutor(max_workers=4) as pool:
