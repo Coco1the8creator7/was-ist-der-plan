@@ -6,6 +6,10 @@ on:
       - 'site/**'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Eventdaten aktualisieren"]
+    types: [completed]
+    branches: [main]
 permissions:
   contents: read
   pages: write
@@ -15,12 +19,27 @@ concurrency:
   cancel-in-progress: true
 jobs:
   deploy:
+    # GITHUB_TOKEN commits do not emit a new push workflow: deploy on the
+    # successful completion of the scheduled/manual crawler instead.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Validierung des Live-Eventkatalogs
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path("site/data/events.json").read_text(encoding="utf-8"))
+          assert data.get("schema_version") == 1 and data.get("events"), "Eventkatalog fehlt"
+          bern = sum(e.get("region") == "Bern" for e in data["events"])
+          print(f"Publish catalog: {len(data['events'])} events, {bern} region Bern")
+          PY
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
