@@ -3,33 +3,67 @@
 Automatischer Eventkatalog, 90-Tage-Suchfenster, alle 6 Stunden über GitHub Actions.
 
 ## Stand
-- **EXIL**: echter Import am 17.10.2026 erfolgreich (58 Events, keine Parserfehler); manuelle Stichprobenabdeckung noch nicht ermittelt.
-- **Hive, Kaufleuten, Plaza, Kauz, Moods, Dynamo, Supermarket**: erste konservative Parser implementiert, echter Live-Import pro Quelle noch **nicht verifiziert**.
-- **Frieda's Büxe, Helsinki, Rote Fabrik**: erfasst als offene Quelladapter; kein behaupteter erfolgreicher Import.
-- **Zukunft**: ehemaliger Club (Closing 2025), nicht als aktive Quelle.
-- **Kaschemme**: liegt in Basel, deshalb nicht im Zürcher 50-km-Standardgebiet.
+
+Zürich und Umgebung sowie Bern/Umland werden gemeinsam verarbeitet. Die erste
+Zürcher Erweiterungswelle ergänzt Stadt Zürich, Kulturzüri, PETZI, Rote Fabrik,
+UBWG, OnThur (Winterthur) und wiederverwendbare ICMS-Gemeindekalender. Tatsächliche Quellenergebnisse
+und Grenzen stehen im [Quelleninventar](docs/zurich-source-inventory.md) und im
+aktuellen `site/data/quality.json`. Ein registrierter Adapter ist kein Beleg
+für eine vollständige oder erfolgreiche Erfassung.
 
 ## Import starten
 Unter [Actions](https://github.com/Coco1the8creator7/was-ist-der-plan/actions) → **Eventdaten aktualisieren** → **Run workflow**.
 Der Workflow führt zuerst Offline-Tests aus, danach die Quellenabrufe und speichert `site/data/events.json` und `site/data/quality.json`.
-**Wichtig:** Bei nicht erfolgreich importierten Prototyp-Quellen wird der Workflow zur besseren Erkennbarkeit rot, obwohl die gültigen Datensätze aus anderen Quellen erhalten bleiben und die Qualitätsdatei aktualisiert wird.
+Teilweise oder fehlgeschlagene Quellen stehen in `quality.json`. Der Gesamtimport schlägt nur fehl, wenn kein brauchbarer Katalog übrig bleibt; erhaltene Events werden bei Quellausfällen weiter veröffentlicht.
 
 ## Dateien
 - `backend/main.py`: Quellenorchestrierung, Status, Zusammenführung und JSON-Publikation
-- `backend/legacy_exil.py`: bestätigter EXIL-Adapter
+- `backend/legacy_exil.py`: EXIL-Adapter
+- `backend/sources/zurich.py`: neue öffentliche APIs, JSON-LD-Termine und ICMS-Kalender
+- `backend/canonical.py`: konservatives Matching, Feldherkunft und Quellenzusammenführung
+- `backend/geocoding.py`: eindeutige Schweizer Gebäudeadressen mit Cache
+- `backend/data/raw_events.json`: quellengetrennte Rohdatensätze
+- `backend/data/canonical_provenance.json`: Feldherkunft und Rohdatenzuordnung; nicht Teil des Browser-Downloads
+- `backend/data/matching_review.json`: wahrscheinliche und unklare Treffer, automatisch getrennt
+- `backend/data/venues.json`: verifizierte und ergebnislose Adressabfragen
 - `backend/sources/venues.py`: neue getrennt konfigurierte Pilot-Adapter für Veranstaltungsorte
 - `tests/test_venues.py`: Offline-Parsertests
 - `site/data/events.json`: öffentlicher Eventkatalog
 - `site/data/quality.json`: Importzahlen, Fehler und manuelle Erfassungsquote pro Quelle
 
 ## Qualitätsregeln
-Nur Events mit prüfbarem Titel, vollständigem Datum und konkreter Startzeit werden übernommen. Ein fehlgeschlagener Abruf zählt nicht als Erfolg. Vorherige Events bleiben bei Quellausfall erhalten; ihre letzte Sichtung ist in `last_seen` erkennbar. Die aktuelle Dublettenprüfung entfernt wiederholte identische Einzel-Events, aber noch keine belastbaren Dubletten zwischen verschiedenen Ticketshops und Clubhomepages. `sample_coverage` bleibt leer, bis eine echte menschliche Kontrollstichprobe vorliegt.
+Events benötigen einen prüfbaren Titel und ein vollständiges Datum. Unbekannte
+Uhrzeiten werden als `time: null`, `start_at: null`, `time_unknown: true`
+gespeichert; Karten und Kalender zeigen «Zeit offen». Kein künstlicher
+Mitternachtsbeginn. Bestehende Adapter können unlesbare Zeiten weiterhin im
+Qualitätsbericht zurückweisen, bis ihr Detailparser umgestellt ist.
+
+Quellenfehler und unvollständige Pagination löschen keine alten guten Daten.
+Nur eine explizit vollständige, erfolgreiche Quellensichtung darf fehlende
+Einträge entfernen. `last_seen` und erhaltene Felder bleiben nachvollziehbar.
+
+Sichere Übereinstimmungen erzeugen ein kanonisches Event mit `sources`,
+`raw_keys` und `field_sources`; offizielle Quellen haben Vorrang. Identische
+Titel an demselben Ort mit bestätigtem gleichem Beginn erreichen 98 Punkte,
+übereinstimmende URL/Titel/Termin 100. Nur diese werden zusammengeführt.
+Wahrscheinliche Treffer (85) und unklare Titelüberschneidungen (65) bleiben im
+Prüfprotokoll getrennt. Verschiedene Tage, bestätigte Beginnzeiten, Räume oder
+widersprüchliche Koordinaten verhindern eine Zusammenführung.
+
+Geocoding übernimmt nur eindeutige Gebäudeadressen, keine Gemeindezentren.
+Fehlende Koordinaten bleiben unbekannt. Feldabdeckung und Parserausbeute sind
+keine Veranstaltungs-Erfassungsquote. `sample_coverage` bezeichnet ausschliesslich
+eine dokumentierte Kontrollstichprobe und bleibt ohne eine solche leer.
 
 ## Lokale Ausführung
 ```bash
 python3 -m pip install -r requirements.txt
 python3 -m unittest discover -s tests -v
 python3 -m backend.main
+# Einzelne Quellen prüfen, ohne den übrigen Bestand zu verlieren:
+python3 -m backend.main --sources onthur,stadt_zuerich
+# Ohne HTTP aus gespeicherten Rohdaten neu konsolidieren:
+python3 -m backend.main --rebuild
 ```
 Die neue Version ist ein **Pilot**. Änderungen der Website-Strukturen, robots.txt oder Zugangsbeschränkungen können einzelne Adapter deaktivieren. Es werden keine Zugriffssperren umgangen.
 
