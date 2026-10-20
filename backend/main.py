@@ -1,5 +1,6 @@
 """Orchestrator: keep prior events on source failures, publish source-level quality."""
 import json
+from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -54,11 +55,23 @@ def main():
     ] + [
         (v.key, lambda v=v: crawl_municipality(v)) for v in MUNICIPAL_SOURCES
     ]
+    # Independent domains may be fetched concurrently. Each source retains its own
+    # robots-aware, rate-limited HTTP session; repository writes stay sequential.
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        futures = {key: pool.submit(crawler) for key, crawler in sources}
+        outcomes = {}
+        for key, future in futures.items():
+            try:
+                outcomes[key] = future.result()
+            except Exception as exc:
+                outcomes[key] = exc
     summary = []
     for key, crawler in sources:
         old_quality = quality.get(key, {})
         try:
-            outcome = crawler()
+            outcome = outcomes[key]
+            if isinstance(outcome, Exception):
+                raise outcome
             found, events, errors = outcome[:3]
             meta = outcome[3] if len(outcome) > 3 else {}
             distinct = {}
@@ -88,18 +101,31 @@ def main():
                 by_key[identity] = event
             if not found and not errors:
                 errors = ["No eligible future events found; manual verification required"]
+            time_unknown_candidates = sum("time_unknown:" in str(error) for error in errors)
             errors = errors[:30]
         except Exception as exc:
             found, events, duplicates, state = 0, [], 0, "failed"
             errors = [f"{type(exc).__name__}: {exc}"[:300]]
             meta = {}
             generic_images_filtered = 0
+            time_unknown_candidates = 0
         with_images = sum(bool(e.get("image_url")) for e in events)
+        with_description = sum(bool(e.get("description")) for e in events)
+        with_price = sum(e.get("price_chf") is not None for e in events)
+        with_coords = sum(e.get("latitude") is not None and e.get("longitude") is not None for e in events)
+        with_city = sum(bool(e.get("city") or e.get("municipality")) for e in events)
+        with_organizer = sum(bool(e.get("organizer")) for e in events)
         quality[key] = {
             "status": state, "last_attempt": now,
             "images_imported": with_images,
             "generic_images_filtered": generic_images_filtered,
             "image_coverage": round(with_images / len(events), 3) if events else None,
+            "description_coverage": round(with_description / len(events), 3) if events else None,
+            "price_coverage": round(with_price / len(events), 3) if events else None,
+            "coordinate_coverage": round(with_coords / len(events), 3) if events else None,
+            "municipality_coverage": round(with_city / len(events), 3) if events else None,
+            "organizer_coverage": round(with_organizer / len(events), 3) if events else None,
+            "time_unknown_candidates": time_unknown_candidates,
             "last_successful_import": now if state == "success" else old_quality.get("last_successful_import"),
             "listed": found, "imported": len(events), "duplicates": duplicates,
             "invalid": len(errors), "errors": errors,
