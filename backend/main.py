@@ -1,6 +1,6 @@
 """Orchestrator: keep prior events on source failures, publish source-level quality."""
 import json
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -14,6 +14,7 @@ from backend.sources.favourites import FAVORITES, crawl_favorite
 from backend.sources.images import discard_repeated_generic_images, is_valid_image_url, empty_image_fields
 from backend.categories import CATEGORIES, categorize_record
 from backend.canonical import canonicalize, raw_identity
+from backend.geocoding import enrich_coordinates
 from backend.sources.zurich import SOURCES as ZURICH_SOURCES, crawl_zurich
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -35,7 +36,7 @@ def event_identity(event):
     return raw_identity(event)
 
 
-def main():
+def main(rebuild=False):
     now = datetime.now(TZ).isoformat(timespec="seconds")
     today = datetime.now(TZ).date()
     old = load(OUT, {"events": []})
@@ -56,16 +57,22 @@ def main():
     ] + [("gemeinde_koeniz", crawl_koeniz)] + [
         (key, lambda key=key: crawl_zurich(key)) for key in ZURICH_SOURCES
     ]
+    if rebuild:
+        # Deterministic re-publication after matching-policy changes; no HTTP.
+        sources = []
     # Independent domains may be fetched concurrently. Each source retains its own
     # robots-aware, rate-limited HTTP session; repository writes stay sequential.
     with ThreadPoolExecutor(max_workers=4) as pool:
-        futures = {key: pool.submit(crawler) for key, crawler in sources}
+        futures = {pool.submit(crawler): key for key, crawler in sources}
         outcomes = {}
-        for key, future in futures.items():
+        for future in as_completed(futures):
+            key = futures[future]
             try:
                 outcomes[key] = future.result()
+                print(f"Fetched {key}: {len(outcomes[key][1])} events", flush=True)
             except Exception as exc:
                 outcomes[key] = exc
+                print(f"Fetch failed {key}: {type(exc).__name__}", flush=True)
     summary = []
     for key, crawler in sources:
         old_quality = quality.get(key, {})
@@ -85,9 +92,21 @@ def main():
             state = "success" if found > 0 and len(events) + duplicates == found and not errors else (
                 "partial" if events else "failed"
             )
+            if state == "success" and meta.get("pagination_complete") is True:
+                # Only an explicitly complete, successful snapshot can retire
+                # missing records. A partial/failed crawl never deletes them.
+                observed = {event_identity(e) for e in events}
+                by_key = {k: e for k, e in by_key.items() if e.get("source") != key or k in observed}
             for event in events:
                 identity = event_identity(event)
                 past = by_key.get(identity, {})
+                retained = []
+                for field in ("description", "price_chf", "latitude", "longitude", "organizer", "address", "ticket_url", "doors_time", "end_at"):
+                    if event.get(field) is None and past.get(field) is not None:
+                        event[field] = past[field]
+                        retained.append(field)
+                if retained:
+                    event["retained_fields"] = retained
                 # A temporarily missing image metadata tag should not erase a
                 # previously checked URL for the exact same event and title.
                 if (not event.get("image_url") and past.get("image_url")
@@ -170,11 +189,14 @@ def main():
         if not is_valid_image_url(event.get("image_url")):
             event.update(empty_image_fields())
     raw_catalog = catalog
+    geocoding = enrich_coordinates(raw_catalog, limit=0 if rebuild else 40)
     catalog, reviews, merged, unique = canonicalize(raw_catalog, old.get("events", []))
     for key, q in quality.items():
         q["cross_source_merged"] = merged.get(key, 0)
         q["canonical_contribution"] = unique.get(key, 0)
         q["time_coverage"] = round(sum(bool(e.get("time")) for e in raw_catalog if e["source"] == key) / max(1, sum(e["source"] == key for e in raw_catalog)), 3)
+        source_records = [e for e in raw_catalog if e["source"] == key]
+        q["catalog_coordinate_coverage"] = round(sum(e.get("latitude") is not None and e.get("longitude") is not None for e in source_records) / max(1, len(source_records)), 3)
     catalog.sort(key=lambda e: (e["date"], e.get("time") or "", e["title"]))
     RAW.parent.mkdir(parents=True, exist_ok=True)
     RAW.write_text(json.dumps({"generated_at": now, "events": raw_catalog}, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
@@ -188,6 +210,7 @@ def main():
         "generated_at": now, "catalog_total": len(catalog),
         "raw_total": len(raw_catalog), "cross_source_merged": len(raw_catalog)-len(catalog),
         "matching_review_candidates": len(reviews),
+        "geocoding": geocoding,
         "sources": quality,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("\n".join(summary))
@@ -199,4 +222,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--rebuild", action="store_true", help="Rebuild canonical catalog from stored raw events without crawling")
+    main(rebuild=parser.parse_args().rebuild)

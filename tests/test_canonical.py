@@ -57,3 +57,15 @@ class CanonicalTest(unittest.TestCase):
 
     def test_normalized_titles_and_venue_aliases(self):
         self.assertEqual(match(event(venue='Hive Club',title='SOIRÉE!'),event('ubwg',venue='Hive',title='Soiree'))[0],98)
+
+    def test_legacy_id_collision_does_not_hide_other_performance(self):
+        a=event()
+        b=event(time='23:00')
+        records=canonicalize([a,b])[0]
+        self.assertEqual(len(records),2)
+        self.assertEqual(len({e['id'] for e in records}),2)
+
+    def test_conflicting_coordinates_prevent_merge(self):
+        a=event(latitude=47.37,longitude=8.54)
+        b=event('ubwg',latitude=47.40,longitude=8.60)
+        self.assertEqual(match(a,b),(0,'contradictory_coordinates'))

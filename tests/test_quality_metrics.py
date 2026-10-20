@@ -49,3 +49,20 @@ class CatalogMetricsTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class RetentionTest(unittest.TestCase):
+    def test_partial_and_failed_crawls_keep_prior_records(self):
+        d=(datetime.now(app.TZ)+timedelta(days=1)).date().isoformat()
+        old=dict(id='old',source='exil',source_url='https://example.org/events/old',title='Old concert',date=d,time='20:00',start_at=d+'T20:00:00+02:00',venue='Venue',category='Konzerte',description='Known description')
+        for outcome in [(0,[],['temporary failure'],{}),(1,[],['unreadable occurrence'],{'pagination_complete':False})]:
+            with self.subTest(outcome=outcome), tempfile.TemporaryDirectory() as root:
+                out=Path(root)/'events.json';quality=Path(root)/'quality.json'
+                out.write_text(json.dumps({'events':[old]}))
+                with patch.object(app,'OUT',out),patch.object(app,'QUALITY',quality), \
+                     patch.object(app,'RAW',Path(root)/'raw.json'),patch.object(app,'MATCHES',Path(root)/'matches.json'), \
+                     patch.object(app,'VENUES',()),patch.object(app,'FAVORITES',()),patch.object(app,'BERN_SOURCES',()), \
+                     patch.object(app,'MUNICIPAL_SOURCES',()),patch.object(app,'ZURICH_SOURCES',()), \
+                     patch.object(app,'crawl_exil',return_value=outcome), \
+                     patch.object(app,'crawl_koeniz',return_value=(0,[],['fixture'],{})):
+                    app.main()
+                self.assertEqual(json.loads(out.read_text())['events'][0]['description'],'Known description')

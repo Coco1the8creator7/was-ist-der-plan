@@ -98,8 +98,7 @@ Potenzial ist eine Priorisierungshypothese, keine gemessene Menge.
 - Geografie nationaler Feeds wird anhand explizit veröffentlichter Lokalitäten
   begrenzt. Dies ersetzt keinen exakten 50-km-Filter. Fehlende Koordinaten
   bleiben unbekannt; der bestehende Frontend-Regionsfallback bleibt sichtbar.
-- Swisstopo-Geocoding und zentrale verifizierte Venue-Datenbank sind nächste
-  Arbeitspakete. Keine synthetischen Koordinaten aus Ortsmittelpunkten.
+- Gebäudegenaues Geocoding über die [offizielle Adresssuche](https://docs.geo.admin.ch/access-data/search.html) ist angebunden: nur eindeutige Treffer für Strasse, Hausnummer und Ort; Adresscache in `backend/data/venues.json`, maximal 40 neue Adressen je Lauf, 30 Tage Wiederverwendung. Kein Treffer aus Ortsmittelpunkten. Ein vollständiges Venue-Stammdatenmodell mit Raum-/Floor-Aliasverwaltung bleibt ein nächstes Arbeitspaket.
 - ICMS-Listen geben verifizierte Tage und Orte, aber keine verifizierten
   Beginnzeiten. Diese Events erscheinen mit «Zeit offen»; Detail-Enrichment
   ist bewusst noch offen. Lang laufende Kurse werden nicht in erfundene

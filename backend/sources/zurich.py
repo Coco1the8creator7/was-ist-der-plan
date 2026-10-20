@@ -77,12 +77,16 @@ def parse_city(row, today):
 
 def crawl_city(today):
     c = RespectfulClient("https://www.stadt-zuerich.ch/agenda")
-    events, errors, seen, skipped, total = [], [], set(), 0, 0
+    events, errors, seen, skipped, total, complete = [], [], set(), 0, 0, False
     for page in range(30):
         params = dict(lang="de", compResource="/content/web/de/aktuell/veranstaltungen/jcr:content/mainparsys/search",
                       limit=100, offset=page*100, q_date=today.strftime("%d.%m.%Y"),
                       q_dateend=(today+timedelta(days=90)).strftime("%d.%m.%Y"))
-        data = c.request("https://www.stadt-zuerich.ch/stzh/search?" + urlencode(params)).json()
+        try:
+            data = c.request("https://www.stadt-zuerich.ch/stzh/search?" + urlencode(params)).json()
+        except Exception as exc:
+            errors.append(f"City page {page+1}: {type(exc).__name__}: {str(exc)[:100]}")
+            break
         if data.get("error"):
             raise ValueError("City API returned error")
         rows = data.get("results", [])
@@ -98,11 +102,15 @@ def crawl_city(today):
                 else: skipped += 1
             except (KeyError, ValueError, TypeError) as exc:
                 errors.append(f"{identity}: {exc}")
-        if not rows or (page+1)*100 >= total:
+        if (page+1)*100 >= total:
+            complete = True
+            break
+        if not rows:
+            errors.append("City pagination ended before upstream total")
             break
     else:
         errors.append("Pagination cap: city results truncated")
-    return result(events, errors, len(seen), skipped, upstream_total=total, pagination_complete=(page+1)*100 >= total)
+    return result(events, errors, len(seen), skipped, upstream_total=total, pagination_complete=complete)
 
 
 def parse_rote(row, today):
@@ -151,7 +159,7 @@ def crawl_rote(today):
             else: skipped += 1
         except (KeyError, ValueError, TypeError) as exc: errors.append(f"{row.get('id')}: {exc}")
     if len(rows) >= 500: errors.append("Pagination cap: Rote Fabrik API limit reached")
-    return result(events, errors, len(rows), skipped)
+    return result(events, errors, len(rows), skipped, pagination_complete=len(rows) < 500)
 
 
 def parse_ubwg(row, today):
@@ -180,7 +188,11 @@ def crawl_ubwg(today):
     url = "https://ubwg.ch/wp-json/tribe/events/v1/events?"+urlencode(dict(start_date=today.isoformat(), end_date=(today+timedelta(days=90)).isoformat(), per_page=50))
     events, errors, seen, skipped = [], [], set(), 0
     for page in range(12):
-        data = c.request(url).json()
+        try:
+            data = c.request(url).json()
+        except Exception as exc:
+            errors.append(f"UBWG page {page+1}: {type(exc).__name__}: {str(exc)[:100]}")
+            break
         for row in data.get("events", []):
             if row["id"] in seen: continue
             seen.add(row["id"])
@@ -192,7 +204,7 @@ def crawl_ubwg(today):
         url = data.get("next_rest_url")
         if not url: break
     else: errors.append("Pagination cap: UBWG results truncated")
-    return result(events, errors, len(seen), skipped)
+    return result(events, errors, len(seen), skipped, pagination_complete=not bool(url))
 
 
 def jsonld(doc):
@@ -256,7 +268,11 @@ def crawl_kultur(today):
     for _ in range(6):
         if url in pages: break
         pages.add(url)
-        doc = c.fetch(url, "POST")
+        try:
+            doc = c.fetch(url, "POST")
+        except Exception as exc:
+            errors.append(f"Kulturzüri listing: {type(exc).__name__}: {str(exc)[:100]}")
+            break
         for a in doc.select('a[href^="/db/veranstaltungen/"]'):
             u = urljoin(root, a["href"])
             if u not in links: links.append(u)
@@ -322,7 +338,11 @@ def crawl_petzi(today):
     for city in ['Zürich', 'Winterthur', 'Baden', 'Wetzikon', 'Rapperswil']:
         for page in range(1,5):
             url = 'https://www.petzi.ch/de/search/?'+urlencode(dict(q=city,from_date=today.isoformat(),to_date=(today+timedelta(days=90)).isoformat(),page=page))
-            doc = c.fetch(url)
+            try:
+                doc = c.fetch(url)
+            except Exception as exc:
+                errors.append(f"PETZI {city} page {page}: {type(exc).__name__}: {str(exc)[:100]}")
+                break
             current = {urljoin(url,a['href']) for a in doc.select('a.tile[href*="/events/"]')}
             if not current or current <= links: break
             links.update(current)
@@ -368,7 +388,7 @@ def parse_icms(doc,key,index,today):
             if e:
                 events.append(e)
     if not seen: errors.append('No embedded ICMS calendar rows found; schema or endpoint changed')
-    return result(events, errors, len(seen), len(seen)-len(events))
+    return result(events, errors, len(seen), len(seen)-len(events), pagination_complete=True)
 
 
 def crawl_zurich(key,today=None):

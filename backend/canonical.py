@@ -11,6 +11,7 @@ import re
 import unicodedata
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 import hashlib
+from math import cos, radians, hypot
 
 AGGREGATORS = {"kulturzueri", "petzi", "ubwg", "friedas_buexe"}
 ALIASES = {"hiveclub": "hive", "hiveclubzurich": "hive", "kauzklub": "kauz",
@@ -53,6 +54,11 @@ def raw_identity(e):
 def match(a, b):
     if a.get("date") != b.get("date"):
         return 0, "different_date"
+    if all(e.get(k) is not None for e in (a, b) for k in ("latitude", "longitude")):
+        km = 111 * hypot(a["latitude"]-b["latitude"],
+                         (a["longitude"]-b["longitude"])*cos(radians((a["latitude"]+b["latitude"])/2)))
+        if km > .25:
+            return 0, "contradictory_coordinates"
     va, vb = venue_key(a), venue_key(b)
     # Never merge distinct halls/floors just because their building is shared.
     if not va or va != vb:
@@ -135,6 +141,8 @@ def canonicalize(records, previous=()):
         base["id"] = next((previous_ids[k] for k in base["raw_keys"] if k in previous_ids),
                           min(group, key=lambda e: (e.get("first_seen", ""), e["id"]))["id"])
         base["match_confidence"] = "certain" if len(group) > 1 else "independent"
+        base["normalized_title"] = normalize(base.get("title"))
+        base.setdefault("original_title", base.get("title"))
         if base["id"] in used_ids:
             base["id"] += "-" + hashlib.sha256(base["raw_keys"][0].encode()).hexdigest()[:10]
         used_ids.add(base["id"])

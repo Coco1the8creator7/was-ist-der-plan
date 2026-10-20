@@ -61,3 +61,27 @@ class ZurichFixtures(unittest.TestCase):
         self.assertTrue(events[0]['time_unknown'])
         self.assertIsNone(events[0]['time'])
         self.assertNotIn('\\',events[0]['title'])
+
+    def test_rote_cancellation_state(self):
+        row=rows('rote')[0]
+        row['rf_event']['state']=4
+        self.assertEqual(parse_rote(row,TODAY)['status'],'cancelled')
+
+    def test_petzi_biographical_date_cannot_override_event(self):
+        d=doc('petzi-detail')
+        d.select_one('.text_block').insert(0,'Archivdatum 1. Januar 2020. ')
+        e=parse_petzi(d,'https://www.petzi.ch/de/events/64702-test/',TODAY)
+        self.assertEqual(e['date'],'2026-10-21')
+
+    def test_pagination_failure_preserves_first_city_page(self):
+        from unittest.mock import patch, Mock
+        from backend.sources.zurich import crawl_city
+        client=Mock()
+        response=Mock()
+        response.json.return_value={'results':rows('city'),'meta':{'total':101}}
+        client.request.side_effect=[response,RuntimeError('temporary failure')]
+        with patch('backend.sources.zurich.RespectfulClient',return_value=client):
+            _,events,errors,meta=crawl_city(TODAY)
+        self.assertTrue(events)
+        self.assertTrue(errors)
+        self.assertFalse(meta['pagination_complete'])
