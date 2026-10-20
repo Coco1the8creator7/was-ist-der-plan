@@ -18,6 +18,7 @@ CATEGORIES = (SOUND, CULTURE, CONCERTS)
 NIGHTLIFE_SOURCES = frozenset({
     "exil", "hive", "plaza", "kauz", "gonzo", "friedas_buexe",
     "supermarket", "stereo_bar",
+    "dachstock_bern", "gaskessel_bern", "isc_bern", "bierhuebeli_bern",
 })
 
 # The strongest evidence is an explicit event type in the title or URL.

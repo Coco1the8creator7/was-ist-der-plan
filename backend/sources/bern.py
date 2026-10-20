@@ -51,6 +51,21 @@ def title(doc):
     h = doc.find("h1")
     return h.get_text(" ", strip=True) if h else None
 
+def isc_document_title(doc):
+    """ISC renders the real event heading in divs, not always a semantic h1.
+    Fall back to the official document title, never a generic page title.
+    """
+    heading = title(doc)
+    if heading:
+        return heading
+    meta = doc.select_one('meta[property="og:title"]')
+    original = (meta.get("content") if meta else None)
+    if not original:
+        tag = doc.select_one("title")
+        original = tag.get_text(" ", strip=True) if tag else ""
+    value = original.split("|")[-1].strip()
+    return value if value and value.lower() not in {"isc club bern", "isc club", "next up", "programm"} else None
+
 def textlines(doc):
     return [re.sub(r"\s+", " ", s).strip() for s in doc.get_text("\n", strip=True).splitlines() if s.strip()]
 
@@ -128,7 +143,7 @@ def dachstock(source, client, index, today):
                 errors.append(f"{url}: heading/doors missing")
                 continue
             location = re.search(r"\bOrt\s*:\s*(Reitschule|Dachstock|Rössli)\b", content, re.I)
-            venue = location[1] + " / Reitschule" if location else source.venue
+            venue = (location[1] if location[1].lower() == "reitschule" else location[1] + " / Reitschule") if location else source.venue
             # Programme type printed directly before the H1, not unrelated band bios.
             idx = content.find(name)
             lead = content[max(0, idx - 120):idx + 300] if idx >= 0 else name
@@ -198,9 +213,15 @@ def bierhuebeli(source, client, index, today):
             if not name or not start:
                 errors.append(f"{url}: no verified title/start")
                 continue
+            # Bierhübeli's 'Konzerte' overview also lists presentations and
+            # talks. Do not call a discussion a concert just because of the tab.
+            actual_kind = programme_kind
+            if re.search(r"\b(?:umdenken|entscheidungsmodelle|pep talk|coaching|quiz|diskussion|vortrag|lesung|comedy|podium)\b",
+                         content[:700], re.I):
+                actual_kind = "Workshop"
             e = event_for(source, day, start, name, url, today,
                           evidence=content[content.find(name):content.find(name)+500],
-                          format_label=programme_kind, doc=doc,
+                          format_label=actual_kind, doc=doc,
                           description=detail_description(doc, name))
             if e:
                 events.append(e)
@@ -218,7 +239,10 @@ def isc(source, client, index, today):
     for url in links[:100]:
         try:
             doc = client.fetch(url)
-            name = title(doc)
+            name = isc_document_title(doc)
+            if not name:
+                errors.append(f"{url}: missing event-specific heading/meta title")
+                continue
             content = doc.get_text(" ", strip=True)
             # ISC's Add to Calendar widget embeds the full year and clock.
             # The visible '14.11.' header alone is insufficient for dating.
@@ -241,6 +265,10 @@ def isc(source, client, index, today):
                           format_label="Party" if kind == "Clubnight" else kind,
                           doc=doc, description=detail_description(doc, name))
             if e:
+                if re.search(r"\babgesagt|cancelled\b", lead, re.I):
+                    e["status"] = "cancelled"
+                elif re.search(r"\bverschoben|postponed\b", lead, re.I):
+                    e["status"] = "postponed"
                 events.append(e)
         except Exception as exc:
             errors.append(f"{url}: {type(exc).__name__}: {str(exc)[:100]}")

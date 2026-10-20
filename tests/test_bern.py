@@ -82,5 +82,42 @@ class BernProgrammeTests(unittest.TestCase):
         found, ev, _, _ = dampfzentrale(s, FakeClient({}), soup('<a href="/event/abc/">Workshop ohne Uhrzeit</a>'), TODAY)
         self.assertEqual((found, len(ev)), (0, 0))
 
+    def test_isc_title_meta_fallback_real_page_shape(self):
+        s = src("isc")
+        u = "https://isc-club.ch/programm/dagobert-2/"
+        index = soup(f'<a href="{u}">06.11. Fr Konzert - Gitarrenrock Dagobert + R. Daneel Olivaw</a>')
+        detail = '<html><head><title>ISC Club Bern | Dagobert + R. Daneel Olivaw</title></head><body><div>Add to Calendar 2026-11-06 20:00:00 2026-11-06 23:00:00 Europe/Zurich</div></body></html>'
+        found, ev, errors, _ = isc(s, FakeClient({u: detail}), index, TODAY)
+        self.assertEqual((found, len(ev), errors), (1, 1, []))
+        self.assertEqual(ev[0]["title"], "Dagobert + R. Daneel Olivaw")
+        self.assertEqual(ev[0]["category"], CONCERTS)
+
+    def test_isc_cancelled_programme_label(self):
+        s = src("isc")
+        u = "https://isc-club.ch/programm/yndling/"
+        index = soup(f'<a href="{u}">21.11. Sa Konzert - Dreampop Abgesagt: Yndling</a>')
+        detail = '<html><head><title>ISC Club Bern | Yndling</title></head><body><p>Add to Calendar 2026-11-21 20:00:00 2026-11-21 22:00:00 Europe/Zurich</p></body></html>'
+        _, ev, _, _ = isc(s, FakeClient({u: detail}), index, TODAY)
+        self.assertEqual(ev[0]["status"], "cancelled")
+
+    def test_gaskessel_unnamed_live_musician_defaults_to_music(self):
+        s = src("gaskessel")
+        page = soup("<p>Do 22.10.26</p><h2>Finojet</h2><p>Indie Folk</p><p>Doors</p><p>20:00</p>")
+        found, events, errors, _ = gaskessel(s, None, page, TODAY)
+        self.assertEqual((found, len(events), errors), (1, 1, []))
+        self.assertEqual(events[0]["category"], SOUND)
+
+    def test_bierhuebeli_nonconcert_talk_in_concert_tab(self):
+        s = src("bierhuebeli")
+        url = "https://bierhuebeli.ch/event/krogerus-tschaeppeler/"
+        pages = {
+            "https://bierhuebeli.ch/konzerte/": f'<a href="{url}">Talk</a>',
+            "https://bierhuebeli.ch/partys/": "<main></main>",
+            url: '<main><p>Mittwoch 21.10.2026</p><h1>KROGERUS & TSCHÄPPELER</h1><h2>UMDENKEN</h2><p>Entscheidungsmodelle</p><p>Beginn: 20:00</p></main>'
+        }
+        _, events, _, _ = bierhuebeli(s, FakeClient(pages), soup(""), TODAY)
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["category"], CULTURE)
+
 if __name__ == "__main__":
     unittest.main()
