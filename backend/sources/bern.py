@@ -210,6 +210,10 @@ def bierhuebeli(source, client, index, today):
 
 def isc(source, client, index, today):
     links = canonical_links(index, source.index, "/programm/")
+    link_labels = {
+        urljoin(source.index, a.get("href")).split("#", 1)[0]: a.get_text(" ", strip=True)
+        for a in index.select("a[href]")
+    }
     events, errors, ignored = [], [], 0
     for url in links[:100]:
         try:
@@ -228,8 +232,9 @@ def isc(source, client, index, today):
                 ignored += 1
                 continue
             clock = f"{int(m[4]):02d}:{int(m[5]):02d}"
-            ix = content.rfind(name) if name else -1
-            lead = content[max(0, ix - 150):ix + 200] if ix >= 0 else ""
+            # The programme anchor labels each entry as Konzert, Party etc.
+            # Avoid parsing another event from the global navigation on detail pages.
+            lead = link_labels.get(url, "")
             format_match = re.search(r"\b(Konzert|Party|Clubnight|Workshop)\s*(?:[-&,]|$)", lead, re.I)
             kind = format_match[1] if format_match else None
             e = event_for(source, day, clock, name, url, today, evidence=lead,
