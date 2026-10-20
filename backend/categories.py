@@ -34,7 +34,7 @@ CULTURE_EVENT = re.compile(
     r"red bull dance your style|quiz(?:abend)?|pub[ -]?quiz)\b",
     re.I,
 )
-CONCERT_EVENT = re.compile(r"\b(?:konzert(?:e)?|concert(?:s)?)\b", re.I)
+CONCERT_EVENT = re.compile(r"\b(?:[\wäöüÄÖÜ]*konzert(?:e|en|s)?|concert(?:s)?)\b", re.I)
 DJ_EVENT = re.compile(
     r"\b(?:djs?|dj[ -]?set(?:s)?|b2b|back[ -]?to[ -]?back|"
     r"all[ -]?night[ -]?long|open[ -]?decks|clubnacht|"
