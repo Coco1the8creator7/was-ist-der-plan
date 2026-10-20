@@ -5,6 +5,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from backend.sources.venues import VENUES, PENDING, crawl_venue
+from backend.sources.bern import BERN_SOURCES, crawl_bern
 from backend.legacy_exil import crawl_exil
 from backend.sources.favourites import FAVORITES, crawl_favorite
 from backend.sources.images import discard_repeated_generic_images, is_valid_image_url, empty_image_fields
@@ -27,8 +28,10 @@ def event_identity(event):
     # Programme pages can list several separate parties on one date.
     source = event.get("source")
     identity = (source, event.get("source_url"), event.get("date"))
-    if source in {"gonzo", "stereo_bar", "supermarket"}:
+    if source in {"gonzo", "stereo_bar", "supermarket", "gaskessel_bern", "dampfzentrale_bern"}:
         identity += (str(event.get("title", "")).casefold(),)
+    if source == "dampfzentrale_bern":
+        identity += (event.get("time"),)
     return identity
 
 
@@ -45,7 +48,9 @@ def main():
     quality = dict(prior.get("sources", {}))
     sources = [("exil", crawl_exil)] + [
         (v.key, lambda v=v: crawl_venue(v)) for v in VENUES
-    ] + [(v.key, lambda v=v: crawl_favorite(v)) for v in FAVORITES]
+     ] + [(v.key, lambda v=v: crawl_favorite(v)) for v in FAVORITES] + [
+        (v.key, lambda v=v: crawl_bern(v)) for v in BERN_SOURCES
+    ]
     summary = []
     for key, crawler in sources:
         old_quality = quality.get(key, {})
@@ -55,7 +60,8 @@ def main():
             meta = outcome[3] if len(outcome) > 3 else {}
             distinct = {}
             for event in events:
-                distinct[(event["source"], event["source_url"], event["date"], event["title"])] = event
+                distinct[(event["source"], event["source_url"], event["date"], event["title"],
+                      event.get("time") if event["source"] == "dampfzentrale_bern" else None)] = event
             duplicates = len(events) - len(distinct)
             events = list(distinct.values())
             generic_images_filtered, generic_image_urls = discard_repeated_generic_images(events)
