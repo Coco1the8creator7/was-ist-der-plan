@@ -93,6 +93,8 @@ def parse_municipal_detail(source: MunicipalSource, doc: BeautifulSoup, url: str
         return None, "invalid event date"
     if not is_future(day, today):
         return None, None
+    if re.search(r"\b01:00\s*Uhr\s*-\s*00:00\s*Uhr\b", raw_date, re.I):
+        return None, "time_unknown: likely all-day placeholder clock"
     mt = CLOCK.search(raw_date)
     if not mt:
         # All-day events and unspecified start times must be retained in the
