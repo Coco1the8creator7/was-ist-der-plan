@@ -30,7 +30,8 @@ class CatalogMetricsTest(unittest.TestCase):
             with patch.object(app, "OUT", events), patch.object(app, "QUALITY", quality), \
                  patch.object(app, "VENUES", ()), patch.object(app, "FAVORITES", ()), \
                  patch.object(app, "BERN_SOURCES", ()), patch.object(app, "MUNICIPAL_SOURCES", ()), \
-                 patch.object(app, "crawl_exil", return_value=(1, [event], [], {})):
+                 patch.object(app, "crawl_exil", return_value=(1, [event], [], {})), \
+                 patch.object(app, "crawl_koeniz", return_value=(0, [], ["fixture only"], {})):
                 app.main()
             q = json.loads(quality.read_text())["sources"]["exil"]
             self.assertEqual(q["status"], "success")
