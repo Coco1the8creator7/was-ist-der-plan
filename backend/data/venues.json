@@ -1771,5 +1771,610 @@
       "coordinate_precision": "building",
       "feature_id": "167770_0"
     }
+  },
+  "bachwiesenstrasse|40|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Bachwiesenstrasse",
+      "40",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37995147705078,
+      "longitude": 8.486090660095215,
+      "address_label": "Bachwiesenstrasse 40 8047 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2365211_0"
+    }
+  },
+  "bahnhofstrasse|24|wetzikon": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Bahnhofstrasse",
+      "24",
+      "Wetzikon"
+    ],
+    "result": {
+      "latitude": 47.32011795043945,
+      "longitude": 8.793939590454102,
+      "address_label": "Bahnhofstrasse 24 8620 Wetzikon ZH",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "9004179_4"
+    }
+  },
+  "bleicherweg|10|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Bleicherweg",
+      "10",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36853790283203,
+      "longitude": 8.536888122558594,
+      "address_label": "Bleicherweg 10 8002 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2366928_0"
+    }
+  },
+  "brauereistrasse|2|uster": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Brauereistrasse",
+      "2",
+      "Uster"
+    ],
+    "result": {
+      "latitude": 47.346534729003906,
+      "longitude": 8.717719078063965,
+      "address_label": "Brauereistrasse 2 8610 Uster",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2311394_0"
+    }
+  },
+  "brunnenhofstrasse|22|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Brunnenhofstrasse",
+      "22",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.401161193847656,
+      "longitude": 8.535605430603027,
+      "address_label": "Brunnenhofstrasse 22 8057 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "9001420_1"
+    }
+  },
+  "bullingerstrasse|63|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Bullingerstrasse",
+      "63",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.38053512573242,
+      "longitude": 8.509904861450195,
+      "address_label": "Bullingerstrasse 63 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "149600_0"
+    }
+  },
+  "clardienstrasse|7|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Clardienstrasse",
+      "7",
+      "Zürich"
+    ],
+    "result": null
+  },
+  "dorfstrasse|27|zug": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Dorfstrasse",
+      "27",
+      "Zug"
+    ],
+    "result": null
+  },
+  "erikastrasse|2|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Erikastrasse",
+      "2",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37217712402344,
+      "longitude": 8.521297454833984,
+      "address_label": "Erikastrasse 2 8003 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302063748_0"
+    }
+  },
+  "feldblumenstrasse|9|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Feldblumenstrasse",
+      "9",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.387874603271484,
+      "longitude": 8.482851028442383,
+      "address_label": "Feldblumenstrasse 9 8048 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302030826_0"
+    }
+  },
+  "forrlibuckstrasse|120|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Förrlibuckstrasse",
+      "120",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.39253616333008,
+      "longitude": 8.51241683959961,
+      "address_label": "Förrlibuckstrasse 120 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302064397_0"
+    }
+  },
+  "freiestrasse|14|schlieren": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Freiestrasse",
+      "14",
+      "Schlieren"
+    ],
+    "result": null
+  },
+  "glattstegweg|7|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Glattstegweg",
+      "7",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.40717315673828,
+      "longitude": 8.573759078979492,
+      "address_label": "Glattstegweg 7 8051 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2373437_0"
+    }
+  },
+  "goldbrunnenstrasse|54|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Goldbrunnenstrasse",
+      "54",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.367923736572266,
+      "longitude": 8.516793251037598,
+      "address_label": "Goldbrunnenstrasse 54 8055 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302003350_0"
+    }
+  },
+  "gruzenstrasse|44|winterthur": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Grüzenstrasse",
+      "44",
+      "Winterthur"
+    ],
+    "result": {
+      "latitude": 47.49612808227539,
+      "longitude": 8.738885879516602,
+      "address_label": "Grüzenstrasse 44 8400 Winterthur",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "1161876_0"
+    }
+  },
+  "gruzenstrasse|45|winterthur": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Grüzenstrasse",
+      "45",
+      "Winterthur"
+    ],
+    "result": {
+      "latitude": 47.49586486816406,
+      "longitude": 8.738275527954102,
+      "address_label": "Grüzenstrasse 45 8400 Winterthur",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "201010005_0"
+    }
+  },
+  "gubelstrasse|10|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Gubelstrasse",
+      "10",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.40782165527344,
+      "longitude": 8.545745849609375,
+      "address_label": "Gubelstrasse 10 8050 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "9083869_0"
+    }
+  },
+  "gustav gull platz|5|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Gustav-Gull-Platz",
+      "5",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.3796272277832,
+      "longitude": 8.530850410461426,
+      "address_label": "Gustav-Gull-Platz 5 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302060286_2"
+    }
+  },
+  "guthirtstrasse|3|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Guthirtstrasse",
+      "3",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.394535064697266,
+      "longitude": 8.527474403381348,
+      "address_label": "Guthirtstrasse 3 8037 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "166824_0"
+    }
+  },
+  "haldenstrasse|95|winterthur": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Haldenstrasse",
+      "95",
+      "Winterthur"
+    ],
+    "result": null
+  },
+  "helen keller strasse|4a|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Helen-Keller-Strasse",
+      "4a",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.39960861206055,
+      "longitude": 8.592610359191895,
+      "address_label": "Helen-Keller-Strasse 4a 8051 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302062889_0"
+    }
+  },
+  "hofwiesenstrasse|11|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Hofwiesenstrasse",
+      "11",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.39274597167969,
+      "longitude": 8.537774085998535,
+      "address_label": "Hofwiesenstrasse 11 8057 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "151731_0"
+    }
+  },
+  "hohenring|56|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Höhenring",
+      "56",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.420196533203125,
+      "longitude": 8.540979385375977,
+      "address_label": "Höhenring 56 8052 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302017398_0"
+    }
+  },
+  "hohlstrasse|256|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Hohlstrasse",
+      "256",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.38322067260742,
+      "longitude": 8.516494750976562,
+      "address_label": "Hohlstrasse 256 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302062400_0"
+    }
+  },
+  "honggerstrasse|119|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Hönggerstrasse",
+      "119",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.39514923095703,
+      "longitude": 8.517739295959473,
+      "address_label": "Hönggerstrasse 119 8037 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "166431_0"
+    }
+  },
+  "josefstrasse|205|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Josefstrasse",
+      "205",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.386844635009766,
+      "longitude": 8.522326469421387,
+      "address_label": "Josefstrasse 205 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302064039_0"
+    }
+  },
+  "kaferholzstrasse|121|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Käferholzstrasse",
+      "121",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.406089782714844,
+      "longitude": 8.526305198669434,
+      "address_label": "Käferholzstrasse 121 8046 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302014817_0"
+    }
+  },
+  "kanzleistrasse|52|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Kanzleistrasse",
+      "52",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37525177001953,
+      "longitude": 8.526130676269531,
+      "address_label": "Kanzleistrasse 52 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302005253_0"
+    }
+  },
+  "kanzleistrasse|56|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Kanzleistrasse",
+      "56",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37551498413086,
+      "longitude": 8.525812149047852,
+      "address_label": "Kanzleistrasse 56 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2365955_0"
+    }
+  },
+  "kirchplatz|14|winterthur": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Kirchplatz",
+      "14",
+      "Winterthur"
+    ],
+    "result": null
+  },
+  "kronenplatz|11|dietikon": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Kronenplatz",
+      "11",
+      "Dietikon"
+    ],
+    "result": {
+      "latitude": 47.40599822998047,
+      "longitude": 8.400684356689453,
+      "address_label": "Kronenplatz 11 8953 Dietikon",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "210213229_0"
+    }
+  },
+  "leimbachstrasse|200|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Leimbachstrasse",
+      "200",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.32608413696289,
+      "longitude": 8.514264106750488,
+      "address_label": "Leimbachstrasse 200 8041 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "143437_0"
+    }
+  },
+  "letzistrasse|23|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Letzistrasse",
+      "23",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.39229965209961,
+      "longitude": 8.54710578918457,
+      "address_label": "Letzistrasse 23 8006 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "153202_0"
+    }
+  },
+  "margrit rainer strasse|5|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Margrit-Rainer-Strasse",
+      "5",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.415584564208984,
+      "longitude": 8.540175437927246,
+      "address_label": "Margrit-Rainer-Strasse 5 8050 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302019996_0"
+    }
+  },
+  "minervastrasse|65|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Minervastrasse",
+      "65",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.365848541259766,
+      "longitude": 8.55671501159668,
+      "address_label": "Minervastrasse 65 8032 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302022753_3"
+    }
+  },
+  "molkenstrasse|5|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Molkenstrasse",
+      "5",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.376224517822266,
+      "longitude": 8.527336120605469,
+      "address_label": "Molkenstrasse 5 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "9001662_0"
+    }
+  },
+  "neumunsterstrasse|10|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Neumünsterstrasse",
+      "10",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36053466796875,
+      "longitude": 8.558382034301758,
+      "address_label": "Neumünsterstrasse 10 8008 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302009977_0"
+    }
+  },
+  "nordheimstrasse|28|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Nordheimstrasse",
+      "28",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.403785705566406,
+      "longitude": 8.531170845031738,
+      "address_label": "Nordheimstrasse 28 8057 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "150879_0"
+    }
+  },
+  "paradiesstrasse|45|zurich": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Paradiesstrasse",
+      "45",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.33475112915039,
+      "longitude": 8.52691650390625,
+      "address_label": "Paradiesstrasse 45 8038 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "142360_0"
+    }
+  },
+  "parkstrasse|20|baden": {
+    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "query": [
+      "Parkstrasse",
+      "20",
+      "Baden"
+    ],
+    "result": {
+      "latitude": 47.48017501831055,
+      "longitude": 8.309947967529297,
+      "address_label": "Parkstrasse 20 5400 Baden",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "190096545_0"
+    }
   }
 }
