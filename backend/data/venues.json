@@ -2376,5 +2376,309 @@
       "coordinate_precision": "building",
       "feature_id": "190096545_0"
     }
+  },
+  "pelikanstrasse|37|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Pelikanstrasse",
+      "37",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37082290649414,
+      "longitude": 8.535504341125488,
+      "address_label": "Pelikanstrasse 37 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2372671_0"
+    }
+  },
+  "pfingstweidstrasse|16|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Pfingstweidstrasse",
+      "16",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.38823699951172,
+      "longitude": 8.517704010009766,
+      "address_label": "Pfingstweidstrasse 16 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302061460_0"
+    }
+  },
+  "raffelstrasse|12|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Räffelstrasse",
+      "12",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36336135864258,
+      "longitude": 8.514421463012695,
+      "address_label": "Räffelstrasse 12 8045 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "145283_0"
+    }
+  },
+  "saatlenfussweg|3|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Saatlenfussweg",
+      "3",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.413455963134766,
+      "longitude": 8.562629699707031,
+      "address_label": "Saatlenfussweg 3 8050 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302030502_0"
+    }
+  },
+  "schulstutz|5|uttigen": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Schulstutz",
+      "5",
+      "Uttigen"
+    ],
+    "result": {
+      "latitude": 46.795021057128906,
+      "longitude": 7.571920394897461,
+      "address_label": "Schulstutz 5 3628 Uttigen",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "502017608_0"
+    }
+  },
+  "seefeldstrasse|219|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Seefeldstrasse",
+      "219",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.35185623168945,
+      "longitude": 8.560724258422852,
+      "address_label": "Seefeldstrasse 219 8008 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2369457_0"
+    }
+  },
+  "sihlquai|240|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Sihlquai",
+      "240",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.387657165527344,
+      "longitude": 8.529953956604004,
+      "address_label": "Sihlquai 240 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "150368_0"
+    }
+  },
+  "sihlstrasse|33|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Sihlstrasse",
+      "33",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.372859954833984,
+      "longitude": 8.536176681518555,
+      "address_label": "Sihlstrasse 33 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "3169142_3"
+    }
+  },
+  "stauffacherstrasse|60|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Stauffacherstrasse",
+      "60",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.375526428222656,
+      "longitude": 8.527169227600098,
+      "address_label": "Stauffacherstrasse 60 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "3169116_1"
+    }
+  },
+  "technikumstrasse|8|winterthur": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Technikumstrasse",
+      "8",
+      "Winterthur"
+    ],
+    "result": {
+      "latitude": 47.497886657714844,
+      "longitude": 8.731389045715332,
+      "address_label": "Technikumstrasse 8 8400 Winterthur",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2323565_0"
+    }
+  },
+  "torgasse|11|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Torgasse",
+      "11",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36819839477539,
+      "longitude": 8.545762062072754,
+      "address_label": "Torgasse 11 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "140446_0"
+    }
+  },
+  "viaduktstrasse|55|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Viaduktstrasse",
+      "55",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.38654327392578,
+      "longitude": 8.522932052612305,
+      "address_label": "Viaduktstrasse 55 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302030076_0"
+    }
+  },
+  "vulkanstrasse|130|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Vulkanstrasse",
+      "130",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.394500732421875,
+      "longitude": 8.480215072631836,
+      "address_label": "Vulkanstrasse 130 8048 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302064561_0"
+    }
+  },
+  "wasserwerkstrasse|21|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Wasserwerkstrasse",
+      "21",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.383331298828125,
+      "longitude": 8.53937816619873,
+      "address_label": "Wasserwerkstrasse 21 8006 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2370630_0"
+    }
+  },
+  "witikonerstrasse|525|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Witikonerstrasse",
+      "525",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.361854553222656,
+      "longitude": 8.602322578430176,
+      "address_label": "Witikonerstrasse 525 8053 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "158405_0"
+    }
+  },
+  "zollikerstrasse|107|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Zollikerstrasse",
+      "107",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.3588752746582,
+      "longitude": 8.560038566589355,
+      "address_label": "Zollikerstrasse 107 8008 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "159867_0"
+    }
+  },
+  "zollikerstrasse|128|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Zollikerstrasse",
+      "128",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.356910705566406,
+      "longitude": 8.559698104858398,
+      "address_label": "Zollikerstrasse 128 8008 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2369424_0"
+    }
+  },
+  "zollikerstrasse|74|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Zollikerstrasse",
+      "74",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.359893798828125,
+      "longitude": 8.5570650100708,
+      "address_label": "Zollikerstrasse 74 8008 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "159437_0"
+    }
+  },
+  "zollstrasse|17|zurich": {
+    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "query": [
+      "Zollstrasse",
+      "17",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37983322143555,
+      "longitude": 8.535707473754883,
+      "address_label": "Zollstrasse 17 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302063470_0"
+    }
   }
 }
