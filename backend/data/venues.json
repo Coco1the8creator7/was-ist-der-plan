@@ -2680,5 +2680,78 @@
       "coordinate_precision": "building",
       "feature_id": "302063470_0"
     }
+  },
+  "gessnerallee 9|13|zurich": {
+    "checked_at": "2026-10-21T21:27:32.517409+02:00",
+    "query": [
+      "Gessnerallee 9 -",
+      "13",
+      "Zürich"
+    ],
+    "result": null
+  },
+  "liebestrasse|3|winterthur": {
+    "checked_at": "2026-10-21T21:27:32.517409+02:00",
+    "query": [
+      "Liebestrasse",
+      "3",
+      "Winterthur"
+    ],
+    "result": {
+      "latitude": 47.50234603881836,
+      "longitude": 8.729640007019043,
+      "address_label": "Liebestrasse 3 8400 Winterthur",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "1150402_0"
+    }
+  },
+  "limmatstrasse|109|zurich": {
+    "checked_at": "2026-10-21T21:27:32.517409+02:00",
+    "query": [
+      "Limmatstrasse",
+      "109",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.3836669921875,
+      "longitude": 8.532618522644043,
+      "address_label": "Limmatstrasse 109 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "9011206_2"
+    }
+  },
+  "spiegelgasse|1|zurich": {
+    "checked_at": "2026-10-21T21:27:32.517409+02:00",
+    "query": [
+      "Spiegelgasse",
+      "1",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37162780761719,
+      "longitude": 8.544107437133789,
+      "address_label": "Spiegelgasse 1 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "140307_1"
+    }
+  },
+  "zwingliplatz|7|zurich": {
+    "checked_at": "2026-10-21T21:27:32.517409+02:00",
+    "query": [
+      "Zwingliplatz",
+      "7",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.3702507019043,
+      "longitude": 8.543994903564453,
+      "address_label": "Zwingliplatz 7 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302040349_0"
+    }
   }
 }
