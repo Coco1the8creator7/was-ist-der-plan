@@ -205,8 +205,8 @@ def parse_ubwg_detail(doc: BeautifulSoup, url: str, today: date):
 # A second independent programme feed compensates for sparse UBWG listings.
 # Every entry must carry its own full date, time, and individual event URL.
 AUSGANG_DATE = re.compile(
-    r"\\b(\\d{1,2})\\.\\s*(Januar|Februar|März|Maerz|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)"
-    r"\\s+(20\\d{2}),\\s*(\\d{1,2}):(\\d{2})\\s*Uhr\\s+(.+)$", re.I
+    r"\b(\d{1,2})\.\s*(Januar|Februar|März|Maerz|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)"
+    r"\s+(20\d{2}),\s*(\d{1,2}):(\d{2})\s*Uhr\s+(.+)$", re.I
 )
 
 
