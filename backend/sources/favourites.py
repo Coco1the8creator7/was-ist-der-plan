@@ -26,6 +26,7 @@ FAVORITES = (
     Venue("gonzo", "Gonzo Club", "https://gonzoclub.ch/", (), SOUND, "gonzo"),
     Venue("friedas_buexe", "Friedas Büxe", "https://ubwg.ch/location/friedas-buexe/", (), SOUND, "ubwg"),
     Venue("stereo_bar", "Stereo Bar", "https://www.stereo-bar.ch/", (), SOUND, "stereo"),
+    Venue("friedas_ausgangheute", "Friedas Büxe", "https://ausgangheute.ch/venue/friedas-buexe-zuerich", (), SOUND, "ausgangheute"),
 )
 
 # Gonzo uses "SAMSTAG 17. Oktober, 23H" rather than a calendar/API.
@@ -200,12 +201,64 @@ def parse_ubwg_detail(doc: BeautifulSoup, url: str, today: date):
     return (event, None) if event else (None, "Event validation failed")
 
 
+
+# A second independent programme feed compensates for sparse UBWG listings.
+# Every entry must carry its own full date, time, and individual event URL.
+AUSGANG_DATE = re.compile(
+    r"\\b(\\d{1,2})\\.\\s*(Januar|Februar|März|Maerz|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)"
+    r"\\s+(20\\d{2}),\\s*(\\d{1,2}):(\\d{2})\\s*Uhr\\s+(.+)$", re.I
+)
+
+
+def parse_friedas_ausgangheute(doc: BeautifulSoup, today: date):
+    """Parse venue-specific listing, never unrelated recommended events."""
+    v = next(v for v in FAVORITES if v.key == "friedas_ausgangheute")
+    events, errors, seen = [], [], set()
+    for anchor in doc.select('a[href^="/event/"]'):
+        url = urljoin(v.index, anchor.get("href", ""))
+        if urlparse(url).hostname != "ausgangheute.ch" or url in seen:
+            continue
+        seen.add(url)
+        label = anchor.get_text(" ", strip=True)
+        match = AUSGANG_DATE.search(label)
+        if not match:
+            errors.append(f"{url}: date/time absent or unreadable")
+            continue
+        try:
+            day = date(int(match[3]), MONTHS[match[2].lower()], int(match[1]))
+            hour, minute = int(match[4]), int(match[5])
+            if not (0 <= hour < 24 and 0 <= minute < 60):
+                raise ValueError("invalid time")
+        except (ValueError, KeyError) as exc:
+            errors.append(f"{url}: {exc}")
+            continue
+        if not is_future(day, today):
+            continue
+        title = match[6].strip()
+        event = make_event(v, title, day, f"{hour:02d}:{minute:02d}", url, today)
+        if not event:
+            errors.append(f"{url}: invalid event")
+            continue
+        event.update(city="Zürich", municipality="Zürich", region="Zürich",
+                     address="Friedaustrasse 23, 8003 Zürich", country="CH",
+                     date_precision="datetime")
+        events.append(event)
+    if not seen:
+        errors.append("Friedas Ausgangheute venue listing contains no event links")
+    return len(events) + len(errors), events, errors, {
+        "discovered_links": len(seen),
+        # Keep prior events if this source has a partial listing or changes its layout.
+        "pagination_complete": False,
+    }
+
 def crawl_favorite(v: Venue, today: date | None = None):
     today = today or datetime.now(TZ).date()
     client = RespectfulClient(v.index)
     doc = client.fetch(v.index)
     if v.mode == "gonzo":
         return parse_gonzo(doc, today)
+    if v.mode == "ausgangheute":
+        return parse_friedas_ausgangheute(doc, today)
     if v.mode == "stereo":
         return parse_stereo(doc, today)
     if v.mode != "ubwg":
