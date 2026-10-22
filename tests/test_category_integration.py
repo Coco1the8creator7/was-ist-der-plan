@@ -25,7 +25,7 @@ class CategoryIntegrationTests(unittest.TestCase):
         page = (ROOT / "site/index.html").read_text(encoding="utf-8")
         self.assertIn("const PUBLIC_CATEGORIES=['Sound & Clöb','Kultur & Workshops','Konzerte'];", page)
         self.assertIn("category:frontendCategory(raw)", page)
-        self.assertIn("PUBLIC_CATEGORIES.map(c=>", page)
+        self.assertIn("for(const category of PUBLIC_CATEGORIES){", page)
 
     def test_migrated_records_are_stable_without_detail_info(self):
         data = json.loads((ROOT / "site/data/events.json").read_text(encoding="utf-8"))
