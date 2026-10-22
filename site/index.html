@@ -370,7 +370,7 @@ button,input,select,textarea{font-family:inherit}
  <div class="side-head">Suche</div>
  <div class="field side-search"><div class="search-wrap"><span class="search-icon">⌕</span><input type="search" id="search" class="search" placeholder="Event, Artist, Ort, Tag durchsuchen …" aria-label="Events durchsuchen"></div></div>
  <div class="field"><label for="tagFilter">Automatische Tags</label><select id="tagFilter"><option value="">Alle Tags</option></select></div>
- <div class="field"><label for="venueFilter">Bar / Club / Venue</label><select id="venueFilter"><option value="">Alle Venues</option></select></div>
+ <div class="field"><label for="venueFilter">Bar / Club / Venue</label><input id="venueFilter" type="search" list="venueSuggestions" autocomplete="off" placeholder="Venue suchen …" aria-label="Venue suchen"><datalist id="venueSuggestions"></datalist></div>
  <div class="field mini-toggle"><input id="onlyVenuePages" type="checkbox"><label for="onlyVenuePages" style="display:inline;font-weight:500">Nur Events aus Club-/Bar-Homepages</label></div>
  <div class="field mini-toggle"><input id="onlyFavorites" type="checkbox"><label for="onlyFavorites" style="display:inline;font-weight:500">Nur meine Merkliste</label></div>
  <div class="mobile-filter-apply"><button type="button" id="applyMobileFilters" class="button primary">Ergebnisse anzeigen</button></div></aside>
@@ -456,6 +456,16 @@ function getFlyer(raw){
   const candidate=raw.image_url||raw.flyer_url||raw.poster_url||raw.thumbnail_url||raw.image||raw.flyer||raw.poster||raw.images?.[0]||raw.image_urls?.[0];
   return safeFlyerUrl(candidate);
 }
+function decodeEntities(value){
+ const el=document.createElement('textarea');let result=String(value??'');
+ for(let i=0;i<3;i++){el.innerHTML=result;const next=el.value;if(next===result)break;result=next;}
+ return result.replace(/\u00a0/g,' ').replace(/\s+/g,' ').trim();
+}
+function canonicalVenue(value){
+ const venue=decodeEntities(value);
+ if(/friedas\s*b[uü]xe/i.test(venue))return 'Friedas Büxe';
+ return venue;
+}
 function normalize(raw){
   if(!raw||typeof raw.title!=='string')return null;
   const timeUnknown=raw.time_unknown===true||(!raw.start_at&&Boolean(raw.date));
@@ -466,9 +476,9 @@ function normalize(raw){
   const price=priceRaw===null||priceRaw===undefined||priceRaw===''?null:Number(priceRaw);
   const latRaw=raw.latitude!==undefined?raw.latitude:raw.lat;
   const lonRaw=raw.longitude!==undefined?raw.longitude:raw.lon;
-  const e={timeUnknown,id:String(raw.id||url),title:raw.title.slice(0,180),start:String(start),end:raw.end_at||raw.end||null,
-    city:String(raw.city||'Zürich'),region:String(raw.region||''),venue:String(raw.venue||''),price:Number.isFinite(price)&&price>=0?price:null,
-    category:frontendCategory(raw),description:typeof raw.description==='string'?raw.description:'',url,imageUrl:getFlyer(raw),status:String(raw.status||'scheduled'),
+  const e={timeUnknown,id:String(raw.id||url),title:decodeEntities(raw.title).slice(0,180),start:String(start),end:raw.end_at||raw.end||null,
+    city:String(raw.city||'Zürich'),region:String(raw.region||''),venue:canonicalVenue(raw.venue),price:Number.isFinite(price)&&price>=0?price:null,
+    category:frontendCategory(raw),description:typeof raw.description==='string'?decodeEntities(raw.description):'',url,imageUrl:getFlyer(raw),status:String(raw.status||'scheduled'),
     lat:latRaw==null||latRaw===''?null:Number(latRaw),lon:lonRaw==null||lonRaw===''?null:Number(lonRaw),
     tags:Array.isArray(raw.tags)?raw.tags.filter(t=>typeof t==='string').slice(0,18):[],
     source:String(raw.source||new URL(url).hostname),favorite:favorites.has(String(raw.id||url)),
@@ -508,7 +518,7 @@ function withinRegion(e,km,maxKm){
 let selectedTimeOfDay="all";
 function timeOfDayMatches(e){if(selectedTimeOfDay==="all")return true;if(e.timeUnknown)return false;const match=String(e.start).match(/T(\d{2}):(\d{2})/);if(!match)return false;const minutes=Number(match[1])*60+Number(match[2]);if(minutes>=1440)return false;if(selectedTimeOfDay==="morning")return minutes>=420&&minutes<=689;if(selectedTimeOfDay==="afternoon")return minutes>=690&&minutes<=975;return minutes>=976||minutes<=419;}
 function selectTimeOfDay(value){selectedTimeOfDay=value;visibleLimit=PAGE_SIZE;document.querySelectorAll("[data-time-of-day]").forEach(button=>{const selected=button.dataset.timeOfDay===value;button.classList.toggle("active",selected);button.setAttribute("aria-pressed",String(selected))});render();}
-function currentFiltered(){const q=$('search').value.trim().toLowerCase(),t=$('tagFilter').value,v=$('venueFilter').value,maxKm=Number($('distance').value),maxPrice=Number($('budget').value);let arr=state.events.filter(e=>{const km=distance(e),text=[e.title,e.description,e.city,e.venue,e.tags.join(' '),e.category].join(' ').toLowerCase();return periodFilter(e)&&timeOfDayMatches(e)&&(!q||text.includes(q))&&(selectedCategories.size===0||selectedCategories.has(e.category))&&(!t||e.tags.includes(t))&&(!v||e.venue===v)&&(!$('onlyVenuePages').checked||e.homepageVenue)&&withinRegion(e,km,maxKm)&&((e.price===null&&$('unknownPrices').checked)||(e.price!==null&&e.price<=maxPrice))&&(!$('onlyFavorites').checked||e.favorite)});const sort=$('sort').value;arr.sort((a,b)=>sort==='date'?a.start.localeCompare(b.start):sort==='distance'?(distance(a)??9999)-(distance(b)??9999):sort==='price'?(a.price??Infinity)-(b.price??Infinity):a.start.localeCompare(b.start));return arr}
+function currentFiltered(){const q=$('search').value.trim().toLowerCase(),t=$('tagFilter').value,v=$('venueFilter').value,maxKm=Number($('distance').value),maxPrice=Number($('budget').value);let arr=state.events.filter(e=>{const km=distance(e),text=[e.title,e.description,e.city,e.venue,e.tags.join(' '),e.category].join(' ').toLowerCase();return periodFilter(e)&&timeOfDayMatches(e)&&(!q||text.includes(q))&&(selectedCategories.size===0||selectedCategories.has(e.category))&&(!t||e.tags.includes(t))&&(!v||e.venue.toLocaleLowerCase('de-CH').includes(v.trim().toLocaleLowerCase('de-CH')))&&(!$('onlyVenuePages').checked||e.homepageVenue)&&withinRegion(e,km,maxKm)&&((e.price===null&&$('unknownPrices').checked)||(e.price!==null&&e.price<=maxPrice))&&(!$('onlyFavorites').checked||e.favorite)});const sort=$('sort').value;arr.sort((a,b)=>sort==='date'?a.start.localeCompare(b.start):sort==='distance'?(distance(a)??9999)-(distance(b)??9999):sort==='price'?(a.price??Infinity)-(b.price??Infinity):a.start.localeCompare(b.start));return arr}
 function artHue(e){return e.tags.includes('Nachhaltigkeit')||e.tags.includes('Outdoor')?'mint':e.tags.includes('Kunst')||e.tags.includes('Food')?'gold':e.tags.includes('Trance')||e.tags.includes('House')?'blue':'purple'}
 const selectedCategories=new Set();
 function showCategories(){
@@ -523,7 +533,12 @@ function showCategories(){
  for(const button of parent.children){const active=selectedCategories.has(button.dataset.category);button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active))}
 }
 function showTags(){const selected=$('tagFilter').value;const tags=[...new Set(state.events.flatMap(e=>e.tags))].sort((a,b)=>a.localeCompare(b,'de'));$('tagFilter').innerHTML='<option value="">Alle Tags</option>'+tags.map(t=>`<option value="${esc(t)}">${esc(t)}</option>`).join('');$('tagFilter').value=tags.includes(selected)?selected:''}
-function showVenues(){const selected=$('venueFilter').value;const venues=[...new Set(state.events.map(e=>e.venue).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'de'));$('venueFilter').innerHTML='<option value="">Alle Venues</option>'+venues.map(v=>`<option value="${esc(v)}">${esc(v)}</option>`).join('');$('venueFilter').value=venues.includes(selected)?selected:''}
+function showVenues(){
+ const venues=[...new Set(state.events.map(e=>e.venue).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'de'));
+ const suggestions=$('venueSuggestions');
+ const markup=venues.map(v=>'<option value="'+esc(v)+'"></option>').join('');
+ if(suggestions.innerHTML!==markup)suggestions.innerHTML=markup;
+}
 // Image errors are captured on the results container, including after pagination or filtering.
 $('results').addEventListener('error',event=>{const img=event.target;if(!img?.classList?.contains('event-flyer'))return;const art=img.closest('.art');if(!art)return;art.classList.remove('has-flyer');img.remove();},true);
 function originalEventLogo(){return document.querySelector('.event-face-source')?.getAttribute('src')||''}
@@ -551,7 +566,7 @@ function renderActiveFilters(){
 function render(){showCategories();showTags();showVenues();$('distanceValue').textContent=$('distance').value+' km';$('budgetValue').textContent='CHF '+$('budget').value;filtered=currentFiltered();renderActiveFilters();$('resultCount').textContent=filtered.length+' von '+state.events.length+' Events';ensureResultsHeading();if(view==='cards')renderCards(filtered);else renderCalendar(filtered)}
 function resetFilters(){selectedCategories.clear();selectedTimeOfDay='all';document.querySelectorAll('[data-time-of-day]').forEach(b=>{const active=b.dataset.timeOfDay==='all';b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});visibleLimit=PAGE_SIZE;$('dateFrom').value='';$('dateTo').value='';$('home').value='zurich';$('distance').value='50';$('budget').value='100';$('unknownPrices').checked=true;$('tagFilter').value='';$('venueFilter').value='';$('onlyVenuePages').checked=false;$('onlyFavorites').checked=false;$('search').value='';setPeriod('weekend')}
 function showModal(id,on){$(id).classList.toggle('show',on);document.body.style.overflow=on?'hidden':''}
-for(const id of ['dateFrom','dateTo','home','distance','budget','unknownPrices','tagFilter','venueFilter','onlyVenuePages','onlyFavorites','sort','search'])$(id).addEventListener(id==='search'?'input':'change',()=>{visibleLimit=PAGE_SIZE;if(id==='dateFrom'||id==='dateTo'){datePeriod='custom';document.querySelectorAll('[data-period]').forEach(e=>e.classList.remove('active'))}render()});for(const id of ['distance','budget'])$(id).addEventListener('input',()=>{visibleLimit=PAGE_SIZE;render()});
+for(const id of ['dateFrom','dateTo','home','distance','budget','unknownPrices','tagFilter','venueFilter','onlyVenuePages','onlyFavorites','sort','search'])$(id).addEventListener(id==='search'||id==='venueFilter'?'input':'change',()=>{visibleLimit=PAGE_SIZE;if(id==='dateFrom'||id==='dateTo'){datePeriod='custom';document.querySelectorAll('[data-period]').forEach(e=>e.classList.remove('active'))}render()});for(const id of ['distance','budget'])$(id).addEventListener('input',()=>{visibleLimit=PAGE_SIZE;render()});
 document.querySelectorAll('[data-period]').forEach(el=>el.addEventListener('click',()=>setPeriod(el.dataset.period)));document.querySelectorAll('[data-time-of-day]').forEach(el=>el.addEventListener('click',()=>selectTimeOfDay(el.dataset.timeOfDay)));$('resetFilters').onclick=resetFilters;$('listMode').onclick=()=>{view='cards';$('listMode').classList.add('active');$('calendarMode').classList.remove('active');render()};$('calendarMode').onclick=()=>{view='calendar';$('calendarMode').classList.add('active');$('listMode').classList.remove('active');render()};
 function closeFilters(){$('sidebar').classList.remove('show');$('backdrop').classList.remove('show');document.body.classList.remove('filter-open');$('mobileFilters').focus()}
 $('mobileFilters').onclick=()=>{$('sidebar').classList.add('show');$('backdrop').classList.add('show');document.body.classList.add('filter-open');$('closeMobileFilters').focus()};$('backdrop').onclick=closeFilters;$('closeMobileFilters').onclick=closeFilters;$('applyMobileFilters').onclick=closeFilters;
