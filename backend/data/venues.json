@@ -2753,5 +2753,103 @@
       "coordinate_precision": "building",
       "feature_id": "302040349_0"
     }
+  },
+  "friedaustrasse|23|zurich": {
+    "checked_at": "2026-10-22T22:24:34.869226+02:00",
+    "query": [
+      "Friedaustrasse",
+      "23",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37738800048828,
+      "longitude": 8.510910034179688,
+      "address_label": "Friedaustrasse 23 8003 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "9039320_0"
+    }
+  },
+  "bucheggstrasse|93|zurich": {
+    "checked_at": "2026-10-22T22:24:34.869226+02:00",
+    "query": [
+      "Bucheggstrasse",
+      "93",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.39900207519531,
+      "longitude": 8.535123825073242,
+      "address_label": "Bucheggstrasse 93 8057 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "3169493_0"
+    }
+  },
+  "museumstrasse|52|winterthur": {
+    "checked_at": "2026-10-22T22:24:34.869226+02:00",
+    "query": [
+      "Museumstrasse",
+      "52",
+      "Winterthur"
+    ],
+    "result": null
+  },
+  "ramistrasse|30|zurich": {
+    "checked_at": "2026-10-22T22:24:34.869226+02:00",
+    "query": [
+      "Rämistrasse",
+      "30",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36991882324219,
+      "longitude": 8.54892635345459,
+      "address_label": "Rämistrasse 30 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "140593_0"
+    }
+  },
+  "scheuchzerstrasse|184|zurich": {
+    "checked_at": "2026-10-22T22:24:34.869226+02:00",
+    "query": [
+      "Scheuchzerstrasse",
+      "184",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.394622802734375,
+      "longitude": 8.542501449584961,
+      "address_label": "Scheuchzerstrasse 184 8057 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "152283_3"
+    }
+  },
+  "schulamt kursraum|426|zurich": {
+    "checked_at": "2026-10-22T22:24:34.869226+02:00",
+    "query": [
+      "Schulamt Kursraum",
+      "426",
+      "Zürich"
+    ],
+    "result": null
+  },
+  "turnerstrasse|1|winterthur": {
+    "checked_at": "2026-10-22T22:24:34.869226+02:00",
+    "query": [
+      "Turnerstrasse",
+      "1",
+      "Winterthur"
+    ],
+    "result": {
+      "latitude": 47.50049591064453,
+      "longitude": 8.725178718566895,
+      "address_label": "Turnerstrasse 1 8400 Winterthur",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2323814_0"
+    }
   }
 }
