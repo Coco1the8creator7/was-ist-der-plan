@@ -352,6 +352,17 @@ button,input,select,textarea{font-family:inherit}
 }
 .time-of-day{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin:-3px 0 17px}.time-of-day-label{font-size:10px;font-weight:750;letter-spacing:.11em;color:#737267;margin-right:4px}.time-of-day .pill{display:inline-flex;align-items:center;gap:6px;padding:9px 13px;font-size:12px;background:#faf9f5;border:1px solid #d7d2c9;color:#262820;border-radius:9px}.time-of-day .pill small{font-size:10px;font-weight:450;color:#69685f}.time-of-day .pill.active{background:#b7ff3c;color:#161616;border-color:#a5e62f}.time-of-day .pill.active small{color:#26300d}@media(max-width:620px){.time-of-day{gap:6px}.time-of-day-label{flex-basis:100%}.time-of-day .pill{padding:9px 10px}.time-of-day .pill small{font-size:9px}}
 .category-bar{display:flex;flex-wrap:wrap;align-items:center;gap:11px;margin:0 0 18px}.category-bar-label{font-size:10px;font-weight:750;letter-spacing:.11em;color:#737267}.category-options{display:flex;gap:8px;flex-wrap:wrap}.category-btn{appearance:none;border:1px solid #d7d2c9;border-radius:9px;background:#faf9f5;color:#262820;padding:10px 15px;font:600 13px Outfit,system-ui,sans-serif;cursor:pointer;transition:background .15s,border-color .15s}.category-btn:hover{border-color:#8b9a71}.category-btn.active{background:#b7ff3c;color:#161616;border-color:#a5e62f}.category-btn:focus-visible{outline:2px solid #577f06;outline-offset:3px}.side-search{margin-bottom:16px}.side-search .search-wrap{width:100%;max-width:100%;display:flex}.side-search .search{min-width:0;width:100%;font-size:13px}.toolbar-left{min-width:0}@media(max-width:620px){.category-bar-label{width:100%}.category-options{gap:6px}.category-btn{padding:9px 11px;font-size:12px}}
+.date-flag.multi-date{display:flex;align-items:flex-start;flex-direction:column;gap:3px;bottom:12px;max-width:calc(100% - 75px)}
+.date-flag.multi-date b{font:700 clamp(13px,1.3vw,17px)/1.2 Outfit,system-ui,sans-serif;letter-spacing:-.01em;overflow-wrap:anywhere}
+.date-flag.multi-date span{font-size:10px;font-weight:800;letter-spacing:.08em}
+.occurrence-details{margin:4px 0 14px;border:1px solid #dedad1;border-radius:9px;background:#f6f4ed;overflow:hidden}
+.occurrence-details summary{cursor:pointer;padding:10px 11px;font-size:12px;font-weight:700;color:#303e1b;list-style-position:inside}
+.occurrence-details[open] summary{border-bottom:1px solid #dedad1}
+.occurrence-list{list-style:none;margin:0;padding:5px 10px 8px;max-height:210px;overflow-y:auto}
+.occurrence-list li{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:7px 2px;font-size:11px;border-bottom:1px solid #e6e2d9}
+.occurrence-list li:last-child{border-bottom:0}
+.occurrence-list a{font-weight:750;color:#344d13;white-space:nowrap;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:640px){.date-flag.multi-date b{font-size:14px}.occurrence-list li{align-items:flex-start}}
 </style>
 </head>
 <body>
@@ -491,7 +502,7 @@ function load(){return {events:[],lastImport:'Lade aktuelle Eventdaten …'}}
 // Veranstaltungen, die über einen Kulturartikel entdeckt und anschliessend beim Veranstalter gegengeprüft wurden.
 
 let state=load();
-let filtered=[],view='cards',calOffset=0,calSelected=null,datePeriod='weekend',toastTimer=0;
+let filtered=[],displayedGroups=[],view='cards',calOffset=0,calSelected=null,datePeriod='weekend',toastTimer=0;
 const PAGE_SIZE=25;let visibleLimit=PAGE_SIZE;
 function persist(){try{localStorage.setItem(FAVORITES_KEY,JSON.stringify([...favorites]))}catch{flash('Favoriten können nicht gespeichert werden.')}}
 function distance(e){const p=coord(e),h=CITIES[$('home').value];if(!p||!h)return null;const r=Math.PI/180;let a=Math.sin((p.lat-h.lat)*r/2)**2+Math.cos(h.lat*r)*Math.cos(p.lat*r)*Math.sin((p.lon-h.lon)*r/2)**2;return 6371*2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a))}
@@ -542,7 +553,68 @@ function showVenues(){
 // Image errors are captured on the results container, including after pagination or filtering.
 $('results').addEventListener('error',event=>{const img=event.target;if(!img?.classList?.contains('event-flyer'))return;const art=img.closest('.art');if(!art)return;art.classList.remove('has-flyer');img.remove();},true);
 function originalEventLogo(){return document.querySelector('.event-face-source')?.getAttribute('src')||''}
-function renderCards(arr){const shown=arr.slice(0,visibleLimit);$('results').innerHTML=arr.length?`<div class="grid-cards">${shown.map(e=>{return `<article class="event-card" data-hue="${artHue(e)}"><div class="art ${e.imageUrl?'has-flyer':''}"><img class="event-logo-fallback" src="${originalEventLogo()}" alt="" aria-hidden="true" loading="lazy" decoding="async">${e.imageUrl?`<img class="event-flyer" src="${esc(e.imageUrl)}" alt="Flyer: ${esc(e.title)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`: ''}<span class="genre">${esc(e.category)}</span><div class="date-flag"><b>${ddate(e.start,{day:'2-digit'})}</b><span>${ddate(e.start,{month:'short',year:'numeric'}).toUpperCase()}</span></div><button class="heart ${e.favorite?'active':''}" data-fav="${esc(e.id)}" title="Merkliste" aria-label="Merkliste">${e.favorite?'♥':'♡'}</button></div><div class="card-body"><div class="card-top"><span class="source ${e.homepageVenue?'homepage':(e.source.includes('via')?'editorial':'')}">${esc(e.source)}</span></div><h3><a class="event-title-link" href="${esc(e.url)}" target="_blank" rel="noopener noreferrer" aria-label="Eventdetails öffnen: ${esc(e.title)}">${esc(e.title)}<span class="title-link-arrow" aria-hidden="true">↗</span></a></h3><p class="desc">${esc(e.description).slice(0,165)}${e.description.length>165?'…':''}</p><div class="meta"><span>◷ ${ddate(e.start,{weekday:'short',day:'2-digit',month:'short'})}, ${e.timeUnknown?'Zeit offen':dtime(e.start)}</span><span>⌖ ${esc(e.city)}${e.venue?' · '+esc(e.venue):''}</span></div><div class="tags">${e.venue?`<span class="venue-chip">📍 ${esc(e.venue)}</span>`:''}${e.tags.slice(0,4).map(t=>`<span class="tag">#${esc(t)}</span>`).join('')||'<span class="tag">#Unklassifiziert</span>'}${e.homepageVenue?'<span class="tag">#Homepage</span>':''}</div><div class="card-foot"><span class="price">${e.price===null?'Preis offen':e.price===0?'Gratis':'CHF '+e.price.toLocaleString('de-CH')} <small>${e.price===null?'':e.price>0?'ab':''}</small></span></div></div></article>`}).join('')}</div>${arr.length>shown.length?`<div class="load-more-wrap"><p class="load-more-status">${shown.length} von ${arr.length} Events angezeigt</p><button class="button load-more-button" id="showMoreEvents" type="button">Zeige mehr (${Math.min(PAGE_SIZE,arr.length-shown.length)} weitere) ↓</button></div>`:''}`:`<div class="empty"><div style="font-size:36px">⌕</div><h3>Keine passenden Events</h3><p>Entfernung, Preis oder Datumsfilter lockern.</p><button class="button" id="emptyReset">Filter zurücksetzen</button></div>`;$('showMoreEvents')?.addEventListener('click',()=>{visibleLimit+=PAGE_SIZE;renderCards(filtered)});document.querySelectorAll('.event-flyer').forEach(img=>img.addEventListener('error',()=>{img.closest('.art')?.classList.remove('has-flyer');img.remove()}));document.querySelectorAll('[data-fav]').forEach(b=>b.addEventListener('click',()=>{const e=state.events.find(x=>x.id===b.dataset.fav);if(e){e.favorite=!e.favorite;if(e.favorite)favorites.add(e.id);else favorites.delete(e.id);persist();render()}}));$('emptyReset')?.addEventListener('click',resetFilters)}
+function seriesText(value){return String(value||'').normalize('NFKC').toLocaleLowerCase('de-CH').replace(/\s+/g,' ').trim()}
+
+function seriesImage(value){return String(value||'').trim().replace(/[?#].*$/,'').toLowerCase()}
+
+function seriesKey(event){return [event.title,event.venue,event.city,event.category].map(seriesText).join('\u001f')}
+
+function sameSeries(a,b){
+ const ai=seriesImage(a.imageUrl),bi=seriesImage(b.imageUrl);
+ const ad=seriesText(a.description),bd=seriesText(b.description);
+ if(ai&&bi&&ai!==bi)return false;
+ if(ad&&bd&&ad!==bd)return false;
+ return Boolean((ai&&bi)||(ad.length>=32&&bd.length>=32)||(a.url&&b.url&&a.url===b.url));
+}
+
+function groupOccurrences(events){
+ const groups=[],indexes=new Map();
+ for(const event of events){
+  const key=seriesKey(event),candidates=indexes.get(key)||[];
+  let group=candidates.find(g=>sameSeries(g.occurrences[0],event));
+  if(!group){group={...event,occurrences:[]};groups.push(group);candidates.push(group);indexes.set(key,candidates)}
+  group.occurrences.push(event);
+ }
+ for(const group of groups){
+  group.occurrences.sort((a,b)=>a.start.localeCompare(b.start));
+  const first=group.occurrences[0];
+  group.start=first.start;group.url=first.url;
+  group.imageUrl=group.occurrences.find(e=>e.imageUrl)?.imageUrl||null;
+  group.favorite=group.occurrences.some(e=>e.favorite);
+  const prices=group.occurrences.map(e=>e.price).filter(p=>p!==null);
+  group.price=prices.length?Math.min(...prices):null;
+ }
+ return groups;
+}
+
+function eventRangeLabel(occurrences){
+ const first=occurrences[0].start,last=occurrences[occurrences.length-1].start;
+ if(first.slice(0,10)===last.slice(0,10))return ddate(first,{day:'numeric',month:'short',year:'numeric'});
+ const a=ddate(first,{day:'numeric',month:'short',...(first.slice(0,4)!==last.slice(0,4)?{year:'numeric'}:{})});
+ return a+' – '+ddate(last,{day:'numeric',month:'short',year:'numeric'});
+}
+
+function renderCards(arr){
+ const shown=arr.slice(0,visibleLimit);
+ $('results').innerHTML=arr.length?`<div class="grid-cards">${shown.map(e=>{
+  const occurrences=e.occurrences||[e],multiple=occurrences.length>1;
+  const dateRange=eventRangeLabel(occurrences);
+  const dateFlag=multiple?`<div class="date-flag multi-date"><b>${esc(dateRange)}</b><span>${occurrences.length} TERMINE</span></div>`:`<div class="date-flag"><b>${ddate(e.start,{day:'2-digit'})}</b><span>${ddate(e.start,{month:'short',year:'numeric'}).toUpperCase()}</span></div>`;
+  const timeLabel=multiple?`${occurrences.length} Termine · ${dateRange}`:`${ddate(e.start,{weekday:'short',day:'2-digit',month:'short'})}, ${e.timeUnknown?'Zeit offen':dtime(e.start)}`;
+  const dates=multiple?`<details class="occurrence-details"><summary>Alle ${occurrences.length} Termine anzeigen</summary><ul class="occurrence-list">${occurrences.map(item=>`<li><span>${ddate(item.start,{weekday:'short',day:'2-digit',month:'short',year:'numeric'})} · ${item.timeUnknown?'Zeit offen':dtime(item.start)}</span><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer" aria-label="Termin öffnen am ${esc(ddate(item.start))}">Zum Termin ↗</a></li>`).join('')}</ul></details>`:'';
+  return `<article class="event-card" data-hue="${artHue(e)}"><div class="art ${e.imageUrl?'has-flyer':''}"><img class="event-logo-fallback" src="${originalEventLogo()}" alt="" aria-hidden="true" loading="lazy" decoding="async">${e.imageUrl?`<img class="event-flyer" src="${esc(e.imageUrl)}" alt="Flyer: ${esc(e.title)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`: ''}<span class="genre">${esc(e.category)}</span>${dateFlag}<button class="heart ${e.favorite?'active':''}" data-fav="${esc(e.id)}" title="Merkliste" aria-label="Merkliste">${e.favorite?'♥':'♡'}</button></div><div class="card-body"><div class="card-top"><span class="source ${e.homepageVenue?'homepage':(e.source.includes('via')?'editorial':'')}">${esc(e.source)}</span></div><h3><a class="event-title-link" href="${esc(e.url)}" target="_blank" rel="noopener noreferrer" aria-label="Eventdetails öffnen: ${esc(e.title)}">${esc(e.title)}<span class="title-link-arrow" aria-hidden="true">↗</span></a></h3><p class="desc">${esc(e.description).slice(0,165)}${e.description.length>165?'…':''}</p><div class="meta"><span>◷ ${esc(timeLabel)}</span><span>⌖ ${esc(e.city)}${e.venue?' · '+esc(e.venue):''}</span></div>${dates}<div class="tags">${e.venue?`<span class="venue-chip">📍 ${esc(e.venue)}</span>`:''}${e.tags.slice(0,4).map(t=>`<span class="tag">#${esc(t)}</span>`).join('')||'<span class="tag">#Unklassifiziert</span>'}${e.homepageVenue?'<span class="tag">#Homepage</span>':''}</div><div class="card-foot"><span class="price">${e.price===null?'Preis offen':e.price===0?'Gratis':'CHF '+e.price.toLocaleString('de-CH')} <small>${e.price===null?'':e.price>0?'ab':''}</small></span></div></div></article>`;
+ }).join('')}</div>${arr.length>shown.length?`<div class="load-more-wrap"><p class="load-more-status">${shown.length} von ${arr.length} Veranstaltungen angezeigt</p><button class="button load-more-button" id="showMoreEvents" type="button">Zeige mehr (${Math.min(PAGE_SIZE,arr.length-shown.length)} weitere) ↓</button></div>`:''}`:`<div class="empty"><div style="font-size:36px">⌕</div><h3>Keine passenden Events</h3><p>Entfernung, Preis oder Datumsfilter lockern.</p><button class="button" id="emptyReset">Filter zurücksetzen</button></div>`;
+ $('showMoreEvents')?.addEventListener('click',()=>{visibleLimit+=PAGE_SIZE;renderCards(displayedGroups)});
+ document.querySelectorAll('.event-flyer').forEach(img=>img.addEventListener('error',()=>{img.closest('.art')?.classList.remove('has-flyer');img.remove()}));
+ document.querySelectorAll('[data-fav]').forEach(button=>button.addEventListener('click',()=>{
+  const event=state.events.find(x=>x.id===button.dataset.fav);if(!event)return;
+  const matches=state.events.filter(x=>seriesKey(x)===seriesKey(event)&&sameSeries(x,event));
+  const favorite=!matches.some(x=>x.favorite);
+  for(const item of matches){item.favorite=favorite;if(favorite)favorites.add(item.id);else favorites.delete(item.id)}
+  persist();render();
+ }));
+ $('emptyReset')?.addEventListener('click',resetFilters);
+}
 function calendarData(d,arr){const day=d.toISOString().slice(0,10);return arr.filter(e=>e.start.slice(0,10)<=day&&(e.end||e.start).slice(0,10)>=day)}
 function renderCalendar(arr){const now=new Date(),ref=new Date(now.getFullYear(),now.getMonth()+calOffset,1,12),month=ref.getMonth(),year=ref.getFullYear(),first=(ref.getDay()+6)%7;const start=new Date(year,month,1-first,12);const active=calSelected||today();let days='';for(let i=0;i<42;i++){const d=new Date(start.getFullYear(),start.getMonth(),start.getDate()+i,12),ds=[d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');const events=arr.filter(e=>e.start.slice(0,10)<=ds&&(e.end||e.start).slice(0,10)>=ds);days+=`<button class="day ${d.getMonth()!==month?'out':''} ${ds===today()?'today':''} ${ds===active?'selected':''}" data-day="${ds}"><span class="day-no">${d.getDate()}</span>${events.slice(0,2).map((e,ix)=>`<span class="day-event ${ix?'other':''}">${esc(e.title)}</span>`).join('')}${events.length>2?`<span class="day-more">+${events.length-2} weitere</span>`:''}</button>`}
  const sel=arr.filter(e=>e.start.slice(0,10)<=active&&(e.end||e.start).slice(0,10)>=active);$('results').innerHTML=`<div class="calendar-shell"><div class="calendar-head"><strong>${ref.toLocaleDateString('de-CH',{month:'long',year:'numeric'})}</strong><div class="calendar-nav"><button id="prevMonth">‹</button><button id="toMonth">Heute</button><button id="nextMonth">›</button></div></div><div class="calendar-grid">${['MO','DI','MI','DO','FR','SA','SO'].map(t=>`<div class="weeklabel">${t}</div>`).join('')}${days}</div><div class="calendar-detail"><h3>${euroDate(active)} · ${sel.length} Events</h3>${sel.length?sel.map(e=>`<div class="cal-row"><strong style="min-width:50px">${e.timeUnknown?'Zeit offen':dtime(e.start)}</strong><span><a class="event-title-link" href="${esc(e.url)}" target="_blank" rel="noopener noreferrer" aria-label="Eventdetails öffnen: ${esc(e.title)}">${esc(e.title)}<span class="title-link-arrow" aria-hidden="true">↗</span></a> · ${esc(e.city)}</span></div>`).join(''):'<p class="small">Für diesen Tag sind in den gefilterten Daten keine Events vorhanden.</p>'}</div></div>`;$('prevMonth').onclick=()=>{calOffset--;calSelected=null;renderCalendar(arr)};$('nextMonth').onclick=()=>{calOffset++;calSelected=null;renderCalendar(arr)};$('toMonth').onclick=()=>{calOffset=0;calSelected=today();renderCalendar(arr)};document.querySelectorAll('[data-day]').forEach(b=>b.addEventListener('click',()=>{calSelected=b.dataset.day;renderCalendar(arr)}))}
@@ -563,7 +635,7 @@ function renderActiveFilters(){
  const count=$('activeFilterCount');count.textContent=values.length;count.hidden=!values.length;
  if(values.length){const b=document.createElement('button');b.className='clear-all';b.type='button';b.textContent='Alle zurücksetzen';b.onclick=resetFilters;parent.appendChild(b)}
 }
-function render(){showCategories();showTags();showVenues();$('distanceValue').textContent=$('distance').value+' km';$('budgetValue').textContent='CHF '+$('budget').value;filtered=currentFiltered();renderActiveFilters();$('resultCount').textContent=filtered.length+' von '+state.events.length+' Events';ensureResultsHeading();if(view==='cards')renderCards(filtered);else renderCalendar(filtered)}
+function render(){showCategories();showTags();showVenues();$('distanceValue').textContent=$('distance').value+' km';$('budgetValue').textContent='CHF '+$('budget').value;filtered=currentFiltered();displayedGroups=groupOccurrences(filtered);renderActiveFilters();$('resultCount').textContent=(view==='cards'?displayedGroups.length+' Veranstaltungen · ':'')+filtered.length+' Termine (von '+state.events.length+' Einträgen)';ensureResultsHeading();if(view==='cards')renderCards(displayedGroups);else renderCalendar(filtered)}
 function resetFilters(){selectedCategories.clear();selectedTimeOfDay='all';document.querySelectorAll('[data-time-of-day]').forEach(b=>{const active=b.dataset.timeOfDay==='all';b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});visibleLimit=PAGE_SIZE;$('dateFrom').value='';$('dateTo').value='';$('home').value='zurich';$('distance').value='50';$('budget').value='100';$('unknownPrices').checked=true;$('tagFilter').value='';$('venueFilter').value='';$('onlyVenuePages').checked=false;$('onlyFavorites').checked=false;$('search').value='';setPeriod('weekend')}
 function showModal(id,on){$(id).classList.toggle('show',on);document.body.style.overflow=on?'hidden':''}
 for(const id of ['dateFrom','dateTo','home','distance','budget','unknownPrices','tagFilter','venueFilter','onlyVenuePages','onlyFavorites','sort','search'])$(id).addEventListener(id==='search'||id==='venueFilter'?'input':'change',()=>{visibleLimit=PAGE_SIZE;if(id==='dateFrom'||id==='dateTo'){datePeriod='custom';document.querySelectorAll('[data-period]').forEach(e=>e.classList.remove('active'))}render()});for(const id of ['distance','budget'])$(id).addEventListener('input',()=>{visibleLimit=PAGE_SIZE;render()});
