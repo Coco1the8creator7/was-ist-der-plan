@@ -2883,5 +2883,21 @@
       "coordinate_precision": "building",
       "feature_id": "3169694_2"
     }
+  },
+  "bremgartnerstrasse|20|dietikon": {
+    "checked_at": "2026-10-23T09:33:24.056857+02:00",
+    "query": [
+      "Bremgartnerstrasse",
+      "20",
+      "Dietikon"
+    ],
+    "result": {
+      "latitude": 47.40316390991211,
+      "longitude": 8.401399612426758,
+      "address_label": "Bremgartnerstrasse 20 8953 Dietikon",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2328303_0"
+    }
   }
 }
