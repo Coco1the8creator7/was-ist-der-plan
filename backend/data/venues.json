@@ -2899,5 +2899,101 @@
       "coordinate_precision": "building",
       "feature_id": "2328303_0"
     }
+  },
+  "neue hard|12|zurich": {
+    "checked_at": "2026-10-23T21:25:33.917807+02:00",
+    "query": [
+      "Neue Hard",
+      "12",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.387062072753906,
+      "longitude": 8.520337104797363,
+      "address_label": "Neue Hard 12 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "150824_0"
+    }
+  },
+  "scheideggstrasse|37|winterthur": {
+    "checked_at": "2026-10-23T21:25:33.917807+02:00",
+    "query": [
+      "Scheideggstrasse",
+      "37",
+      "Winterthur"
+    ],
+    "result": {
+      "latitude": 47.495811462402344,
+      "longitude": 8.751077651977539,
+      "address_label": "Scheideggstrasse 37 8404 Winterthur",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "3001328_0"
+    }
+  },
+  "roslistrasse|9|zurich": {
+    "checked_at": "2026-10-23T21:25:33.917807+02:00",
+    "query": [
+      "Röslistrasse",
+      "9",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.38853454589844,
+      "longitude": 8.541217803955078,
+      "address_label": "Röslistrasse 9 8006 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302006158_0"
+    }
+  },
+  "viaduktstrasse|65|zurich": {
+    "checked_at": "2026-10-23T21:25:33.917807+02:00",
+    "query": [
+      "Viaduktstrasse",
+      "65",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.38629913330078,
+      "longitude": 8.52236270904541,
+      "address_label": "Viaduktstrasse 65 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302030081_0"
+    }
+  },
+  "stauffacherquai|56|zurich": {
+    "checked_at": "2026-10-23T21:25:33.917807+02:00",
+    "query": [
+      "Stauffacherquai",
+      "56",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.369468688964844,
+      "longitude": 8.528169631958008,
+      "address_label": "Stauffacherquai 56 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "148568_0"
+    }
+  },
+  "zweierstrasse|50|zurich": {
+    "checked_at": "2026-10-23T21:25:33.917807+02:00",
+    "query": [
+      "Zweierstrasse",
+      "50",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37263488769531,
+      "longitude": 8.52441692352295,
+      "address_label": "Zweierstrasse 50 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302019308_0"
+    }
   }
 }

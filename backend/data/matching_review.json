@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:05:21+02:00",
+  "generated_at": "2026-10-23T21:02:07+02:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1368,6 +1368,14 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
+    },
+    {
+      "left": "kulturzueri-ec59948d6da3c4ae",
+      "right": "kulturzueri-59467fa88efafaa1",
+      "date": "2026-10-29",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
     }
   ]
 }
