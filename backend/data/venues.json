@@ -2851,5 +2851,37 @@
       "coordinate_precision": "building",
       "feature_id": "2323814_0"
     }
+  },
+  "limmatstrasse|268|zurich": {
+    "checked_at": "2026-10-23T03:32:46.576207+02:00",
+    "query": [
+      "Limmatstrasse",
+      "268",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.38910675048828,
+      "longitude": 8.52546215057373,
+      "address_label": "Limmatstrasse 268 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302063590_3"
+    }
+  },
+  "sihlamtsstrasse|14|zurich": {
+    "checked_at": "2026-10-23T03:32:46.576207+02:00",
+    "query": [
+      "Sihlamtsstrasse",
+      "14",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36989212036133,
+      "longitude": 8.530855178833008,
+      "address_label": "Sihlamtsstrasse 14 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "3169694_2"
+    }
   }
 }

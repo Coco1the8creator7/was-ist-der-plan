@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:58:58+02:00",
+  "generated_at": "2026-10-23T03:09:23+02:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1282,20 +1282,20 @@
       "reason": "shared_title_tokens"
     },
     {
+      "left": "gemeinde_thalwil-13251c27a41f7d09",
+      "right": "gemeinde_thalwil-c069d2aee91d47c4",
+      "date": "2027-01-21",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
       "left": "friedas_ausgangheute-5a173502112e8599",
       "right": "friedas_buexe-76e22e518444b703",
       "date": "2026-10-31",
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
-    },
-    {
-      "left": "kulturzueri-a8655fb9ae458a09",
-      "right": "kulturzueri-e46099ebf81315a3",
-      "date": "2026-10-22",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
     },
     {
       "left": "gemeinde_uster-b55f10ba1fbf4f95",
