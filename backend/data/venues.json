@@ -3027,5 +3027,21 @@
       "coordinate_precision": "building",
       "feature_id": "9083901_1"
     }
+  },
+  "ernastrasse|20|zurich": {
+    "checked_at": "2026-10-24T21:17:18.845082+02:00",
+    "query": [
+      "Ernastrasse",
+      "20",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.38077163696289,
+      "longitude": 8.517013549804688,
+      "address_label": "Ernastrasse 20 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "149942_0"
+    }
   }
 }
