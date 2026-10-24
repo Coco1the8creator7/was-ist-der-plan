@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T09:05:08+02:00",
+  "generated_at": "2026-10-24T15:00:22+02:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1283,11 +1283,27 @@
     },
     {
       "left": "friedas_ausgangheute-5a173502112e8599",
+      "right": "friedas_ausgangheute-34976c6b48d556f5",
+      "date": "2026-10-31",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "friedas_ausgangheute-5a173502112e8599",
       "right": "friedas_buexe-76e22e518444b703",
       "date": "2026-10-31",
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
+    },
+    {
+      "left": "friedas_ausgangheute-34976c6b48d556f5",
+      "right": "friedas_buexe-76e22e518444b703",
+      "date": "2026-10-31",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
     },
     {
       "left": "gemeinde_uster-b55f10ba1fbf4f95",

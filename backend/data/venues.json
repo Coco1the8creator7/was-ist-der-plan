@@ -3011,5 +3011,21 @@
       "coordinate_precision": "building",
       "feature_id": "2291005_0"
     }
+  },
+  "schiffbaustrasse|6|zurich": {
+    "checked_at": "2026-10-24T15:23:26.131439+02:00",
+    "query": [
+      "Schiffbaustrasse",
+      "6",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.38883972167969,
+      "longitude": 8.518670082092285,
+      "address_label": "Schiffbaustrasse 6 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "9083901_1"
+    }
   }
 }
