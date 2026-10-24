@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T03:12:05+02:00",
+  "generated_at": "2026-10-24T09:05:08+02:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1368,6 +1368,14 @@
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
+    },
+    {
+      "left": "gemeinde_thalwil-8848f9ae8a32b844",
+      "right": "kulturzueri-ff4403edb50d4884",
+      "date": "2026-10-29",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
     }
   ]
 }

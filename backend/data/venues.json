@@ -2995,5 +2995,21 @@
       "coordinate_precision": "building",
       "feature_id": "302019308_0"
     }
+  },
+  "alte landstrasse|100|thalwil": {
+    "checked_at": "2026-10-24T09:28:23.771340+02:00",
+    "query": [
+      "Alte Landstrasse",
+      "100",
+      "Thalwil"
+    ],
+    "result": {
+      "latitude": 47.291259765625,
+      "longitude": 8.566323280334473,
+      "address_label": "Alte Landstrasse 100 8800 Thalwil",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2291005_0"
+    }
   }
 }
