@@ -3059,5 +3059,53 @@
       "coordinate_precision": "building",
       "feature_id": "156229_0"
     }
+  },
+  "munsterhof|2|zurich": {
+    "checked_at": "2026-10-25T14:24:13.126347+01:00",
+    "query": [
+      "Münsterhof",
+      "2",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36981964111328,
+      "longitude": 8.541071891784668,
+      "address_label": "Münsterhof 2 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302040792_0"
+    }
+  },
+  "seefeldstrasse|305|zurich": {
+    "checked_at": "2026-10-25T14:24:13.126347+01:00",
+    "query": [
+      "Seefeldstrasse",
+      "305",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.347312927246094,
+      "longitude": 8.565324783325195,
+      "address_label": "Seefeldstrasse 305 8008 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "9039379_0"
+    }
+  },
+  "st peterhofstatt|6|zurich": {
+    "checked_at": "2026-10-25T14:24:13.126347+01:00",
+    "query": [
+      "St. Peterhofstatt",
+      "6",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37173080444336,
+      "longitude": 8.540639877319336,
+      "address_label": "St. Peterhofstatt 6 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "140803_0"
+    }
   }
 }
