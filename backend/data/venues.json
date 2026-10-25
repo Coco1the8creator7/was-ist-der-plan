@@ -3107,5 +3107,21 @@
       "coordinate_precision": "building",
       "feature_id": "140803_0"
     }
+  },
+  "hardturmstrasse|68|zurich": {
+    "checked_at": "2026-10-25T20:18:14.996405+01:00",
+    "query": [
+      "Hardturmstrasse",
+      "68",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.39205551147461,
+      "longitude": 8.5184907913208,
+      "address_label": "Hardturmstrasse 68 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302005199_0"
+    }
   }
 }
