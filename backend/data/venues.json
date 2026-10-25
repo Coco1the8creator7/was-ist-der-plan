@@ -3043,5 +3043,21 @@
       "coordinate_precision": "building",
       "feature_id": "149942_0"
     }
+  },
+  "englischviertelstrasse|9|zurich": {
+    "checked_at": "2026-10-25T02:24:45.191775+01:00",
+    "query": [
+      "Englischviertelstrasse",
+      "9",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36885452270508,
+      "longitude": 8.555594444274902,
+      "address_label": "Englischviertelstrasse 9 8032 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "156229_0"
+    }
   }
 }

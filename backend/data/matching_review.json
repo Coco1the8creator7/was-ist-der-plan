@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T20:53:45+02:00",
+  "generated_at": "2026-10-25T02:01:30+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -8,14 +8,6 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_koeniz-9f15a0299abe7a0b",
-      "right": "gemeinde_koeniz-e85f98dcef79dd33",
-      "date": "2026-10-24",
-      "score": 85,
-      "level": "probable",
-      "reason": "similar_title"
     },
     {
       "left": "gemeinde_kloten-c6acae381f47d006",
@@ -642,14 +634,6 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "gemeinde_kloten-9809369331aaddde",
-      "right": "gemeinde_kloten-934908e081e08cb2",
-      "date": "2026-10-24",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
       "left": "gemeinde_kloten-40fc35ae2a4fde15",
       "right": "gemeinde_kloten-bed2142c84afd31e",
       "date": "2026-10-31",
@@ -933,14 +917,6 @@
       "left": "gemeinde_uster-23252a8146ec89d0",
       "right": "gemeinde_uster-0b9ae8e8eebe00b0",
       "date": "2026-12-05",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
-      "left": "gemeinde_uster-a9738c8e727b31f1",
-      "right": "gemeinde_uster-5796e557896bfa40",
-      "date": "2026-10-24",
       "score": 85,
       "level": "probable",
       "reason": "same_title_time_unverified"
@@ -1258,14 +1234,6 @@
       "reason": "same_title_time_unverified"
     },
     {
-      "left": "friedas_ausgangheute-03cbff270569a476",
-      "right": "friedas_ausgangheute-b04e56a42d27e2e6",
-      "date": "2026-10-24",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "isc_bern-671691c8554f4ecc",
       "right": "isc_bern-2670b5b6eec664d0",
       "date": "2026-11-25",
@@ -1304,14 +1272,6 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_uster-b55f10ba1fbf4f95",
-      "right": "kulturzueri-21f2e2741dc4ff81",
-      "date": "2026-10-24",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
     },
     {
       "left": "supermarket-56901a1001103927",
