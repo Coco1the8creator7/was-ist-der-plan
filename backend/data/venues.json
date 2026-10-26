@@ -3123,5 +3123,21 @@
       "coordinate_precision": "building",
       "feature_id": "302005199_0"
     }
+  },
+  "bahnhofstrasse|1|stafa": {
+    "checked_at": "2026-10-26T16:25:22.186457+01:00",
+    "query": [
+      "Bahnhofstrasse",
+      "1",
+      "Stäfa"
+    ],
+    "result": {
+      "latitude": 47.239376068115234,
+      "longitude": 8.718867301940918,
+      "address_label": "Bahnhofstrasse 1 8712 Stäfa",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "76881_0"
+    }
   }
 }

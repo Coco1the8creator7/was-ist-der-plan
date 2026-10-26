@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T08:17:13+01:00",
+  "generated_at": "2026-10-26T16:00:08+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1021,6 +1021,14 @@
       "left": "friedas_ausgangheute-5a173502112e8599",
       "right": "friedas_ausgangheute-34976c6b48d556f5",
       "date": "2026-10-31",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gonzo-da00d526d673bb4e",
+      "right": "gonzo-7028287583fbd2e6",
+      "date": "2026-10-30",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T08:17:13+01:00",
+  "generated_at": "2026-10-26T16:00:08+01:00",
   "events": [
     {
       "id": "gemeinde_uster-cc8d06a9a5fada20",
@@ -9402,6 +9402,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-84dbba1e00f617c0",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/cavallo-music-jamsession-1/|19:30', '2026-10-29')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-3e9f2007dfe3140b",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/comeback-ein-solo/|19:30', '2026-10-29')"
@@ -10478,6 +10518,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-67e09aa5be75b4f9",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bootlegger/|20:15', '2026-10-29')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -13938,7 +14018,29 @@
         "first_seen": "gonzo",
         "last_seen": "gonzo"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
+    },
+    {
+      "id": "gonzo-7028287583fbd2e6",
+      "raw_keys": [
+        "('gonzo', 'https://gonzoclub.ch', '2026-10-30', '23:00', 'enter the hits bangers')"
+      ],
+      "field_sources": {
+        "title": "gonzo",
+        "date": "gonzo",
+        "time": "gonzo",
+        "start_at": "gonzo",
+        "time_unknown": "gonzo",
+        "venue": "gonzo",
+        "category": "gonzo",
+        "tags": "gonzo",
+        "status": "gonzo",
+        "price_chf": "gonzo",
+        "year_basis": "gonzo",
+        "first_seen": "gonzo",
+        "last_seen": "gonzo"
+      },
+      "match_confidence": "uncertain"
     },
     {
       "id": "ubwg-afc68e3be94d26c5",
@@ -20133,6 +20235,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-9b59e18b9f04bb48",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/dokfilm-am-sonntag-barbara-forever/|12:00', '2026-11-01')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-27dad94d143c2cca",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/matinee--von-luft-und-liebe-leben.html?calentry=2', '2026-11-01')",
@@ -20545,6 +20687,46 @@
         "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
+    },
+    {
+      "id": "kulturzueri-94789cb3e2bf7218",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/richtig-lang-palliativstation/|14:15', '2026-11-01')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "kulturzueri-587a373002762dff",
@@ -21634,6 +21816,86 @@
         "image_type": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-d15c23c989089327",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bonaparte/|20:00', '2026-11-01')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-da05ae2b4e8ec641",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-23084-games_of_love_and_loneliness-den_allvarsamma_leken/|20:15', '2026-11-01')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -30127,6 +30389,27 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kaufleuten-b3dd774d061553c1",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/back2ten-5', '2026-11-06', '23:00', 'back2ten')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "exil-bde0efe5a1c67c7e",
       "raw_keys": [
         "('exil', 'https://exil.club/events/f-a-g-nov26', '2026-11-06', '23:00', 'f a g')",
@@ -31369,6 +31652,41 @@
         "source_event_id": "onthur",
         "first_seen": "onthur",
         "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-632e1a716a8cdd6e",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/gespraechsrunde.html?calentry=1', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -33894,6 +34212,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-31c141c8b5f726b5",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/dokfilm-am-sonntag-barbara-forever/|12:00', '2026-11-08')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -40118,6 +40476,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-89b2d344b7ef042b",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/rechtauffamilienuraufdempapier.html?calentry=1', '2026-11-12')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "hive-14a4a28650b09c8d",
       "raw_keys": [
         "('hive', 'https://hiveclub.ch/events/synchive-21', '2026-11-12', '18:30', 'sync hive')"
@@ -42279,6 +42672,27 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kaufleuten-228551d9b651c78a",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/kaufhouse-52', '2026-11-13', '22:00', 'kaufhouse')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kaufleuten-537a91d00bc8004c",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/lollipop-party-2', '2026-11-13', '22:00', 'lollipop party mit caro winter')"
@@ -43338,6 +43752,29 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "dynamo-c08dd9df95aab5c6",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/veranstaltung/outdoor-flomi', '2026-11-14', '11:30', 'outdoor flomi')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
       },
       "match_confidence": "independent"
     },
@@ -44468,6 +44905,27 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kaufleuten-8063b9154a921670",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/la-boutique-11', '2026-11-14', '23:00', 'la boutique w tola og')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "onthur-2975426e38866d56",
       "raw_keys": [
         "('onthur', '/de/kalender/2678/Morpheo-Adelina-Tia-Fluidlake-b2b-Vivimo', '2026-11-14')"
@@ -45489,6 +45947,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-30811daf3eb8ca80",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/dokfilm-am-sonntag-barbara-forever/|12:00', '2026-11-15')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -54114,6 +54612,27 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kaufleuten-c207a297716e15e8",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/hyper-2000-47', '2026-11-20', '23:00', 'hyper 2000')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "bierhuebeli_bern-328b6926a0f15241",
       "raw_keys": [
         "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/made-in-2010', '2026-11-20', '23:00', 'made in 2010')"
@@ -56982,6 +57501,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-2b3797bf64f39d6e",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/dokfilm-am-sonntag-barbara-forever/|12:00', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "dynamo-4a081ad16c05dd29",
       "raw_keys": [
         "('dynamo', 'https://dynamo.ch/kurs/goldschmiedkurs-fuer-kreative-koepfe-keine-vorkenntnisse-erforderlich', '2026-11-22', '12:00', 'goldschmiedkurs fur kreative kopfe keine vorkenntnisse erforderlich')"
@@ -57213,6 +57772,7 @@
         "image_url": "dynamo",
         "image_source": "dynamo",
         "image_type": "dynamo",
+        "retained_fields": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
@@ -58076,10 +58636,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -64216,6 +64775,27 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kaufleuten-4644bd315de2ca5f",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/disco-party-100', '2026-11-27', '22:00', 'disco party')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-0963991e2bb1a679",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/150474-20317-meditative_nachtfhrung_im_grossmnster/|22:00', '2026-11-27')"
@@ -66032,6 +66612,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-c09139699f106fbb",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bootlegger/|19:15', '2026-11-28')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kaufleuten-a263cd86071d3ed2",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/grls-ctrl-y2k-girls-night', '2026-11-28', '19:30', 'grls ctrl y2k girls night')"
@@ -66530,6 +67150,27 @@
       "id": "kaufleuten-44cfc46581beeed5",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/la-casita-en-jade-1', '2026-11-28', '23:00', 'la casita en jade xxl edition')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-26877f5e95b2b435",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/maxi-meraki', '2026-11-28', '23:00', 'maxi meraki')"
       ],
       "field_sources": {
         "title": "kaufleuten",
@@ -67552,6 +68193,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-1ffd7782db996bb4",
+      "raw_keys": [
+        "('stadt_zuerich', '/gesundheitszentren/de/ueber-uns/veranstaltungen/quartier/wolfswinkel/2026-11-weihnachtskonzert.html?calentry=1', '2026-11-29')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-822064f1d021be59",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-2669-bernhard_matine/|11:30', '2026-11-29')"
@@ -67626,6 +68302,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-3f789d13d698c80f",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/dokfilm-am-sonntag-barbara-forever/|12:00', '2026-11-29')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -68403,6 +69119,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-8a951dea8ed73b07",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bootlegger/|18:15', '2026-11-30')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-8bbfd9e4d7d784a8",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/schreibwerkstattfuerfrauen.html?calentry=2', '2026-11-30')"
@@ -68676,6 +69432,46 @@
         "image_type": "exil",
         "first_seen": "exil",
         "last_seen": "exil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-36784e82501f7f64",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bootlegger/|21:00', '2026-11-30')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -73305,6 +74101,27 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kaufleuten-7355b1b882a28d6b",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/the-christmas-party-80s-90s-00s', '2026-12-04', '23:00', 'the christmas party 80s 90s 00s')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-addfbc987f997775",
       "raw_keys": [
         "('gemeinde_kloten', '7751377', '2026-12-05')"
@@ -73819,6 +74636,41 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-b7af263363e7b5a5",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/gespraechsrunde.html?calentry=2', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -74443,6 +75295,27 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kaufleuten-da3d6b9ede23d672",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/addiction-60', '2026-12-05', '23:00', 'addiction')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "rote_fabrik-2c1a50153bd2fdcf",
       "raw_keys": [
         "('rote_fabrik', '33504', '2026-12-05')"
@@ -74525,6 +75398,27 @@
         "image_type": "exil",
         "first_seen": "exil",
         "last_seen": "exil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-cd5a01c1ec7f64f9",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/mi-gente-43', '2026-12-05', '23:00', 'mi gente')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
       },
       "match_confidence": "independent"
     },
@@ -81660,6 +82554,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-6379820032e61763",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/weihnachtskonzert.html?calentry=1', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-5b4b37df6ac3a924",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1082-3489-peter_wechsler_zeichnungen/|15:00', '2026-12-12')"
@@ -82247,6 +83176,27 @@
         "image_type": "exil",
         "first_seen": "exil",
         "last_seen": "exil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-5f02a72bbed2dbae",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/la-boutique-10', '2026-12-12', '23:00', 'la boutique')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
       },
       "match_confidence": "independent"
     },
@@ -88410,6 +89360,27 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kaufleuten-2bf36bfdd0f36899",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/adam-ten-1', '2026-12-19', '23:00', 'adam ten')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "exil-c2fe578429825a99",
       "raw_keys": [
         "('exil', 'https://exil.club/events/good-old-dayz-dayparty', '2026-12-19', '23:00', 'good old dayz dayparty')"
@@ -90240,6 +91211,27 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kaufleuten-a770a1e3e77eef24",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/oriental-lounge-7', '2026-12-24', '22:00', 'oriental lounge')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "isc_bern-3fe23987e06268ed",
       "raw_keys": [
         "('isc_bern', 'https://isc-club.ch/programm/elpartymellama-2', '2026-12-24', '23:00', 'el party me llama')"
@@ -90432,6 +91424,27 @@
         "country": "isc_bern",
         "first_seen": "isc_bern",
         "last_seen": "isc_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-e4ac0a29c4800897",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/addiction-x-mas-1', '2026-12-25', '23:00', 'addiction x mas')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
       },
       "match_confidence": "independent"
     },
@@ -90721,6 +91734,48 @@
         "image_type": "plaza",
         "first_seen": "plaza",
         "last_seen": "plaza"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-3940b86390ae8bae",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/la-nuit-26', '2026-12-26', '23:00', 'la nuit')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-ee41d3518a129caf",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/loco-house-18', '2026-12-26', '23:00', 'loco house')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
       },
       "match_confidence": "independent"
     },
@@ -91850,6 +92905,27 @@
         "coordinate_source": "ubwg",
         "first_seen": "ubwg",
         "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-1d4e62c4b0a3d4c9",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/new-years-eve-2027', '2026-12-31', '22:00', 'new years eve 2027')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
       },
       "match_confidence": "independent"
     },
@@ -93708,9 +94784,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-0962d9fc9dc3c20a",
+      "id": "stadt_zuerich-21b2a0e6c5d7a4b8",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/gespraechsrunde.html?calentry=1', '2027-01-09')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/gespraechsrunde.html?calentry=3', '2027-01-09')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -93735,9 +94811,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
