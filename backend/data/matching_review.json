@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T16:00:08+01:00",
+  "generated_at": "2026-10-26T20:09:25+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1034,6 +1034,14 @@
       "reason": "shared_title_tokens"
     },
     {
+      "left": "moods-1d0aa0c8eade6d09",
+      "right": "moods-1bdaae2b71afc5f5",
+      "date": "2026-11-06",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
+    },
+    {
       "left": "friedas_ausgangheute-5a173502112e8599",
       "right": "friedas_buexe-76e22e518444b703",
       "date": "2026-10-31",
@@ -1093,14 +1101,6 @@
       "left": "petzi-ca4a3524291a919e",
       "right": "onthur-bba3ba4c8f777a38",
       "date": "2026-11-01",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "onthur-b70fd97492464894",
-      "right": "onthur-e0610a9054140e23",
-      "date": "2026-10-30",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
