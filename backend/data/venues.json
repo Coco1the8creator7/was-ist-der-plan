@@ -3139,5 +3139,37 @@
       "coordinate_precision": "building",
       "feature_id": "76881_0"
     }
+  },
+  "aargauerstrasse|1a|zurich": {
+    "checked_at": "2026-10-27T14:36:58.366967+01:00",
+    "query": [
+      "Aargauerstrasse",
+      "1a",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.3911018371582,
+      "longitude": 8.502983093261719,
+      "address_label": "Aargauerstrasse 1a 8048 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "9040594_0"
+    }
+  },
+  "auweg|25|uttigen": {
+    "checked_at": "2026-10-27T14:36:58.366967+01:00",
+    "query": [
+      "Auweg",
+      "25",
+      "Uttigen"
+    ],
+    "result": {
+      "latitude": 46.79547119140625,
+      "longitude": 7.578530788421631,
+      "address_label": "Auweg 25 3628 Uttigen",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "1416224_0"
+    }
   }
 }

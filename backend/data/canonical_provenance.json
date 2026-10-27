@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T08:12:07+01:00",
+  "generated_at": "2026-10-27T14:11:31+01:00",
   "events": [
     {
       "id": "gemeinde_uster-570c6c4f0c30c859",
@@ -3897,9 +3897,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-de3b8bf36e5ab8e4",
+      "id": "stadt_zuerich-514bdd1c53b274e2",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/vaeterabend.html?calentry=6', '2026-10-28')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/vaeterabend.html?calentry=1', '2026-10-28')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -3924,9 +3924,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -9114,6 +9115,43 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-3a9e2850fa60c36e",
+      "raw_keys": [
+        "('ubwg', '170577', '2026-10-29')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -21789,10 +21827,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21830,6 +21867,82 @@
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-49273e847a128254",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/spurfrei-isaac-dubow-1/|20:00', '2026-11-02')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-c0790f9fd9653a2a",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41792-9975-theatersport/|20:00', '2026-11-02')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
       },
@@ -26516,6 +26629,29 @@
         "status": "hive",
         "first_seen": "hive",
         "last_seen": "hive"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "dynamo-e8873d59c6e70c4f",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/veranstaltung/evanora-unlimited-w-angus-scratch-green-pastel-funeral', '2026-11-05', '19:00', 'evanora unlimited w angus scratch green pastel funeral')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
       },
       "match_confidence": "independent"
     },
@@ -40536,6 +40672,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_regensdorf-bcb017477362a259",
+      "raw_keys": [
+        "('gemeinde_regensdorf', '7777093', '2026-11-13')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_regensdorf",
+        "date": "gemeinde_regensdorf",
+        "time_unknown": "gemeinde_regensdorf",
+        "venue": "gemeinde_regensdorf",
+        "category": "gemeinde_regensdorf",
+        "tags": "gemeinde_regensdorf",
+        "status": "gemeinde_regensdorf",
+        "region": "gemeinde_regensdorf",
+        "city": "gemeinde_regensdorf",
+        "municipality": "gemeinde_regensdorf",
+        "country": "gemeinde_regensdorf",
+        "original_title": "gemeinde_regensdorf",
+        "organizer": "gemeinde_regensdorf",
+        "source_event_id": "gemeinde_regensdorf",
+        "date_precision": "gemeinde_regensdorf",
+        "first_seen": "gemeinde_regensdorf",
+        "last_seen": "gemeinde_regensdorf"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-3fc6dd1929e15bb4",
       "raw_keys": [
         "('gemeinde_kloten', '7729345', '2026-11-13')"
@@ -53746,6 +53908,30 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kauz-4b59f5c0d62d2950",
+      "raw_keys": [
+        "('kauz', 'https://tickets.kauzig.ch/events/tanzen6000', '2026-11-20', '22:00', 'tanzen6000')"
+      ],
+      "field_sources": {
+        "title": "kauz",
+        "date": "kauz",
+        "time": "kauz",
+        "start_at": "kauz",
+        "time_unknown": "kauz",
+        "venue": "kauz",
+        "category": "kauz",
+        "tags": "kauz",
+        "status": "kauz",
+        "price_chf": "kauz",
+        "image_url": "kauz",
+        "image_source": "kauz",
+        "image_type": "kauz",
+        "first_seen": "kauz",
+        "last_seen": "kauz"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "dachstock_bern-8c22da34f1843a42",
       "raw_keys": [
         "('dachstock_bern', 'https://dachstock.ch/events/20-11-2026-edb-dominic-album-release-show', '2026-11-20', '22:00', 'dominic album release show')"
@@ -54836,6 +55022,30 @@
         "country": "gemeinde_koeniz",
         "first_seen": "gemeinde_koeniz",
         "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "dynamo-03fe524d400ed993",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/kurs/sound-design', '2026-11-21', '12:00', 'sound design')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "price_chf": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
       },
       "match_confidence": "independent"
     },
@@ -58401,6 +58611,41 @@
         "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "uncertain"
+    },
+    {
+      "id": "stadt_zuerich-f68e50e438a70ef6",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/klima/2026/oeko-kompass-zmorge-20261124.html?calentry=1', '2026-11-24')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "stadt_zuerich-c40e0bb3bcdd8761",
@@ -64195,6 +64440,9 @@
         "tags": "kaufleuten",
         "status": "kaufleuten",
         "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
       },
@@ -65283,6 +65531,62 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uttigen-4be9519799fafcf5",
+      "raw_keys": [
+        "('gemeinde_uttigen', 'https://uttigen.ch/de/veranstaltungen/305_adventsmärit-2026', '2026-11-28', '11:00', 'adventsmarit 2026')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uttigen",
+        "date": "gemeinde_uttigen",
+        "time": "gemeinde_uttigen",
+        "start_at": "gemeinde_uttigen",
+        "time_unknown": "gemeinde_uttigen",
+        "venue": "gemeinde_uttigen",
+        "category": "gemeinde_uttigen",
+        "tags": "gemeinde_uttigen",
+        "status": "gemeinde_uttigen",
+        "description": "gemeinde_uttigen",
+        "latitude": "gemeinde_uttigen",
+        "longitude": "gemeinde_uttigen",
+        "city": "gemeinde_uttigen",
+        "municipality": "gemeinde_uttigen",
+        "region": "gemeinde_uttigen",
+        "canton": "gemeinde_uttigen",
+        "country": "gemeinde_uttigen",
+        "organizer": "gemeinde_uttigen",
+        "address": "gemeinde_uttigen",
+        "first_seen": "gemeinde_uttigen",
+        "last_seen": "gemeinde_uttigen",
+        "coordinate_source": "gemeinde_uttigen",
+        "coordinate_precision": "gemeinde_uttigen"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "dynamo-76ba239ad3bcbe60",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/kurs/finishing-track-ableton-live', '2026-11-28', '12:00', 'finishing a track in ableton live')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "price_chf": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
       },
       "match_confidence": "independent"
     },
@@ -67432,40 +67736,6 @@
       "id": "stadt_zuerich-55eb9aacbfb7268d",
       "raw_keys": [
         "('stadt_zuerich', '/gesundheitszentren/de/ueber-uns/veranstaltungen/quartier/wolfswinkel/2026-11-weihnachtsmarkt.html?calentry=1', '2026-11-29')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-1ffd7782db996bb4",
-      "raw_keys": [
-        "('stadt_zuerich', '/gesundheitszentren/de/ueber-uns/veranstaltungen/quartier/wolfswinkel/2026-11-weihnachtskonzert.html?calentry=1', '2026-11-29')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -78357,9 +78627,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-af1119713384873c",
+      "id": "stadt_zuerich-3d3eb0badc9cdbe0",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/vaeterabend.html?calentry=7', '2026-12-09')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/vaeterabend.html?calentry=2', '2026-12-09')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -78384,9 +78654,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -97126,6 +97397,41 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-430ab10d41d565ee",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/vaeterabend.html?calentry=3', '2027-01-20')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
