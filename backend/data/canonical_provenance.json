@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T02:11:22+01:00",
+  "generated_at": "2026-10-27T08:12:07+01:00",
   "events": [
     {
       "id": "gemeinde_uster-570c6c4f0c30c859",
@@ -1111,9 +1111,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -8563,9 +8561,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -15955,9 +15951,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -19725,9 +19719,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -21212,9 +21204,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -21509,10 +21499,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21617,10 +21606,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22841,9 +22829,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -25167,6 +25153,28 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gonzo-dc92075eeaf1058a",
+      "raw_keys": [
+        "('gonzo', 'https://gonzoclub.ch', '2026-11-04', '23:00', 'trapped')"
+      ],
+      "field_sources": {
+        "title": "gonzo",
+        "date": "gonzo",
+        "time": "gonzo",
+        "start_at": "gonzo",
+        "time_unknown": "gonzo",
+        "venue": "gonzo",
+        "category": "gonzo",
+        "tags": "gonzo",
+        "status": "gonzo",
+        "price_chf": "gonzo",
+        "year_basis": "gonzo",
+        "first_seen": "gonzo",
+        "last_seen": "gonzo"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-0a385dfdecd670fe",
       "raw_keys": [
         "('gemeinde_thalwil', '7741966', '2026-11-05')"
@@ -27142,6 +27150,28 @@
         "status": "hive",
         "first_seen": "hive",
         "last_seen": "hive"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gonzo-e61645ad6caaa5bc",
+      "raw_keys": [
+        "('gonzo', 'https://gonzoclub.ch', '2026-11-05', '23:00', 'damn dunnstig')"
+      ],
+      "field_sources": {
+        "title": "gonzo",
+        "date": "gonzo",
+        "time": "gonzo",
+        "start_at": "gonzo",
+        "time_unknown": "gonzo",
+        "venue": "gonzo",
+        "category": "gonzo",
+        "tags": "gonzo",
+        "status": "gonzo",
+        "price_chf": "gonzo",
+        "year_basis": "gonzo",
+        "first_seen": "gonzo",
+        "last_seen": "gonzo"
       },
       "match_confidence": "independent"
     },
@@ -29400,6 +29430,28 @@
         "coordinate_source": "ubwg"
       },
       "match_confidence": "certain"
+    },
+    {
+      "id": "gonzo-27c3de5b90dcddd0",
+      "raw_keys": [
+        "('gonzo', 'https://gonzoclub.ch', '2026-11-06', '23:00', 'hotline bling 1 year anniversery')"
+      ],
+      "field_sources": {
+        "title": "gonzo",
+        "date": "gonzo",
+        "time": "gonzo",
+        "start_at": "gonzo",
+        "time_unknown": "gonzo",
+        "venue": "gonzo",
+        "category": "gonzo",
+        "tags": "gonzo",
+        "status": "gonzo",
+        "price_chf": "gonzo",
+        "year_basis": "gonzo",
+        "first_seen": "gonzo",
+        "last_seen": "gonzo"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "plaza-ea51e53cd54218ef",
@@ -38174,6 +38226,28 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gonzo-8d47fd6a0aa5b8e2",
+      "raw_keys": [
+        "('gonzo', 'https://gonzoclub.ch', '2026-11-11', '23:00', 'trapped')"
+      ],
+      "field_sources": {
+        "title": "gonzo",
+        "date": "gonzo",
+        "time": "gonzo",
+        "start_at": "gonzo",
+        "time_unknown": "gonzo",
+        "venue": "gonzo",
+        "category": "gonzo",
+        "tags": "gonzo",
+        "status": "gonzo",
+        "price_chf": "gonzo",
+        "year_basis": "gonzo",
+        "first_seen": "gonzo",
+        "last_seen": "gonzo"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-d93703f1d8679f38",
       "raw_keys": [
         "('gemeinde_thalwil', '7604791', '2026-11-12')"
@@ -40085,6 +40159,28 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gonzo-3fbbb6006dfdd269",
+      "raw_keys": [
+        "('gonzo', 'https://gonzoclub.ch', '2026-11-12', '23:00', 'damn dunnstig')"
+      ],
+      "field_sources": {
+        "title": "gonzo",
+        "date": "gonzo",
+        "time": "gonzo",
+        "start_at": "gonzo",
+        "time_unknown": "gonzo",
+        "venue": "gonzo",
+        "category": "gonzo",
+        "tags": "gonzo",
+        "status": "gonzo",
+        "price_chf": "gonzo",
+        "year_basis": "gonzo",
+        "first_seen": "gonzo",
+        "last_seen": "gonzo"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-d12d67aac59c7222",
       "raw_keys": [
         "('gemeinde_uster', '7740505', '2026-11-13')"
@@ -41878,6 +41974,28 @@
         "image_type": "exil",
         "first_seen": "exil",
         "last_seen": "exil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gonzo-057d6d46a4f3bb8a",
+      "raw_keys": [
+        "('gonzo', 'https://gonzoclub.ch', '2026-11-13', '23:00', 'mayhem')"
+      ],
+      "field_sources": {
+        "title": "gonzo",
+        "date": "gonzo",
+        "time": "gonzo",
+        "start_at": "gonzo",
+        "time_unknown": "gonzo",
+        "venue": "gonzo",
+        "category": "gonzo",
+        "tags": "gonzo",
+        "status": "gonzo",
+        "price_chf": "gonzo",
+        "year_basis": "gonzo",
+        "first_seen": "gonzo",
+        "last_seen": "gonzo"
       },
       "match_confidence": "independent"
     },
@@ -44069,6 +44187,28 @@
         "country": "bierhuebeli_bern",
         "first_seen": "bierhuebeli_bern",
         "last_seen": "bierhuebeli_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gonzo-43e2be19dcf30a9e",
+      "raw_keys": [
+        "('gonzo', 'https://gonzoclub.ch', '2026-11-14', '23:00', 'soul cream')"
+      ],
+      "field_sources": {
+        "title": "gonzo",
+        "date": "gonzo",
+        "time": "gonzo",
+        "start_at": "gonzo",
+        "time_unknown": "gonzo",
+        "venue": "gonzo",
+        "category": "gonzo",
+        "tags": "gonzo",
+        "status": "gonzo",
+        "price_chf": "gonzo",
+        "year_basis": "gonzo",
+        "first_seen": "gonzo",
+        "last_seen": "gonzo"
       },
       "match_confidence": "independent"
     },
@@ -98044,10 +98184,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     }
