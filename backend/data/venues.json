@@ -3171,5 +3171,21 @@
       "coordinate_precision": "building",
       "feature_id": "1416224_0"
     }
+  },
+  "forchstrasse|260|zurich": {
+    "checked_at": "2026-10-27T20:31:31.320270+01:00",
+    "query": [
+      "Forchstrasse",
+      "260",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.35762023925781,
+      "longitude": 8.571584701538086,
+      "address_label": "Forchstrasse 260 8008 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2369658_0"
+    }
   }
 }
