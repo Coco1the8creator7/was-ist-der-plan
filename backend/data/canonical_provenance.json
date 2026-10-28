@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T02:24:22+01:00",
+  "generated_at": "2026-10-28T08:24:24+01:00",
   "events": [
     {
       "id": "gemeinde_kloten-756606e58953405b",
@@ -2366,9 +2366,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -2631,9 +2629,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -3151,9 +3147,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -6020,42 +6014,6 @@
       "match_confidence": "independent"
     },
     {
-      "id": "kulturzueri-3e9f2007dfe3140b",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/comeback-ein-solo/|19:30', '2026-10-29')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
       "id": "ubwg-9e346e6cc870b76f",
       "raw_keys": [
         "('ubwg', '170012', '2026-10-29')"
@@ -6088,6 +6046,42 @@
         "coordinate_source": "ubwg",
         "first_seen": "ubwg",
         "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-3e9f2007dfe3140b",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/comeback-ein-solo/|19:30', '2026-10-29')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -9463,9 +9457,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -14784,39 +14776,6 @@
       "match_confidence": "independent"
     },
     {
-      "id": "ubwg-0cb0b2720bbb45e5",
-      "raw_keys": [
-        "('ubwg', '170526', '2026-10-31')"
-      ],
-      "field_sources": {
-        "title": "ubwg",
-        "date": "ubwg",
-        "time": "ubwg",
-        "start_at": "ubwg",
-        "time_unknown": "ubwg",
-        "venue": "ubwg",
-        "category": "ubwg",
-        "tags": "ubwg",
-        "status": "ubwg",
-        "description": "ubwg",
-        "latitude": "ubwg",
-        "longitude": "ubwg",
-        "region": "ubwg",
-        "city": "ubwg",
-        "municipality": "ubwg",
-        "country": "ubwg",
-        "original_title": "ubwg",
-        "source_event_id": "ubwg",
-        "address": "ubwg",
-        "original_event_url": "ubwg",
-        "classification_context": "ubwg",
-        "coordinate_source": "ubwg",
-        "first_seen": "ubwg",
-        "last_seen": "ubwg"
-      },
-      "match_confidence": "independent"
-    },
-    {
       "id": "onthur-741b0f41f3024f09",
       "raw_keys": [
         "('onthur', '/de/kalender/2612/SPUK-Zunami-Togo-b2b-SRC-CODE-DJ-Zigistummel', '2026-10-31')"
@@ -14901,6 +14860,39 @@
         "ticket_url": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-0cb0b2720bbb45e5",
+      "raw_keys": [
+        "('ubwg', '170526', '2026-10-31')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -17832,10 +17824,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22013,10 +22004,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22109,9 +22099,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -22170,10 +22158,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "probable"
     },
@@ -23963,10 +23950,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -25751,10 +25737,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -27834,9 +27819,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -30886,10 +30869,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -33282,10 +33264,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -37363,10 +37344,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -39431,10 +39411,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -39502,9 +39481,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -40977,10 +40954,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -42710,6 +42686,7 @@
         "image_url": "dynamo",
         "image_source": "dynamo",
         "image_type": "dynamo",
+        "retained_fields": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
@@ -43482,10 +43459,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -43600,9 +43576,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -45614,10 +45588,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -51393,10 +51366,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -53264,10 +53236,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -55727,10 +55698,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -57614,10 +57584,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -61171,10 +61140,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -63204,10 +63172,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -63368,10 +63335,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -64505,10 +64471,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -66849,10 +66814,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -67076,10 +67040,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -68882,10 +68845,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -70527,6 +70489,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "petzi-754df7e18c7863cb",
+      "raw_keys": [
+        "('petzi', '65367', '2026-12-01')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-90c212311d443b30",
       "raw_keys": [
         "('gemeinde_kloten', '7728148', '2026-12-02')"
@@ -71618,10 +71615,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -71741,6 +71737,41 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "petzi-f39ab2b538e377ff",
+      "raw_keys": [
+        "('petzi', '65368', '2026-12-02')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
       },
       "match_confidence": "independent"
     },
@@ -73164,10 +73195,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -74147,10 +74177,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -74307,6 +74336,41 @@
       "id": "petzi-4330a539b8f72671",
       "raw_keys": [
         "('petzi', '64743', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "petzi-42a4364c7a2df139",
+      "raw_keys": [
+        "('petzi', '65369', '2026-12-04')"
       ],
       "field_sources": {
         "title": "petzi",
@@ -75583,10 +75647,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -76935,10 +76998,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -79783,10 +79845,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -81096,10 +81157,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -82045,10 +82105,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -83673,10 +83732,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -85148,10 +85206,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -87346,10 +87403,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -88329,10 +88385,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -90033,10 +90088,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -91083,10 +91137,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -91456,10 +91509,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -92098,10 +92150,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -92890,10 +92941,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -93375,10 +93425,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -93574,10 +93623,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -93774,10 +93822,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -93997,10 +94044,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -94252,10 +94298,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -94292,10 +94337,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -94729,10 +94773,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -94989,10 +95032,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -95702,10 +95744,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -96159,10 +96200,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -96380,10 +96420,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -96569,10 +96608,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -96986,10 +97024,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -97937,10 +97974,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -98593,10 +98629,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -98944,10 +98979,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -100883,10 +100917,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -100971,10 +101004,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
