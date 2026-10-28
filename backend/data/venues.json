@@ -3187,5 +3187,21 @@
       "coordinate_precision": "building",
       "feature_id": "2369658_0"
     }
+  },
+  "todistrasse|77|thalwil": {
+    "checked_at": "2026-10-28T02:50:16.368484+01:00",
+    "query": [
+      "Tödistrasse",
+      "77",
+      "Thalwil"
+    ],
+    "result": {
+      "latitude": 47.291656494140625,
+      "longitude": 8.562880516052246,
+      "address_label": "Tödistrasse 77 8800 Thalwil",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2290973_0"
+    }
   }
 }
