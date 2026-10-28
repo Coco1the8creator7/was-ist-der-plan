@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:22:00+01:00",
+  "generated_at": "2026-10-28T20:13:56+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1042,6 +1042,14 @@
       "reason": "shared_title_tokens"
     },
     {
+      "left": "kaufleuten-fe1f4029074d08d8",
+      "right": "kaufleuten-fe1f4029074d08d8",
+      "date": "2026-11-01",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
+    },
+    {
       "left": "friedas_ausgangheute-5a173502112e8599",
       "right": "friedas_buexe-76e22e518444b703",
       "date": "2026-10-31",
@@ -1165,6 +1173,14 @@
       "left": "ubwg-62fef0d8182dd098",
       "right": "kulturzueri-63e659b5eeda6db3",
       "date": "2026-10-31",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "kulturzueri-d8e2f1561796f314",
+      "right": "kulturzueri-32e00b9221e41751",
+      "date": "2026-11-04",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
