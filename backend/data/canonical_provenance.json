@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T08:25:32+01:00",
+  "generated_at": "2026-10-29T14:24:11+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-8848f9ae8a32b844",
@@ -1995,6 +1995,41 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-fe2d68dea4657030",
+      "raw_keys": [
+        "('ubwg', '170925', '2026-10-29')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -18513,6 +18548,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-ac989c1a69094543",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/baecki-singt.html?calentry=1', '2026-11-03')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_ostermundigen-7181c799868ccf16",
       "raw_keys": [
         "('gemeinde_ostermundigen', 'https://ostermundigen.ch/de/veranstaltungen/1088_sterben---aber-wie', '2026-11-03', '14:00', 'sterben aber wie')"
@@ -23616,6 +23686,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-3d9868071f08f279",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/216486-101276-mircos_suche_nach_dem_schatten/|10:00', '2026-11-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "onthur-9cc4d48f932f1985",
       "raw_keys": [
         "('onthur', '/de/kalender/2688/Naomi-Pacifique-Bene', '2026-11-05')"
@@ -23884,6 +23994,46 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-8d68060a516290e4",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/216486-101276-mircos_suche_nach_dem_schatten/|14:00', '2026-11-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -26058,6 +26208,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-f34d473c12a31ef2",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/216486-101276-mircos_suche_nach_dem_schatten/|10:00', '2026-11-06')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -29529,6 +29719,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-aa253e8d7dab0af2",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/216486-101276-mircos_suche_nach_dem_schatten/|15:00', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "dynamo-5a42645ccf9d3ad0",
       "raw_keys": [
         "('dynamo', 'https://dynamo.ch/veranstaltung/squirralypse-fest-pt-iii', '2026-11-07', '15:00', 'squirralypse fest pt iii')"
@@ -30252,6 +30482,41 @@
       "match_confidence": "certain"
     },
     {
+      "id": "ubwg-e152f90fe05bf118",
+      "raw_keys": [
+        "('ubwg', '170941', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "isc_bern-8ebe8919563a15dc",
       "raw_keys": [
         "('isc_bern', 'https://isc-club.ch/programm/oldies-like-ice-in-the-sun', '2026-11-07', '21:00', 'oldies like ice in the sun')"
@@ -30554,29 +30819,6 @@
       "match_confidence": "independent"
     },
     {
-      "id": "friedas_buexe-51cd6b81ccc4d576",
-      "raw_keys": [
-        "('friedas_buexe', 'https://ubwg.ch/event/art-and-more-art-001-friedas-buexe-zuerich-07-11-2026', '2026-11-07', '23:00', 'art and more art 001')"
-      ],
-      "field_sources": {
-        "title": "friedas_buexe",
-        "date": "friedas_buexe",
-        "time": "friedas_buexe",
-        "start_at": "friedas_buexe",
-        "time_unknown": "friedas_buexe",
-        "venue": "friedas_buexe",
-        "category": "friedas_buexe",
-        "tags": "friedas_buexe",
-        "status": "friedas_buexe",
-        "image_url": "friedas_buexe",
-        "image_source": "friedas_buexe",
-        "image_type": "friedas_buexe",
-        "first_seen": "friedas_buexe",
-        "last_seen": "friedas_buexe"
-      },
-      "match_confidence": "independent"
-    },
-    {
       "id": "ubwg-dfd14069fa7c48df",
       "raw_keys": [
         "('ubwg', '170713', '2026-11-07')"
@@ -30611,6 +30853,52 @@
         "last_seen": "ubwg"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "friedas_buexe-0e6be0200e731319",
+      "raw_keys": [
+        "('friedas_buexe', 'https://ubwg.ch/event/art-and-more-art-friedas-buexe-zuerich-07-11-2026', '2026-11-07', '23:00', 'art and more art')"
+      ],
+      "field_sources": {
+        "title": "friedas_buexe",
+        "date": "friedas_buexe",
+        "time": "friedas_buexe",
+        "start_at": "friedas_buexe",
+        "time_unknown": "friedas_buexe",
+        "venue": "friedas_buexe",
+        "category": "friedas_buexe",
+        "tags": "friedas_buexe",
+        "status": "friedas_buexe",
+        "image_url": "friedas_buexe",
+        "image_source": "friedas_buexe",
+        "image_type": "friedas_buexe",
+        "first_seen": "friedas_buexe",
+        "last_seen": "friedas_buexe"
+      },
+      "match_confidence": "probable"
+    },
+    {
+      "id": "friedas_buexe-51cd6b81ccc4d576",
+      "raw_keys": [
+        "('friedas_buexe', 'https://ubwg.ch/event/art-and-more-art-001-friedas-buexe-zuerich-07-11-2026', '2026-11-07', '23:00', 'art and more art 001')"
+      ],
+      "field_sources": {
+        "title": "friedas_buexe",
+        "date": "friedas_buexe",
+        "time": "friedas_buexe",
+        "start_at": "friedas_buexe",
+        "time_unknown": "friedas_buexe",
+        "venue": "friedas_buexe",
+        "category": "friedas_buexe",
+        "tags": "friedas_buexe",
+        "status": "friedas_buexe",
+        "image_url": "friedas_buexe",
+        "image_source": "friedas_buexe",
+        "image_type": "friedas_buexe",
+        "first_seen": "friedas_buexe",
+        "last_seen": "friedas_buexe"
+      },
+      "match_confidence": "probable"
     },
     {
       "id": "ubwg-91457728538217d5",
@@ -39872,7 +40160,8 @@
     {
       "id": "dynamo-f9fbbdd1ea5d5574",
       "raw_keys": [
-        "('dynamo', 'https://dynamo.ch/kurs/tauchglasurevent-22', '2026-11-13', '17:00', 'tauchglasurevent')"
+        "('dynamo', 'https://dynamo.ch/kurs/tauchglasurevent-22', '2026-11-13', '17:00', 'tauchglasurevent')",
+        "('dynamo', 'https://dynamo.ch/kurs/tauchglasurevent-23', '2026-11-13', '17:00', 'tauchglasurevent')"
       ],
       "field_sources": {
         "title": "dynamo",
@@ -39890,7 +40179,7 @@
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "gemeinde_ostermundigen-582529c3de939f97",
@@ -41847,6 +42136,31 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_koeniz-4567de4fbe09fe33",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12360/eventdate/9271', '2026-11-14', '10:00', 'weihnachtskarten kreieren')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "dynamo-81ee544d41e3148d",
       "raw_keys": [
         "('dynamo', 'https://dynamo.ch/kurs/contactango-mit-guenter-klingler-14-november-2026', '2026-11-14', '10:30', 'contactango mit gunter klingler 14 november 2026')"
@@ -42018,6 +42332,30 @@
         "organizer": "gemeinde_belp",
         "first_seen": "gemeinde_belp",
         "last_seen": "gemeinde_belp"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-5b5b6d06c36066c2",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/mirakul-weindegustation-3', '2026-11-14', '13:00', 'mirakul weindegustation')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
       },
       "match_confidence": "independent"
     },
@@ -46622,6 +46960,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-7073cecfdc21ceb8",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/baecki-singt.html?calentry=2', '2026-11-17')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-458bde5067a8b4be",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1082-3019-aufgeweckte_kunst-geschichten-1/|14:45', '2026-11-17')"
@@ -49994,7 +50367,8 @@
     {
       "id": "dynamo-90afc8b2756aa04f",
       "raw_keys": [
-        "('dynamo', 'https://dynamo.ch/kurs/tauchglasurevent-22', '2026-11-19', '17:00', 'tauchglasurevent')"
+        "('dynamo', 'https://dynamo.ch/kurs/tauchglasurevent-22', '2026-11-19', '17:00', 'tauchglasurevent')",
+        "('dynamo', 'https://dynamo.ch/kurs/tauchglasurevent-24', '2026-11-19', '17:00', 'tauchglasurevent')"
       ],
       "field_sources": {
         "title": "dynamo",
@@ -50012,7 +50386,7 @@
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "kulturzueri-e6f1e0aec31da81e",
@@ -51281,6 +51655,35 @@
       "match_confidence": "independent"
     },
     {
+      "id": "isc_bern-8b2085565dd1730e",
+      "raw_keys": [
+        "('isc_bern', 'https://isc-club.ch/programm/geoparty', '2026-11-19', '23:00', 'geoparty')"
+      ],
+      "field_sources": {
+        "title": "isc_bern",
+        "date": "isc_bern",
+        "time": "isc_bern",
+        "start_at": "isc_bern",
+        "time_unknown": "isc_bern",
+        "venue": "isc_bern",
+        "category": "isc_bern",
+        "tags": "isc_bern",
+        "status": "isc_bern",
+        "description": "isc_bern",
+        "image_url": "isc_bern",
+        "image_source": "isc_bern",
+        "image_type": "isc_bern",
+        "municipality": "isc_bern",
+        "city": "isc_bern",
+        "region": "isc_bern",
+        "canton": "isc_bern",
+        "country": "isc_bern",
+        "first_seen": "isc_bern",
+        "last_seen": "isc_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-68ad81c7f5cd4151",
       "raw_keys": [
         "('gemeinde_uster', '7238486', '2026-11-20')"
@@ -52274,7 +52677,8 @@
     {
       "id": "dynamo-9ded69a901784dce",
       "raw_keys": [
-        "('dynamo', 'https://dynamo.ch/kurs/tauchglasurevent-22', '2026-11-20', '17:00', 'tauchglasurevent')"
+        "('dynamo', 'https://dynamo.ch/kurs/tauchglasurevent-22', '2026-11-20', '17:00', 'tauchglasurevent')",
+        "('dynamo', 'https://dynamo.ch/kurs/tauchglasurevent-25', '2026-11-20', '17:00', 'tauchglasurevent')"
       ],
       "field_sources": {
         "title": "dynamo",
@@ -52292,7 +52696,7 @@
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "gemeinde_ostermundigen-0d5afd57cfcbb839",
@@ -54407,7 +54811,8 @@
     {
       "id": "gemeinde_koeniz-6ed6eb0f2745c21e",
       "raw_keys": [
-        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12320/eventdate/9255', '2026-11-21', '10:00', 'tage der offenen turen eisenbahnfreunde liebefeld')"
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12320/eventdate/9255', '2026-11-21', '10:00', 'tage der offenen turen eisenbahnfreunde liebefeld')",
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12320/eventdate/9272', '2026-11-21', '10:00', 'tage der offenen turen eisenbahnfreunde liebefeld')"
       ],
       "field_sources": {
         "title": "gemeinde_koeniz",
@@ -54427,7 +54832,7 @@
         "first_seen": "gemeinde_koeniz",
         "last_seen": "gemeinde_koeniz"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "dynamo-03fe524d400ed993",
@@ -56844,6 +57249,7 @@
         "image_url": "dynamo",
         "image_source": "dynamo",
         "image_type": "dynamo",
+        "retained_fields": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
@@ -66149,6 +66555,31 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_koeniz-cece4990b2744dd9",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12363/eventdate/9279', '2026-11-28', '17:00', 'adventsgartli')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-340a4155636065b7",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41798-530-das_dschungel_shy_buch/|17:00', '2026-11-28')"
@@ -69878,6 +70309,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-c9805b516e1db131",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/baecki-singt.html?calentry=3', '2026-12-01')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-5887a37a02397b81",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/dubliners-in-17-sessions/|18:00', '2026-12-01')"
@@ -70547,6 +71013,39 @@
         "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "uncertain"
+    },
+    {
+      "id": "petzi-e8972912cdefe883",
+      "raw_keys": [
+        "('petzi', '65386', '2026-12-02')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "stadt_zuerich-e3cd3495881892bb",
@@ -74100,6 +74599,31 @@
         "source_event_id": "onthur",
         "first_seen": "onthur",
         "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_koeniz-2e3837d4c3e72e6e",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12361/eventdate/9275', '2026-12-04', '20:00', 'adventskonzert 2026 ein stern geht auf')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
       },
       "match_confidence": "independent"
     },
@@ -86424,6 +86948,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-5bb7b303cf2e220e",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/baecki-singt.html?calentry=4', '2026-12-15')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-60275f25fd471419",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/zimmerpflanzen-im-winter.html?calentry=1', '2026-12-15')"
@@ -97803,9 +98362,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-65e20d0370983a1c",
+      "id": "stadt_zuerich-c731ebe6e63c194a",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/baecki-singt.html?calentry=3', '2027-01-12')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/baecki-singt.html?calentry=5', '2027-01-12')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -97830,9 +98389,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -98109,6 +98669,41 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-72111f3ce2b3902f",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/stammtisch.html?calentry=9', '2027-01-13')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -101701,6 +102296,41 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-8c0e431c06d57a12",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/baecki-singt.html?calentry=6', '2027-01-26')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },

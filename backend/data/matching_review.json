@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T08:25:32+01:00",
+  "generated_at": "2026-10-29T14:24:11+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1184,6 +1184,14 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
+    },
+    {
+      "left": "friedas_buexe-51cd6b81ccc4d576",
+      "right": "friedas_buexe-0e6be0200e731319",
+      "date": "2026-11-07",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
     }
   ]
 }
