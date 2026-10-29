@@ -3203,5 +3203,21 @@
       "coordinate_precision": "building",
       "feature_id": "2290973_0"
     }
+  },
+  "pelikanstrasse|18|zurich": {
+    "checked_at": "2026-10-29T02:49:15.172350+01:00",
+    "query": [
+      "Pelikanstrasse",
+      "18",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37166213989258,
+      "longitude": 8.536437034606934,
+      "address_label": "Pelikanstrasse 18 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "140953_0"
+    }
   }
 }
