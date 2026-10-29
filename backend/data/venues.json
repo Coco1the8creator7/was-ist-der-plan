@@ -3219,5 +3219,37 @@
       "coordinate_precision": "building",
       "feature_id": "140953_0"
     }
+  },
+  "lowenstrasse|17|zurich": {
+    "checked_at": "2026-10-29T20:41:41.297162+01:00",
+    "query": [
+      "Löwenstrasse",
+      "17",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.373939514160156,
+      "longitude": 8.53515338897705,
+      "address_label": "Löwenstrasse 17 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "9011719_0"
+    }
+  },
+  "oerlikonerstrasse|98|zurich": {
+    "checked_at": "2026-10-29T20:41:41.297162+01:00",
+    "query": [
+      "Oerlikonerstrasse",
+      "98",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.405921936035156,
+      "longitude": 8.547186851501465,
+      "address_label": "Oerlikonerstrasse 98 8057 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "170057_0"
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T14:24:11+01:00",
+  "generated_at": "2026-10-29T20:15:55+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1050,6 +1050,22 @@
       "reason": "similar_title"
     },
     {
+      "left": "gemeinde_koeniz-e7bf8e215c837ecf",
+      "right": "gemeinde_koeniz-4f8143cb4737a8c5",
+      "date": "2026-11-06",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_koeniz-c7f9d7b235789191",
+      "right": "gemeinde_koeniz-01348f55cd41010f",
+      "date": "2026-11-20",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
+    },
+    {
       "left": "friedas_ausgangheute-5a173502112e8599",
       "right": "friedas_buexe-76e22e518444b703",
       "date": "2026-10-31",
@@ -1192,6 +1208,14 @@
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
+    },
+    {
+      "left": "kulturzueri-9e088826f99483bc",
+      "right": "kulturzueri-390e0a632ac9d442",
+      "date": "2026-11-05",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
     }
   ]
 }
