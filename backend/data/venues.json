@@ -3251,5 +3251,21 @@
       "coordinate_precision": "building",
       "feature_id": "170057_0"
     }
+  },
+  "barengasse|22|zurich": {
+    "checked_at": "2026-10-30T02:52:15.978939+01:00",
+    "query": [
+      "Bärengasse",
+      "22",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36968994140625,
+      "longitude": 8.536423683166504,
+      "address_label": "Bärengasse 22 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302040373_1"
+    }
   }
 }
