@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T02:26:20+01:00",
+  "generated_at": "2026-10-30T08:24:47+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -554,14 +554,6 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "gemeinde_kloten-28881c90afe92840",
-      "right": "gemeinde_kloten-cc2e667e61c38f6a",
-      "date": "2026-11-08",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
       "left": "gemeinde_kloten-f7a4b8a3491296bb",
       "right": "gemeinde_kloten-b131b20e76be7a38",
       "date": "2026-11-27",
@@ -602,22 +594,6 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "gemeinde_kloten-4bf20fa8b6f381a8",
-      "right": "gemeinde_kloten-d3169c6d8a12a1a8",
-      "date": "2026-11-20",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
-      "left": "gemeinde_kloten-27e8408b67eb057a",
-      "right": "gemeinde_kloten-d3169c6d8a12a1a8",
-      "date": "2026-11-20",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "gemeinde_kloten-7fd372e8b49f0e7f",
       "right": "gemeinde_kloten-7ff76dbb66690e92",
       "date": "2026-11-03",
@@ -632,22 +608,6 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_kloten-40fc35ae2a4fde15",
-      "right": "gemeinde_kloten-bed2142c84afd31e",
-      "date": "2026-10-31",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
-      "left": "gemeinde_kloten-bef706833d531843",
-      "right": "gemeinde_kloten-0ed5e4f8f694756e",
-      "date": "2026-11-07",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
     },
     {
       "left": "gemeinde_kloten-59117f68eeb0692e",
@@ -1064,6 +1024,126 @@
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
+    },
+    {
+      "left": "gemeinde_kloten-cf223aea34900d00",
+      "right": "gemeinde_kloten-677065dd705e29d6",
+      "date": "2026-12-01",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_kloten-4809870888a8984f",
+      "right": "gemeinde_kloten-ba300d373694e3cf",
+      "date": "2026-11-29",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_kloten-518a29b48a9829a9",
+      "right": "gemeinde_kloten-cf879dcffa75cb0d",
+      "date": "2026-12-27",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_kloten-f76485d080842bee",
+      "right": "gemeinde_kloten-2eb9627489e4be87",
+      "date": "2026-11-08",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_kloten-87e3cb79c6854c89",
+      "right": "gemeinde_kloten-c732f85e38979d1d",
+      "date": "2026-10-30",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_kloten-ff65fac91ebeff2b",
+      "right": "gemeinde_kloten-11053db372561a5d",
+      "date": "2026-10-31",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_kloten-ff65fac91ebeff2b",
+      "right": "gemeinde_kloten-deb7df27feae6266",
+      "date": "2026-10-31",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_kloten-11053db372561a5d",
+      "right": "gemeinde_kloten-deb7df27feae6266",
+      "date": "2026-10-31",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_kloten-e2d87d1903d062af",
+      "right": "gemeinde_kloten-d1d2b1c5526dd8e5",
+      "date": "2026-11-06",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_kloten-f3574725f9c9c642",
+      "right": "gemeinde_kloten-da7e7bba3b188df3",
+      "date": "2026-11-07",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_kloten-f3574725f9c9c642",
+      "right": "gemeinde_kloten-b5a51c35f1e69b3a",
+      "date": "2026-11-07",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_kloten-da7e7bba3b188df3",
+      "right": "gemeinde_kloten-b5a51c35f1e69b3a",
+      "date": "2026-11-07",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_uster-9ebd9865816b582d",
+      "right": "gemeinde_uster-679162f65f6a9939",
+      "date": "2026-12-24",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_uster-9ebd9865816b582d",
+      "right": "gemeinde_uster-f938b7068a5fda33",
+      "date": "2026-12-24",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_uster-679162f65f6a9939",
+      "right": "gemeinde_uster-f938b7068a5fda33",
+      "date": "2026-12-24",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
     },
     {
       "left": "friedas_ausgangheute-5a173502112e8599",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T02:26:20+01:00",
+  "generated_at": "2026-10-30T08:24:47+01:00",
   "events": [
     {
       "id": "gemeinde_uster-4d612d51b2fc946b",
@@ -28,9 +28,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "gemeinde_kloten-69db405c8cb97c23",
+      "id": "gemeinde_kloten-c732f85e38979d1d",
       "raw_keys": [
-        "('gemeinde_kloten', '7243946', '2026-10-30')"
+        "('gemeinde_kloten', '7781119', '2026-10-30')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -51,7 +51,7 @@
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
     },
     {
       "id": "gemeinde_uster-0014c18ffd44ead6",
@@ -236,9 +236,35 @@
       "match_confidence": "independent"
     },
     {
-      "id": "gemeinde_kloten-b27fc8c3acb7a4d6",
+      "id": "gemeinde_kloten-87e3cb79c6854c89",
       "raw_keys": [
-        "('gemeinde_kloten', '7718764', '2026-10-30')"
+        "('gemeinde_kloten', '7781116', '2026-10-30')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
+      "id": "gemeinde_kloten-32fc18d7be3098ad",
+      "raw_keys": [
+        "('gemeinde_kloten', '7768099', '2026-10-30')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -295,6 +321,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-c53ad7349aac27af",
+      "raw_keys": [
+        "('gemeinde_kloten', '7780720', '2026-10-30')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "rote_fabrik-625ce192af95d0be",
       "raw_keys": [
         "('rote_fabrik', '34755', '2026-10-30')"
@@ -320,10 +372,9 @@
         "address": "rote_fabrik",
         "canton": "rote_fabrik",
         "price_text": "rote_fabrik",
+        "retained_fields": "rote_fabrik",
         "first_seen": "rote_fabrik",
-        "last_seen": "rote_fabrik",
-        "coordinate_source": "rote_fabrik",
-        "coordinate_precision": "rote_fabrik"
+        "last_seen": "rote_fabrik"
       },
       "match_confidence": "independent"
     },
@@ -2779,10 +2830,9 @@
         "original_event_url": "kulturzueri",
         "source_event_id": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -3749,6 +3799,58 @@
       "match_confidence": "probable"
     },
     {
+      "id": "gemeinde_kloten-ff65fac91ebeff2b",
+      "raw_keys": [
+        "('gemeinde_kloten', '7781122', '2026-10-31')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "probable"
+    },
+    {
+      "id": "gemeinde_kloten-deb7df27feae6266",
+      "raw_keys": [
+        "('gemeinde_kloten', '7783441', '2026-10-31')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "probable"
+    },
+    {
       "id": "gemeinde_uster-c51638f9212b46f5",
       "raw_keys": [
         "('gemeinde_uster', '7732540', '2026-10-31')"
@@ -3771,32 +3873,6 @@
         "date_precision": "gemeinde_uster",
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_kloten-508db97c893b784c",
-      "raw_keys": [
-        "('gemeinde_kloten', '7243994', '2026-10-31')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -4068,6 +4144,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-11053db372561a5d",
+      "raw_keys": [
+        "('gemeinde_kloten', '7781125', '2026-10-31')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
       "id": "gemeinde_kloten-2d129ab676ff61d4",
       "raw_keys": [
         "('gemeinde_kloten', '7641931', '2026-10-31')"
@@ -4092,58 +4194,6 @@
         "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_kloten-40fc35ae2a4fde15",
-      "raw_keys": [
-        "('gemeinde_kloten', '7718767', '2026-10-31')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
-      },
-      "match_confidence": "probable"
-    },
-    {
-      "id": "gemeinde_kloten-bed2142c84afd31e",
-      "raw_keys": [
-        "('gemeinde_kloten', '7718770', '2026-10-31')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
-      },
-      "match_confidence": "probable"
     },
     {
       "id": "gemeinde_uster-a3ce25f525605e3a",
@@ -4198,9 +4248,35 @@
       "match_confidence": "probable"
     },
     {
-      "id": "gemeinde_kloten-fa414735e19393f7",
+      "id": "gemeinde_kloten-43e36bbd15e62af1",
       "raw_keys": [
-        "('gemeinde_kloten', '7243919', '2026-10-31')"
+        "('gemeinde_kloten', '7780699', '2026-10-31')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-d5a7c183e68e6bb5",
+      "raw_keys": [
+        "('gemeinde_kloten', '7780723', '2026-10-31')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -8772,9 +8848,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "gemeinde_kloten-e5661278e8555b6c",
+      "id": "gemeinde_kloten-099985c9f274fa78",
       "raw_keys": [
-        "('gemeinde_kloten', '7243922', '2026-11-01')"
+        "('gemeinde_kloten', '7780702', '2026-11-01')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -15701,6 +15777,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-9dfe5b3e46eb2737",
+      "raw_keys": [
+        "('gemeinde_kloten', '7765999', '2026-11-04')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_regensdorf-2b93d002fcb0dd2c",
       "raw_keys": [
         "('gemeinde_regensdorf', '6426469', '2026-11-04')"
@@ -18634,9 +18736,9 @@
       "match_confidence": "uncertain"
     },
     {
-      "id": "gemeinde_kloten-bf74f882b8b20b80",
+      "id": "gemeinde_kloten-6492b64fa7ebbff0",
       "raw_keys": [
-        "('gemeinde_kloten', '7243925', '2026-11-05')"
+        "('gemeinde_kloten', '7780705', '2026-11-05')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -21329,10 +21431,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21522,10 +21623,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21751,10 +21851,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21851,10 +21950,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21998,10 +22096,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22135,6 +22232,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-d1d2b1c5526dd8e5",
+      "raw_keys": [
+        "('gemeinde_kloten', '7783444', '2026-11-06')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
       "id": "gemeinde_thalwil-654db6eebe6f351e",
       "raw_keys": [
         "('gemeinde_thalwil', '7217078', '2026-11-06')"
@@ -22183,32 +22306,6 @@
         "date_precision": "gemeinde_thalwil",
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_kloten-5c3450bcad838ab7",
-      "raw_keys": [
-        "('gemeinde_kloten', '7243949', '2026-11-06')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -22452,9 +22549,35 @@
       "match_confidence": "independent"
     },
     {
-      "id": "gemeinde_kloten-aff7171e189d2b83",
+      "id": "gemeinde_kloten-e2d87d1903d062af",
       "raw_keys": [
-        "('gemeinde_kloten', '7718773', '2026-11-06')"
+        "('gemeinde_kloten', '7783435', '2026-11-06')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
+      "id": "gemeinde_kloten-82225f39c4fd7340",
+      "raw_keys": [
+        "('gemeinde_kloten', '7780726', '2026-11-06')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -23013,10 +23136,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -24803,6 +24925,36 @@
       "match_confidence": "certain"
     },
     {
+      "id": "friedas_ausgangheute-ac9548b365fd59eb",
+      "raw_keys": [
+        "('friedas_ausgangheute', 'https://ausgangheute.ch/event/3da195fc-454a-46bc-93ab-cd68b8d6b7ed', '2026-11-06', '23:00', 'herzzuherz pablo bolivar luzie kaasimo techno')"
+      ],
+      "field_sources": {
+        "title": "friedas_ausgangheute",
+        "date": "friedas_ausgangheute",
+        "time": "friedas_ausgangheute",
+        "start_at": "friedas_ausgangheute",
+        "time_unknown": "friedas_ausgangheute",
+        "venue": "friedas_ausgangheute",
+        "category": "friedas_ausgangheute",
+        "tags": "friedas_ausgangheute",
+        "status": "friedas_ausgangheute",
+        "latitude": "friedas_ausgangheute",
+        "longitude": "friedas_ausgangheute",
+        "city": "friedas_ausgangheute",
+        "municipality": "friedas_ausgangheute",
+        "region": "friedas_ausgangheute",
+        "address": "friedas_ausgangheute",
+        "country": "friedas_ausgangheute",
+        "date_precision": "friedas_ausgangheute",
+        "first_seen": "friedas_ausgangheute",
+        "last_seen": "friedas_ausgangheute",
+        "coordinate_source": "friedas_ausgangheute",
+        "coordinate_precision": "friedas_ausgangheute"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gonzo-27c3de5b90dcddd0",
       "raw_keys": [
         "('gonzo', 'https://gonzoclub.ch', '2026-11-06', '23:00', 'hotline bling 1 year anniversery')"
@@ -25177,6 +25329,58 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-f3574725f9c9c642",
+      "raw_keys": [
+        "('gemeinde_kloten', '7783450', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "probable"
+    },
+    {
+      "id": "gemeinde_kloten-da7e7bba3b188df3",
+      "raw_keys": [
+        "('gemeinde_kloten', '7783453', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "probable"
+    },
+    {
       "id": "gemeinde_uster-b5d674f4006d09be",
       "raw_keys": [
         "('gemeinde_uster', '7747861', '2026-11-07')"
@@ -25251,32 +25455,6 @@
         "date_precision": "gemeinde_uster",
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_kloten-77abbe756c804970",
-      "raw_keys": [
-        "('gemeinde_kloten', '7243997', '2026-11-07')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -25468,6 +25646,32 @@
       "match_confidence": "probable"
     },
     {
+      "id": "gemeinde_kloten-b5a51c35f1e69b3a",
+      "raw_keys": [
+        "('gemeinde_kloten', '7783456', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
       "id": "gemeinde_uster-faaf9eceec36c53b",
       "raw_keys": [
         "('gemeinde_uster', '7608241', '2026-11-07')"
@@ -25518,58 +25722,6 @@
         "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_kloten-bef706833d531843",
-      "raw_keys": [
-        "('gemeinde_kloten', '7718776', '2026-11-07')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
-      },
-      "match_confidence": "probable"
-    },
-    {
-      "id": "gemeinde_kloten-0ed5e4f8f694756e",
-      "raw_keys": [
-        "('gemeinde_kloten', '7718779', '2026-11-07')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
-      },
-      "match_confidence": "probable"
     },
     {
       "id": "gemeinde_kloten-2dcc15340b7df124",
@@ -25624,6 +25776,58 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-4076ad69d5696260",
+      "raw_keys": [
+        "('gemeinde_kloten', '7780708', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-b161928b659479e2",
+      "raw_keys": [
+        "('gemeinde_kloten', '7780729', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-410f861487b40936",
       "raw_keys": [
         "('gemeinde_uster', '7696219', '2026-11-07')"
@@ -25646,32 +25850,6 @@
         "date_precision": "gemeinde_uster",
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_kloten-5b2f2abb12f8d0fe",
-      "raw_keys": [
-        "('gemeinde_kloten', '7243928', '2026-11-07')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -28423,9 +28601,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "gemeinde_kloten-28881c90afe92840",
+      "id": "gemeinde_kloten-f76485d080842bee",
       "raw_keys": [
-        "('gemeinde_kloten', '7243931', '2026-11-08')"
+        "('gemeinde_kloten', '7780711', '2026-11-08')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -28449,9 +28627,9 @@
       "match_confidence": "probable"
     },
     {
-      "id": "gemeinde_kloten-cc2e667e61c38f6a",
+      "id": "gemeinde_kloten-2eb9627489e4be87",
       "raw_keys": [
-        "('gemeinde_kloten', '7631740', '2026-11-08')"
+        "('gemeinde_kloten', '7780714', '2026-11-08')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -36761,6 +36939,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-8eb97ee2e3a788c4",
+      "raw_keys": [
+        "('gemeinde_kloten', '7780819', '2026-11-13')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-c930290f1f736ffd",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1104-200235-schulworkshop_alice_im_wunderland/|08:45', '2026-11-13')"
@@ -38543,9 +38747,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "gemeinde_kloten-7c08ebcbd0607bff",
+      "id": "gemeinde_kloten-dce0c6867d7c9cf8",
       "raw_keys": [
-        "('gemeinde_kloten', '7240877', '2026-11-14')"
+        "('gemeinde_kloten', '7780822', '2026-11-14')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -38591,6 +38795,32 @@
         "date_precision": "gemeinde_uster",
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-62a58a8953603108",
+      "raw_keys": [
+        "('gemeinde_kloten', '7770781', '2026-11-14')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -39233,6 +39463,7 @@
         "image_url": "dynamo",
         "image_source": "dynamo",
         "image_type": "dynamo",
+        "retained_fields": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
@@ -44633,6 +44864,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-b03ffd1685e33bf5",
+      "raw_keys": [
+        "('gemeinde_uster', '7781239', '2026-11-18')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-81c54f20b60c0bc0",
       "raw_keys": [
         "('gemeinde_uster', '7775911', '2026-11-18')"
@@ -49256,33 +49513,7 @@
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
       },
-      "match_confidence": "probable"
-    },
-    {
-      "id": "gemeinde_kloten-d3169c6d8a12a1a8",
-      "raw_keys": [
-        "('gemeinde_kloten', '7681789', '2026-11-20')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
-      },
-      "match_confidence": "probable"
+      "match_confidence": "uncertain"
     },
     {
       "id": "gemeinde_kloten-27e8408b67eb057a",
@@ -51343,6 +51574,32 @@
         "date_precision": "gemeinde_kloten",
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-c82aebbaa562c9f2",
+      "raw_keys": [
+        "('gemeinde_uster', '7784056', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -53474,6 +53731,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-88e241883813daf4",
+      "raw_keys": [
+        "('gemeinde_kloten', '7780135', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-df7dc3389bf4a074",
       "raw_keys": [
         "('gemeinde_thalwil', '7750834', '2026-11-22')"
@@ -54419,7 +54702,6 @@
         "image_url": "dynamo",
         "image_source": "dynamo",
         "image_type": "dynamo",
-        "retained_fields": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
@@ -56897,6 +57179,32 @@
       "id": "gemeinde_kloten-1398728eb6a21259",
       "raw_keys": [
         "('gemeinde_kloten', '7731919', '2026-11-25')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-9881d8fae6a855b9",
+      "raw_keys": [
+        "('gemeinde_kloten', '7765249', '2026-11-25')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -65049,7 +65357,33 @@
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
       },
-      "match_confidence": "independent"
+      "match_confidence": "probable"
+    },
+    {
+      "id": "gemeinde_kloten-ba300d373694e3cf",
+      "raw_keys": [
+        "('gemeinde_kloten', '7774345', '2026-11-29')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "probable"
     },
     {
       "id": "gemeinde_kloten-59dd7bfda2e01032",
@@ -67295,6 +67629,58 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-677065dd705e29d6",
+      "raw_keys": [
+        "('gemeinde_kloten', '7768102', '2026-12-01')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
+      "id": "gemeinde_kloten-cf223aea34900d00",
+      "raw_keys": [
+        "('gemeinde_kloten', '7768093', '2026-12-01')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
       "id": "gemeinde_thalwil-96b911deab252e74",
       "raw_keys": [
         "('gemeinde_thalwil', '7759210', '2026-12-01')"
@@ -67966,6 +68352,32 @@
         "ticket_url": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-e2baecbf1fc433b5",
+      "raw_keys": [
+        "('gemeinde_kloten', '7768084', '2026-12-02')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -69889,6 +70301,32 @@
         "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "uncertain"
+    },
+    {
+      "id": "gemeinde_kloten-2c1d24ef612b1413",
+      "raw_keys": [
+        "('gemeinde_kloten', '7778707', '2026-12-03')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "gemeinde_regensdorf-4583a3e9b55ce346",
@@ -76820,6 +77258,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-1e675aa29845aef6",
+      "raw_keys": [
+        "('gemeinde_kloten', '7772785', '2026-12-09')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-b56f14b5a838d8be",
       "raw_keys": [
         "('gemeinde_kloten', '7677991', '2026-12-09')"
@@ -81094,6 +81558,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-79a20dd985f06272",
+      "raw_keys": [
+        "('gemeinde_kloten', '7772791', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-c3ea7d29b373ecee",
       "raw_keys": [
         "('gemeinde_uster', '7565977', '2026-12-12')"
@@ -82604,6 +83094,32 @@
       "id": "gemeinde_kloten-5b8c48e10851c9e4",
       "raw_keys": [
         "('gemeinde_kloten', '7762561', '2026-12-13')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-dd1365eea718f9c3",
+      "raw_keys": [
+        "('gemeinde_kloten', '7772788', '2026-12-13')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -84889,6 +85405,32 @@
         "date_precision": "gemeinde_uster",
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-442c5c40de4dafac",
+      "raw_keys": [
+        "('gemeinde_kloten', '7766005', '2026-12-16')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -89674,6 +90216,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-55130b0a65686013",
+      "raw_keys": [
+        "('gemeinde_kloten', '7778710', '2026-12-21')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-af4d213219b04898",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/frischbaum-der-weihnachtsbaum-vom-zuercher-stadtwald-im-forstgarten-albisgueetli.html?calentry=25', '2026-12-21')"
@@ -89968,32 +90536,6 @@
         "date_precision": "gemeinde_thalwil",
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_kloten-63bdd3718f8afc93",
-      "raw_keys": [
-        "('gemeinde_kloten', '7690570', '2026-12-22')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -90629,6 +91171,84 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-9ebd9865816b582d",
+      "raw_keys": [
+        "('gemeinde_uster', '7781248', '2026-12-24')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "probable"
+    },
+    {
+      "id": "gemeinde_uster-679162f65f6a9939",
+      "raw_keys": [
+        "('gemeinde_uster', '7781251', '2026-12-24')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "probable"
+    },
+    {
+      "id": "gemeinde_uster-f938b7068a5fda33",
+      "raw_keys": [
+        "('gemeinde_uster', '7781254', '2026-12-24')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "probable"
+    },
+    {
       "id": "gemeinde_kloten-9b30d546c97e3d6a",
       "raw_keys": [
         "('gemeinde_kloten', '7417786', '2026-12-24')"
@@ -90903,6 +91523,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-76f2885237a1c97f",
+      "raw_keys": [
+        "('gemeinde_uster', '7781257', '2026-12-25')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-a1fc2c37f895e357",
       "raw_keys": [
         "('gemeinde_kloten', '7547353', '2026-12-25')"
@@ -91090,6 +91736,32 @@
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-97df8ec1ff0ff0fa",
+      "raw_keys": [
+        "('gemeinde_kloten', '7780735', '2026-12-26')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -91551,7 +92223,33 @@
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
       },
-      "match_confidence": "independent"
+      "match_confidence": "probable"
+    },
+    {
+      "id": "gemeinde_kloten-cf879dcffa75cb0d",
+      "raw_keys": [
+        "('gemeinde_kloten', '7774348', '2026-12-27')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "probable"
     },
     {
       "id": "gemeinde_kloten-5195ae9975ba1e31",
@@ -92500,6 +93198,32 @@
       "id": "gemeinde_kloten-b51507cb2e604261",
       "raw_keys": [
         "('gemeinde_kloten', '7636717', '2026-12-31')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-690aeed1f517c3ce",
+      "raw_keys": [
+        "('gemeinde_kloten', '7780549', '2026-12-31')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -97989,6 +98713,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-5035f7fe04f9bf4b",
+      "raw_keys": [
+        "('gemeinde_kloten', '7778713', '2027-01-19')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-ffae405fb26852b0",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1104-108649-open_space_stimme-1/|19:00', '2027-01-19')"
@@ -98053,6 +98803,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-adb201e43bf806ff",
+      "raw_keys": [
+        "('gemeinde_kloten', '7736053', '2027-01-20')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-554329ebc6d0d10a",
       "raw_keys": [
         "('gemeinde_thalwil', '7604620', '2027-01-20')"
@@ -98101,6 +98877,32 @@
         "date_precision": "gemeinde_uster",
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-e3cb65bbbed16347",
+      "raw_keys": [
+        "('gemeinde_kloten', '7718638', '2027-01-20')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -98644,6 +99446,32 @@
         "date_precision": "gemeinde_thalwil",
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-f8eb84ee349c9c1b",
+      "raw_keys": [
+        "('gemeinde_kloten', '7778716', '2027-01-21')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -99212,6 +100040,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-8958673401f4e4aa",
+      "raw_keys": [
+        "('gemeinde_kloten', '7559062', '2027-01-23')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-b8d0102e0a5a29c8",
       "raw_keys": [
         "('gemeinde_uster', '7627264', '2027-01-23')"
@@ -99234,6 +100088,32 @@
         "date_precision": "gemeinde_uster",
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-9d4a48ec8f614c3b",
+      "raw_keys": [
+        "('gemeinde_kloten', '7478203', '2027-01-23')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -99965,6 +100845,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-9f001c1d12a85fd8",
+      "raw_keys": [
+        "('gemeinde_uster', '7609264', '2027-01-27')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-7b1c75b8a7a50d95",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/bildung/berufsberatung-laufbahnberatung/fachmann-fachfrau-gesundheit-efz-spitex21.html?calentry=1', '2027-01-27')"
@@ -100401,10 +101307,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -100436,10 +101341,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -100471,10 +101375,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
