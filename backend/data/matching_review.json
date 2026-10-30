@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T14:20:06+01:00",
+  "generated_at": "2026-10-30T20:10:20+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1269,6 +1269,38 @@
       "left": "kulturzueri-9e088826f99483bc",
       "right": "kulturzueri-390e0a632ac9d442",
       "date": "2026-11-05",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_uster-fb1c830455996fa4",
+      "right": "kulturzueri-e4670d28e1c8c62b",
+      "date": "2026-11-06",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "kulturzueri-3560abbfc512f41d",
+      "right": "kulturzueri-c2dfbe4c8e344ce2",
+      "date": "2026-11-08",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "kulturzueri-caa572d025e0e61a",
+      "right": "kulturzueri-c3e6e94656e96a25",
+      "date": "2026-11-06",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "kulturzueri-743f1af51d8e961e",
+      "right": "kulturzueri-cb4daecf157de32c",
+      "date": "2026-11-07",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
