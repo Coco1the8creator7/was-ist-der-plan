@@ -3267,5 +3267,21 @@
       "coordinate_precision": "building",
       "feature_id": "302040373_1"
     }
+  },
+  "uetlibergstrasse|54|zurich": {
+    "checked_at": "2026-10-31T02:50:46.178195+01:00",
+    "query": [
+      "Uetlibergstrasse",
+      "54",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.3630485534668,
+      "longitude": 8.5189847946167,
+      "address_label": "Uetlibergstrasse 54 8045 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2371457_0"
+    }
   }
 }
