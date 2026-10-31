@@ -3299,5 +3299,30 @@
       "coordinate_precision": "building",
       "feature_id": "2372956_0"
     }
+  },
+  "stadelhoferstr|12|zurich": {
+    "checked_at": "2026-10-31T20:32:56.846141+01:00",
+    "query": [
+      "Stadelhoferstr.",
+      "12",
+      "Zürich"
+    ],
+    "result": null
+  },
+  "zahringerstrasse|17|zurich": {
+    "checked_at": "2026-10-31T20:32:56.846141+01:00",
+    "query": [
+      "Zähringerstrasse",
+      "17",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37477111816406,
+      "longitude": 8.54452896118164,
+      "address_label": "Zähringerstrasse 17 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "140080_0"
+    }
   }
 }
