@@ -3283,5 +3283,21 @@
       "coordinate_precision": "building",
       "feature_id": "2371457_0"
     }
+  },
+  "uraniastrasse|9|zurich": {
+    "checked_at": "2026-10-31T14:39:37.659025+01:00",
+    "query": [
+      "Uraniastrasse",
+      "9",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37432098388672,
+      "longitude": 8.539257049560547,
+      "address_label": "Uraniastrasse 9 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2372956_0"
+    }
   }
 }

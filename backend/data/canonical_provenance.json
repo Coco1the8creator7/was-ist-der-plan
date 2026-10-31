@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T08:19:27+01:00",
+  "generated_at": "2026-10-31T14:13:29+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-60d7e21e24d56b0d",
@@ -21598,6 +21598,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-6d066f9610cf3a5d",
+      "raw_keys": [
+        "('ubwg', '170992', '2026-11-06')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gaskessel_bern-01d7200e23204a0f",
       "raw_keys": [
         "('gaskessel_bern', 'https://gaskessel.ch/programm', '2026-11-06', '21:00', 'back to the roots')"
@@ -23666,10 +23702,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -23704,6 +23739,86 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-e4d6939eaa795ccd",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/matinee-francaise/|11:00', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-7e03f38656ca8fbd",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/history-architecture-walk-november/|11:15', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_belp-01866adca566a2c2",
       "raw_keys": [
         "('gemeinde_belp', 'https://belp.ch/de/veranstaltungen/772_kunstausstellung:-verspieltheit-und-struktur', '2026-11-07', '13:00', 'kunstausstellung verspieltheit und struktur')"
@@ -23727,6 +23842,46 @@
         "organizer": "gemeinde_belp",
         "first_seen": "gemeinde_belp",
         "last_seen": "gemeinde_belp"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-d8f2116e5c332c4c",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/workshop-handpan-einstieg/|13:30', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -23839,6 +23994,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-62162d92198b3ce0",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41800-25672-kinderfhrung/|14:00', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -24047,6 +24242,46 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-69dbd8f1048fdcf5",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/wie-geht-komik/|14:00', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -25677,10 +25912,9 @@
         "address": "friedas_ausgangheute",
         "country": "friedas_ausgangheute",
         "date_precision": "friedas_ausgangheute",
+        "retained_fields": "friedas_ausgangheute",
         "first_seen": "friedas_ausgangheute",
-        "last_seen": "friedas_ausgangheute",
-        "coordinate_source": "friedas_ausgangheute",
-        "coordinate_precision": "friedas_ausgangheute"
+        "last_seen": "friedas_ausgangheute"
       },
       "match_confidence": "uncertain"
     },
@@ -27330,10 +27564,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -52103,6 +52336,30 @@
       "match_confidence": "independent"
     },
     {
+      "id": "dynamo-fd421b056ac940de",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/kurs/messerschmiedekurs-2-sonntage-13', '2026-11-22', '09:00', 'messerschmiedekurs 2 sonntage')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "price_chf": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-d0b644993d515de7",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/sammeln-wissen-handeln.html?calentry=50', '2026-11-22')"
@@ -63947,6 +64204,30 @@
       "match_confidence": "independent"
     },
     {
+      "id": "dynamo-54c64440c3403db0",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/kurs/messerschmiedekurs-2-sonntage-13', '2026-11-29', '09:00', 'messerschmiedekurs 2 sonntage')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "price_chf": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-6dd41b08e3bf12fc",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/sammeln-wissen-handeln.html?calentry=57', '2026-11-29')"
@@ -73386,6 +73667,46 @@
         "country": "dampfzentrale_bern",
         "first_seen": "dampfzentrale_bern",
         "last_seen": "dampfzentrale_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-60281e22ec5c6ab8",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/workshop-handpan-einstieg/|13:30', '2026-12-06')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
