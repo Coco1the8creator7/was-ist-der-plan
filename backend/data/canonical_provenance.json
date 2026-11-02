@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T02:30:28+01:00",
+  "generated_at": "2026-11-02T08:47:57+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-2478be8a5d5f6a0d",
@@ -8422,10 +8422,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -9332,10 +9331,9 @@
         "original_event_url": "kulturzueri",
         "source_event_id": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -25184,6 +25182,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-bee2ccebf2e94c3e",
+      "raw_keys": [
+        "('gemeinde_uster', '7788523', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-6dfd9137608dc78b",
       "raw_keys": [
         "('gemeinde_thalwil', '7704694', '2026-11-11')"
@@ -28718,10 +28742,9 @@
         "original_event_url": "kulturzueri",
         "source_event_id": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -41406,10 +41429,9 @@
         "original_event_url": "kulturzueri",
         "source_event_id": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -50996,6 +51018,32 @@
       "match_confidence": "uncertain"
     },
     {
+      "id": "gemeinde_uster-50957bb5483c2de1",
+      "raw_keys": [
+        "('gemeinde_uster', '7788520', '2026-11-25')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-514022e1b02cd5e7",
       "raw_keys": [
         "('gemeinde_kloten', '7660714', '2026-11-25')"
@@ -54084,10 +54132,9 @@
         "original_event_url": "kulturzueri",
         "source_event_id": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -56501,32 +56548,6 @@
         "coordinate_source": "ubwg",
         "first_seen": "ubwg",
         "last_seen": "ubwg"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_regensdorf-6df8b204d74ece5b",
-      "raw_keys": [
-        "('gemeinde_regensdorf', '7590571', '2026-11-28')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_regensdorf",
-        "date": "gemeinde_regensdorf",
-        "time_unknown": "gemeinde_regensdorf",
-        "venue": "gemeinde_regensdorf",
-        "category": "gemeinde_regensdorf",
-        "tags": "gemeinde_regensdorf",
-        "status": "gemeinde_regensdorf",
-        "region": "gemeinde_regensdorf",
-        "city": "gemeinde_regensdorf",
-        "municipality": "gemeinde_regensdorf",
-        "country": "gemeinde_regensdorf",
-        "original_title": "gemeinde_regensdorf",
-        "organizer": "gemeinde_regensdorf",
-        "source_event_id": "gemeinde_regensdorf",
-        "date_precision": "gemeinde_regensdorf",
-        "first_seen": "gemeinde_regensdorf",
-        "last_seen": "gemeinde_regensdorf"
       },
       "match_confidence": "independent"
     },
@@ -59152,6 +59173,32 @@
         "source_event_id": "onthur",
         "first_seen": "onthur",
         "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_regensdorf-9a1b6732011aadea",
+      "raw_keys": [
+        "('gemeinde_regensdorf', '7590571', '2026-11-29')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_regensdorf",
+        "date": "gemeinde_regensdorf",
+        "time_unknown": "gemeinde_regensdorf",
+        "venue": "gemeinde_regensdorf",
+        "category": "gemeinde_regensdorf",
+        "tags": "gemeinde_regensdorf",
+        "status": "gemeinde_regensdorf",
+        "region": "gemeinde_regensdorf",
+        "city": "gemeinde_regensdorf",
+        "municipality": "gemeinde_regensdorf",
+        "country": "gemeinde_regensdorf",
+        "original_title": "gemeinde_regensdorf",
+        "organizer": "gemeinde_regensdorf",
+        "source_event_id": "gemeinde_regensdorf",
+        "date_precision": "gemeinde_regensdorf",
+        "first_seen": "gemeinde_regensdorf",
+        "last_seen": "gemeinde_regensdorf"
       },
       "match_confidence": "independent"
     },
@@ -65567,10 +65614,9 @@
         "original_event_url": "kulturzueri",
         "source_event_id": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -67337,6 +67383,32 @@
         "date_precision": "gemeinde_uster",
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_regensdorf-8b486388cd9a5c34",
+      "raw_keys": [
+        "('gemeinde_regensdorf', '7788847', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_regensdorf",
+        "date": "gemeinde_regensdorf",
+        "time_unknown": "gemeinde_regensdorf",
+        "venue": "gemeinde_regensdorf",
+        "category": "gemeinde_regensdorf",
+        "tags": "gemeinde_regensdorf",
+        "status": "gemeinde_regensdorf",
+        "region": "gemeinde_regensdorf",
+        "city": "gemeinde_regensdorf",
+        "municipality": "gemeinde_regensdorf",
+        "country": "gemeinde_regensdorf",
+        "original_title": "gemeinde_regensdorf",
+        "organizer": "gemeinde_regensdorf",
+        "source_event_id": "gemeinde_regensdorf",
+        "date_precision": "gemeinde_regensdorf",
+        "first_seen": "gemeinde_regensdorf",
+        "last_seen": "gemeinde_regensdorf"
       },
       "match_confidence": "independent"
     },
@@ -72061,6 +72133,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-2d9ef75804e7be59",
+      "raw_keys": [
+        "('gemeinde_uster', '7788505', '2026-12-09')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-81192f6de2b39ef6",
       "raw_keys": [
         "('gemeinde_thalwil', '7704697', '2026-12-09')"
@@ -72992,10 +73090,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -74608,10 +74705,9 @@
         "original_event_url": "kulturzueri",
         "source_event_id": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -76426,6 +76522,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-51e7500f814b76e1",
+      "raw_keys": [
+        "('gemeinde_uster', '7788499', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-cd795736b0601694",
       "raw_keys": [
         "('gemeinde_uster', '7113491', '2026-12-12')"
@@ -76528,6 +76650,32 @@
         "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "probable"
+    },
+    {
+      "id": "gemeinde_uster-84da021a7c875a31",
+      "raw_keys": [
+        "('gemeinde_uster', '7788502', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "gemeinde_kloten-25a126021417f59c",
@@ -83057,10 +83205,9 @@
         "original_event_url": "kulturzueri",
         "source_event_id": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
