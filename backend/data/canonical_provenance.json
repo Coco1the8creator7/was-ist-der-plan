@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T08:47:57+01:00",
+  "generated_at": "2026-11-02T14:32:44+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-2478be8a5d5f6a0d",
@@ -22774,6 +22774,78 @@
       "match_confidence": "certain"
     },
     {
+      "id": "kulturzueri-cc2016b599026c63",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41792-9988-plattentaufe_stereogefhle/|19:00', '2026-11-08')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-d649dcd29a182484",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1100-5d4f3fae-f0e5-4c0f-8889-48632c37f96d-sullivan_fortner_trio/|19:00', '2026-11-08')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-3cf6231d530cf64a",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1104-200185-rachmaninovdie_drei_opern/|19:30', '2026-11-08')"
@@ -22844,7 +22916,8 @@
     {
       "id": "exil-f359b9e74b5410bd",
       "raw_keys": [
-        "('exil', 'https://exil.club/events/sports', '2026-11-08', '20:00', 'sports')"
+        "('exil', 'https://exil.club/events/sports', '2026-11-08', '20:00', 'sports')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/211502-8808648-sports/|20:00', '2026-11-08')"
       ],
       "field_sources": {
         "title": "exil",
@@ -22859,9 +22932,27 @@
         "image_source": "exil",
         "image_type": "exil",
         "first_seen": "exil",
-        "last_seen": "exil"
+        "last_seen": "exil",
+        "time_unknown": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "gemeinde_thalwil-eec3c2fc59e0b827",
@@ -29305,32 +29396,6 @@
       "match_confidence": "independent"
     },
     {
-      "id": "gemeinde_uster-a857b40b0dff7ed5",
-      "raw_keys": [
-        "('gemeinde_uster', '7747549', '2026-11-13')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_uster",
-        "date": "gemeinde_uster",
-        "time_unknown": "gemeinde_uster",
-        "venue": "gemeinde_uster",
-        "category": "gemeinde_uster",
-        "tags": "gemeinde_uster",
-        "status": "gemeinde_uster",
-        "region": "gemeinde_uster",
-        "city": "gemeinde_uster",
-        "municipality": "gemeinde_uster",
-        "country": "gemeinde_uster",
-        "original_title": "gemeinde_uster",
-        "organizer": "gemeinde_uster",
-        "source_event_id": "gemeinde_uster",
-        "date_precision": "gemeinde_uster",
-        "first_seen": "gemeinde_uster",
-        "last_seen": "gemeinde_uster"
-      },
-      "match_confidence": "independent"
-    },
-    {
       "id": "stadt_zuerich-33a7a757c0840f79",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/kultur/karl-der-grosse/veranstaltung30.html?calentry=8', '2026-11-13')"
@@ -33775,6 +33840,42 @@
         "country": "bierhuebeli_bern",
         "first_seen": "bierhuebeli_bern",
         "last_seen": "bierhuebeli_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-6b3ed157ab483405",
+      "raw_keys": [
+        "('ubwg', '171159', '2026-11-14')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -44455,6 +44556,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-c1a2e1886a41f231",
+      "raw_keys": [
+        "('ubwg', '171163', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-e19e77427e2216de",
       "raw_keys": [
         "('ubwg', '170691', '2026-11-20')"
@@ -46631,6 +46768,42 @@
         "source_event_id": "onthur",
         "first_seen": "onthur",
         "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-3d62d4ff9038f475",
+      "raw_keys": [
+        "('ubwg', '171171', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -56231,6 +56404,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-6625b846d00a35a6",
+      "raw_keys": [
+        "('ubwg', '171176', '2026-11-27')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kaufleuten-cac78ca58b5d83f5",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/la-casita-en-jade-1', '2026-11-27', '23:00', 'la casita en jade con juanjo garcia esp')"
@@ -59100,6 +59309,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-29aae2927fffa479",
+      "raw_keys": [
+        "('ubwg', '171182', '2026-11-28')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "exil-274ef734806ceee3",
       "raw_keys": [
         "('exil', 'https://exil.club/events/zeitgeist-nov26', '2026-11-28', '23:00', 'zeitgeist')"
@@ -59931,6 +60176,42 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-0cd0af446a44a057",
+      "raw_keys": [
+        "('ubwg', '171186', '2026-11-29')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
