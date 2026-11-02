@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:32:44+01:00",
+  "generated_at": "2026-11-02T20:17:46+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1056,6 +1056,14 @@
       "score": 85,
       "level": "probable",
       "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "isc_bern-94340d8b3d39a0dc",
+      "right": "isc_bern-1b2e496eb006b450",
+      "date": "2026-11-18",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
     },
     {
       "left": "petzi-38df3ae797f1a779",
