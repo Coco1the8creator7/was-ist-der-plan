@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T20:06:26+01:00",
+  "generated_at": "2026-11-02T02:30:28+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -682,14 +682,6 @@
       "reason": "same_title_time_unverified"
     },
     {
-      "left": "gemeinde_uster-774fadc246f4f297",
-      "right": "gemeinde_uster-67e8d86ec9df6cb5",
-      "date": "2026-11-01",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
       "left": "gemeinde_uster-e224e9b8005bc820",
       "right": "gemeinde_uster-95768e150d9cfb3e",
       "date": "2026-11-08",
@@ -962,22 +954,6 @@
       "reason": "similar_title"
     },
     {
-      "left": "dynamo-c5d5b10d92e588df",
-      "right": "dynamo-49ed80ee0b680016",
-      "date": "2026-11-01",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "kaufleuten-fe1f4029074d08d8",
-      "right": "kaufleuten-fe1f4029074d08d8",
-      "date": "2026-11-01",
-      "score": 85,
-      "level": "probable",
-      "reason": "similar_title"
-    },
-    {
       "left": "gemeinde_koeniz-e7bf8e215c837ecf",
       "right": "gemeinde_koeniz-4f8143cb4737a8c5",
       "date": "2026-11-06",
@@ -1096,14 +1072,6 @@
       "score": 85,
       "level": "probable",
       "reason": "same_title_time_unverified"
-    },
-    {
-      "left": "petzi-ca4a3524291a919e",
-      "right": "onthur-bba3ba4c8f777a38",
-      "date": "2026-11-01",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
     },
     {
       "left": "friedas_ausgangheute-8467c5d8a85bae5a",
