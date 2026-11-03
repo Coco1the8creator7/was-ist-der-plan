@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T08:37:17+01:00",
+  "generated_at": "2026-11-03T14:29:40+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-395b4935980e3496",
@@ -3940,6 +3940,39 @@
       "match_confidence": "independent"
     },
     {
+      "id": "petzi-2664890f678df885",
+      "raw_keys": [
+        "('petzi', '65426', '2026-11-04')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-d8e2f1561796f314",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/dokfilm-melodie/|19:00', '2026-11-04')"
@@ -4853,6 +4886,42 @@
         "image_type": "exil",
         "first_seen": "exil",
         "last_seen": "exil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-8d8cedb9cd07b1bd",
+      "raw_keys": [
+        "('ubwg', '171317', '2026-11-04')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -8064,6 +8133,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-2df18585927090c1",
+      "raw_keys": [
+        "('ubwg', '171283', '2026-11-05')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-9c34f3193fa7acfe",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/afrokubanischertanzunterricht.html?calentry=15', '2026-11-05')"
@@ -8873,10 +8978,38 @@
       "match_confidence": "independent"
     },
     {
+      "id": "petzi-0ccf52df6f94d938-3f18807bbc",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2361/Wonk-Unit-UK-MNTY-CH', '2026-11-05')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "petzi-0ccf52df6f94d938",
       "raw_keys": [
-        "('petzi', '63252', '2026-11-05')",
-        "('onthur', '/de/kalender/2361/Wonk-Unit-UK-MNTY-CH', '2026-11-05')"
+        "('petzi', '63252', '2026-11-05')"
       ],
       "field_sources": {
         "title": "petzi",
@@ -8906,7 +9039,7 @@
         "first_seen": "petzi",
         "last_seen": "petzi"
       },
-      "match_confidence": "certain"
+      "match_confidence": "independent"
     },
     {
       "id": "kulturzueri-1c7d87418f0c720b",
@@ -10497,6 +10630,44 @@
         "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-8e94c166430a0b96",
+      "raw_keys": [
+        "('ubwg', '171260', '2026-11-06')",
+        "('ubwg', '171325', '2026-11-06')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg",
+        "original_event_url": "ubwg"
+      },
+      "match_confidence": "certain"
     },
     {
       "id": "stadt_zuerich-a2935c73940981d1",
@@ -14342,6 +14513,50 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-004a64175c1134bd",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431589|11:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431590|11:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431591|11:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431592|11:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431593|11:00', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "certain"
+    },
+    {
       "id": "kulturzueri-32f13c332034c44d",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-auffuehrungsfenster-13/|11:00', '2026-11-07')"
@@ -14378,7 +14593,7 @@
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
     },
     {
       "id": "stadt_zuerich-c2a9d09db9971c9c",
@@ -15206,6 +15421,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-374d3e2116a94d17",
+      "raw_keys": [
+        "('ubwg', '171314', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-d4de614f5f73ba5b",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1102-46065-geschichtenfenster-lauschen_und_entdecken/|15:00', '2026-11-07')"
@@ -15523,6 +15774,50 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-336811d574e9665e",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431589|16:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431590|16:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431591|16:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431592|16:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431593|16:00', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "certain"
+    },
+    {
       "id": "kulturzueri-b4eef25bf87a8565",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/samstagsfuehrungen/|16:00', '2026-11-07')"
@@ -15814,6 +16109,50 @@
         "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-313ff26bf5a2e25b",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431589|19:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431590|19:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431591|19:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431592|19:00', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431593|19:00', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "certain"
     },
     {
       "id": "gaskessel_bern-9f604f4fb4691f7a",
@@ -17464,6 +17803,39 @@
       "match_confidence": "uncertain"
     },
     {
+      "id": "petzi-13130d417feb2a62",
+      "raw_keys": [
+        "('petzi', '65428', '2026-11-07')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-23b8e2a7ceeea0dc",
       "raw_keys": [
         "('ubwg', '168377', '2026-11-07')"
@@ -17586,6 +17958,35 @@
         "retained_fields": "ubwg",
         "first_seen": "ubwg",
         "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "bierhuebeli_bern-619ca877a820d7e5",
+      "raw_keys": [
+        "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/viva-la-vida', '2026-11-07', '22:00', 'viva la vida')"
+      ],
+      "field_sources": {
+        "title": "bierhuebeli_bern",
+        "date": "bierhuebeli_bern",
+        "time": "bierhuebeli_bern",
+        "start_at": "bierhuebeli_bern",
+        "time_unknown": "bierhuebeli_bern",
+        "venue": "bierhuebeli_bern",
+        "category": "bierhuebeli_bern",
+        "tags": "bierhuebeli_bern",
+        "status": "bierhuebeli_bern",
+        "description": "bierhuebeli_bern",
+        "image_url": "bierhuebeli_bern",
+        "image_source": "bierhuebeli_bern",
+        "image_type": "bierhuebeli_bern",
+        "municipality": "bierhuebeli_bern",
+        "city": "bierhuebeli_bern",
+        "region": "bierhuebeli_bern",
+        "canton": "bierhuebeli_bern",
+        "country": "bierhuebeli_bern",
+        "first_seen": "bierhuebeli_bern",
+        "last_seen": "bierhuebeli_bern"
       },
       "match_confidence": "independent"
     },
@@ -20120,6 +20521,50 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-484495ecfa01cb31",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431589|16:00', '2026-11-08')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431590|16:00', '2026-11-08')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431591|16:00', '2026-11-08')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431592|16:00', '2026-11-08')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431593|16:00', '2026-11-08')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "certain"
+    },
+    {
       "id": "kulturzueri-027f51d222579a93",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/groove-your-labour/|16:00', '2026-11-08')"
@@ -20174,6 +20619,8 @@
         "tags": "stadt_zuerich",
         "status": "stadt_zuerich",
         "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
         "region": "stadt_zuerich",
         "city": "stadt_zuerich",
         "municipality": "stadt_zuerich",
@@ -20185,7 +20632,9 @@
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -21026,6 +21475,50 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-0b5ab49563fd24ec",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431589|18:30', '2026-11-08')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431590|18:30', '2026-11-08')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431591|18:30', '2026-11-08')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431592|18:30', '2026-11-08')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bruecki-235-auffuehrungsfenster-13-zirkusquartierquellenangabe-pn/431593|18:30', '2026-11-08')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "certain"
+    },
+    {
       "id": "dynamo-a535220b8877924f",
       "raw_keys": [
         "('dynamo', 'https://dynamo.ch/veranstaltung/leo-friends-live-im-werk-21', '2026-11-08', '18:30', 'leo friends live im werk 21')"
@@ -21381,6 +21874,39 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "petzi-c4cf1518c904cdb5",
+      "raw_keys": [
+        "('petzi', '65427', '2026-11-08')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
       },
       "match_confidence": "independent"
     },
@@ -22599,10 +23125,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -25894,6 +26419,42 @@
         "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
+    },
+    {
+      "id": "ubwg-ea30bb569e2ea752",
+      "raw_keys": [
+        "('ubwg', '171319', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "gemeinde_koeniz-dacad59266fa038d",
@@ -29961,6 +30522,35 @@
       "match_confidence": "independent"
     },
     {
+      "id": "dachstock_bern-94206fccb172091d",
+      "raw_keys": [
+        "('dachstock_bern', 'https://dachstock.ch/events/13-11-2026-zimmer90', '2026-11-13', '21:45', 'arthouse tour 2026')"
+      ],
+      "field_sources": {
+        "title": "dachstock_bern",
+        "date": "dachstock_bern",
+        "time": "dachstock_bern",
+        "start_at": "dachstock_bern",
+        "time_unknown": "dachstock_bern",
+        "venue": "dachstock_bern",
+        "category": "dachstock_bern",
+        "tags": "dachstock_bern",
+        "status": "dachstock_bern",
+        "description": "dachstock_bern",
+        "image_url": "dachstock_bern",
+        "image_source": "dachstock_bern",
+        "image_type": "dachstock_bern",
+        "municipality": "dachstock_bern",
+        "city": "dachstock_bern",
+        "region": "dachstock_bern",
+        "canton": "dachstock_bern",
+        "country": "dachstock_bern",
+        "first_seen": "dachstock_bern",
+        "last_seen": "dachstock_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-9fe5b15c93fafff1",
       "raw_keys": [
         "('ubwg', '170260', '2026-11-13')"
@@ -30045,6 +30635,43 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-3c4c55651a68858d",
+      "raw_keys": [
+        "('ubwg', '171328', '2026-11-13')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-365c7e9118b3d6d6",
       "raw_keys": [
         "('supermarket', 'https://supermarket.li/programm', '2026-11-13', '22:00', 'roxy')",
@@ -30110,6 +30737,42 @@
         "original_event_url": "ubwg",
         "classification_context": "ubwg",
         "retained_fields": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-7232dbc768c75564",
+      "raw_keys": [
+        "('ubwg', '171293', '2026-11-13')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
         "first_seen": "ubwg",
         "last_seen": "ubwg"
       },
@@ -34286,6 +34949,40 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-a7887f9f3fd0a035",
+      "raw_keys": [
+        "('stadt_zuerich', '/mkz/de/aktuelles/veranstaltungen/konzert.html?calentry=1', '2026-11-15')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-a53f357ad0873d8f",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/planen-und-bauen/wettbewerbsausstellung-betreuung-schule-auhof.html?calentry=10', '2026-11-15')"
@@ -34460,6 +35157,41 @@
         "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-cf395cd43f325514",
+      "raw_keys": [
+        "('stadt_zuerich', '/mkz/de/aktuelles/veranstaltungen/konzert.html?calentry=2', '2026-11-15')",
+        "('stadt_zuerich', '/mkz/de/aktuelles/veranstaltungen/konzert2.html?calentry=1', '2026-11-15')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "certain"
     },
     {
       "id": "gemeinde_belp-fce8112128c9a079",
@@ -35457,6 +36189,33 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_belp-1242ee5a1942b975",
+      "raw_keys": [
+        "('gemeinde_belp', 'https://belp.ch/de/veranstaltungen/867_klimawandel', '2026-11-16', '16:30', 'klimawandel')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_belp",
+        "date": "gemeinde_belp",
+        "time": "gemeinde_belp",
+        "start_at": "gemeinde_belp",
+        "time_unknown": "gemeinde_belp",
+        "venue": "gemeinde_belp",
+        "category": "gemeinde_belp",
+        "tags": "gemeinde_belp",
+        "status": "gemeinde_belp",
+        "description": "gemeinde_belp",
+        "city": "gemeinde_belp",
+        "municipality": "gemeinde_belp",
+        "region": "gemeinde_belp",
+        "canton": "gemeinde_belp",
+        "country": "gemeinde_belp",
+        "organizer": "gemeinde_belp",
+        "first_seen": "gemeinde_belp",
+        "last_seen": "gemeinde_belp"
       },
       "match_confidence": "independent"
     },
@@ -38712,6 +39471,42 @@
       "match_confidence": "probable"
     },
     {
+      "id": "ubwg-a9a29a6750d335e1",
+      "raw_keys": [
+        "('ubwg', '171321', '2026-11-18')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "bierhuebeli_bern-1f9c644353a998d5",
       "raw_keys": [
         "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/oropax-comdey-im-bierhuebeli-bern', '2026-11-18', '20:00', 'oropax')"
@@ -38770,41 +39565,6 @@
       "match_confidence": "uncertain"
     },
     {
-      "id": "petzi-b8238455d836a7a4",
-      "raw_keys": [
-        "('petzi', '62918', '2026-11-18')"
-      ],
-      "field_sources": {
-        "title": "petzi",
-        "date": "petzi",
-        "time": "petzi",
-        "start_at": "petzi",
-        "time_unknown": "petzi",
-        "venue": "petzi",
-        "category": "petzi",
-        "tags": "petzi",
-        "status": "petzi",
-        "price_chf": "petzi",
-        "description": "petzi",
-        "image_url": "petzi",
-        "image_source": "petzi",
-        "image_type": "petzi",
-        "region": "petzi",
-        "city": "petzi",
-        "municipality": "petzi",
-        "country": "petzi",
-        "original_title": "petzi",
-        "organizer": "petzi",
-        "source_event_id": "petzi",
-        "classification_context": "petzi",
-        "doors_time": "petzi",
-        "ticket_url": "petzi",
-        "first_seen": "petzi",
-        "last_seen": "petzi"
-      },
-      "match_confidence": "independent"
-    },
-    {
       "id": "isc_bern-94340d8b3d39a0dc",
       "raw_keys": [
         "('isc_bern', 'https://isc-club.ch/programm/gurriers', '2026-11-18', '20:30', 'gurriers enola gay')"
@@ -38861,6 +39621,41 @@
         "source_event_id": "petzi",
         "classification_context": "petzi",
         "doors_time": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "petzi-b8238455d836a7a4",
+      "raw_keys": [
+        "('petzi', '62918', '2026-11-18')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
       },
@@ -45055,6 +45850,41 @@
         "country": "gemeinde_koeniz",
         "first_seen": "gemeinde_koeniz",
         "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-dad6da40c8dd63f7",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/kreativ-zwischen-kakteen0.html?calentry=1', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -69692,6 +70522,30 @@
       "match_confidence": "independent"
     },
     {
+      "id": "plaza-51c26c0577d68769",
+      "raw_keys": [
+        "('plaza', 'https://tickets.plaza-zurich.ch/de/events/the-fittparty-2026-12-06', '2026-12-06', '16:00', 'the fittparty')"
+      ],
+      "field_sources": {
+        "title": "plaza",
+        "date": "plaza",
+        "time": "plaza",
+        "start_at": "plaza",
+        "time_unknown": "plaza",
+        "venue": "plaza",
+        "category": "plaza",
+        "tags": "plaza",
+        "status": "plaza",
+        "price_chf": "plaza",
+        "image_url": "plaza",
+        "image_source": "plaza",
+        "image_type": "plaza",
+        "first_seen": "plaza",
+        "last_seen": "plaza"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kaufleuten-ea8222c573c91632",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/dom-sweden', '2026-12-06', '16:30', 'dom sweden konzert')"
@@ -78052,6 +78906,7 @@
         "category": "dachstock_bern",
         "tags": "dachstock_bern",
         "status": "dachstock_bern",
+        "description": "dachstock_bern",
         "image_url": "dachstock_bern",
         "image_source": "dachstock_bern",
         "image_type": "dachstock_bern",
@@ -91665,6 +92520,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-1f9cf196d36e8a12",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/nutzpflanzen-aus-fernen-laendern1.html?calentry=1', '2027-01-07')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-7e297274cdfbac83",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1082-6923-ikonen-ausgewhlte_werke_der_sammlung/|18:30', '2027-01-07')"
@@ -98198,10 +99088,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -98438,10 +99327,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -98588,10 +99476,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },

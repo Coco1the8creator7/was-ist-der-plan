@@ -3324,5 +3324,37 @@
       "coordinate_precision": "building",
       "feature_id": "140080_0"
     }
+  },
+  "josefstrasse|206|zurich": {
+    "checked_at": "2026-11-03T14:54:33.428004+01:00",
+    "query": [
+      "Josefstrasse",
+      "206",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.38702392578125,
+      "longitude": 8.523601531982422,
+      "address_label": "Josefstrasse 206 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "150832_0"
+    }
+  },
+  "manessestrasse|51|zurich": {
+    "checked_at": "2026-11-03T14:54:33.428004+01:00",
+    "query": [
+      "Manessestrasse",
+      "51",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36700439453125,
+      "longitude": 8.523561477661133,
+      "address_label": "Manessestrasse 51 8003 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302003651_0"
+    }
   }
 }
