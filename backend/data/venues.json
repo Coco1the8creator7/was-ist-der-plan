@@ -3356,5 +3356,21 @@
       "coordinate_precision": "building",
       "feature_id": "302003651_0"
     }
+  },
+  "freiestrasse|71|zurich": {
+    "checked_at": "2026-11-03T20:42:11.345624+01:00",
+    "query": [
+      "Freiestrasse",
+      "71",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36811447143555,
+      "longitude": 8.557587623596191,
+      "address_label": "Freiestrasse 71 8032 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "156217_0"
+    }
   }
 }
