@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T20:17:46+01:00",
+  "generated_at": "2026-11-03T02:28:16+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1184,6 +1184,22 @@
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
+    },
+    {
+      "left": "kulturzueri-3d3311ce503a1a95",
+      "right": "kulturzueri-1cca808525c75475",
+      "date": "2026-11-04",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
+    },
+    {
+      "left": "stadt_zuerich-7e3c1043350bb3ea",
+      "right": "kulturzueri-e00ae330cd183496",
+      "date": "2026-11-09",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
     }
   ]
 }
