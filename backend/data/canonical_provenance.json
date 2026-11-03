@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T02:28:16+01:00",
+  "generated_at": "2026-11-03T08:37:17+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-395b4935980e3496",
@@ -9008,7 +9008,7 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "ubwg",
+        "last_seen": "hive",
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
@@ -12884,7 +12884,7 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "ubwg",
+        "last_seen": "hive",
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
@@ -15684,7 +15684,7 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "ubwg",
+        "last_seen": "hive",
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
@@ -16981,9 +16981,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -17608,7 +17606,7 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "ubwg",
+        "last_seen": "hive",
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
@@ -21147,7 +21145,7 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "ubwg",
+        "last_seen": "hive",
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
@@ -22383,10 +22381,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22462,10 +22459,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "uncertain"
     },
@@ -22535,6 +22531,45 @@
       "id": "kulturzueri-df5e60d27dda11de",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41795-907-der_fliegende_teppich-hawaii/|20:00', '2026-11-09')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-b28ff0da815493e2",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/joe-jackson-1/|20:00', '2026-11-09')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -22656,9 +22691,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -28181,7 +28214,7 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "ubwg",
+        "last_seen": "hive",
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
@@ -30223,7 +30256,7 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "ubwg",
+        "last_seen": "hive",
         "latitude": "ubwg",
         "longitude": "ubwg",
         "image_url": "ubwg",
@@ -33684,7 +33717,7 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "ubwg",
+        "last_seen": "hive",
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
@@ -98138,6 +98171,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-fa4273bf075de842",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=2', '2027-01-30')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-b9a2ab9ac597dcf5",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/lebenslagen/jugend-und-familie/fruehe-kindheit/gefuehle-konfliktsituationen.html?calentry=2', '2027-01-30')"
@@ -98343,6 +98411,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-e07e15917af4c1d9",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=3', '2027-01-31')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-e98e3aeb72416136",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1082-6763-maria_lassnig_und_edvard_munch-malfluss-lebensfluss/|11:00', '2027-01-31')"
@@ -98458,9 +98561,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-6d1eaf10abd0d49b",
+      "id": "stadt_zuerich-e231233c385f67ae",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/lebenslagen/jugend-und-familie/fruehe-kindheit/dialog-sprachfoerderung.html?calentry=2', '2027-02-01')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=4', '2027-02-01')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -98493,6 +98596,40 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-6d1eaf10abd0d49b",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/lebenslagen/jugend-und-familie/fruehe-kindheit/dialog-sprachfoerderung.html?calentry=2', '2027-02-01')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-6f59e62204ddd152",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/trauercafe.html?calentry=9', '2027-02-01')"
@@ -98520,10 +98657,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     }
