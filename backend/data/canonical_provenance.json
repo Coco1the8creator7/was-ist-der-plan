@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:39:55+01:00",
+  "generated_at": "2026-11-04T14:31:15+01:00",
   "events": [
     {
       "id": "gemeinde_kloten-ef312bcbc7bd2a8c",
@@ -4858,6 +4858,41 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-56509431b6213d0a",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/offenestreffenmietenplenumzuerich.html?calentry=1', '2026-11-05')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -12271,7 +12306,8 @@
     {
       "id": "stadt_zuerich-9af55d4d8758e4a4",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/martinimarkt.html?calentry=1', '2026-11-07')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/martinimarkt.html?calentry=1', '2026-11-07')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/389514-26501-martinimarkt_2026/|10:00', '2026-11-07')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -12298,9 +12334,15 @@
         "end_at": "stadt_zuerich",
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "kulturzueri-509b69638686f91c",
@@ -17379,10 +17421,9 @@
         "address": "friedas_ausgangheute",
         "country": "friedas_ausgangheute",
         "date_precision": "friedas_ausgangheute",
+        "retained_fields": "friedas_ausgangheute",
         "first_seen": "friedas_ausgangheute",
-        "last_seen": "friedas_ausgangheute",
-        "coordinate_source": "friedas_ausgangheute",
-        "coordinate_precision": "friedas_ausgangheute"
+        "last_seen": "friedas_ausgangheute"
       },
       "match_confidence": "uncertain"
     },
@@ -18245,6 +18286,42 @@
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-ef8f9ade4fd9d039",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/88862-27614-moving_art-bewegungsworkshop/|14:00', '2026-11-08')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
       },
@@ -37479,6 +37556,31 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_koeniz-6868a2a5e441b486",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12386/eventdate/9300', '2026-11-18', '15:30', 'marchen mit martin')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-f260363f3d72db09",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/kerzenziehen.html?calentry=1', '2026-11-18')"
@@ -53862,6 +53964,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-85e3e9fb5165e414",
+      "raw_keys": [
+        "('gemeinde_uster', '7794829', '2026-11-27')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_regensdorf-f7ce1809ed07627e",
       "raw_keys": [
         "('gemeinde_regensdorf', '7463824', '2026-11-27')"
@@ -55711,6 +55839,28 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gonzo-f282d12822440a14",
+      "raw_keys": [
+        "('gonzo', 'https://gonzoclub.ch', '2026-11-27', '23:00', 'something is brewing')"
+      ],
+      "field_sources": {
+        "title": "gonzo",
+        "date": "gonzo",
+        "time": "gonzo",
+        "start_at": "gonzo",
+        "time_unknown": "gonzo",
+        "venue": "gonzo",
+        "category": "gonzo",
+        "tags": "gonzo",
+        "status": "gonzo",
+        "price_chf": "gonzo",
+        "year_basis": "gonzo",
+        "first_seen": "gonzo",
+        "last_seen": "gonzo"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "onthur-8e730aecacca756a",
       "raw_keys": [
         "('onthur', '/de/kalender/2684/Steibi-FM-Sonic-Sisters', '2026-11-27')"
@@ -56958,6 +57108,26 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "hive-e6b59a095f4b6c4d",
+      "raw_keys": [
+        "('hive', 'https://hiveclub.ch/events/rakete-im-zirkus-2', '2026-11-28', '14:00', 'rakete im zirkus')"
+      ],
+      "field_sources": {
+        "title": "hive",
+        "date": "hive",
+        "time": "hive",
+        "start_at": "hive",
+        "time_unknown": "hive",
+        "venue": "hive",
+        "category": "hive",
+        "tags": "hive",
+        "status": "hive",
+        "first_seen": "hive",
+        "last_seen": "hive"
       },
       "match_confidence": "independent"
     },
@@ -65431,6 +65601,26 @@
       "match_confidence": "independent"
     },
     {
+      "id": "hive-da45bc875e11a58c",
+      "raw_keys": [
+        "('hive', 'https://hiveclub.ch/events/dihive-38', '2026-12-03', '22:00', 'dihive')"
+      ],
+      "field_sources": {
+        "title": "hive",
+        "date": "hive",
+        "time": "hive",
+        "start_at": "hive",
+        "time_unknown": "hive",
+        "venue": "hive",
+        "category": "hive",
+        "tags": "hive",
+        "status": "hive",
+        "first_seen": "hive",
+        "last_seen": "hive"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-cbfab3b38d645e88",
       "raw_keys": [
         "('gemeinde_kloten', '7763197', '2026-12-04')"
@@ -65687,6 +65877,32 @@
         "date_precision": "gemeinde_kloten",
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-d484a5f550a10012",
+      "raw_keys": [
+        "('gemeinde_uster', '7794835', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -66280,6 +66496,44 @@
         "source_event_id": "onthur",
         "first_seen": "onthur",
         "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "rote_fabrik-28a84cae68425b92",
+      "raw_keys": [
+        "('rote_fabrik', '34020', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "rote_fabrik",
+        "date": "rote_fabrik",
+        "time": "rote_fabrik",
+        "start_at": "rote_fabrik",
+        "time_unknown": "rote_fabrik",
+        "venue": "rote_fabrik",
+        "category": "rote_fabrik",
+        "tags": "rote_fabrik",
+        "status": "rote_fabrik",
+        "description": "rote_fabrik",
+        "latitude": "rote_fabrik",
+        "longitude": "rote_fabrik",
+        "region": "rote_fabrik",
+        "city": "rote_fabrik",
+        "municipality": "rote_fabrik",
+        "country": "rote_fabrik",
+        "original_title": "rote_fabrik",
+        "source_event_id": "rote_fabrik",
+        "doors_time": "rote_fabrik",
+        "venue_id": "rote_fabrik",
+        "address": "rote_fabrik",
+        "canton": "rote_fabrik",
+        "classification_context": "rote_fabrik",
+        "price_text": "rote_fabrik",
+        "end_at": "rote_fabrik",
+        "first_seen": "rote_fabrik",
+        "last_seen": "rote_fabrik",
+        "coordinate_source": "rote_fabrik",
+        "coordinate_precision": "rote_fabrik"
       },
       "match_confidence": "independent"
     },
@@ -72500,6 +72754,31 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_koeniz-690e68edad81ab02",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12387/eventdate/9299', '2026-12-09', '15:30', 'marchen mit martin')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "dynamo-c6674f5beb5398eb",
       "raw_keys": [
         "('dynamo', 'https://dynamo.ch/veranstaltung/auditions-la-gustav-2027', '2026-12-09', '17:00', 'auditions la gustav 2027')"
@@ -72995,6 +73274,44 @@
       "match_confidence": "independent"
     },
     {
+      "id": "rote_fabrik-9085767b723e728d",
+      "raw_keys": [
+        "('rote_fabrik', '34021', '2026-12-09')"
+      ],
+      "field_sources": {
+        "title": "rote_fabrik",
+        "date": "rote_fabrik",
+        "time": "rote_fabrik",
+        "start_at": "rote_fabrik",
+        "time_unknown": "rote_fabrik",
+        "venue": "rote_fabrik",
+        "category": "rote_fabrik",
+        "tags": "rote_fabrik",
+        "status": "rote_fabrik",
+        "description": "rote_fabrik",
+        "latitude": "rote_fabrik",
+        "longitude": "rote_fabrik",
+        "region": "rote_fabrik",
+        "city": "rote_fabrik",
+        "municipality": "rote_fabrik",
+        "country": "rote_fabrik",
+        "original_title": "rote_fabrik",
+        "source_event_id": "rote_fabrik",
+        "doors_time": "rote_fabrik",
+        "venue_id": "rote_fabrik",
+        "address": "rote_fabrik",
+        "canton": "rote_fabrik",
+        "classification_context": "rote_fabrik",
+        "price_text": "rote_fabrik",
+        "end_at": "rote_fabrik",
+        "first_seen": "rote_fabrik",
+        "last_seen": "rote_fabrik",
+        "coordinate_source": "rote_fabrik",
+        "coordinate_precision": "rote_fabrik"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-682e0d684d5172ca",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/bluegrass-jam/|20:00', '2026-12-09')"
@@ -73396,6 +73713,32 @@
         "date_precision": "gemeinde_thalwil",
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-9d17ac0683ac9fc6",
+      "raw_keys": [
+        "('gemeinde_uster', '7794844', '2026-12-10')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -74432,6 +74775,44 @@
       "match_confidence": "independent"
     },
     {
+      "id": "rote_fabrik-fc4b7358adbc73e2",
+      "raw_keys": [
+        "('rote_fabrik', '34022', '2026-12-10')"
+      ],
+      "field_sources": {
+        "title": "rote_fabrik",
+        "date": "rote_fabrik",
+        "time": "rote_fabrik",
+        "start_at": "rote_fabrik",
+        "time_unknown": "rote_fabrik",
+        "venue": "rote_fabrik",
+        "category": "rote_fabrik",
+        "tags": "rote_fabrik",
+        "status": "rote_fabrik",
+        "description": "rote_fabrik",
+        "latitude": "rote_fabrik",
+        "longitude": "rote_fabrik",
+        "region": "rote_fabrik",
+        "city": "rote_fabrik",
+        "municipality": "rote_fabrik",
+        "country": "rote_fabrik",
+        "original_title": "rote_fabrik",
+        "source_event_id": "rote_fabrik",
+        "doors_time": "rote_fabrik",
+        "venue_id": "rote_fabrik",
+        "address": "rote_fabrik",
+        "canton": "rote_fabrik",
+        "classification_context": "rote_fabrik",
+        "price_text": "rote_fabrik",
+        "end_at": "rote_fabrik",
+        "first_seen": "rote_fabrik",
+        "last_seen": "rote_fabrik",
+        "coordinate_source": "rote_fabrik",
+        "coordinate_precision": "rote_fabrik"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-b0ac5a0be4315e8b",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/afrokubanischertanzunterricht.html?calentry=20', '2026-12-10')"
@@ -74738,6 +75119,26 @@
       "match_confidence": "independent"
     },
     {
+      "id": "hive-282125b1fa2e4c7a",
+      "raw_keys": [
+        "('hive', 'https://hiveclub.ch/events/dihive-39', '2026-12-10', '22:00', 'dihive')"
+      ],
+      "field_sources": {
+        "title": "hive",
+        "date": "hive",
+        "time": "hive",
+        "start_at": "hive",
+        "time_unknown": "hive",
+        "venue": "hive",
+        "category": "hive",
+        "tags": "hive",
+        "status": "hive",
+        "first_seen": "hive",
+        "last_seen": "hive"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-58d4b9747ef3450f",
       "raw_keys": [
         "('gemeinde_thalwil', '7765990', '2026-12-11')"
@@ -74897,6 +75298,32 @@
       "id": "gemeinde_uster-216e42419891a44e",
       "raw_keys": [
         "('gemeinde_uster', '7655635', '2026-12-11')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-2a29661f4d6742b3",
+      "raw_keys": [
+        "('gemeinde_uster', '7794838', '2026-12-11')"
       ],
       "field_sources": {
         "title": "gemeinde_uster",
@@ -76012,6 +76439,32 @@
         "coordinate_source": "ubwg",
         "first_seen": "ubwg",
         "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gaskessel_bern-7e0290447ec04f4b",
+      "raw_keys": [
+        "('gaskessel_bern', 'https://gaskessel.ch/programm', '2026-12-11', '23:00', 'makina')"
+      ],
+      "field_sources": {
+        "title": "gaskessel_bern",
+        "date": "gaskessel_bern",
+        "time": "gaskessel_bern",
+        "start_at": "gaskessel_bern",
+        "time_unknown": "gaskessel_bern",
+        "venue": "gaskessel_bern",
+        "category": "gaskessel_bern",
+        "tags": "gaskessel_bern",
+        "status": "gaskessel_bern",
+        "description": "gaskessel_bern",
+        "municipality": "gaskessel_bern",
+        "city": "gaskessel_bern",
+        "region": "gaskessel_bern",
+        "canton": "gaskessel_bern",
+        "country": "gaskessel_bern",
+        "first_seen": "gaskessel_bern",
+        "last_seen": "gaskessel_bern"
       },
       "match_confidence": "independent"
     },
@@ -79328,6 +79781,31 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_koeniz-d809bfacca1be19a",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12394/eventdate/9292', '2026-12-13', '16:00', 'offenes adventsliedersingen')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
       },
       "match_confidence": "independent"
     },
@@ -83213,6 +83691,26 @@
       "match_confidence": "independent"
     },
     {
+      "id": "hive-d8f7bc97ec2c29b5",
+      "raw_keys": [
+        "('hive', 'https://hiveclub.ch/events/dihive-40', '2026-12-17', '22:00', 'dihive')"
+      ],
+      "field_sources": {
+        "title": "hive",
+        "date": "hive",
+        "time": "hive",
+        "start_at": "hive",
+        "time_unknown": "hive",
+        "venue": "hive",
+        "category": "hive",
+        "tags": "hive",
+        "status": "hive",
+        "first_seen": "hive",
+        "last_seen": "hive"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-f75f923e7b80392e",
       "raw_keys": [
         "('gemeinde_uster', '7608643', '2026-12-18')"
@@ -83391,6 +83889,32 @@
         "date_precision": "gemeinde_kloten",
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-f9608be72fbbb7ba",
+      "raw_keys": [
+        "('gemeinde_uster', '7794841', '2026-12-18')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -86248,6 +86772,31 @@
         "country": "dampfzentrale_bern",
         "first_seen": "dampfzentrale_bern",
         "last_seen": "dampfzentrale_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_koeniz-ae88be7d8bd7f668",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12395/eventdate/9291', '2026-12-20', '16:00', 'chorkonzert jesus bleibet meine freude')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
       },
       "match_confidence": "independent"
     },
@@ -89934,6 +90483,31 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_koeniz-5abf7090ea787b7a",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12385/eventdate/9301', '2026-12-31', '19:00', 'quiz dine silvester edition 2026')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-e8df484f9c15e5dd",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-14148-arsen_und_spitzenhubchen/|21:00', '2026-12-31')"
@@ -92665,6 +93239,32 @@
         "date_precision": "gemeinde_thalwil",
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-7ad8cac7a8057a72",
+      "raw_keys": [
+        "('gemeinde_uster', '7795462', '2027-01-10')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -95885,6 +96485,31 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_koeniz-bc22af410b3fe2a1",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12388/eventdate/9298', '2027-01-20', '15:30', 'marchen mit martin')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "rote_fabrik-63b8a59ed510b84a",
       "raw_keys": [
         "('rote_fabrik', '34487', '2027-01-20')"
@@ -96800,6 +97425,31 @@
         "doors_time": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_koeniz-3541f3526b17c6c4",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12391/eventdate/9295', '2027-01-22', '20:30', 'raiffeisen prasentiert nickless')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
       },
       "match_confidence": "independent"
     },
