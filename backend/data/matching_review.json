@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T02:28:20+01:00",
+  "generated_at": "2026-11-04T08:39:55+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -794,6 +794,14 @@
       "reason": "shared_title_tokens"
     },
     {
+      "left": "friedas_ausgangheute-6b88393b6474b696",
+      "right": "friedas_buexe-e8dfd7d940ace889",
+      "date": "2026-11-08",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
       "left": "kulturzueri-d8e2f1561796f314",
       "right": "kulturzueri-32e00b9221e41751",
       "date": "2026-11-04",
@@ -936,6 +944,14 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_thalwil-b287cde96b9c823d",
+      "right": "kulturzueri-e15c0aaabae51d40",
+      "date": "2026-11-10",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
     }
   ]
 }
