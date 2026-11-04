@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T20:17:08+01:00",
+  "generated_at": "2026-11-04T02:28:20+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -160,14 +160,6 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_kloten-7fd372e8b49f0e7f",
-      "right": "gemeinde_kloten-7ff76dbb66690e92",
-      "date": "2026-11-03",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
     },
     {
       "left": "gemeinde_kloten-59117f68eeb0692e",
@@ -770,6 +762,14 @@
       "reason": "shared_title_tokens"
     },
     {
+      "left": "kaufleuten-1cfd5c1b1815ce8c",
+      "right": "kaufleuten-8b1a88b92375fa81",
+      "date": "2027-02-02",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
       "left": "petzi-38df3ae797f1a779",
       "right": "ubwg-37ff0e69be9f36f8",
       "date": "2026-11-06",
@@ -792,14 +792,6 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_thalwil-395b4935980e3496",
-      "right": "kulturzueri-eacabad69d080965",
-      "date": "2026-11-03",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
     },
     {
       "left": "kulturzueri-d8e2f1561796f314",
