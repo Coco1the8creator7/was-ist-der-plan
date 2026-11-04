@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:31:15+01:00",
+  "generated_at": "2026-11-04T20:23:00+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -765,6 +765,14 @@
       "left": "kaufleuten-1cfd5c1b1815ce8c",
       "right": "kaufleuten-8b1a88b92375fa81",
       "date": "2027-02-02",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "kaufleuten-1d4e62c4b0a3d4c9",
+      "right": "kaufleuten-fc12a09ea0911d18",
+      "date": "2026-12-31",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"

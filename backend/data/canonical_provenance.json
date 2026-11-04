@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:31:15+01:00",
+  "generated_at": "2026-11-04T20:23:00+01:00",
   "events": [
     {
       "id": "gemeinde_kloten-ef312bcbc7bd2a8c",
@@ -3326,6 +3326,32 @@
       "match_confidence": "uncertain"
     },
     {
+      "id": "gemeinde_thalwil-dd397c6875d0f44a",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7796377', '2026-11-05')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_regensdorf-80e61d30dd52daba",
       "raw_keys": [
         "('gemeinde_regensdorf', '7768408', '2026-11-05')"
@@ -4889,10 +4915,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -6338,6 +6363,9 @@
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
         "region": "ubwg",
         "city": "ubwg",
         "municipality": "ubwg",
@@ -8746,6 +8774,44 @@
       "match_confidence": "independent"
     },
     {
+      "id": "rote_fabrik-a3999d1ed86ea46e",
+      "raw_keys": [
+        "('rote_fabrik', '34829', '2026-11-06')"
+      ],
+      "field_sources": {
+        "title": "rote_fabrik",
+        "date": "rote_fabrik",
+        "time": "rote_fabrik",
+        "start_at": "rote_fabrik",
+        "time_unknown": "rote_fabrik",
+        "venue": "rote_fabrik",
+        "category": "rote_fabrik",
+        "tags": "rote_fabrik",
+        "status": "rote_fabrik",
+        "description": "rote_fabrik",
+        "latitude": "rote_fabrik",
+        "longitude": "rote_fabrik",
+        "region": "rote_fabrik",
+        "city": "rote_fabrik",
+        "municipality": "rote_fabrik",
+        "country": "rote_fabrik",
+        "original_title": "rote_fabrik",
+        "source_event_id": "rote_fabrik",
+        "doors_time": "rote_fabrik",
+        "venue_id": "rote_fabrik",
+        "address": "rote_fabrik",
+        "canton": "rote_fabrik",
+        "classification_context": "rote_fabrik",
+        "price_text": "rote_fabrik",
+        "end_at": "rote_fabrik",
+        "first_seen": "rote_fabrik",
+        "last_seen": "rote_fabrik",
+        "coordinate_source": "rote_fabrik",
+        "coordinate_precision": "rote_fabrik"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-8303620b67fa6f07",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-23088-wives-ten_years_after-hustruer-ti_r_etter/|18:30', '2026-11-06')"
@@ -9600,6 +9666,9 @@
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
         "region": "ubwg",
         "city": "ubwg",
         "municipality": "ubwg",
@@ -14881,6 +14950,9 @@
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
         "region": "ubwg",
         "city": "ubwg",
         "municipality": "ubwg",
@@ -23034,10 +23106,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "probable"
     },
@@ -23074,17 +23145,17 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
     {
       "id": "exil-851744cfb07d50ae",
       "raw_keys": [
-        "('exil', 'https://exil.club/events/westsidecowboy', '2026-11-10', '20:00', 'westside cowboy')"
+        "('exil', 'https://exil.club/events/westsidecowboy', '2026-11-10', '20:00', 'westside cowboy')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/211502-6822228-westside_cowboy/|20:00', '2026-11-10')"
       ],
       "field_sources": {
         "title": "exil",
@@ -23099,9 +23170,27 @@
         "image_source": "exil",
         "image_type": "exil",
         "first_seen": "exil",
-        "last_seen": "exil"
+        "last_seen": "exil",
+        "time_unknown": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "stadt_zuerich-fbe31192fcff8866",
@@ -23134,6 +23223,42 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-1b2b6ea86d5f8cd5",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1100-2eb4e1c3-069f-4537-8c86-e4b702893e03-martial_in-albon_alphorn_tunes_feat-seraina_tall/|20:30', '2026-11-10')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -23173,6 +23298,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-48e2d93ded7e045f",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/a8iktuhwb-2/|21:00', '2026-11-10')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -24175,6 +24340,82 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-70d999de8abf85dd",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41792-9996-hasenmama-eine_bruno-geschichte/|15:00', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-ae2adb7c4c284b72",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-15033-la_pianiste/|15:00', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-eb217507034417a3",
       "raw_keys": [
         "('stadt_zuerich', '/gesundheitszentren/de/ueber-uns/veranstaltungen/quartier/dorflinde/2026-11-musiknachmittag.html?calentry=1', '2026-11-11')"
@@ -24205,6 +24446,46 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-ad70e1a9accee0d7",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1102-46060-story_window-listen_and_discover-1/|15:00', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -24381,6 +24662,45 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-d31e8aed009f0e82",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1081-5f37200d-05d9-4f17-b21f-650a834e561a-ich.krieg.die.krise-jugendliche_erzhlen/412215|17:30', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_koeniz-7e94844220094515",
       "raw_keys": [
         "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/11891/eventdate/8976', '2026-11-11', '18:00', 'gran milonga clandestina')"
@@ -24402,6 +24722,46 @@
         "country": "gemeinde_koeniz",
         "first_seen": "gemeinde_koeniz",
         "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-2dc539256e2272e1",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/mongolischer-kehlkopfgesang-fuer-einsteiger-innen/|18:00', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -24480,6 +24840,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-e5d10c8b1e967f00",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-23095-bernie/|18:30', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -26848,6 +27248,33 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_belp-fe6732695c7a34a5",
+      "raw_keys": [
+        "('gemeinde_belp', 'https://belp.ch/de/veranstaltungen/868_krisenvorsorge', '2026-11-12', '19:00', 'krisenvorsorge')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_belp",
+        "date": "gemeinde_belp",
+        "time": "gemeinde_belp",
+        "start_at": "gemeinde_belp",
+        "time_unknown": "gemeinde_belp",
+        "venue": "gemeinde_belp",
+        "category": "gemeinde_belp",
+        "tags": "gemeinde_belp",
+        "status": "gemeinde_belp",
+        "description": "gemeinde_belp",
+        "city": "gemeinde_belp",
+        "municipality": "gemeinde_belp",
+        "region": "gemeinde_belp",
+        "canton": "gemeinde_belp",
+        "country": "gemeinde_belp",
+        "organizer": "gemeinde_belp",
+        "first_seen": "gemeinde_belp",
+        "last_seen": "gemeinde_belp"
       },
       "match_confidence": "independent"
     },
@@ -40728,6 +41155,44 @@
       "match_confidence": "independent"
     },
     {
+      "id": "rote_fabrik-b1bea6b6f371f778",
+      "raw_keys": [
+        "('rote_fabrik', '31904', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "rote_fabrik",
+        "date": "rote_fabrik",
+        "time": "rote_fabrik",
+        "start_at": "rote_fabrik",
+        "time_unknown": "rote_fabrik",
+        "venue": "rote_fabrik",
+        "category": "rote_fabrik",
+        "tags": "rote_fabrik",
+        "status": "rote_fabrik",
+        "description": "rote_fabrik",
+        "latitude": "rote_fabrik",
+        "longitude": "rote_fabrik",
+        "region": "rote_fabrik",
+        "city": "rote_fabrik",
+        "municipality": "rote_fabrik",
+        "country": "rote_fabrik",
+        "original_title": "rote_fabrik",
+        "source_event_id": "rote_fabrik",
+        "doors_time": "rote_fabrik",
+        "venue_id": "rote_fabrik",
+        "address": "rote_fabrik",
+        "canton": "rote_fabrik",
+        "classification_context": "rote_fabrik",
+        "price_text": "rote_fabrik",
+        "end_at": "rote_fabrik",
+        "first_seen": "rote_fabrik",
+        "last_seen": "rote_fabrik",
+        "coordinate_source": "rote_fabrik",
+        "coordinate_precision": "rote_fabrik"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "bierhuebeli_bern-56544c7169550367",
       "raw_keys": [
         "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/tommy-emmanuel', '2026-11-19', '20:00', 'tommy emmanuel')"
@@ -44992,6 +45457,47 @@
       "match_confidence": "independent"
     },
     {
+      "id": "rote_fabrik-6b7629d41a51d901",
+      "raw_keys": [
+        "('rote_fabrik', '34832', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "rote_fabrik",
+        "date": "rote_fabrik",
+        "time": "rote_fabrik",
+        "start_at": "rote_fabrik",
+        "time_unknown": "rote_fabrik",
+        "venue": "rote_fabrik",
+        "category": "rote_fabrik",
+        "tags": "rote_fabrik",
+        "status": "rote_fabrik",
+        "description": "rote_fabrik",
+        "latitude": "rote_fabrik",
+        "longitude": "rote_fabrik",
+        "image_url": "rote_fabrik",
+        "image_source": "rote_fabrik",
+        "image_type": "rote_fabrik",
+        "region": "rote_fabrik",
+        "city": "rote_fabrik",
+        "municipality": "rote_fabrik",
+        "country": "rote_fabrik",
+        "original_title": "rote_fabrik",
+        "source_event_id": "rote_fabrik",
+        "doors_time": "rote_fabrik",
+        "venue_id": "rote_fabrik",
+        "address": "rote_fabrik",
+        "canton": "rote_fabrik",
+        "classification_context": "rote_fabrik",
+        "price_text": "rote_fabrik",
+        "end_at": "rote_fabrik",
+        "first_seen": "rote_fabrik",
+        "last_seen": "rote_fabrik",
+        "coordinate_source": "rote_fabrik",
+        "coordinate_precision": "rote_fabrik"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-ddf9e21b4d475364",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41798-530-das_dschungel_shy_buch/|17:00', '2026-11-21')"
@@ -46524,6 +47030,32 @@
         "last_seen": "gemeinde_uster"
       },
       "match_confidence": "probable"
+    },
+    {
+      "id": "gemeinde_regensdorf-1b39cdd65f5056fe",
+      "raw_keys": [
+        "('gemeinde_regensdorf', '7796674', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_regensdorf",
+        "date": "gemeinde_regensdorf",
+        "time_unknown": "gemeinde_regensdorf",
+        "venue": "gemeinde_regensdorf",
+        "category": "gemeinde_regensdorf",
+        "tags": "gemeinde_regensdorf",
+        "status": "gemeinde_regensdorf",
+        "region": "gemeinde_regensdorf",
+        "city": "gemeinde_regensdorf",
+        "municipality": "gemeinde_regensdorf",
+        "country": "gemeinde_regensdorf",
+        "original_title": "gemeinde_regensdorf",
+        "organizer": "gemeinde_regensdorf",
+        "source_event_id": "gemeinde_regensdorf",
+        "date_precision": "gemeinde_regensdorf",
+        "first_seen": "gemeinde_regensdorf",
+        "last_seen": "gemeinde_regensdorf"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "gemeinde_uster-a03b0255526b36af",
@@ -49340,6 +49872,44 @@
       "match_confidence": "independent"
     },
     {
+      "id": "rote_fabrik-3c99ba7139b0388d",
+      "raw_keys": [
+        "('rote_fabrik', '34830', '2026-11-24')"
+      ],
+      "field_sources": {
+        "title": "rote_fabrik",
+        "date": "rote_fabrik",
+        "time": "rote_fabrik",
+        "start_at": "rote_fabrik",
+        "time_unknown": "rote_fabrik",
+        "venue": "rote_fabrik",
+        "category": "rote_fabrik",
+        "tags": "rote_fabrik",
+        "status": "rote_fabrik",
+        "description": "rote_fabrik",
+        "latitude": "rote_fabrik",
+        "longitude": "rote_fabrik",
+        "region": "rote_fabrik",
+        "city": "rote_fabrik",
+        "municipality": "rote_fabrik",
+        "country": "rote_fabrik",
+        "original_title": "rote_fabrik",
+        "source_event_id": "rote_fabrik",
+        "doors_time": "rote_fabrik",
+        "venue_id": "rote_fabrik",
+        "address": "rote_fabrik",
+        "canton": "rote_fabrik",
+        "classification_context": "rote_fabrik",
+        "price_text": "rote_fabrik",
+        "end_at": "rote_fabrik",
+        "first_seen": "rote_fabrik",
+        "last_seen": "rote_fabrik",
+        "coordinate_source": "rote_fabrik",
+        "coordinate_precision": "rote_fabrik"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-2ecfd49f7e117dd7",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/offenes-zeichnen/|18:30', '2026-11-24')"
@@ -51638,6 +52208,37 @@
         "year_basis": "gonzo",
         "first_seen": "gonzo",
         "last_seen": "gonzo"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "petzi-13cac3f947e9ce9c",
+      "raw_keys": [
+        "('petzi', '63726', '2026-11-26')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
       },
       "match_confidence": "independent"
     },
@@ -57927,9 +58528,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "onthur-6e60f250f62e8ed1",
+      "id": "onthur-f36f6b010125b0c7",
       "raw_keys": [
-        "('onthur', '/de/kalender/2299/Kids-With-Buns-BE', '2026-11-28')"
+        "('onthur', '/de/kalender/2299/Kids-With-Buns-Abgesagt', '2026-11-28')"
       ],
       "field_sources": {
         "title": "onthur",
@@ -62681,6 +63282,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "onthur-bee065063a74a8e8",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2719/KinderKerzenziehen', '2026-12-02')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-8aed830f7526d6f6",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/bildung/volksschule/weiterbildungskurse-pfz/fehlsichtig-brillen-rezepte-verstehen.html?calentry=1', '2026-12-02')"
@@ -63235,6 +63862,32 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-e618a7e94016a5d7",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2720/Kerzenziehen', '2026-12-02')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -66432,6 +67085,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "onthur-77bf11962ae3dce8",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2721/Kerzenziehen', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-851f910b2de43154",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-14148-arsen_und_spitzenhubchen/|19:30', '2026-12-04')"
@@ -66530,10 +67209,9 @@
         "classification_context": "rote_fabrik",
         "price_text": "rote_fabrik",
         "end_at": "rote_fabrik",
+        "retained_fields": "rote_fabrik",
         "first_seen": "rote_fabrik",
-        "last_seen": "rote_fabrik",
-        "coordinate_source": "rote_fabrik",
-        "coordinate_precision": "rote_fabrik"
+        "last_seen": "rote_fabrik"
       },
       "match_confidence": "independent"
     },
@@ -67012,6 +67690,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "onthur-7996d8da68a4801b",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2722/Melange', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "friedas_ausgangheute-8efa1dcb051b61da",
       "raw_keys": [
         "('friedas_ausgangheute', 'https://ausgangheute.ch/event/ro-3739236', '2026-12-04', '23:00', 'braingames party')"
@@ -67448,6 +68152,32 @@
         "date_precision": "gemeinde_kloten",
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-f68ec3ee3e642fe3",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7796254', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "independent"
     },
@@ -68238,6 +68968,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "onthur-5093297bbc927771",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2723/Kerzenziehen', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "plaza-fb7684e248c22de3",
       "raw_keys": [
         "('plaza', 'https://tickets.plaza-zurich.ch/de/events/ohh-lala-cherie-burlesque-show-dezember-2026', '2026-12-05', '19:00', 'ohh lala cherie burlesque show dezember 2026')"
@@ -68578,6 +69334,32 @@
         "coordinate_source": "ubwg",
         "first_seen": "ubwg",
         "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-ffe2fe9af5ee5770",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2724/HAPPIG', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -69703,6 +70485,32 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-f5f43402fde19c81",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2725/KinderKerzenziehen', '2026-12-06')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -72519,6 +73327,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "onthur-5c80b3f74608a2e9",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2726/KinderKerzenziehen', '2026-12-09')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-f6c830a7b00928e8",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/lebenslagen/alter/info-cafe-sen-albisrieden.html?calentry=14', '2026-12-09')"
@@ -72781,7 +73615,8 @@
     {
       "id": "dynamo-c6674f5beb5398eb",
       "raw_keys": [
-        "('dynamo', 'https://dynamo.ch/veranstaltung/auditions-la-gustav-2027', '2026-12-09', '17:00', 'auditions la gustav 2027')"
+        "('dynamo', 'https://dynamo.ch/veranstaltung/auditions-la-gustav-2027', '2026-12-09', '17:00', 'auditions la gustav 2027')",
+        "('dynamo', 'https://dynamo.ch/veranstaltung/auditions-la-gustav-2027-0', '2026-12-09', '17:00', 'auditions la gustav 2027')"
       ],
       "field_sources": {
         "title": "dynamo",
@@ -72799,7 +73634,7 @@
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "kulturzueri-6846d07943faca63",
@@ -73044,6 +73879,32 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-d7daee8e6556a9ff",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2727/Kerzenziehen', '2026-12-09')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -73304,10 +74165,9 @@
         "classification_context": "rote_fabrik",
         "price_text": "rote_fabrik",
         "end_at": "rote_fabrik",
+        "retained_fields": "rote_fabrik",
         "first_seen": "rote_fabrik",
-        "last_seen": "rote_fabrik",
-        "coordinate_source": "rote_fabrik",
-        "coordinate_precision": "rote_fabrik"
+        "last_seen": "rote_fabrik"
       },
       "match_confidence": "independent"
     },
@@ -74347,7 +75207,8 @@
     {
       "id": "onthur-91855e76278e4e98",
       "raw_keys": [
-        "('onthur', '/de/kalender/2607/Bar-und-Kerzenziehen', '2026-12-10')"
+        "('onthur', '/de/kalender/2607/Bar-und-Kerzenziehen', '2026-12-10')",
+        "('onthur', '/de/kalender/2728/Bar-und-Kerzenziehen', '2026-12-10')"
       ],
       "field_sources": {
         "title": "onthur",
@@ -74371,7 +75232,7 @@
         "first_seen": "onthur",
         "last_seen": "onthur"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "stadt_zuerich-290a83b0d734894c",
@@ -74805,10 +75666,9 @@
         "classification_context": "rote_fabrik",
         "price_text": "rote_fabrik",
         "end_at": "rote_fabrik",
+        "retained_fields": "rote_fabrik",
         "first_seen": "rote_fabrik",
-        "last_seen": "rote_fabrik",
-        "coordinate_source": "rote_fabrik",
-        "coordinate_precision": "rote_fabrik"
+        "last_seen": "rote_fabrik"
       },
       "match_confidence": "independent"
     },
@@ -79067,18 +79927,22 @@
     {
       "id": "ubwg-a7e93c72c7c59e9f",
       "raw_keys": [
+        "('hive', 'https://hiveclub.ch/events/tanz-am-morge-plus', '2026-12-13', '09:00', 'tanz am morge plus')",
         "('ubwg', '171254', '2026-12-13')"
       ],
       "field_sources": {
-        "title": "ubwg",
-        "date": "ubwg",
-        "time": "ubwg",
-        "start_at": "ubwg",
-        "time_unknown": "ubwg",
-        "venue": "ubwg",
-        "category": "ubwg",
-        "tags": "ubwg",
-        "status": "ubwg",
+        "title": "hive",
+        "date": "hive",
+        "time": "hive",
+        "start_at": "hive",
+        "time_unknown": "hive",
+        "venue": "hive",
+        "category": "hive",
+        "tags": "hive",
+        "status": "hive",
+        "price_chf": "hive",
+        "first_seen": "ubwg",
+        "last_seen": "hive",
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
@@ -79093,11 +79957,9 @@
         "source_event_id": "ubwg",
         "address": "ubwg",
         "classification_context": "ubwg",
-        "coordinate_source": "ubwg",
-        "first_seen": "ubwg",
-        "last_seen": "ubwg"
+        "coordinate_source": "ubwg"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "dynamo-da6a94a9bf4eeaf2",
@@ -80495,6 +81357,35 @@
         "image_type": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-bc54aab2514d3ad1",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2734/Lea-Lustenberger-Zuerich', '2026-12-14')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -81946,6 +82837,33 @@
         "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-8a4b1b801b42d87b",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2729/KinderKerzenziehen', '2026-12-16')",
+        "('onthur', '/de/kalender/2730/KinderKerzenziehen', '2026-12-16')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "certain"
     },
     {
       "id": "stadt_zuerich-0d5a6ffeb6b71043",
@@ -84251,6 +85169,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "onthur-9490f4aeeeaa96b0",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2731/Kerzenziehen', '2026-12-18')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_koeniz-496854089bf68f3b",
       "raw_keys": [
         "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12140/eventdate/9169', '2026-12-18', '19:30', 'kohlhaas')"
@@ -84450,6 +85394,31 @@
         "ticket_url": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_koeniz-8df65ee1485523c6",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12358/eventdate/9302', '2026-12-18', '20:00', 'spacenight mit dj s franctone aviva')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
       },
       "match_confidence": "independent"
     },
@@ -85416,6 +86385,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "onthur-834abd404914a740",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2732/Kerzenziehen', '2026-12-19')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "dynamo-590bf200aa2f9bc0",
       "raw_keys": [
         "('dynamo', 'https://dynamo.ch/veranstaltung/soft-loft', '2026-12-19', '19:00', 'soft loft')"
@@ -86066,6 +87061,30 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kaufleuten-5b40ec5d70a22911",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/hotline-spotted-kobra-meets-val', '2026-12-19', '23:00', 'spotted')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "exil-5612c855af73bc5a",
       "raw_keys": [
         "('exil', 'https://exil.club/events/trashpop-xmas', '2026-12-19', '23:00', 'trash pop x mas special')"
@@ -86349,6 +87368,30 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "dynamo-869de7bf738d692a",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/kurs/japanische-washi-papierlampe-selber-bauen-workshop-0', '2026-12-20', '09:00', 'japanische washi papierlampe selber bauen workshop')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "price_chf": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
       },
       "match_confidence": "independent"
     },
@@ -86721,6 +87764,32 @@
         "country": "dampfzentrale_bern",
         "first_seen": "dampfzentrale_bern",
         "last_seen": "dampfzentrale_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-30c82716f2b726ae",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2733/KinderKerzenziehen', '2026-12-20')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -87367,6 +88436,32 @@
       "id": "gemeinde_thalwil-268efb95cda0fffa",
       "raw_keys": [
         "('gemeinde_thalwil', '7759234', '2026-12-22')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-d51027dc47859e2a",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7795945', '2026-12-22')"
       ],
       "field_sources": {
         "title": "gemeinde_thalwil",
@@ -90666,7 +91761,7 @@
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
     },
     {
       "id": "onthur-6c8899ec16f0c27c",
@@ -90742,6 +91837,30 @@
         "last_seen": "plaza"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-fc12a09ea0911d18",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/the-biggest-hip-hoplatin-new-years-eve', '2026-12-31', '22:00', 'the biggest hip hop latin new years eve')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "uncertain"
     },
     {
       "id": "rote_fabrik-ef65318418668ab2",
