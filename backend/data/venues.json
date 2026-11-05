@@ -3381,5 +3381,21 @@
       "Winterthur"
     ],
     "result": null
+  },
+  "badenerstrasse|757|zurich": {
+    "checked_at": "2026-11-05T02:57:10.338598+01:00",
+    "query": [
+      "Badenerstrasse",
+      "757",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.39150619506836,
+      "longitude": 8.477909088134766,
+      "address_label": "Badenerstrasse 757 8048 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "162205_0"
+    }
   }
 }
