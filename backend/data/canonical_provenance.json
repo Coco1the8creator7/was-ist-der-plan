@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T08:41:40+01:00",
+  "generated_at": "2026-11-05T14:37:05+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-0a385dfdecd670fe",
@@ -10197,10 +10197,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -10814,10 +10813,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -20530,7 +20528,7 @@
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
       },
-      "match_confidence": "independent"
+      "match_confidence": "probable"
     },
     {
       "id": "gemeinde_kloten-04d4b811d80cfb1a",
@@ -22285,10 +22283,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22418,6 +22415,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-7ee3d81fea75a071",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41809-2055210-paavo_jrvi_mit_mahler/|19:30', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-042fd6e41c9a2471",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41778-9207-pintscher-brahms/|19:30', '2026-11-11')"
@@ -22527,10 +22564,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22579,6 +22615,46 @@
         "last_seen": "hive"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-cdf1c89680c0a2c3",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/sing-along-with-luke-thom-herbst26/|19:45', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "probable"
     },
     {
       "id": "kulturzueri-c1bfdd396de09e67",
@@ -22646,7 +22722,8 @@
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1105-30696-die_kleine_meerjungfrau/426933|20:00', '2026-11-11')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1105-30696-die_kleine_meerjungfrau/426934|20:00', '2026-11-11')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1105-30696-die_kleine_meerjungfrau/426935|20:00', '2026-11-11')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1105-30696-die_kleine_meerjungfrau/426935|20:00', '2026-11-11')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1105-30696-die_kleine_meerjungfrau/428280|20:00', '2026-11-11')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -22675,7 +22752,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -22740,6 +22819,46 @@
         "last_seen": "gemeinde_koeniz"
       },
       "match_confidence": "certain"
+    },
+    {
+      "id": "kulturzueri-e89e1eb42ecda724",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41772-04131d9f-f438-4938-ac36-407d815a57b5-finsterbusch_collective-ludwig_2.0-ceo_von_gottes_gnaden-premiere/|20:00', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "kulturzueri-0a05b6d7e45e9e04",
@@ -24269,6 +24388,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-05734746a5bbf91b",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41809-2055210-paavo_jrvi_mit_mahler/|18:30', '2026-11-12')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-89b2d344b7ef042b",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/rechtauffamilienuraufdempapier.html?calentry=1', '2026-11-12')"
@@ -24672,6 +24831,46 @@
         "image_type": "moods",
         "first_seen": "moods",
         "last_seen": "moods"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-ee5f1a4ea3191357",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41809-2055210-paavo_jrvi_mit_mahler/|19:30', '2026-11-12')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -26488,6 +26687,46 @@
         "image_type": "moods",
         "first_seen": "moods",
         "last_seen": "moods"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-0ce4e6b9540cfbef",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41809-2055210-paavo_jrvi_mit_mahler/|19:30', '2026-11-13')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -32107,6 +32346,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-e25125d703a80172",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41772-04131d9f-f438-4938-ac36-407d815a57b5-finsterbusch_collective-ludwig_2.0-ceo_von_gottes_gnaden-premiere/|20:00', '2026-11-15')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-198c90b136d5d4fa",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-23108-radio_on/|20:00', '2026-11-15')"
@@ -33166,6 +33445,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-ef94d660b10142d9",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41772-04131d9f-f438-4938-ac36-407d815a57b5-finsterbusch_collective-ludwig_2.0-ceo_von_gottes_gnaden-premiere/|20:00', '2026-11-16')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "petzi-14b2fbb95f96b1b8",
       "raw_keys": [
         "('petzi', '63700', '2026-11-16')"
@@ -34179,6 +34498,46 @@
         "retained_fields": "rote_fabrik",
         "first_seen": "rote_fabrik",
         "last_seen": "rote_fabrik"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-bc05ce83b558fde4",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41772-04131d9f-f438-4938-ac36-407d815a57b5-finsterbusch_collective-ludwig_2.0-ceo_von_gottes_gnaden-premiere/|20:00', '2026-11-17')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -55642,7 +56001,8 @@
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1105-30696-die_kleine_meerjungfrau/426933|20:00', '2026-11-28')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1105-30696-die_kleine_meerjungfrau/426934|20:00', '2026-11-28')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1105-30696-die_kleine_meerjungfrau/426935|20:00', '2026-11-28')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1105-30696-die_kleine_meerjungfrau/426935|20:00', '2026-11-28')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1105-30696-die_kleine_meerjungfrau/428280|20:00', '2026-11-28')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -55671,7 +56031,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -70149,7 +70511,7 @@
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
       },
-      "match_confidence": "independent"
+      "match_confidence": "probable"
     },
     {
       "id": "gemeinde_uster-f9c3d4645d0ed969",
@@ -71368,6 +71730,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-fee424330628ccb5",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/sing-along-with-luke-thom-herbst26/|19:45', '2026-12-09')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "probable"
+    },
+    {
       "id": "rote_fabrik-9085767b723e728d",
       "raw_keys": [
         "('rote_fabrik', '34021', '2026-12-09')"
@@ -71650,6 +72052,41 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "petzi-facb3edb2a181173",
+      "raw_keys": [
+        "('petzi', '65397', '2026-12-09')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
       },
       "match_confidence": "independent"
     },
@@ -86775,7 +87212,36 @@
         "first_seen": "isc_bern",
         "last_seen": "isc_bern"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
+    },
+    {
+      "id": "isc_bern-49195fec7c1b0948",
+      "raw_keys": [
+        "('isc_bern', 'https://isc-club.ch/programm/elpartymellama-2', '2026-12-24', '23:00', 'el party me llama last christmas')"
+      ],
+      "field_sources": {
+        "title": "isc_bern",
+        "date": "isc_bern",
+        "time": "isc_bern",
+        "start_at": "isc_bern",
+        "time_unknown": "isc_bern",
+        "venue": "isc_bern",
+        "category": "isc_bern",
+        "tags": "isc_bern",
+        "status": "isc_bern",
+        "description": "isc_bern",
+        "image_url": "isc_bern",
+        "image_source": "isc_bern",
+        "image_type": "isc_bern",
+        "municipality": "isc_bern",
+        "city": "isc_bern",
+        "region": "isc_bern",
+        "canton": "isc_bern",
+        "country": "isc_bern",
+        "first_seen": "isc_bern",
+        "last_seen": "isc_bern"
+      },
+      "match_confidence": "uncertain"
     },
     {
       "id": "gemeinde_uster-c8a43e98ae929304",
@@ -87030,6 +87496,35 @@
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "bierhuebeli_bern-fb92b0efa41601e4",
+      "raw_keys": [
+        "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/weihnachtsparty-bierhuebeli-bern', '2026-12-25', '23:00', 'bierhubeli xmas party')"
+      ],
+      "field_sources": {
+        "title": "bierhuebeli_bern",
+        "date": "bierhuebeli_bern",
+        "time": "bierhuebeli_bern",
+        "start_at": "bierhuebeli_bern",
+        "time_unknown": "bierhuebeli_bern",
+        "venue": "bierhuebeli_bern",
+        "category": "bierhuebeli_bern",
+        "tags": "bierhuebeli_bern",
+        "status": "bierhuebeli_bern",
+        "description": "bierhuebeli_bern",
+        "image_url": "bierhuebeli_bern",
+        "image_source": "bierhuebeli_bern",
+        "image_type": "bierhuebeli_bern",
+        "municipality": "bierhuebeli_bern",
+        "city": "bierhuebeli_bern",
+        "region": "bierhuebeli_bern",
+        "canton": "bierhuebeli_bern",
+        "country": "bierhuebeli_bern",
+        "first_seen": "bierhuebeli_bern",
+        "last_seen": "bierhuebeli_bern"
       },
       "match_confidence": "independent"
     },
@@ -87956,6 +88451,35 @@
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "isc_bern-a7539d3e65e81413",
+      "raw_keys": [
+        "('isc_bern', 'https://isc-club.ch/programm/vokuhila-mafia-xmas-bash-bingo-extended-de-la-muerte', '2026-12-27', '21:00', 'vokuhila mafia xmas bash bingo extended de la muerte party')"
+      ],
+      "field_sources": {
+        "title": "isc_bern",
+        "date": "isc_bern",
+        "time": "isc_bern",
+        "start_at": "isc_bern",
+        "time_unknown": "isc_bern",
+        "venue": "isc_bern",
+        "category": "isc_bern",
+        "tags": "isc_bern",
+        "status": "isc_bern",
+        "description": "isc_bern",
+        "image_url": "isc_bern",
+        "image_source": "isc_bern",
+        "image_type": "isc_bern",
+        "municipality": "isc_bern",
+        "city": "isc_bern",
+        "region": "isc_bern",
+        "canton": "isc_bern",
+        "country": "isc_bern",
+        "first_seen": "isc_bern",
+        "last_seen": "isc_bern"
       },
       "match_confidence": "independent"
     },
