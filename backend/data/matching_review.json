@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:19:26+01:00",
+  "generated_at": "2026-11-06T02:34:16+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -165,14 +165,6 @@
       "left": "gemeinde_kloten-59117f68eeb0692e",
       "right": "gemeinde_kloten-f270cec5bc040ecb",
       "date": "2026-11-30",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_thalwil-e409b227163f5851",
-      "right": "gemeinde_thalwil-197e85a9b769d303",
-      "date": "2026-11-05",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
@@ -832,14 +824,6 @@
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
-    },
-    {
-      "left": "kulturzueri-9e088826f99483bc",
-      "right": "kulturzueri-390e0a632ac9d442",
-      "date": "2026-11-05",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
     },
     {
       "left": "gemeinde_uster-fb1c830455996fa4",
