@@ -3406,5 +3406,21 @@
       "Zürich"
     ],
     "result": null
+  },
+  "hardturmstrasse|122|zurich": {
+    "checked_at": "2026-11-06T09:04:26.819683+01:00",
+    "query": [
+      "Hardturmstrasse",
+      "122",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.39312744140625,
+      "longitude": 8.514678955078125,
+      "address_label": "Hardturmstrasse 122 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302005687_0"
+    }
   }
 }
