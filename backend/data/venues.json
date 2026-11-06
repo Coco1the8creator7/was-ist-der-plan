@@ -3422,5 +3422,21 @@
       "coordinate_precision": "building",
       "feature_id": "302005687_0"
     }
+  },
+  "stauffacherstrasse|34|zurich": {
+    "checked_at": "2026-11-06T14:55:19.903234+01:00",
+    "query": [
+      "Stauffacherstrasse",
+      "34",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37386703491211,
+      "longitude": 8.529078483581543,
+      "address_label": "Stauffacherstrasse 34 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302005236_0"
+    }
   }
 }
