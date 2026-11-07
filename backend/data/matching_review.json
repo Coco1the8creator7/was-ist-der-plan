@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T14:15:58+01:00",
+  "generated_at": "2026-11-07T20:08:49+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -896,6 +896,22 @@
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
+    },
+    {
+      "left": "gemeinde_uster-5479a649840b55dd",
+      "right": "kulturzueri-37301d831ea34896",
+      "date": "2026-11-14",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_uster-e1dff15e8dff0438",
+      "right": "kulturzueri-13321672d29705c7",
+      "date": "2026-11-15",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
     }
   ]
 }
