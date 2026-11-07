@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:17:54+01:00",
+  "generated_at": "2026-11-07T02:25:20+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -101,14 +101,6 @@
       "left": "gemeinde_kloten-9423a7e53bf43a94",
       "right": "gemeinde_kloten-d0ddd7f297773a97",
       "date": "2026-12-06",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_kloten-ba8e187ccd619201",
-      "right": "gemeinde_kloten-92a5d1c1f0eb88ce",
-      "date": "2026-11-06",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
@@ -474,30 +466,6 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "friedas_ausgangheute-b1d8ffaddf3556eb",
-      "right": "friedas_ausgangheute-3a802f8eb27ba03b",
-      "date": "2026-11-06",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "moods-1d0aa0c8eade6d09",
-      "right": "moods-1bdaae2b71afc5f5",
-      "date": "2026-11-06",
-      "score": 85,
-      "level": "probable",
-      "reason": "similar_title"
-    },
-    {
-      "left": "gemeinde_koeniz-e7bf8e215c837ecf",
-      "right": "gemeinde_koeniz-4f8143cb4737a8c5",
-      "date": "2026-11-06",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "gemeinde_koeniz-c7f9d7b235789191",
       "right": "gemeinde_koeniz-01348f55cd41010f",
       "date": "2026-11-20",
@@ -528,14 +496,6 @@
       "score": 85,
       "level": "probable",
       "reason": "same_title_time_unverified"
-    },
-    {
-      "left": "gemeinde_kloten-e2d87d1903d062af",
-      "right": "gemeinde_kloten-d1d2b1c5526dd8e5",
-      "date": "2026-11-06",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
     },
     {
       "left": "gemeinde_kloten-f3574725f9c9c642",
@@ -762,14 +722,6 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "petzi-38df3ae797f1a779",
-      "right": "ubwg-37ff0e69be9f36f8",
-      "date": "2026-11-06",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "petzi-38a4270a029c8968",
       "right": "onthur-fe9246b25e85a4e9",
       "date": "2026-11-18",
@@ -826,25 +778,9 @@
       "reason": "similar_title"
     },
     {
-      "left": "gemeinde_uster-fb1c830455996fa4",
-      "right": "kulturzueri-e4670d28e1c8c62b",
-      "date": "2026-11-06",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "kulturzueri-3560abbfc512f41d",
       "right": "kulturzueri-c2dfbe4c8e344ce2",
       "date": "2026-11-08",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "kulturzueri-caa572d025e0e61a",
-      "right": "kulturzueri-c3e6e94656e96a25",
-      "date": "2026-11-06",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
