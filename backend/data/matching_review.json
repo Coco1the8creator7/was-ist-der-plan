@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T02:25:20+01:00",
+  "generated_at": "2026-11-07T08:26:27+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -800,6 +800,14 @@
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
+    },
+    {
+      "left": "friedas_ausgangheute-581b988024357b1f",
+      "right": "friedas_buexe-135247524149ee86",
+      "date": "2026-11-21",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
     },
     {
       "left": "stadt_zuerich-7e3c1043350bb3ea",
