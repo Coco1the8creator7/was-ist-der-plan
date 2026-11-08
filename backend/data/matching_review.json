@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T20:08:49+01:00",
+  "generated_at": "2026-11-08T02:30:48+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -8,14 +8,6 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_kloten-cf351ab8d6ff7a54",
-      "right": "gemeinde_kloten-5c35722b8c27d7ad",
-      "date": "2026-11-07",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
     },
     {
       "left": "gemeinde_kloten-0930cad6c9af7b24",
@@ -181,30 +173,6 @@
       "left": "gemeinde_uster-23252a8146ec89d0",
       "right": "gemeinde_uster-0b9ae8e8eebe00b0",
       "date": "2026-12-05",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
-      "left": "gemeinde_uster-4d40fbcbd6237d8e",
-      "right": "gemeinde_uster-2b5076dcc7229274",
-      "date": "2026-11-07",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
-      "left": "gemeinde_uster-4d40fbcbd6237d8e",
-      "right": "gemeinde_uster-541cd80affc972cb",
-      "date": "2026-11-07",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
-      "left": "gemeinde_uster-2b5076dcc7229274",
-      "right": "gemeinde_uster-541cd80affc972cb",
-      "date": "2026-11-07",
       "score": 85,
       "level": "probable",
       "reason": "same_title_time_unverified"
@@ -498,30 +466,6 @@
       "reason": "same_title_time_unverified"
     },
     {
-      "left": "gemeinde_kloten-f3574725f9c9c642",
-      "right": "gemeinde_kloten-da7e7bba3b188df3",
-      "date": "2026-11-07",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
-      "left": "gemeinde_kloten-f3574725f9c9c642",
-      "right": "gemeinde_kloten-b5a51c35f1e69b3a",
-      "date": "2026-11-07",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_kloten-da7e7bba3b188df3",
-      "right": "gemeinde_kloten-b5a51c35f1e69b3a",
-      "date": "2026-11-07",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "gemeinde_uster-c5a2ada6f49aa05a",
       "right": "gemeinde_uster-2485356df0acfe0e",
       "date": "2026-12-06",
@@ -730,25 +674,9 @@
       "reason": "same_title_time_unverified"
     },
     {
-      "left": "friedas_ausgangheute-8467c5d8a85bae5a",
-      "right": "friedas_buexe-51cd6b81ccc4d576",
-      "date": "2026-11-07",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "friedas_ausgangheute-6b88393b6474b696",
       "right": "friedas_buexe-e8dfd7d940ace889",
       "date": "2026-11-08",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "supermarket-2d1db123b480d02f",
-      "right": "ubwg-a19b786203914219",
-      "date": "2026-11-07",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
@@ -762,44 +690,12 @@
       "reason": "similar_title"
     },
     {
-      "left": "friedas_ausgangheute-8467c5d8a85bae5a",
-      "right": "friedas_buexe-0e6be0200e731319",
-      "date": "2026-11-07",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "friedas_buexe-51cd6b81ccc4d576",
-      "right": "friedas_buexe-0e6be0200e731319",
-      "date": "2026-11-07",
-      "score": 85,
-      "level": "probable",
-      "reason": "similar_title"
-    },
-    {
       "left": "kulturzueri-3560abbfc512f41d",
       "right": "kulturzueri-c2dfbe4c8e344ce2",
       "date": "2026-11-08",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
-    },
-    {
-      "left": "kulturzueri-743f1af51d8e961e",
-      "right": "kulturzueri-cb4daecf157de32c",
-      "date": "2026-11-07",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_uster-ae1a94315cc380fd",
-      "right": "kulturzueri-ba287a62cf5caf3c",
-      "date": "2026-11-07",
-      "score": 85,
-      "level": "probable",
-      "reason": "similar_title"
     },
     {
       "left": "friedas_ausgangheute-581b988024357b1f",
@@ -813,46 +709,6 @@
       "left": "stadt_zuerich-7e3c1043350bb3ea",
       "right": "kulturzueri-e00ae330cd183496",
       "date": "2026-11-09",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "kulturzueri-32f13c332034c44d",
-      "right": "kulturzueri-7f179053573f1606",
-      "date": "2026-11-07",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "kulturzueri-32f13c332034c44d",
-      "right": "kulturzueri-a0ed5a45042ad042",
-      "date": "2026-11-07",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "kulturzueri-32f13c332034c44d",
-      "right": "kulturzueri-2e965b955531bfd8",
-      "date": "2026-11-07",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "kulturzueri-32f13c332034c44d",
-      "right": "kulturzueri-004a64175c1134bd",
-      "date": "2026-11-07",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "kulturzueri-32f13c332034c44d",
-      "right": "kulturzueri-0fd5d57c494d0439",
-      "date": "2026-11-07",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
