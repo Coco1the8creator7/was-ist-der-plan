@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T02:30:48+01:00",
+  "generated_at": "2026-11-08T08:27:31+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-4fffbca32e45e3e7",
@@ -19465,10 +19465,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -19541,10 +19540,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -19581,10 +19579,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -19657,10 +19654,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -19869,10 +19865,9 @@
         "original_event_url": "kulturzueri",
         "source_event_id": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21455,10 +21450,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -62509,6 +62503,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "petzi-f18c574f4a985be3",
+      "raw_keys": [
+        "('petzi', '65508', '2026-12-08')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-34dcdc8580f77187",
       "raw_keys": [
         "('gemeinde_kloten', '7628002', '2026-12-09')"
@@ -83058,6 +83087,35 @@
       "match_confidence": "independent"
     },
     {
+      "id": "dachstock_bern-2ba324f66bf5ac44",
+      "raw_keys": [
+        "('dachstock_bern', 'https://dachstock.ch/events/31-12-2026-una-vita-in-vacanza-presents-solidayrave', '2026-12-31', '13:00', 'una vita in vacanza presents soli dayrave')"
+      ],
+      "field_sources": {
+        "title": "dachstock_bern",
+        "date": "dachstock_bern",
+        "time": "dachstock_bern",
+        "start_at": "dachstock_bern",
+        "time_unknown": "dachstock_bern",
+        "venue": "dachstock_bern",
+        "category": "dachstock_bern",
+        "tags": "dachstock_bern",
+        "status": "dachstock_bern",
+        "description": "dachstock_bern",
+        "image_url": "dachstock_bern",
+        "image_source": "dachstock_bern",
+        "image_type": "dachstock_bern",
+        "municipality": "dachstock_bern",
+        "city": "dachstock_bern",
+        "region": "dachstock_bern",
+        "canton": "dachstock_bern",
+        "country": "dachstock_bern",
+        "first_seen": "dachstock_bern",
+        "last_seen": "dachstock_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-a5148bcd84f73024",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41793-837-die_zauberorgel/|13:30', '2026-12-31')"
@@ -94876,10 +94934,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -94911,10 +94968,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -94951,10 +95007,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
