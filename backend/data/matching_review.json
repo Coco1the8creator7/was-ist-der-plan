@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T20:08:45+01:00",
+  "generated_at": "2026-11-09T02:35:41+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -181,14 +181,6 @@
       "left": "gemeinde_uster-ff0c988f4a38a399",
       "right": "gemeinde_uster-51f53813b4d73550",
       "date": "2026-12-03",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
-      "left": "gemeinde_uster-e224e9b8005bc820",
-      "right": "gemeinde_uster-95768e150d9cfb3e",
-      "date": "2026-11-08",
       "score": 85,
       "level": "probable",
       "reason": "same_title_time_unverified"
@@ -674,28 +666,12 @@
       "reason": "same_title_time_unverified"
     },
     {
-      "left": "friedas_ausgangheute-6b88393b6474b696",
-      "right": "friedas_buexe-e8dfd7d940ace889",
-      "date": "2026-11-08",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "supermarket-68fbcdd7016dbc2e",
       "right": "ubwg-74064403828903b6",
       "date": "2026-11-28",
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
-    },
-    {
-      "left": "kulturzueri-3560abbfc512f41d",
-      "right": "kulturzueri-c2dfbe4c8e344ce2",
-      "date": "2026-11-08",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
     },
     {
       "left": "friedas_ausgangheute-581b988024357b1f",
@@ -768,6 +744,14 @@
       "score": 85,
       "level": "probable",
       "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "kulturzueri-28ae799790e39e68",
+      "right": "kulturzueri-9102a7d9751bce99",
+      "date": "2026-11-16",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
     }
   ]
 }
