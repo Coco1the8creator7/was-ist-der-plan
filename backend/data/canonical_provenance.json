@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:38:09+01:00",
+  "generated_at": "2026-11-09T20:18:25+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-eec3c2fc59e0b827",
@@ -802,6 +802,39 @@
         "end_at": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-1af024ae0c7aaa0a",
+      "raw_keys": [
+        "('ubwg', '171636', '2026-11-09')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -2543,6 +2576,39 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-7b0f7b68b041aca2",
+      "raw_keys": [
+        "('ubwg', '171638', '2026-11-10')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-ec7897048c798eca",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/77381-26w-0380-23-jenseits_jeder_regel-friedrich_glauser_und_adolf_wlfli/|19:00', '2026-11-10')"
@@ -2840,6 +2906,29 @@
       "id": "dynamo-cbe8fe2f2c00e23e",
       "raw_keys": [
         "('dynamo', 'https://dynamo.ch/veranstaltung/vandalisbin', '2026-11-10', '19:30', 'vandalisbin')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "dynamo-1432a1475ac2f7e4",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/veranstaltung/wird-verschoben-vandalisbin', '2026-11-10', '19:30', 'wird verschoben vandalisbin')"
       ],
       "field_sources": {
         "title": "dynamo",
@@ -4890,6 +4979,39 @@
         "last_seen": "stadt_zuerich"
       },
       "match_confidence": "uncertain"
+    },
+    {
+      "id": "ubwg-5d417fabce3da0e7",
+      "raw_keys": [
+        "('ubwg', '171640', '2026-11-11')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "stadt_zuerich-5edd80d38cde43a1",
@@ -7741,6 +7863,39 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-4a66ea73efb89a34",
+      "raw_keys": [
+        "('ubwg', '171683', '2026-11-12')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-8aa8d399f0122968",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/wasser-grundlage-des-lebens-mehr-als-eine-ressource/|18:00', '2026-11-12')"
@@ -8794,6 +8949,39 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-037974dd84c03948",
+      "raw_keys": [
+        "('ubwg', '171643', '2026-11-12')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -10691,6 +10879,42 @@
       "match_confidence": "certain"
     },
     {
+      "id": "ubwg-4916592685a3cdfc",
+      "raw_keys": [
+        "('ubwg', '171738', '2026-11-13')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_ostermundigen-582529c3de939f97",
       "raw_keys": [
         "('gemeinde_ostermundigen', 'https://ostermundigen.ch/de/veranstaltungen/1126_bar-und-pasta-im-tell', '2026-11-13', '18:00', 'bar und pasta im tell')"
@@ -10842,6 +11066,39 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-9f675e8b925d21e0",
+      "raw_keys": [
+        "('ubwg', '171685', '2026-11-13')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -11232,6 +11489,40 @@
         "country": "bierhuebeli_bern",
         "first_seen": "bierhuebeli_bern",
         "last_seen": "bierhuebeli_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-a9e0543d8f5d3ab3",
+      "raw_keys": [
+        "('ubwg', '171653', '2026-11-13')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -11636,6 +11927,39 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-d4d2f711feda437e",
+      "raw_keys": [
+        "('ubwg', '171645', '2026-11-13')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -12278,6 +12602,42 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-762f9bf248c28da6",
+      "raw_keys": [
+        "('ubwg', '171742', '2026-11-13')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -15286,6 +15646,39 @@
       "match_confidence": "certain"
     },
     {
+      "id": "ubwg-7e31cbbb98c507c9",
+      "raw_keys": [
+        "('ubwg', '171687', '2026-11-14')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-eca0669c25b06b8d",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-14476-days_and_nights_in_the_forest-aranyer_din_ratri/|18:15', '2026-11-14')"
@@ -15370,6 +15763,39 @@
         "source_event_id": "onthur",
         "first_seen": "onthur",
         "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-cdc5067417438550",
+      "raw_keys": [
+        "('ubwg', '171647', '2026-11-14')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -16297,6 +16723,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-37e18b03ee03ffc1",
+      "raw_keys": [
+        "('ubwg', '171658', '2026-11-14')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "dachstock_bern-ab267f891a7e1d61",
       "raw_keys": [
         "('dachstock_bern', 'https://dachstock.ch/events/14-11-2026-legacy-party', '2026-11-14', '22:00', 'legacy')"
@@ -16656,6 +17118,43 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-5e5fd59036b7b984",
+      "raw_keys": [
+        "('ubwg', '171734', '2026-11-14')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-f83ec4065f045c60",
       "raw_keys": [
         "('ubwg', '171219', '2026-11-14')"
@@ -16925,6 +17424,42 @@
         "country": "gaskessel_bern",
         "first_seen": "gaskessel_bern",
         "last_seen": "gaskessel_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-5e025ec9fba2bb09",
+      "raw_keys": [
+        "('ubwg', '171728', '2026-11-14')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -18887,6 +19422,7 @@
         "category": "dampfzentrale_bern",
         "tags": "dampfzentrale_bern",
         "status": "dampfzentrale_bern",
+        "description": "dampfzentrale_bern",
         "image_url": "dampfzentrale_bern",
         "image_source": "dampfzentrale_bern",
         "image_type": "dampfzentrale_bern",
@@ -19769,6 +20305,39 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-d30e7a9c23ef1bf5",
+      "raw_keys": [
+        "('ubwg', '171649', '2026-11-15')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kaufleuten-78e8ada66fe0fccd",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/level-42-konzert-1', '2026-11-15', '19:00', 'level 42 konzert')"
@@ -19792,9 +20361,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "onthur-3877227c427072bb",
+      "id": "onthur-6c2c2f47d262c4cb",
       "raw_keys": [
-        "('onthur', '/de/kalender/2481/Morgan-Harper-Jones-UK-Solo-Show', '2026-11-15')"
+        "('onthur', '/de/kalender/2481/Morgan-Harper-Jones-UK-Solo-Show-Support-manon-may-CH', '2026-11-15')"
       ],
       "field_sources": {
         "title": "onthur",
@@ -21287,10 +21856,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21350,10 +21918,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21426,6 +21993,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-f2d5e125e1da78f7",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/niklaus-nuspliger-brexit-bregret-und-die-lehren-fuer-die-schweiz/|19:30', '2026-11-16')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "moods-dad42a308a3dc10d",
       "raw_keys": [
         "('moods', 'https://moods.ch/programm/true-loves-2026-11-16', '2026-11-16', '19:30', 'true loves')"
@@ -21446,6 +22053,126 @@
         "image_type": "moods",
         "first_seen": "moods",
         "last_seen": "moods"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-6bfc0157285c11e0",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/annett-louisan-3/|20:00', '2026-11-16')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-a8da8960972d2f90",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-3929-bingo-show/|20:00', '2026-11-16')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-d62b13c9ff58cff0",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41795-434-ds_lied_vo_de_bahnhf-1/|20:00', '2026-11-16')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21533,6 +22260,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-66594e3216a3321a",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/nik-kershaw/|20:00', '2026-11-16')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-ef94d660b10142d9",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41772-04131d9f-f438-4938-ac36-407d815a57b5-finsterbusch_collective-ludwig_2.0-ceo_von_gottes_gnaden-premiere/|20:00', '2026-11-16')"
@@ -21572,6 +22339,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-a7b64a42613b102f",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/salon-betty-in-zuerich-2/|20:00', '2026-11-16')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "petzi-14b2fbb95f96b1b8",
       "raw_keys": [
         "('petzi', '63700', '2026-11-16')"
@@ -21607,9 +22414,89 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-24999b2ed5af64b0",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41769-85331-zrcher_poetikvorlesung_i_mit_blixa_bargeld/|20:00', '2026-11-16')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-9634715457fb3a1e",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1081-56ba3ec4-89e1-4c2b-9260-56fc5c8df67a-strike/414817|20:00', '2026-11-16')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "exil-6c88bfeeecd7b67b",
       "raw_keys": [
-        "('exil', 'https://exil.club/events/nik-baertschs-ronin-16-11-26', '2026-11-16', '20:30', 'montags 1146 nik bartschs ronin')"
+        "('exil', 'https://exil.club/events/nik-baertschs-ronin-16-11-26', '2026-11-16', '20:30', 'montags 1146 nik bartschs ronin')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/211502-0886462-montags_1146_nik_brtschs_ronin/|20:30', '2026-11-16')"
       ],
       "field_sources": {
         "title": "exil",
@@ -21624,9 +22511,27 @@
         "image_source": "exil",
         "image_type": "exil",
         "first_seen": "exil",
-        "last_seen": "exil"
+        "last_seen": "exil",
+        "time_unknown": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "dynamo-88377f85fa6843eb",
@@ -22688,6 +23593,45 @@
         "source_event_id": "onthur",
         "first_seen": "onthur",
         "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-983cf4fd91e63b1b",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1081-56ba3ec4-89e1-4c2b-9260-56fc5c8df67a-strike/414817|20:00', '2026-11-17')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -24528,6 +25472,45 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-9161a4d2d25719a1",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1081-56ba3ec4-89e1-4c2b-9260-56fc5c8df67a-strike/414817|20:00', '2026-11-18')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "isc_bern-1b2e496eb006b450",
       "raw_keys": [
         "('isc_bern', 'https://isc-club.ch/programm/gurriers', '2026-11-18', '20:30', 'ausverkauft gurriers enola gay')"
@@ -24600,6 +25583,7 @@
         "category": "petzi",
         "tags": "petzi",
         "status": "petzi",
+        "price_chf": "petzi",
         "description": "petzi",
         "image_url": "petzi",
         "image_source": "petzi",
@@ -24613,6 +25597,7 @@
         "source_event_id": "petzi",
         "classification_context": "petzi",
         "doors_time": "petzi",
+        "ticket_url": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
       },
@@ -26031,6 +27016,39 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-612dc7eecb4acbb1",
+      "raw_keys": [
+        "('ubwg', '171689', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -28604,10 +29622,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -28641,6 +29658,39 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-6df72d91ff12f166",
+      "raw_keys": [
+        "('ubwg', '171691', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -28740,10 +29790,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -29442,6 +30491,42 @@
         "retained_fields": "gemeinde_ostermundigen",
         "first_seen": "gemeinde_ostermundigen",
         "last_seen": "gemeinde_ostermundigen"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-035491d3aeb6012a",
+      "raw_keys": [
+        "('ubwg', '171746', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -31120,10 +32205,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -31919,6 +33003,39 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-474d393e2d35a5f2",
+      "raw_keys": [
+        "('ubwg', '171693', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-eaa34c7b9995e602",
       "raw_keys": [
         "('ubwg', '170633', '2026-11-21')"
@@ -32595,6 +33712,42 @@
         "source_event_id": "onthur",
         "first_seen": "onthur",
         "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-3521c71758036043",
+      "raw_keys": [
+        "('ubwg', '171665', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -41148,6 +42301,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-25a0303de166b616",
+      "raw_keys": [
+        "('ubwg', '171669', '2026-11-26')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-837d5b974e8cbeca",
       "raw_keys": [
         "('supermarket', 'https://supermarket.li/programm', '2026-11-26', '20:00', 'planet voltage')",
@@ -41247,9 +42436,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-57f6bc08ae106eff",
+      "id": "stadt_zuerich-2357889c2d343549",
       "raw_keys": [
-        "('stadt_zuerich', '/nonam/de/veranstaltungen/sugarcanefilm1.html?calentry=1', '2026-11-26')"
+        "('stadt_zuerich', '/nonam/de/veranstaltungen/littlebird.html?calentry=1', '2026-11-26')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -41273,9 +42462,10 @@
         "source_event_id": "stadt_zuerich",
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -42834,30 +44024,6 @@
       "match_confidence": "independent"
     },
     {
-      "id": "kaufleuten-4644bd315de2ca5f",
-      "raw_keys": [
-        "('kaufleuten', 'https://kaufleuten.ch/event/disco-party-100', '2026-11-27', '22:00', 'disco party')"
-      ],
-      "field_sources": {
-        "title": "kaufleuten",
-        "date": "kaufleuten",
-        "time": "kaufleuten",
-        "start_at": "kaufleuten",
-        "time_unknown": "kaufleuten",
-        "venue": "kaufleuten",
-        "category": "kaufleuten",
-        "tags": "kaufleuten",
-        "status": "kaufleuten",
-        "price_chf": "kaufleuten",
-        "image_url": "kaufleuten",
-        "image_source": "kaufleuten",
-        "image_type": "kaufleuten",
-        "first_seen": "kaufleuten",
-        "last_seen": "kaufleuten"
-      },
-      "match_confidence": "independent"
-    },
-    {
       "id": "ubwg-e56ae642fb9005b5",
       "raw_keys": [
         "('ubwg', '171348', '2026-11-27')"
@@ -42885,10 +44051,35 @@
         "original_title": "ubwg",
         "source_event_id": "ubwg",
         "address": "ubwg",
+        "original_event_url": "ubwg",
         "classification_context": "ubwg",
         "coordinate_source": "ubwg",
         "first_seen": "ubwg",
         "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-4644bd315de2ca5f",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/disco-party-100', '2026-11-27', '22:00', 'disco party')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
       },
       "match_confidence": "independent"
     },
@@ -45966,6 +47157,42 @@
       "match_confidence": "probable"
     },
     {
+      "id": "ubwg-a5d99b8d07ae25ac",
+      "raw_keys": [
+        "('ubwg', '171674', '2026-11-28')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "isc_bern-2c0c0a97c59f079f",
       "raw_keys": [
         "('isc_bern', 'https://isc-club.ch/programm/golden-tolerdance-diva-night', '2026-11-28', '22:00', 'golden tolerdance diva night')"
@@ -45991,41 +47218,6 @@
         "country": "isc_bern",
         "first_seen": "isc_bern",
         "last_seen": "isc_bern"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "ubwg-3237b1b4bb3b1dba",
-      "raw_keys": [
-        "('ubwg', '171355', '2026-11-28')"
-      ],
-      "field_sources": {
-        "title": "ubwg",
-        "date": "ubwg",
-        "time": "ubwg",
-        "start_at": "ubwg",
-        "time_unknown": "ubwg",
-        "venue": "ubwg",
-        "category": "ubwg",
-        "tags": "ubwg",
-        "status": "ubwg",
-        "description": "ubwg",
-        "latitude": "ubwg",
-        "longitude": "ubwg",
-        "image_url": "ubwg",
-        "image_source": "ubwg",
-        "image_type": "ubwg",
-        "region": "ubwg",
-        "city": "ubwg",
-        "municipality": "ubwg",
-        "country": "ubwg",
-        "original_title": "ubwg",
-        "source_event_id": "ubwg",
-        "address": "ubwg",
-        "classification_context": "ubwg",
-        "coordinate_source": "ubwg",
-        "first_seen": "ubwg",
-        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -46167,6 +47359,43 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-3237b1b4bb3b1dba",
+      "raw_keys": [
+        "('kauz', 'https://tickets.kauzig.ch/events/porny-days-2026-11-28', '2026-11-28', '22:00', 'porny days')",
+        "('ubwg', '171355', '2026-11-28')"
+      ],
+      "field_sources": {
+        "title": "kauz",
+        "date": "kauz",
+        "time": "kauz",
+        "start_at": "kauz",
+        "time_unknown": "kauz",
+        "venue": "kauz",
+        "category": "kauz",
+        "tags": "kauz",
+        "status": "kauz",
+        "price_chf": "kauz",
+        "image_url": "kauz",
+        "image_source": "kauz",
+        "image_type": "kauz",
+        "first_seen": "ubwg",
+        "last_seen": "kauz",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg"
+      },
+      "match_confidence": "certain"
+    },
+    {
       "id": "ubwg-ab869e83aba1ff8b",
       "raw_keys": [
         "('ubwg', '171526', '2026-11-28')"
@@ -46230,6 +47459,42 @@
         "original_title": "ubwg",
         "source_event_id": "ubwg",
         "address": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-b9655ce549d523f8",
+      "raw_keys": [
+        "('ubwg', '171714', '2026-11-28')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
         "classification_context": "ubwg",
         "coordinate_source": "ubwg",
         "first_seen": "ubwg",
@@ -47691,6 +48956,41 @@
         "image_type": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-5f1cf08f76c62949",
+      "raw_keys": [
+        "('stadt_zuerich', '/nonam/de/veranstaltungen/vernissage-dergrossefluss.html?calentry=1', '2026-11-29')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -55608,6 +56908,35 @@
       "match_confidence": "independent"
     },
     {
+      "id": "onthur-9ad3110d2ae3d3ed",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2736/Steibi-FM-Louis-de-Fumer', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kaufleuten-7355b1b882a28d6b",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/the-christmas-party-80s-90s-00s', '2026-12-04', '23:00', 'the christmas party 80s 90s 00s')"
@@ -57620,6 +58949,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-9e3728c3cdcd4943",
+      "raw_keys": [
+        "('ubwg', '171718', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "rote_fabrik-2c1a50153bd2fdcf",
       "raw_keys": [
         "('rote_fabrik', '33504', '2026-12-05')"
@@ -57816,6 +59181,71 @@
         "price_chf": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-d3dd6177d76355de",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2737/iLIKE', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-797b54d748fc57a6",
+      "raw_keys": [
+        "('ubwg', '171696', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -58353,10 +59783,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -58679,10 +60108,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "certain"
     },
@@ -61196,6 +62624,35 @@
         "country": "bierhuebeli_bern",
         "first_seen": "bierhuebeli_bern",
         "last_seen": "bierhuebeli_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-aa070eec6b6e6c4f",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2738/PubQuiz', '2026-12-08')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -64344,6 +65801,35 @@
       "match_confidence": "independent"
     },
     {
+      "id": "onthur-c39e85bbdd55e14b",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2739/Karaoke', '2026-12-10')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "dynamo-ce8494b3bd219985",
       "raw_keys": [
         "('dynamo', 'https://dynamo.ch/veranstaltung/mika-noe-ausverkauft', '2026-12-10', '19:00', 'mika noe ausverkauft')"
@@ -66165,6 +67651,40 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-70e4b5d021332080",
+      "raw_keys": [
+        "('ubwg', '171677', '2026-12-11')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gaskessel_bern-7e0290447ec04f4b",
       "raw_keys": [
         "('gaskessel_bern', 'https://gaskessel.ch/programm', '2026-12-11', '23:00', 'makina')"
@@ -66211,6 +67731,71 @@
         "image_type": "plaza",
         "first_seen": "plaza",
         "last_seen": "plaza"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-2b61ecc21b02a886",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2740/Steibi-FM-Nightrider-Soundsystem', '2026-12-11')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-aff1d22a8cc05201",
+      "raw_keys": [
+        "('ubwg', '171701', '2026-12-11')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -68266,6 +69851,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-95610d9e4ebfb741",
+      "raw_keys": [
+        "('ubwg', '171721', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kaufleuten-5f02a72bbed2dbae",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/la-boutique-10', '2026-12-12', '23:00', 'la boutique')"
@@ -68336,6 +69957,35 @@
         "image_type": "plaza",
         "first_seen": "plaza",
         "last_seen": "plaza"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-9ce78a423fedaeac",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2741/Technodrama-Extra-Vergine-Lady-Gobelet', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -69824,6 +71474,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-e1451f79c64e5add",
+      "raw_keys": [
+        "('stadt_zuerich', '/nonam/de/veranstaltungen/familiennachmittag-eisbaer.html?calentry=1', '2026-12-13')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-41c112f091dfa1f7",
       "raw_keys": [
         "('stadt_zuerich', '/gesundheitszentren/de/ueber-uns/veranstaltungen/quartier/langgruet/2026-12-glockenkonzert.html?calentry=1', '2026-12-13')"
@@ -70718,6 +72403,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-b16d599045c6b72a",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-3929-bingo-show/|20:00', '2026-12-14')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "dynamo-ad7c7b226361161d",
       "raw_keys": [
         "('dynamo', 'https://dynamo.ch/kurs/k-pop-dancers-2000-uhr', '2026-12-14', '20:00', 'k pop dancers 20 00 uhr')"
@@ -71559,6 +73284,46 @@
         "country": "dampfzentrale_bern",
         "first_seen": "dampfzentrale_bern",
         "last_seen": "dampfzentrale_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-7e06ba67c091fe1d",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-3929-bingo-show/|20:00', '2026-12-15')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -75098,6 +76863,35 @@
       "match_confidence": "independent"
     },
     {
+      "id": "onthur-279c693a0548b630",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2742/Steibi-FM-Sonic-Sisters', '2026-12-18')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kaufleuten-64401c7a88958b4b",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/studentzh-semester-end-1', '2026-12-18', '23:00', 'student zh semester end')"
@@ -75118,6 +76912,42 @@
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-fe1339ebda717b09",
+      "raw_keys": [
+        "('ubwg', '171704', '2026-12-18')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -75932,6 +77762,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "onthur-2f2a2be28586d7c6",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2713/Gaswerk-Bandraum-Festival', '2026-12-19')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "onthur-834abd404914a740",
       "raw_keys": [
         "('onthur', '/de/kalender/2732/Kerzenziehen', '2026-12-19')"
@@ -76026,32 +77882,6 @@
         "country": "gemeinde_koeniz",
         "first_seen": "gemeinde_koeniz",
         "last_seen": "gemeinde_koeniz"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "onthur-2f2a2be28586d7c6",
-      "raw_keys": [
-        "('onthur', '/de/kalender/2713/Gaswerk-Bandraum-Festival', '2026-12-19')"
-      ],
-      "field_sources": {
-        "title": "onthur",
-        "date": "onthur",
-        "time": "onthur",
-        "start_at": "onthur",
-        "time_unknown": "onthur",
-        "venue": "onthur",
-        "category": "onthur",
-        "tags": "onthur",
-        "status": "onthur",
-        "region": "onthur",
-        "city": "onthur",
-        "municipality": "onthur",
-        "country": "onthur",
-        "original_title": "onthur",
-        "source_event_id": "onthur",
-        "first_seen": "onthur",
-        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -76505,6 +78335,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-72b9d88c35670585",
+      "raw_keys": [
+        "('ubwg', '171708', '2026-12-19')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kaufleuten-2bf36bfdd0f36899",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/adam-ten-1', '2026-12-19', '23:00', 'adam ten')"
@@ -76705,6 +78571,35 @@
         "status": "exil",
         "first_seen": "exil",
         "last_seen": "exil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-21cc415da36e3b82",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2743/iStream', '2026-12-19')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -77045,6 +78940,42 @@
         "image_type": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-33986acc6c888a8b",
+      "raw_keys": [
+        "('ubwg', '171712', '2026-12-20')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -78194,9 +80125,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "gemeinde_thalwil-268efb95cda0fffa",
+      "id": "gemeinde_thalwil-1b78551ecab19814",
       "raw_keys": [
-        "('gemeinde_thalwil', '7759234', '2026-12-22')"
+        "('gemeinde_thalwil', '7806586', '2026-12-22')"
       ],
       "field_sources": {
         "title": "gemeinde_thalwil",
@@ -78220,9 +80151,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "gemeinde_thalwil-d51027dc47859e2a",
+      "id": "gemeinde_thalwil-268efb95cda0fffa",
       "raw_keys": [
-        "('gemeinde_thalwil', '7795945', '2026-12-22')"
+        "('gemeinde_thalwil', '7759234', '2026-12-22')"
       ],
       "field_sources": {
         "title": "gemeinde_thalwil",
@@ -78504,6 +80435,35 @@
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-d5d3523878935ff9",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2744/PubQuiz', '2026-12-22')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -79070,9 +81030,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "onthur-e6b2f4a74db1a23b",
+      "id": "onthur-570aa75b8b12099d",
       "raw_keys": [
-        "('onthur', '/de/kalender/2716/SoundCheck', '2026-12-23')"
+        "('onthur', '/de/kalender/2745/SoundCheck', '2026-12-23')"
       ],
       "field_sources": {
         "title": "onthur",
@@ -79095,6 +81055,32 @@
         "source_event_id": "onthur",
         "first_seen": "onthur",
         "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-816751b58830c0db",
+      "raw_keys": [
+        "('gemeinde_uster', '7806400', '2026-12-24')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -79562,6 +81548,32 @@
       "id": "gemeinde_kloten-caa9a9b8e92fbe59",
       "raw_keys": [
         "('gemeinde_kloten', '7417789', '2026-12-25')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-0ca13773dfe6d609",
+      "raw_keys": [
+        "('gemeinde_kloten', '7807033', '2026-12-25')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -80620,6 +82632,41 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-e895f32631119336",
+      "raw_keys": [
+        "('stadt_zuerich', '/nonam/de/veranstaltungen/fuehrung-dergrossefluss.html?calentry=1', '2026-12-27')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -82603,6 +84650,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-e9a847129a7e1213",
+      "raw_keys": [
+        "('ubwg', '171731', '2026-12-31')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "plaza-7e4538d9a180cbb2",
       "raw_keys": [
         "('plaza', 'https://tickets.plaza-zurich.ch/de/events/silvesterparty-2026-2027-2026-12-31', '2026-12-31', '22:00', 'silvesterparty 2026')"
@@ -82708,6 +84791,35 @@
         "retained_fields": "rote_fabrik",
         "first_seen": "rote_fabrik",
         "last_seen": "rote_fabrik"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "onthur-63cf62c22da2ceb5",
+      "raw_keys": [
+        "('onthur', '/de/kalender/2746/Steibi-Silvester-Meraki-Fantix-B-Pholus-N8O-Olaf-Palmstrnd', '2026-12-31')"
+      ],
+      "field_sources": {
+        "title": "onthur",
+        "date": "onthur",
+        "time": "onthur",
+        "start_at": "onthur",
+        "time_unknown": "onthur",
+        "venue": "onthur",
+        "category": "onthur",
+        "tags": "onthur",
+        "status": "onthur",
+        "image_url": "onthur",
+        "image_source": "onthur",
+        "image_type": "onthur",
+        "region": "onthur",
+        "city": "onthur",
+        "municipality": "onthur",
+        "country": "onthur",
+        "original_title": "onthur",
+        "source_event_id": "onthur",
+        "first_seen": "onthur",
+        "last_seen": "onthur"
       },
       "match_confidence": "independent"
     },
@@ -85913,6 +88025,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-b1f6b3ea4f79aebd",
+      "raw_keys": [
+        "('stadt_zuerich', '/nonam/de/veranstaltungen/kanu-kayak.html?calentry=1', '2027-01-10')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-a93bfbcab5d96fce",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41776-27534-offenes_atelier_fr_alle/|14:00', '2027-01-10')"
@@ -87829,6 +89976,42 @@
         "ticket_url": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-1bfa860ca855d801",
+      "raw_keys": [
+        "('ubwg', '171724', '2027-01-15')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -91044,6 +93227,86 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-34a906b9a3056785",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-3929-bingo-show/|20:00', '2027-01-25')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-3f0af2753390c50a",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41795-434-ds_lied_vo_de_bahnhf-1/|20:00', '2027-01-25')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-91851769ecda4f7e",
       "raw_keys": [
         "('gemeinde_thalwil', '7724518', '2027-01-26')"
@@ -91964,10 +94227,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -92918,6 +95180,28 @@
       "match_confidence": "independent"
     },
     {
+      "id": "exil-f3b855f6ee79f7bc",
+      "raw_keys": [
+        "('exil', 'https://exil.club/events/yung-palo', '2027-01-31', '20:00', 'yungpalo')"
+      ],
+      "field_sources": {
+        "title": "exil",
+        "date": "exil",
+        "time": "exil",
+        "start_at": "exil",
+        "venue": "exil",
+        "category": "exil",
+        "tags": "exil",
+        "status": "exil",
+        "image_url": "exil",
+        "image_source": "exil",
+        "image_type": "exil",
+        "first_seen": "exil",
+        "last_seen": "exil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-81748119a7dd2545",
       "raw_keys": [
         "('gemeinde_thalwil', '7604422', '2027-02-01')"
@@ -93441,6 +95725,32 @@
         "date_precision": "gemeinde_thalwil",
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-935d3b9fc3e988a5",
+      "raw_keys": [
+        "('gemeinde_uster', '2168032', '2027-02-03')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -94952,6 +97262,41 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-259a4cf4e59e3044",
+      "raw_keys": [
+        "('stadt_zuerich', '/nonam/de/veranstaltungen/fuehrung-dergrossefluss.html?calentry=2', '2027-02-07')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
