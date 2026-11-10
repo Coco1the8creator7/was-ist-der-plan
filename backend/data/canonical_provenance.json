@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T08:36:55+01:00",
+  "generated_at": "2026-11-10T14:28:47+01:00",
   "events": [
     {
       "id": "gemeinde_uster-0cc2703269cb18bb",
@@ -970,9 +970,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-76a1ea62ccaac934",
+      "id": "stadt_zuerich-7cef3f385f9bca0d",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/politik-und-verwaltung/infoabende-polizist-in.html?calentry=2', '2026-11-10')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/politik-und-verwaltung/infoabende-polizist-in.html?calentry=1', '2026-11-10')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -9832,6 +9832,29 @@
         "source_event_id": "onthur",
         "first_seen": "onthur",
         "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-1d1a8f6c65e4c187",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/everlast-konzert-2', '2026-11-13', '19:00', 'everlast konzert')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
       },
       "match_confidence": "independent"
     },
@@ -19353,6 +19376,35 @@
       "match_confidence": "independent"
     },
     {
+      "id": "dachstock_bern-e133e772d8fdc885",
+      "raw_keys": [
+        "('dachstock_bern', 'https://dachstock.ch/events/15-11-2026-derya-yildirim-grup-simsek', '2026-11-15', '20:30', 'derya yldrm grup simsek hamburg')"
+      ],
+      "field_sources": {
+        "title": "dachstock_bern",
+        "date": "dachstock_bern",
+        "time": "dachstock_bern",
+        "start_at": "dachstock_bern",
+        "time_unknown": "dachstock_bern",
+        "venue": "dachstock_bern",
+        "category": "dachstock_bern",
+        "tags": "dachstock_bern",
+        "status": "dachstock_bern",
+        "description": "dachstock_bern",
+        "image_url": "dachstock_bern",
+        "image_source": "dachstock_bern",
+        "image_type": "dachstock_bern",
+        "municipality": "dachstock_bern",
+        "city": "dachstock_bern",
+        "region": "dachstock_bern",
+        "canton": "dachstock_bern",
+        "country": "dachstock_bern",
+        "first_seen": "dachstock_bern",
+        "last_seen": "dachstock_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-b21196ceffe6b374",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-7171-changeover_lichtworkshop/|21:00', '2026-11-15')"
@@ -26717,6 +26769,26 @@
       "match_confidence": "independent"
     },
     {
+      "id": "hive-977a45b01712536e",
+      "raw_keys": [
+        "('hive', 'https://hiveclub.ch/events/shut-up-and-dance-16', '2026-11-19', '20:00', 'shut up and dance')"
+      ],
+      "field_sources": {
+        "title": "hive",
+        "date": "hive",
+        "time": "hive",
+        "start_at": "hive",
+        "time_unknown": "hive",
+        "venue": "hive",
+        "category": "hive",
+        "tags": "hive",
+        "status": "hive",
+        "first_seen": "hive",
+        "last_seen": "hive"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "bierhuebeli_bern-56544c7169550367",
       "raw_keys": [
         "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/tommy-emmanuel', '2026-11-19', '20:00', 'tommy emmanuel')"
@@ -32416,6 +32488,35 @@
       "match_confidence": "independent"
     },
     {
+      "id": "bierhuebeli_bern-b4f1e585d9591b24",
+      "raw_keys": [
+        "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/bravo-hits-party', '2026-11-21', '23:00', 'bravo hits party')"
+      ],
+      "field_sources": {
+        "title": "bierhuebeli_bern",
+        "date": "bierhuebeli_bern",
+        "time": "bierhuebeli_bern",
+        "start_at": "bierhuebeli_bern",
+        "time_unknown": "bierhuebeli_bern",
+        "venue": "bierhuebeli_bern",
+        "category": "bierhuebeli_bern",
+        "tags": "bierhuebeli_bern",
+        "status": "bierhuebeli_bern",
+        "description": "bierhuebeli_bern",
+        "image_url": "bierhuebeli_bern",
+        "image_source": "bierhuebeli_bern",
+        "image_type": "bierhuebeli_bern",
+        "municipality": "bierhuebeli_bern",
+        "city": "bierhuebeli_bern",
+        "region": "bierhuebeli_bern",
+        "canton": "bierhuebeli_bern",
+        "country": "bierhuebeli_bern",
+        "first_seen": "bierhuebeli_bern",
+        "last_seen": "bierhuebeli_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "onthur-8cde7fb0f0c56381",
       "raw_keys": [
         "('onthur', '/de/kalender/2644/DIVERCITY-BASs', '2026-11-21')"
@@ -32653,6 +32754,9 @@
         "tags": "kaufleuten",
         "status": "kaufleuten",
         "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
       },
@@ -34734,6 +34838,41 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-e36490f01a144c2a",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/dokumentarfilmmymemoryisfullofgosts.html?calentry=1', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -58663,45 +58802,6 @@
       "match_confidence": "certain"
     },
     {
-      "id": "rote_fabrik-e68599a908a8bc4b",
-      "raw_keys": [
-        "('rote_fabrik', '34445', '2026-12-06')"
-      ],
-      "field_sources": {
-        "title": "rote_fabrik",
-        "date": "rote_fabrik",
-        "time": "rote_fabrik",
-        "start_at": "rote_fabrik",
-        "time_unknown": "rote_fabrik",
-        "venue": "rote_fabrik",
-        "category": "rote_fabrik",
-        "tags": "rote_fabrik",
-        "status": "rote_fabrik",
-        "description": "rote_fabrik",
-        "latitude": "rote_fabrik",
-        "longitude": "rote_fabrik",
-        "image_url": "rote_fabrik",
-        "image_source": "rote_fabrik",
-        "image_type": "rote_fabrik",
-        "region": "rote_fabrik",
-        "city": "rote_fabrik",
-        "municipality": "rote_fabrik",
-        "country": "rote_fabrik",
-        "original_title": "rote_fabrik",
-        "source_event_id": "rote_fabrik",
-        "doors_time": "rote_fabrik",
-        "venue_id": "rote_fabrik",
-        "address": "rote_fabrik",
-        "canton": "rote_fabrik",
-        "classification_context": "rote_fabrik",
-        "end_at": "rote_fabrik",
-        "retained_fields": "rote_fabrik",
-        "first_seen": "rote_fabrik",
-        "last_seen": "rote_fabrik"
-      },
-      "match_confidence": "independent"
-    },
-    {
       "id": "kulturzueri-24463ab797c00438",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41798-530-das_dschungel_shy_buch/|11:00', '2026-12-06')"
@@ -58923,6 +59023,45 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "rote_fabrik-e68599a908a8bc4b",
+      "raw_keys": [
+        "('rote_fabrik', '34445', '2026-12-06')"
+      ],
+      "field_sources": {
+        "title": "rote_fabrik",
+        "date": "rote_fabrik",
+        "time": "rote_fabrik",
+        "start_at": "rote_fabrik",
+        "time_unknown": "rote_fabrik",
+        "venue": "rote_fabrik",
+        "category": "rote_fabrik",
+        "tags": "rote_fabrik",
+        "status": "rote_fabrik",
+        "description": "rote_fabrik",
+        "latitude": "rote_fabrik",
+        "longitude": "rote_fabrik",
+        "image_url": "rote_fabrik",
+        "image_source": "rote_fabrik",
+        "image_type": "rote_fabrik",
+        "region": "rote_fabrik",
+        "city": "rote_fabrik",
+        "municipality": "rote_fabrik",
+        "country": "rote_fabrik",
+        "original_title": "rote_fabrik",
+        "source_event_id": "rote_fabrik",
+        "doors_time": "rote_fabrik",
+        "venue_id": "rote_fabrik",
+        "address": "rote_fabrik",
+        "canton": "rote_fabrik",
+        "classification_context": "rote_fabrik",
+        "end_at": "rote_fabrik",
+        "retained_fields": "rote_fabrik",
+        "first_seen": "rote_fabrik",
+        "last_seen": "rote_fabrik"
       },
       "match_confidence": "independent"
     },
@@ -59445,6 +59584,41 @@
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-20090d950baa1774",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/dokumentarfilmmymemoryisfullofgosts.html?calentry=2', '2026-12-06')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -74212,9 +74386,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-97ba187f0cc3ace4",
+      "id": "stadt_zuerich-e0a73adca71d3245",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/politik-und-verwaltung/infoabende-polizist-in.html?calentry=3', '2026-12-17')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/politik-und-verwaltung/infoabende-polizist-in.html?calentry=2', '2026-12-17')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -81857,6 +82031,35 @@
       "match_confidence": "independent"
     },
     {
+      "id": "dachstock_bern-846c0a29044d8e54",
+      "raw_keys": [
+        "('dachstock_bern', 'https://dachstock.ch/events/27-12-2026-round-table-knights', '2026-12-27', '16:00', 'all day long')"
+      ],
+      "field_sources": {
+        "title": "dachstock_bern",
+        "date": "dachstock_bern",
+        "time": "dachstock_bern",
+        "start_at": "dachstock_bern",
+        "time_unknown": "dachstock_bern",
+        "venue": "dachstock_bern",
+        "category": "dachstock_bern",
+        "tags": "dachstock_bern",
+        "status": "dachstock_bern",
+        "description": "dachstock_bern",
+        "image_url": "dachstock_bern",
+        "image_source": "dachstock_bern",
+        "image_type": "dachstock_bern",
+        "municipality": "dachstock_bern",
+        "city": "dachstock_bern",
+        "region": "dachstock_bern",
+        "canton": "dachstock_bern",
+        "country": "dachstock_bern",
+        "first_seen": "dachstock_bern",
+        "last_seen": "dachstock_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-222c5aeadcf57784",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/jetzt-der-zauber-ds-augenblicks/|17:00', '2026-12-27')"
@@ -83502,6 +83705,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gaskessel_bern-bb5cabc131c8bf42",
+      "raw_keys": [
+        "('gaskessel_bern', 'https://gaskessel.ch/programm', '2026-12-31', '22:00', 'endstation silvester im gaskessel')"
+      ],
+      "field_sources": {
+        "title": "gaskessel_bern",
+        "date": "gaskessel_bern",
+        "time": "gaskessel_bern",
+        "start_at": "gaskessel_bern",
+        "time_unknown": "gaskessel_bern",
+        "venue": "gaskessel_bern",
+        "category": "gaskessel_bern",
+        "tags": "gaskessel_bern",
+        "status": "gaskessel_bern",
+        "description": "gaskessel_bern",
+        "municipality": "gaskessel_bern",
+        "city": "gaskessel_bern",
+        "region": "gaskessel_bern",
+        "canton": "gaskessel_bern",
+        "country": "gaskessel_bern",
+        "first_seen": "gaskessel_bern",
+        "last_seen": "gaskessel_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-a95a1037b6874976",
       "raw_keys": [
         "('ubwg', '170060', '2026-12-31')"
@@ -84380,6 +84609,41 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-2dc6ab108844cfef",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/yogaundzimtschnecken.html?calentry=1', '2027-01-03')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -88620,9 +88884,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-db88388952a52942",
+      "id": "stadt_zuerich-f1fada70ae905971",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/politik-und-verwaltung/infoabende-polizist-in.html?calentry=4', '2027-01-14')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/politik-und-verwaltung/infoabende-polizist-in.html?calentry=3', '2027-01-14')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -96035,6 +96299,35 @@
         "end_at": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "bierhuebeli_bern-f31bb87798bf3ce7",
+      "raw_keys": [
+        "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/everlast-live-bierhuebeli-bern', '2027-02-06', '20:00', 'everlast')"
+      ],
+      "field_sources": {
+        "title": "bierhuebeli_bern",
+        "date": "bierhuebeli_bern",
+        "time": "bierhuebeli_bern",
+        "start_at": "bierhuebeli_bern",
+        "time_unknown": "bierhuebeli_bern",
+        "venue": "bierhuebeli_bern",
+        "category": "bierhuebeli_bern",
+        "tags": "bierhuebeli_bern",
+        "status": "bierhuebeli_bern",
+        "description": "bierhuebeli_bern",
+        "image_url": "bierhuebeli_bern",
+        "image_source": "bierhuebeli_bern",
+        "image_type": "bierhuebeli_bern",
+        "municipality": "bierhuebeli_bern",
+        "city": "bierhuebeli_bern",
+        "region": "bierhuebeli_bern",
+        "canton": "bierhuebeli_bern",
+        "country": "bierhuebeli_bern",
+        "first_seen": "bierhuebeli_bern",
+        "last_seen": "bierhuebeli_bern"
       },
       "match_confidence": "independent"
     },
