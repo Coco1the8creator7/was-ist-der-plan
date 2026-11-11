@@ -1,1833 +1,6 @@
 {
-  "generated_at": "2026-11-10T20:21:17+01:00",
+  "generated_at": "2026-11-11T02:27:44+01:00",
   "events": [
-    {
-      "id": "gemeinde_uster-0cc2703269cb18bb",
-      "raw_keys": [
-        "('gemeinde_uster', '7666084', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_uster",
-        "date": "gemeinde_uster",
-        "time_unknown": "gemeinde_uster",
-        "venue": "gemeinde_uster",
-        "category": "gemeinde_uster",
-        "tags": "gemeinde_uster",
-        "status": "gemeinde_uster",
-        "region": "gemeinde_uster",
-        "city": "gemeinde_uster",
-        "municipality": "gemeinde_uster",
-        "country": "gemeinde_uster",
-        "original_title": "gemeinde_uster",
-        "organizer": "gemeinde_uster",
-        "source_event_id": "gemeinde_uster",
-        "date_precision": "gemeinde_uster",
-        "first_seen": "gemeinde_uster",
-        "last_seen": "gemeinde_uster"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_uster-1518a9c1fe1c4772",
-      "raw_keys": [
-        "('gemeinde_uster', '7668493', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_uster",
-        "date": "gemeinde_uster",
-        "time_unknown": "gemeinde_uster",
-        "venue": "gemeinde_uster",
-        "category": "gemeinde_uster",
-        "tags": "gemeinde_uster",
-        "status": "gemeinde_uster",
-        "region": "gemeinde_uster",
-        "city": "gemeinde_uster",
-        "municipality": "gemeinde_uster",
-        "country": "gemeinde_uster",
-        "original_title": "gemeinde_uster",
-        "organizer": "gemeinde_uster",
-        "source_event_id": "gemeinde_uster",
-        "date_precision": "gemeinde_uster",
-        "first_seen": "gemeinde_uster",
-        "last_seen": "gemeinde_uster"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_kloten-6d4e38acbebc82a4",
-      "raw_keys": [
-        "('gemeinde_kloten', '7715791', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-d9e378bfafdb4158",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/kultur/karl-der-grosse/veranstaltung30.html?calentry=5', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_kloten-49109458261a4023",
-      "raw_keys": [
-        "('gemeinde_kloten', '7608889', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_thalwil-b0d9d0e894e1d671",
-      "raw_keys": [
-        "('gemeinde_thalwil', '6518560', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_thalwil",
-        "date": "gemeinde_thalwil",
-        "time_unknown": "gemeinde_thalwil",
-        "venue": "gemeinde_thalwil",
-        "category": "gemeinde_thalwil",
-        "tags": "gemeinde_thalwil",
-        "status": "gemeinde_thalwil",
-        "region": "gemeinde_thalwil",
-        "city": "gemeinde_thalwil",
-        "municipality": "gemeinde_thalwil",
-        "country": "gemeinde_thalwil",
-        "original_title": "gemeinde_thalwil",
-        "organizer": "gemeinde_thalwil",
-        "source_event_id": "gemeinde_thalwil",
-        "date_precision": "gemeinde_thalwil",
-        "first_seen": "gemeinde_thalwil",
-        "last_seen": "gemeinde_thalwil"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_thalwil-b287cde96b9c823d",
-      "raw_keys": [
-        "('gemeinde_thalwil', '7722919', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_thalwil",
-        "date": "gemeinde_thalwil",
-        "time_unknown": "gemeinde_thalwil",
-        "venue": "gemeinde_thalwil",
-        "category": "gemeinde_thalwil",
-        "tags": "gemeinde_thalwil",
-        "status": "gemeinde_thalwil",
-        "region": "gemeinde_thalwil",
-        "city": "gemeinde_thalwil",
-        "municipality": "gemeinde_thalwil",
-        "country": "gemeinde_thalwil",
-        "original_title": "gemeinde_thalwil",
-        "organizer": "gemeinde_thalwil",
-        "source_event_id": "gemeinde_thalwil",
-        "date_precision": "gemeinde_thalwil",
-        "first_seen": "gemeinde_thalwil",
-        "last_seen": "gemeinde_thalwil"
-      },
-      "match_confidence": "probable"
-    },
-    {
-      "id": "gemeinde_uster-d1c1f2c13f3c43ff",
-      "raw_keys": [
-        "('gemeinde_uster', '7742539', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_uster",
-        "date": "gemeinde_uster",
-        "time_unknown": "gemeinde_uster",
-        "venue": "gemeinde_uster",
-        "category": "gemeinde_uster",
-        "tags": "gemeinde_uster",
-        "status": "gemeinde_uster",
-        "region": "gemeinde_uster",
-        "city": "gemeinde_uster",
-        "municipality": "gemeinde_uster",
-        "country": "gemeinde_uster",
-        "original_title": "gemeinde_uster",
-        "organizer": "gemeinde_uster",
-        "source_event_id": "gemeinde_uster",
-        "date_precision": "gemeinde_uster",
-        "first_seen": "gemeinde_uster",
-        "last_seen": "gemeinde_uster"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_thalwil-b1eb7a8a148c8dbd",
-      "raw_keys": [
-        "('gemeinde_thalwil', '7631902', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_thalwil",
-        "date": "gemeinde_thalwil",
-        "time_unknown": "gemeinde_thalwil",
-        "venue": "gemeinde_thalwil",
-        "category": "gemeinde_thalwil",
-        "tags": "gemeinde_thalwil",
-        "status": "gemeinde_thalwil",
-        "region": "gemeinde_thalwil",
-        "city": "gemeinde_thalwil",
-        "municipality": "gemeinde_thalwil",
-        "country": "gemeinde_thalwil",
-        "original_title": "gemeinde_thalwil",
-        "organizer": "gemeinde_thalwil",
-        "source_event_id": "gemeinde_thalwil",
-        "date_precision": "gemeinde_thalwil",
-        "first_seen": "gemeinde_thalwil",
-        "last_seen": "gemeinde_thalwil"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_kloten-a47f1072a4a1a794",
-      "raw_keys": [
-        "('gemeinde_kloten', '7608649', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-e6df47123348d315",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1104-200235-schulworkshop_alice_im_wunderland/|08:45', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-73fb802273ebcccf",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/auf-kaktus-safari--im-rahmen-des-fereinplauschprogramm-21.html?calentry=1', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-ba8dca36ec4f5b48",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/vernetzte-natur-lebenswerte-stadt.html?calentry=251', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-6c3ec0f97d02317a",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/lebenslagen/gleichstellung/26-11-10-glg-in-der-hr-praxis.html?calentry=1', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-a2530ccb276fb019",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/installation--zustandsgestalten-.html?calentry=6', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-f288ba3e3d5133b2",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/sammeln-wissen-handeln.html?calentry=6', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-e0af47cab4e4c04d",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1104-200235-schulworkshop_alice_im_wunderland/|09:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-06972cdc501f210f",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/jugendliche-begleiten.html?calentry=2', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-a4dbb666b57edadf",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/planen-und-bauen/wettbewerbsausstellung-betreuung-schule-auhof.html?calentry=5', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-27c51ead60f0ce4f",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/kunst-ueber-mittag-zu-kyra-tabea-balderer-prozess-technik-mit-fabienne-loosli/|12:15', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-1ce5e2e542a61bd3",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41753-4481-wozu_werden_herbarbelege_heute_noch_genutzt/|12:30', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-5795510c1e2ffc01",
-      "raw_keys": [
-        "('stadt_zuerich', '/friedhofforum/de/veranstaltungen/aktuelle-ausstellung---zehn-leben---die-geschichte-einer-stadt-.html?calentry=203', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-2b6a1370cfe81c62",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1104-200235-schulworkshop_alice_im_wunderland/|13:30', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_ostermundigen-6843ed5a9d41184e",
-      "raw_keys": [
-        "('gemeinde_ostermundigen', 'https://ostermundigen.ch/de/veranstaltungen/1109_gemeinsam-singen', '2026-11-10', '14:15', 'gemeinsam singen')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_ostermundigen",
-        "date": "gemeinde_ostermundigen",
-        "time": "gemeinde_ostermundigen",
-        "start_at": "gemeinde_ostermundigen",
-        "time_unknown": "gemeinde_ostermundigen",
-        "venue": "gemeinde_ostermundigen",
-        "category": "gemeinde_ostermundigen",
-        "tags": "gemeinde_ostermundigen",
-        "status": "gemeinde_ostermundigen",
-        "description": "gemeinde_ostermundigen",
-        "latitude": "gemeinde_ostermundigen",
-        "longitude": "gemeinde_ostermundigen",
-        "city": "gemeinde_ostermundigen",
-        "municipality": "gemeinde_ostermundigen",
-        "region": "gemeinde_ostermundigen",
-        "canton": "gemeinde_ostermundigen",
-        "country": "gemeinde_ostermundigen",
-        "organizer": "gemeinde_ostermundigen",
-        "address": "gemeinde_ostermundigen",
-        "retained_fields": "gemeinde_ostermundigen",
-        "first_seen": "gemeinde_ostermundigen",
-        "last_seen": "gemeinde_ostermundigen"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-20ea86d4e968bd21",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1082-3019-aufgeweckte_kunst-geschichten-1/|14:45', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-4a6e245ee2ced3ad",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41803-741-fhrung-geschichte_und_architektur_der_zb-1/|17:30', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-e83669b19d22c42d",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/maenner-tisch-auf-tamil.html?calentry=6', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-00af4f91b9b440b2",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/apfel-statt-arzt-1/|18:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-25486e06debed9db",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/dubliner-in-17-sitzungen/|18:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-db212d4eb8f8794b",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41803-852-gesprch-martin_schwarz_als_verleger/|18:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-7cef3f385f9bca0d",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/politik-und-verwaltung/infoabende-polizist-in.html?calentry=1', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-8251501ae6d0eb19",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-1469-filmerbe_und_restitution-wem_gehren_die_bilder/427055|18:30', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kaufleuten-1543e8279f32ac35",
-      "raw_keys": [
-        "('kaufleuten', 'https://kaufleuten.ch/event/alceu-valena-konzert', '2026-11-10', '19:00', 'alceu valenca konzert')"
-      ],
-      "field_sources": {
-        "title": "kaufleuten",
-        "date": "kaufleuten",
-        "time": "kaufleuten",
-        "start_at": "kaufleuten",
-        "time_unknown": "kaufleuten",
-        "venue": "kaufleuten",
-        "category": "kaufleuten",
-        "tags": "kaufleuten",
-        "status": "kaufleuten",
-        "price_chf": "kaufleuten",
-        "image_url": "kaufleuten",
-        "image_source": "kaufleuten",
-        "image_type": "kaufleuten",
-        "first_seen": "kaufleuten",
-        "last_seen": "kaufleuten"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "onthur-2ce49aaf23d33b02",
-      "raw_keys": [
-        "('onthur', '/de/kalender/2581/Bombino-NE', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "onthur",
-        "date": "onthur",
-        "time": "onthur",
-        "start_at": "onthur",
-        "time_unknown": "onthur",
-        "venue": "onthur",
-        "category": "onthur",
-        "tags": "onthur",
-        "status": "onthur",
-        "image_url": "onthur",
-        "image_source": "onthur",
-        "image_type": "onthur",
-        "region": "onthur",
-        "city": "onthur",
-        "municipality": "onthur",
-        "country": "onthur",
-        "original_title": "onthur",
-        "source_event_id": "onthur",
-        "first_seen": "onthur",
-        "last_seen": "onthur"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "ubwg-7b0f7b68b041aca2",
-      "raw_keys": [
-        "('ubwg', '171638', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "ubwg",
-        "date": "ubwg",
-        "time": "ubwg",
-        "start_at": "ubwg",
-        "time_unknown": "ubwg",
-        "venue": "ubwg",
-        "category": "ubwg",
-        "tags": "ubwg",
-        "status": "ubwg",
-        "description": "ubwg",
-        "latitude": "ubwg",
-        "longitude": "ubwg",
-        "region": "ubwg",
-        "city": "ubwg",
-        "municipality": "ubwg",
-        "country": "ubwg",
-        "original_title": "ubwg",
-        "source_event_id": "ubwg",
-        "address": "ubwg",
-        "original_event_url": "ubwg",
-        "classification_context": "ubwg",
-        "coordinate_source": "ubwg",
-        "first_seen": "ubwg",
-        "last_seen": "ubwg"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-ec7897048c798eca",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/77381-26w-0380-23-jenseits_jeder_regel-friedrich_glauser_und_adolf_wlfli/|19:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-40f190e035591a19",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1104-200069-liederabend_lise_davidsen/|19:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-038501f03369c5c4",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/77381-26w-0350-37-mensch_und_klima_seit_der_neuzeit/|19:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-508771be52886ebe",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/themenabend-risky-play.html?calentry=1', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kaufleuten-e394e7e473eada9c",
-      "raw_keys": [
-        "('kaufleuten', 'https://kaufleuten.ch/event/valerio-moser-spoken-word', '2026-11-10', '19:00', 'valerio moser spoken word')"
-      ],
-      "field_sources": {
-        "title": "kaufleuten",
-        "date": "kaufleuten",
-        "time": "kaufleuten",
-        "start_at": "kaufleuten",
-        "time_unknown": "kaufleuten",
-        "venue": "kaufleuten",
-        "category": "kaufleuten",
-        "tags": "kaufleuten",
-        "status": "kaufleuten",
-        "price_chf": "kaufleuten",
-        "image_url": "kaufleuten",
-        "image_source": "kaufleuten",
-        "image_type": "kaufleuten",
-        "retained_fields": "kaufleuten",
-        "first_seen": "kaufleuten",
-        "last_seen": "kaufleuten"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-8d36f156500f5e56",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1104-108649-open_space_stimme-1/|19:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "moods-afc6556448f65abb",
-      "raw_keys": [
-        "('moods', 'https://moods.ch/programm/martial-in-albon-feat-seraina-tall-2026-11-10', '2026-11-10', '19:30', 'martial in albon feat seraina tall')"
-      ],
-      "field_sources": {
-        "title": "moods",
-        "date": "moods",
-        "time": "moods",
-        "start_at": "moods",
-        "time_unknown": "moods",
-        "venue": "moods",
-        "category": "moods",
-        "tags": "moods",
-        "status": "moods",
-        "price_chf": "moods",
-        "image_url": "moods",
-        "image_source": "moods",
-        "image_type": "moods",
-        "first_seen": "moods",
-        "last_seen": "moods"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_koeniz-10f2b37f8f67b9a9",
-      "raw_keys": [
-        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12121/eventdate/9148', '2026-11-10', '19:30', 'spindl spichr still')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_koeniz",
-        "date": "gemeinde_koeniz",
-        "time": "gemeinde_koeniz",
-        "start_at": "gemeinde_koeniz",
-        "time_unknown": "gemeinde_koeniz",
-        "venue": "gemeinde_koeniz",
-        "category": "gemeinde_koeniz",
-        "tags": "gemeinde_koeniz",
-        "status": "gemeinde_koeniz",
-        "city": "gemeinde_koeniz",
-        "municipality": "gemeinde_koeniz",
-        "region": "gemeinde_koeniz",
-        "canton": "gemeinde_koeniz",
-        "country": "gemeinde_koeniz",
-        "first_seen": "gemeinde_koeniz",
-        "last_seen": "gemeinde_koeniz"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-013bd5628c649494",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41798-517-the_importance_of_being_earnest/|19:30', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "dynamo-cbe8fe2f2c00e23e",
-      "raw_keys": [
-        "('dynamo', 'https://dynamo.ch/veranstaltung/vandalisbin', '2026-11-10', '19:30', 'vandalisbin')"
-      ],
-      "field_sources": {
-        "title": "dynamo",
-        "date": "dynamo",
-        "time": "dynamo",
-        "start_at": "dynamo",
-        "time_unknown": "dynamo",
-        "venue": "dynamo",
-        "category": "dynamo",
-        "tags": "dynamo",
-        "status": "dynamo",
-        "image_url": "dynamo",
-        "image_source": "dynamo",
-        "image_type": "dynamo",
-        "first_seen": "dynamo",
-        "last_seen": "dynamo"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "dynamo-1432a1475ac2f7e4",
-      "raw_keys": [
-        "('dynamo', 'https://dynamo.ch/veranstaltung/wird-verschoben-vandalisbin', '2026-11-10', '19:30', 'wird verschoben vandalisbin')"
-      ],
-      "field_sources": {
-        "title": "dynamo",
-        "date": "dynamo",
-        "time": "dynamo",
-        "start_at": "dynamo",
-        "time_unknown": "dynamo",
-        "venue": "dynamo",
-        "category": "dynamo",
-        "tags": "dynamo",
-        "status": "dynamo",
-        "image_url": "dynamo",
-        "image_source": "dynamo",
-        "image_type": "dynamo",
-        "first_seen": "dynamo",
-        "last_seen": "dynamo"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-de56de990edb8f88",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41769-85308-writer_in_prison-yousri_alghoul/|19:30', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "onthur-2c67e2ad59e8ff02",
-      "raw_keys": [
-        "('onthur', '/de/kalender/2616/Dichtungsring', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "onthur",
-        "date": "onthur",
-        "time": "onthur",
-        "start_at": "onthur",
-        "time_unknown": "onthur",
-        "venue": "onthur",
-        "category": "onthur",
-        "tags": "onthur",
-        "status": "onthur",
-        "image_url": "onthur",
-        "image_source": "onthur",
-        "image_type": "onthur",
-        "region": "onthur",
-        "city": "onthur",
-        "municipality": "onthur",
-        "country": "onthur",
-        "original_title": "onthur",
-        "source_event_id": "onthur",
-        "first_seen": "onthur",
-        "last_seen": "onthur"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "bierhuebeli_bern-38bb35f9afee370d",
-      "raw_keys": [
-        "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/hanna-harald', '2026-11-10', '20:00', 'hanna harald')"
-      ],
-      "field_sources": {
-        "title": "bierhuebeli_bern",
-        "date": "bierhuebeli_bern",
-        "time": "bierhuebeli_bern",
-        "start_at": "bierhuebeli_bern",
-        "time_unknown": "bierhuebeli_bern",
-        "venue": "bierhuebeli_bern",
-        "category": "bierhuebeli_bern",
-        "tags": "bierhuebeli_bern",
-        "status": "bierhuebeli_bern",
-        "description": "bierhuebeli_bern",
-        "image_url": "bierhuebeli_bern",
-        "image_source": "bierhuebeli_bern",
-        "image_type": "bierhuebeli_bern",
-        "municipality": "bierhuebeli_bern",
-        "city": "bierhuebeli_bern",
-        "region": "bierhuebeli_bern",
-        "canton": "bierhuebeli_bern",
-        "country": "bierhuebeli_bern",
-        "first_seen": "bierhuebeli_bern",
-        "last_seen": "bierhuebeli_bern"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-e15c0aaabae51d40",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/le-chant-des-forets/|20:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "probable"
-    },
-    {
-      "id": "kulturzueri-86f9201567638a1c",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-14261-sven_ivanic/|20:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "exil-851744cfb07d50ae",
-      "raw_keys": [
-        "('exil', 'https://exil.club/events/westsidecowboy', '2026-11-10', '20:00', 'westside cowboy')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/211502-6822228-westside_cowboy/|20:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "exil",
-        "date": "exil",
-        "time": "exil",
-        "start_at": "exil",
-        "venue": "exil",
-        "category": "exil",
-        "tags": "exil",
-        "status": "exil",
-        "image_url": "exil",
-        "image_source": "exil",
-        "image_type": "exil",
-        "first_seen": "exil",
-        "last_seen": "exil",
-        "time_unknown": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri"
-      },
-      "match_confidence": "certain"
-    },
-    {
-      "id": "stadt_zuerich-fbe31192fcff8866",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/housedancesessions.html?calentry=3', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-1b2b6ea86d5f8cd5",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1100-2eb4e1c3-069f-4537-8c86-e4b702893e03-martial_in-albon_alphorn_tunes_feat-seraina_tall/|20:30', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-567fd6d5571fdcd2",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-23098-tape/|20:45', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "kulturzueri-48e2d93ded7e045f",
-      "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/a8iktuhwb-2/|21:00', '2026-11-10')"
-      ],
-      "field_sources": {
-        "title": "kulturzueri",
-        "date": "kulturzueri",
-        "time": "kulturzueri",
-        "start_at": "kulturzueri",
-        "time_unknown": "kulturzueri",
-        "venue": "kulturzueri",
-        "category": "kulturzueri",
-        "tags": "kulturzueri",
-        "status": "kulturzueri",
-        "description": "kulturzueri",
-        "latitude": "kulturzueri",
-        "longitude": "kulturzueri",
-        "image_url": "kulturzueri",
-        "image_source": "kulturzueri",
-        "image_type": "kulturzueri",
-        "region": "kulturzueri",
-        "city": "kulturzueri",
-        "municipality": "kulturzueri",
-        "country": "kulturzueri",
-        "original_title": "kulturzueri",
-        "address": "kulturzueri",
-        "organizer": "kulturzueri",
-        "ticket_url": "kulturzueri",
-        "original_event_url": "kulturzueri",
-        "source_event_id": "kulturzueri",
-        "classification_context": "kulturzueri",
-        "end_at": "kulturzueri",
-        "retained_fields": "kulturzueri",
-        "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
     {
       "id": "gemeinde_kloten-34d9f0506b3bda54",
       "raw_keys": [
@@ -2181,10 +354,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -2250,10 +422,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -2285,10 +456,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -5222,10 +3392,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -5291,10 +3460,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -5399,10 +3567,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -8866,10 +7033,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -8935,10 +7101,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -8970,10 +7135,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -12643,6 +10807,43 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-20839e9bec8240c5",
+      "raw_keys": [
+        "('ubwg', '171984', '2026-11-14')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-13f7e45f0f3aaa2e",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/auf-kaktus-safari--im-rahmen-des-fereinplauschprogramm-21.html?calentry=5', '2026-11-14')"
@@ -12670,10 +10871,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -12811,10 +11011,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -12930,10 +11129,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -16788,6 +14986,43 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-5d90c1817795302f",
+      "raw_keys": [
+        "('ubwg', '171987', '2026-11-15')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-23344de41c420962",
       "raw_keys": [
         "('stadt_zuerich', '/gesundheitszentren/de/ueber-uns/veranstaltungen/besichtigungstermine/laubegg.html?calentry=5', '2026-11-15')"
@@ -16849,10 +15084,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -16918,10 +15152,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -16977,10 +15210,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -18767,6 +16999,9 @@
         "description": "kulturzueri",
         "latitude": "kulturzueri",
         "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
         "region": "kulturzueri",
         "city": "kulturzueri",
         "municipality": "kulturzueri",
@@ -19860,10 +18095,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -19929,10 +18163,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -19964,10 +18197,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -21728,10 +19960,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -21797,10 +20028,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -21832,10 +20062,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -22209,10 +20438,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22312,10 +20540,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22445,10 +20672,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22641,10 +20867,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22714,10 +20939,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22757,6 +20981,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-fe3a31fe68bd838c",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-14367-carlo_brunner/|19:30', '2026-11-17')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22810,6 +21074,126 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-2517ab55c006cd4d",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41793-832-michel_gammenthaler/|19:30', '2026-11-17')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-acfa62fefd5e73c4",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/peter-schneider-ist-der-therapieplatz-noch-frei/|19:30', '2026-11-17')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-f684bdaafc247697",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/zw-festival-holy-tongue-angelfightrrr/|19:30', '2026-11-17')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "rote_fabrik-4d422ccf7e16e2de",
       "raw_keys": [
         "('rote_fabrik', '33965', '2026-11-17')"
@@ -22847,6 +21231,86 @@
         "retained_fields": "rote_fabrik",
         "first_seen": "rote_fabrik",
         "last_seen": "rote_fabrik"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-ef18bdbc1e1db269",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-7390-acas/|20:00', '2026-11-17')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-e387621fb1ae6f7b",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/jon-cleary/|20:00', '2026-11-17')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -23334,10 +21798,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -23403,10 +21866,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -23472,10 +21934,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -24707,6 +23168,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-fd0d88be76f5ddc2",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41793-832-michel_gammenthaler/|19:30', '2026-11-18')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "onthur-83f61d92687403eb",
       "raw_keys": [
         "('onthur', '/de/kalender/2302/Die-Verlierer-DE-Haackula-NL', '2026-11-18')"
@@ -25638,10 +24139,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -25734,10 +24234,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -25803,10 +24302,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -26517,6 +25015,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-49a925c6e552f32a",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1082-6763-maria_lassnig_und_edvard_munch-malfluss-lebensfluss/|18:30', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "hive-ac8c81ce16ffb30d",
       "raw_keys": [
         "('hive', 'https://hiveclub.ch/events/synchive-22', '2026-11-19', '18:30', 'sync hive')"
@@ -27066,6 +25600,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-7043a7b54de5927e",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41793-832-michel_gammenthaler/|19:30', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "moods-90a4efbe928b7574",
       "raw_keys": [
         "('moods', 'https://moods.ch/programm/zurich-jazz-orchestra-feat-china-moses-2026-11-19', '2026-11-19', '19:30', 'zurich jazz orchestra feat china moses')"
@@ -27156,6 +25730,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-1a67756f2b5e35dd",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-7390-acas/|20:00', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-4e01d3e4f5beeade",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/afrokubanischertanzunterricht.html?calentry=17', '2026-11-19')"
@@ -27186,6 +25800,42 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-2185248a985e63da",
+      "raw_keys": [
+        "('ubwg', '171991', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -28377,10 +27027,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -28446,10 +27095,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -28481,10 +27129,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -29350,6 +27997,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-a0b79f7b5691c0e5",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41793-832-michel_gammenthaler/|19:30', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-3eaef738158c16bb",
       "raw_keys": [
         "('stadt_zuerich', '/mkz/de/aktuelles/veranstaltungen/novemberklaenge.html?calentry=1', '2026-11-20')"
@@ -29446,6 +28133,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-3787f32928fd2120",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-7390-acas/|20:00', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-6fcf2821f84795c3",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/chillusion-night-adults-only/|20:00', '2026-11-20')"
@@ -29481,6 +28208,42 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-f89b382f6291594a",
+      "raw_keys": [
+        "('ubwg', '171995', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -31331,10 +30094,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -31474,10 +30236,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -31509,10 +30270,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -32661,6 +31421,43 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-86aeac462f38e13e",
+      "raw_keys": [
+        "('ubwg', '172001', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-dec431bb899584b1",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-14148-arsen_und_spitzenhubchen/|19:30', '2026-11-21')"
@@ -32771,6 +31568,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-50afbc5f7c1b28c4",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41793-832-michel_gammenthaler/|19:30', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "rote_fabrik-cc9ea98535ed1902",
       "raw_keys": [
         "('rote_fabrik', '33968', '2026-11-21')"
@@ -32808,6 +31645,46 @@
         "retained_fields": "rote_fabrik",
         "first_seen": "rote_fabrik",
         "last_seen": "rote_fabrik"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-86c1f6dd732a7645",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-7390-acas/|20:00', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -32866,6 +31743,42 @@
         "country": "bierhuebeli_bern",
         "first_seen": "bierhuebeli_bern",
         "last_seen": "bierhuebeli_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-d187e3ba999dea18",
+      "raw_keys": [
+        "('ubwg', '171999', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -34531,10 +33444,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -34660,10 +33572,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -34719,10 +33630,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -35709,6 +34619,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-f40d0e30c5169e58",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-7390-acas/|18:00', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-bdbcd712c306ef02",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-14148-arsen_und_spitzenhubchen/|18:00', '2026-11-22')"
@@ -36054,10 +35004,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -36123,10 +35072,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -36158,10 +35106,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -37112,10 +36059,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -37181,10 +36127,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -37216,10 +36161,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -38004,6 +36948,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-c5549967f4774750",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-7390-acas/|20:00', '2026-11-24')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "bierhuebeli_bern-e8f025700c8029ff",
       "raw_keys": [
         "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/charles-nguela-zusatzshow-im-bierhuebeli-bern', '2026-11-24', '20:00', 'charles nguela')"
@@ -38590,10 +37574,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -38659,10 +37642,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -38694,10 +37676,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -40453,10 +39434,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -40522,10 +39502,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -40591,10 +39570,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -42897,10 +41875,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -42966,10 +41943,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -43001,10 +41977,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -45302,10 +44277,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -45421,10 +44395,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -45482,10 +44455,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -48422,10 +47394,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -48491,10 +47462,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -48574,10 +47544,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -48667,10 +47636,9 @@
         "source_event_id": "stadt_zuerich",
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -49805,10 +48773,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -49913,10 +48880,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -49948,10 +48914,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -50902,10 +49867,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -50937,10 +49901,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -51980,10 +50943,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -52015,10 +50977,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -54003,10 +52964,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -54072,10 +53032,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -55864,10 +54823,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -55899,10 +54857,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -57656,10 +56613,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -57691,10 +56647,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -59908,10 +58863,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -59943,10 +58897,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -61061,10 +60014,9 @@
         "source_event_id": "stadt_zuerich",
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -61335,10 +60287,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -61370,10 +60321,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -62134,10 +61084,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -62169,10 +61118,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -62684,10 +61632,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -63683,10 +62630,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -63752,10 +62698,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -65235,10 +64180,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -65711,10 +64655,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -65780,10 +64723,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -66583,6 +65525,30 @@
       "match_confidence": "independent"
     },
     {
+      "id": "moods-8cf99f253527f941",
+      "raw_keys": [
+        "('moods', 'https://moods.ch/programm/rhodri-davies-2026-12-10', '2026-12-10', '19:30', 'carte blanche')"
+      ],
+      "field_sources": {
+        "title": "moods",
+        "date": "moods",
+        "time": "moods",
+        "start_at": "moods",
+        "time_unknown": "moods",
+        "venue": "moods",
+        "category": "moods",
+        "tags": "moods",
+        "status": "moods",
+        "price_chf": "moods",
+        "image_url": "moods",
+        "image_source": "moods",
+        "image_type": "moods",
+        "first_seen": "moods",
+        "last_seen": "moods"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-efed74c0dd1caf43",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/cavallo-jamsession-im-roessli-staefa/|19:30', '2026-12-10')"
@@ -67340,10 +66306,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -67375,10 +66340,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -69063,10 +68027,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -69134,10 +68097,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -71250,10 +70212,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -71345,10 +70306,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -72818,10 +71778,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -72853,10 +71812,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -73601,10 +72559,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -73636,10 +72593,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -84435,10 +83391,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -93558,10 +92513,9 @@
         "classification_context": "rote_fabrik",
         "price_text": "rote_fabrik",
         "end_at": "rote_fabrik",
+        "retained_fields": "rote_fabrik",
         "first_seen": "rote_fabrik",
-        "last_seen": "rote_fabrik",
-        "coordinate_source": "rote_fabrik",
-        "coordinate_precision": "rote_fabrik"
+        "last_seen": "rote_fabrik"
       },
       "match_confidence": "independent"
     },
@@ -93998,10 +92952,9 @@
         "classification_context": "rote_fabrik",
         "price_text": "rote_fabrik",
         "end_at": "rote_fabrik",
+        "retained_fields": "rote_fabrik",
         "first_seen": "rote_fabrik",
-        "last_seen": "rote_fabrik",
-        "coordinate_source": "rote_fabrik",
-        "coordinate_precision": "rote_fabrik"
+        "last_seen": "rote_fabrik"
       },
       "match_confidence": "independent"
     },
@@ -94394,10 +93347,9 @@
         "classification_context": "rote_fabrik",
         "price_text": "rote_fabrik",
         "end_at": "rote_fabrik",
+        "retained_fields": "rote_fabrik",
         "first_seen": "rote_fabrik",
-        "last_seen": "rote_fabrik",
-        "coordinate_source": "rote_fabrik",
-        "coordinate_precision": "rote_fabrik"
+        "last_seen": "rote_fabrik"
       },
       "match_confidence": "independent"
     },
@@ -98835,6 +97787,330 @@
       "id": "petzi-895075dacf1f28b2",
       "raw_keys": [
         "('petzi', '65339', '2027-02-08')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-8dc0917d4a12c942",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7724521', '2027-02-09')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-a680ac59c855891c",
+      "raw_keys": [
+        "('gemeinde_thalwil', '6518599', '2027-02-09')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-0885e0144fe729c8",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7765894', '2027-02-09')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-ba3eddbd91c999fa",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=12', '2027-02-09')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-ff826a519279e81d",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/baecki-singt.html?calentry=7', '2027-02-09')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-6a82493b167d3538",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/servus-grezi-hallo-live-podcast', '2027-02-09', '18:00', 'servus gruezi hallo live podcast')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-bca745a6af0d4057",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/benjamin-von-stuckrad-barre-literatur', '2027-02-09', '19:00', 'benjamin von stuckrad barre literatur')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-0e6a90415495c9e4",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/east-forest-konzert', '2027-02-09', '19:00', 'east forest konzert')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "bierhuebeli_bern-f3088b36bdeffea9",
+      "raw_keys": [
+        "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/pub-quiz-nerd-special-ii', '2027-02-09', '19:00', 'pub quiz')"
+      ],
+      "field_sources": {
+        "title": "bierhuebeli_bern",
+        "date": "bierhuebeli_bern",
+        "time": "bierhuebeli_bern",
+        "start_at": "bierhuebeli_bern",
+        "time_unknown": "bierhuebeli_bern",
+        "venue": "bierhuebeli_bern",
+        "category": "bierhuebeli_bern",
+        "tags": "bierhuebeli_bern",
+        "status": "bierhuebeli_bern",
+        "description": "bierhuebeli_bern",
+        "image_url": "bierhuebeli_bern",
+        "image_source": "bierhuebeli_bern",
+        "image_type": "bierhuebeli_bern",
+        "municipality": "bierhuebeli_bern",
+        "city": "bierhuebeli_bern",
+        "region": "bierhuebeli_bern",
+        "canton": "bierhuebeli_bern",
+        "country": "bierhuebeli_bern",
+        "first_seen": "bierhuebeli_bern",
+        "last_seen": "bierhuebeli_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-2526ed4bb5118f98",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1104-108649-open_space_stimme-1/|19:00', '2027-02-09')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "petzi-b5451ac332860446",
+      "raw_keys": [
+        "('petzi', '64964', '2027-02-09')"
       ],
       "field_sources": {
         "title": "petzi",
