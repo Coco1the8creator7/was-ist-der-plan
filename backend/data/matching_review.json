@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:27:44+01:00",
+  "generated_at": "2026-11-11T08:39:31+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -661,6 +661,14 @@
       "left": "gemeinde_uster-a942122a79db988d",
       "right": "gemeinde_uster-8f1ef0e8f1ffc732",
       "date": "2026-12-17",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_uster-968b523eb76bf345",
+      "right": "gemeinde_uster-73f46f99946b75d9",
+      "date": "2026-11-30",
       "score": 85,
       "level": "probable",
       "reason": "same_title_time_unverified"

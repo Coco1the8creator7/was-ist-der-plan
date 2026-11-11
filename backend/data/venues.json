@@ -3486,5 +3486,21 @@
       "coordinate_precision": "building",
       "feature_id": "302030130_0"
     }
+  },
+  "kalandergasse|1|zurich": {
+    "checked_at": "2026-11-11T09:04:00.283496+01:00",
+    "query": [
+      "Kalandergasse",
+      "1",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.35917663574219,
+      "longitude": 8.523181915283203,
+      "address_label": "Kalandergasse 1 8045 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302022077_0"
+    }
   }
 }
