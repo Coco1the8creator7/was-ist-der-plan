@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T08:39:31+01:00",
+  "generated_at": "2026-11-11T14:35:12+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -749,6 +749,14 @@
       "left": "kulturzueri-28ae799790e39e68",
       "right": "kulturzueri-9102a7d9751bce99",
       "date": "2026-11-16",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "friedas_buexe-5aba551cac2520d4",
+      "right": "friedas_buexe-16ab85ed50fa170e",
+      "date": "2026-11-13",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
