@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T20:23:54+01:00",
+  "generated_at": "2026-11-12T02:38:00+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -354,14 +354,6 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "stadt_zuerich-b8b7bc5e67b5f17a",
-      "right": "stadt_zuerich-e30b7ab99cf2e99b",
-      "date": "2026-11-11",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "stadt_zuerich-567028eedfc6baaa",
       "right": "stadt_zuerich-63519dd3a995700b",
       "date": "2026-11-19",
@@ -674,14 +666,6 @@
       "reason": "same_title_time_unverified"
     },
     {
-      "left": "gemeinde_kloten-d14ef07da9b3c054",
-      "right": "gemeinde_kloten-86ab8406e511432e",
-      "date": "2026-11-11",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
       "left": "petzi-38a4270a029c8968",
       "right": "onthur-fe9246b25e85a4e9",
       "date": "2026-11-18",
@@ -706,28 +690,12 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "gemeinde_thalwil-6dfd9137608dc78b",
-      "right": "kulturzueri-cdf1c89680c0a2c3",
-      "date": "2026-11-11",
-      "score": 85,
-      "level": "probable",
-      "reason": "similar_title"
-    },
-    {
       "left": "gemeinde_thalwil-81192f6de2b39ef6",
       "right": "kulturzueri-fee424330628ccb5",
       "date": "2026-12-09",
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
-    },
-    {
-      "left": "gemeinde_uster-8980ed04e12db984",
-      "right": "kulturzueri-269662d9d48f1e49",
-      "date": "2026-11-11",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
     },
     {
       "left": "exil-ac1e77bfce2e1bf1",
@@ -768,6 +736,14 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
+    },
+    {
+      "left": "onthur-dc818a81a3629a15",
+      "right": "petzi-9fd7d8ece5a19987",
+      "date": "2026-12-19",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
     }
   ]
 }
