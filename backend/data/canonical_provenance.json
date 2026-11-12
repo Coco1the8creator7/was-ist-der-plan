@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T08:42:05+01:00",
+  "generated_at": "2026-11-12T14:37:35+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-d93703f1d8679f38",
@@ -15994,9 +15994,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -20441,9 +20439,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -20586,10 +20582,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -20706,9 +20701,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -20779,10 +20772,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21124,6 +21116,42 @@
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-d5d348ecbb40ba86",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/wax-traders/|19:30', '2026-11-18')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
       },
@@ -21534,9 +21562,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -23717,6 +23743,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-6832d279b9119098",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/wax-traders/|19:30', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "moods-90a4efbe928b7574",
       "raw_keys": [
         "('moods', 'https://moods.ch/programm/zurich-jazz-orchestra-feat-china-moses-2026-11-19', '2026-11-19', '19:30', 'zurich jazz orchestra feat china moses')"
@@ -24029,9 +24091,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -30051,9 +30111,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -37212,6 +37270,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_thalwil-a0528648d5d4baa7",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817626', '2026-11-26')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "petzi-13cac3f947e9ce9c",
       "raw_keys": [
         "('petzi', '63726', '2026-11-26')"
@@ -37576,6 +37660,32 @@
         "date_precision": "gemeinde_uster",
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-d42479ee729b64e0",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817032', '2026-11-26')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "independent"
     },
@@ -39429,9 +39539,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -44190,9 +44298,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -47990,6 +48096,58 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_thalwil-fde60d2e9a90b9e2",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817038', '2026-12-01')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-7e67918eb36588c8",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817794', '2026-12-01')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-fc93390b764b3709",
       "raw_keys": [
         "('gemeinde_uster', '7742728', '2026-12-01')"
@@ -48253,6 +48411,32 @@
       "id": "gemeinde_thalwil-96b911deab252e74",
       "raw_keys": [
         "('gemeinde_thalwil', '7759210', '2026-12-01')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-461acd164d384581",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817791', '2026-12-01')"
       ],
       "field_sources": {
         "title": "gemeinde_thalwil",
@@ -50924,6 +51108,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_thalwil-dbfedb741796ebc5",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817788', '2026-12-03')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-ff0c988f4a38a399",
       "raw_keys": [
         "('gemeinde_uster', '7713775', '2026-12-03')"
@@ -52797,9 +53007,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -53905,9 +54113,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -54789,6 +54995,32 @@
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-4ef225dfd5529448",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817785', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "independent"
     },
@@ -56150,9 +56382,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -56261,9 +56491,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -59670,6 +59898,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_thalwil-aac4b8d48ae0f81c",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817041', '2026-12-08')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-d9f4e1c98bc051bf",
       "raw_keys": [
         "('gemeinde_kloten', '7608892', '2026-12-08')"
@@ -59777,6 +60031,32 @@
       "id": "gemeinde_thalwil-bbca8f475f4bc5ba",
       "raw_keys": [
         "('gemeinde_thalwil', '7759216', '2026-12-08')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-9fd44111c5e45f04",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817782', '2026-12-08')"
       ],
       "field_sources": {
         "title": "gemeinde_thalwil",
@@ -66487,6 +66767,32 @@
       "match_confidence": "uncertain"
     },
     {
+      "id": "gemeinde_thalwil-f7874ee5f35e40b2",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817779', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-7edd57a64a09c1da",
       "raw_keys": [
         "('gemeinde_uster', '7732546', '2026-12-12')"
@@ -66794,6 +67100,32 @@
         "date_precision": "gemeinde_kloten",
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-61753f1df4410270",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817776', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "independent"
     },
@@ -68598,6 +68930,9 @@
         "tags": "kaufleuten",
         "status": "kaufleuten",
         "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
       },
@@ -69519,6 +69854,30 @@
         "country": "gemeinde_koeniz",
         "first_seen": "gemeinde_koeniz",
         "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "dynamo-7c02c7863f7bab01",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/kurs/workshop-kreative-adventszeit', '2026-12-13', '10:00', 'workshop kreative adventszeit')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "price_chf": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
       },
       "match_confidence": "independent"
     },
@@ -71383,6 +71742,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_thalwil-3ea3483f426706fa",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817044', '2026-12-15')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-a83c957a34fa2ae4",
       "raw_keys": [
         "('gemeinde_thalwil', '6518575', '2026-12-15')"
@@ -71412,6 +71797,32 @@
       "id": "gemeinde_thalwil-10209bb1c56a5238",
       "raw_keys": [
         "('gemeinde_thalwil', '7759222', '2026-12-15')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-44bb0c1b78ef3e64",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7817773', '2026-12-15')"
       ],
       "field_sources": {
         "title": "gemeinde_thalwil",
@@ -76728,6 +77139,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-6badfbbd9a791104",
+      "raw_keys": [
+        "('ubwg', '172252', '2026-12-19')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-4b95a654959a8c53",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-14148-arsen_und_spitzenhubchen/|19:00', '2026-12-19')"
@@ -81515,6 +81961,9 @@
         "tags": "kaufleuten",
         "status": "kaufleuten",
         "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
       },
@@ -90017,6 +90466,35 @@
       "match_confidence": "certain"
     },
     {
+      "id": "bierhuebeli_bern-2f7cef0f58a2328c",
+      "raw_keys": [
+        "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/pearls-of-the-80ies', '2027-01-16', '23:00', 'pearls of the 80ies')"
+      ],
+      "field_sources": {
+        "title": "bierhuebeli_bern",
+        "date": "bierhuebeli_bern",
+        "time": "bierhuebeli_bern",
+        "start_at": "bierhuebeli_bern",
+        "time_unknown": "bierhuebeli_bern",
+        "venue": "bierhuebeli_bern",
+        "category": "bierhuebeli_bern",
+        "tags": "bierhuebeli_bern",
+        "status": "bierhuebeli_bern",
+        "description": "bierhuebeli_bern",
+        "image_url": "bierhuebeli_bern",
+        "image_source": "bierhuebeli_bern",
+        "image_type": "bierhuebeli_bern",
+        "municipality": "bierhuebeli_bern",
+        "city": "bierhuebeli_bern",
+        "region": "bierhuebeli_bern",
+        "canton": "bierhuebeli_bern",
+        "country": "bierhuebeli_bern",
+        "first_seen": "bierhuebeli_bern",
+        "last_seen": "bierhuebeli_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-bd365b65556cd1ec",
       "raw_keys": [
         "('ubwg', '170067', '2027-01-16')"
@@ -91882,9 +92360,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -92390,9 +92866,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -94237,6 +94711,35 @@
       "match_confidence": "independent"
     },
     {
+      "id": "bierhuebeli_bern-2f29e4cf47cad5ad",
+      "raw_keys": [
+        "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/abbaartig-abba-party-bern', '2027-01-29', '23:00', 'abbaartig')"
+      ],
+      "field_sources": {
+        "title": "bierhuebeli_bern",
+        "date": "bierhuebeli_bern",
+        "time": "bierhuebeli_bern",
+        "start_at": "bierhuebeli_bern",
+        "time_unknown": "bierhuebeli_bern",
+        "venue": "bierhuebeli_bern",
+        "category": "bierhuebeli_bern",
+        "tags": "bierhuebeli_bern",
+        "status": "bierhuebeli_bern",
+        "description": "bierhuebeli_bern",
+        "image_url": "bierhuebeli_bern",
+        "image_source": "bierhuebeli_bern",
+        "image_type": "bierhuebeli_bern",
+        "municipality": "bierhuebeli_bern",
+        "city": "bierhuebeli_bern",
+        "region": "bierhuebeli_bern",
+        "canton": "bierhuebeli_bern",
+        "country": "bierhuebeli_bern",
+        "first_seen": "bierhuebeli_bern",
+        "last_seen": "bierhuebeli_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-e35a76f50b5d12f1",
       "raw_keys": [
         "('gemeinde_kloten', '7751287', '2027-01-30')"
@@ -95744,40 +96247,6 @@
       "id": "stadt_zuerich-f8ef2804704c519e",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/lebenslagen/jugend-und-familie/fruehe-kindheit/kreativitaetsfoerdernde-materialerkundung.html?calentry=1', '2027-02-03')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-9d898d0fd2ab118f",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/bildung/volksschule/weiterbildungskurse-pfz/mit-uk-lesen-schreiben-unterstuetzen.html?calentry=2', '2027-02-03')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
