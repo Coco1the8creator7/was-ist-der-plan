@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T14:37:35+01:00",
+  "generated_at": "2026-11-12T20:18:38+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -658,6 +658,22 @@
       "reason": "same_title_time_unverified"
     },
     {
+      "left": "dynamo-7c02c7863f7bab01",
+      "right": "dynamo-eb28cd2f691be9c5",
+      "date": "2026-12-13",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
+    },
+    {
+      "left": "gemeinde_regensdorf-1666b24c4600c7af",
+      "right": "gemeinde_regensdorf-d3671ba826fcd8db",
+      "date": "2026-11-27",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
       "left": "petzi-38a4270a029c8968",
       "right": "onthur-fe9246b25e85a4e9",
       "date": "2026-11-18",
@@ -728,14 +744,6 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
-    },
-    {
-      "left": "onthur-dc818a81a3629a15",
-      "right": "petzi-9fd7d8ece5a19987",
-      "date": "2026-12-19",
-      "score": 85,
-      "level": "probable",
-      "reason": "similar_title"
     }
   ]
 }

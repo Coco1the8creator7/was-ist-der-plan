@@ -3518,5 +3518,21 @@
       "coordinate_precision": "building",
       "feature_id": "174373_0"
     }
+  },
+  "hirschengraben|86|zurich": {
+    "checked_at": "2026-11-12T20:43:04.089840+01:00",
+    "query": [
+      "Hirschengraben",
+      "86",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.3763542175293,
+      "longitude": 8.545133590698242,
+      "address_label": "Hirschengraben 86 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "140567_0"
+    }
   }
 }
