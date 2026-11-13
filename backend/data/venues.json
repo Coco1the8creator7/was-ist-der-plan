@@ -3534,5 +3534,46 @@
       "coordinate_precision": "building",
       "feature_id": "140567_0"
     }
+  },
+  "badenerstrasse|109|zurich": {
+    "checked_at": "2026-11-13T02:56:14.379785+01:00",
+    "query": [
+      "Badenerstrasse",
+      "109",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37411880493164,
+      "longitude": 8.524641036987305,
+      "address_label": "Badenerstrasse 109 8004 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2365832_0"
+    }
+  },
+  "florastrasse|18|uster": {
+    "checked_at": "2026-11-13T02:56:14.379785+01:00",
+    "query": [
+      "Florastrasse",
+      "18",
+      "Uster"
+    ],
+    "result": null
+  },
+  "st peterhofstatt|1|zurich": {
+    "checked_at": "2026-11-13T02:56:14.379785+01:00",
+    "query": [
+      "St. Peterhofstatt",
+      "1",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.3712043762207,
+      "longitude": 8.540618896484375,
+      "address_label": "St. Peterhofstatt 1 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302040793_0"
+    }
   }
 }

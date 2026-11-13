@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T20:18:38+01:00",
+  "generated_at": "2026-11-13T02:31:51+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -157,14 +157,6 @@
       "left": "gemeinde_thalwil-7c1566b5d907179a",
       "right": "gemeinde_thalwil-84ae201d9694b359",
       "date": "2026-12-03",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_thalwil-602c973eaf941f37",
-      "right": "gemeinde_thalwil-9baecf1b68fb35e0",
-      "date": "2026-11-12",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
@@ -744,6 +736,14 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_uster-d20a0686573ad6e9",
+      "right": "kulturzueri-f2b554f81c567eb3",
+      "date": "2026-11-19",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
     }
   ]
 }
