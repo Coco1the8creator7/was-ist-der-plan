@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T02:31:51+01:00",
+  "generated_at": "2026-11-13T08:41:20+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -674,6 +674,14 @@
       "reason": "same_title_time_unverified"
     },
     {
+      "left": "friedas_ausgangheute-8bd943269deb633b",
+      "right": "friedas_buexe-5aba551cac2520d4",
+      "date": "2026-11-13",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
       "left": "supermarket-68fbcdd7016dbc2e",
       "right": "ubwg-74064403828903b6",
       "date": "2026-11-28",
@@ -685,6 +693,14 @@
       "left": "friedas_ausgangheute-581b988024357b1f",
       "right": "friedas_buexe-135247524149ee86",
       "date": "2026-11-21",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "friedas_ausgangheute-3e614ae2a9c2ecd7",
+      "right": "friedas_buexe-1b91965621421153",
+      "date": "2026-11-14",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
@@ -725,6 +741,14 @@
       "left": "kulturzueri-28ae799790e39e68",
       "right": "kulturzueri-9102a7d9751bce99",
       "date": "2026-11-16",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "friedas_ausgangheute-8bd943269deb633b",
+      "right": "friedas_buexe-16ab85ed50fa170e",
+      "date": "2026-11-13",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"

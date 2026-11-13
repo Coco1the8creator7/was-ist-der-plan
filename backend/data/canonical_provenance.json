@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T02:31:51+01:00",
+  "generated_at": "2026-11-13T08:41:20+01:00",
   "events": [
     {
       "id": "gemeinde_uster-d12d67aac59c7222",
@@ -3461,6 +3461,36 @@
         "image_type": "friedas_buexe",
         "first_seen": "friedas_buexe",
         "last_seen": "friedas_buexe"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
+      "id": "friedas_ausgangheute-8bd943269deb633b",
+      "raw_keys": [
+        "('friedas_ausgangheute', 'https://ausgangheute.ch/event/a280cb8e-dd30-46a1-b7bb-2eb4e627123e', '2026-11-13', '23:00', 'bondage music framed realities reto erni cristina lazic pornbugs squep leeni danillo kupfernagel house')"
+      ],
+      "field_sources": {
+        "title": "friedas_ausgangheute",
+        "date": "friedas_ausgangheute",
+        "time": "friedas_ausgangheute",
+        "start_at": "friedas_ausgangheute",
+        "time_unknown": "friedas_ausgangheute",
+        "venue": "friedas_ausgangheute",
+        "category": "friedas_ausgangheute",
+        "tags": "friedas_ausgangheute",
+        "status": "friedas_ausgangheute",
+        "latitude": "friedas_ausgangheute",
+        "longitude": "friedas_ausgangheute",
+        "city": "friedas_ausgangheute",
+        "municipality": "friedas_ausgangheute",
+        "region": "friedas_ausgangheute",
+        "address": "friedas_ausgangheute",
+        "country": "friedas_ausgangheute",
+        "date_precision": "friedas_ausgangheute",
+        "first_seen": "friedas_ausgangheute",
+        "last_seen": "friedas_ausgangheute",
+        "coordinate_source": "friedas_ausgangheute",
+        "coordinate_precision": "friedas_ausgangheute"
       },
       "match_confidence": "uncertain"
     },
@@ -7929,7 +7959,37 @@
         "first_seen": "friedas_buexe",
         "last_seen": "friedas_buexe"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
+    },
+    {
+      "id": "friedas_ausgangheute-3e614ae2a9c2ecd7",
+      "raw_keys": [
+        "('friedas_ausgangheute', 'https://ausgangheute.ch/event/8f28d479-658a-4176-9cce-3b01ec2fc020', '2026-11-14', '23:00', 'planet frieda mar t igor marijuan luca donzelli theia xavi emparan giulle tricu house')"
+      ],
+      "field_sources": {
+        "title": "friedas_ausgangheute",
+        "date": "friedas_ausgangheute",
+        "time": "friedas_ausgangheute",
+        "start_at": "friedas_ausgangheute",
+        "time_unknown": "friedas_ausgangheute",
+        "venue": "friedas_ausgangheute",
+        "category": "friedas_ausgangheute",
+        "tags": "friedas_ausgangheute",
+        "status": "friedas_ausgangheute",
+        "latitude": "friedas_ausgangheute",
+        "longitude": "friedas_ausgangheute",
+        "city": "friedas_ausgangheute",
+        "municipality": "friedas_ausgangheute",
+        "region": "friedas_ausgangheute",
+        "address": "friedas_ausgangheute",
+        "country": "friedas_ausgangheute",
+        "date_precision": "friedas_ausgangheute",
+        "first_seen": "friedas_ausgangheute",
+        "last_seen": "friedas_ausgangheute",
+        "coordinate_source": "friedas_ausgangheute",
+        "coordinate_precision": "friedas_ausgangheute"
+      },
+      "match_confidence": "uncertain"
     },
     {
       "id": "ubwg-a5a238cee9c75de1",
@@ -20965,10 +21025,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21044,10 +21103,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21084,10 +21142,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21150,10 +21207,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21226,10 +21282,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21389,10 +21444,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21514,10 +21568,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -39714,6 +39767,36 @@
       "match_confidence": "independent"
     },
     {
+      "id": "friedas_ausgangheute-86005fba883a7be1",
+      "raw_keys": [
+        "('friedas_ausgangheute', 'https://ausgangheute.ch/event/ra-2580041', '2026-11-27', '23:00', 'kiki one last dance')"
+      ],
+      "field_sources": {
+        "title": "friedas_ausgangheute",
+        "date": "friedas_ausgangheute",
+        "time": "friedas_ausgangheute",
+        "start_at": "friedas_ausgangheute",
+        "time_unknown": "friedas_ausgangheute",
+        "venue": "friedas_ausgangheute",
+        "category": "friedas_ausgangheute",
+        "tags": "friedas_ausgangheute",
+        "status": "friedas_ausgangheute",
+        "latitude": "friedas_ausgangheute",
+        "longitude": "friedas_ausgangheute",
+        "city": "friedas_ausgangheute",
+        "municipality": "friedas_ausgangheute",
+        "region": "friedas_ausgangheute",
+        "address": "friedas_ausgangheute",
+        "country": "friedas_ausgangheute",
+        "date_precision": "friedas_ausgangheute",
+        "first_seen": "friedas_ausgangheute",
+        "last_seen": "friedas_ausgangheute",
+        "coordinate_source": "friedas_ausgangheute",
+        "coordinate_precision": "friedas_ausgangheute"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kaufleuten-cac78ca58b5d83f5",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/la-casita-en-jade-1', '2026-11-27', '23:00', 'la casita en jade con juanjo garcia esp')"
@@ -51211,6 +51294,40 @@
         "source_event_id": "onthur",
         "first_seen": "onthur",
         "last_seen": "onthur"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-2d0fb3d18c21606c",
+      "raw_keys": [
+        "('stadt_zuerich', '/mkz/de/aktuelles/veranstaltungen/santa-claus-rocks.html?calentry=1', '2026-12-03')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -97330,10 +97447,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -97365,10 +97481,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -97400,10 +97515,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -97435,10 +97549,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
