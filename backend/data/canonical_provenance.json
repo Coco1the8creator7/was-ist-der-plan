@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T08:41:20+01:00",
+  "generated_at": "2026-11-13T14:33:32+01:00",
   "events": [
     {
       "id": "gemeinde_uster-d12d67aac59c7222",
@@ -1732,6 +1732,7 @@
         "classification_context": "petzi",
         "doors_time": "petzi",
         "ticket_url": "petzi",
+        "retained_fields": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
       },
@@ -3487,10 +3488,9 @@
         "address": "friedas_ausgangheute",
         "country": "friedas_ausgangheute",
         "date_precision": "friedas_ausgangheute",
+        "retained_fields": "friedas_ausgangheute",
         "first_seen": "friedas_ausgangheute",
-        "last_seen": "friedas_ausgangheute",
-        "coordinate_source": "friedas_ausgangheute",
-        "coordinate_precision": "friedas_ausgangheute"
+        "last_seen": "friedas_ausgangheute"
       },
       "match_confidence": "uncertain"
     },
@@ -7984,10 +7984,9 @@
         "address": "friedas_ausgangheute",
         "country": "friedas_ausgangheute",
         "date_precision": "friedas_ausgangheute",
+        "retained_fields": "friedas_ausgangheute",
         "first_seen": "friedas_ausgangheute",
-        "last_seen": "friedas_ausgangheute",
-        "coordinate_source": "friedas_ausgangheute",
-        "coordinate_precision": "friedas_ausgangheute"
+        "last_seen": "friedas_ausgangheute"
       },
       "match_confidence": "uncertain"
     },
@@ -8866,8 +8865,7 @@
     {
       "id": "hive-6d82740092c96cf3",
       "raw_keys": [
-        "('hive', 'https://hiveclub.ch/events/tanz-am-morge-mit-zmorge-11', '2026-11-15', '09:00', 'tanz am morge plus')",
-        "('ubwg', '170683', '2026-11-15')"
+        "('hive', 'https://hiveclub.ch/events/tanz-am-morge-mit-zmorge-11', '2026-11-15', '09:00', 'tanz am morge plus')"
       ],
       "field_sources": {
         "title": "hive",
@@ -8880,7 +8878,25 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "hive",
+        "last_seen": "hive"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
+      "id": "hive-6d82740092c96cf3-57fc34ce00",
+      "raw_keys": [
+        "('ubwg', '170683', '2026-11-15')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
@@ -8896,9 +8912,11 @@
         "address": "ubwg",
         "original_event_url": "ubwg",
         "classification_context": "ubwg",
-        "coordinate_source": "ubwg"
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
-      "match_confidence": "certain"
+      "match_confidence": "uncertain"
     },
     {
       "id": "dynamo-4ef18c5ce4261061",
@@ -18585,7 +18603,7 @@
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
       },
-      "match_confidence": "independent"
+      "match_confidence": "probable"
     },
     {
       "id": "gemeinde_kloten-a7cc9089bc364564",
@@ -18819,7 +18837,7 @@
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
     },
     {
       "id": "gemeinde_uster-ea6e44251a6ca3b5",
@@ -21689,6 +21707,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-7876aceafecc29b1",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/central-slam-4/|20:00', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "probable"
+    },
+    {
       "id": "ubwg-2185248a985e63da",
       "raw_keys": [
         "('ubwg', '171991', '2026-11-19')"
@@ -21883,6 +21941,86 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-c9d0429dbf76e58b",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41766-6014-la_fri_s_che-sainte-aube/|20:00', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-9e8a555eeb721685",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/lisa-berg-und-david-ruosch-camparimond-3/|20:00', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
       "id": "kulturzueri-22c1c0f952618290",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/nachklang-ein-fest/|20:00', '2026-11-19')"
@@ -21961,7 +22099,8 @@
     {
       "id": "hive-977a45b01712536e",
       "raw_keys": [
-        "('hive', 'https://hiveclub.ch/events/shut-up-and-dance-16', '2026-11-19', '20:00', 'shut up and dance')"
+        "('hive', 'https://hiveclub.ch/events/shut-up-and-dance-16', '2026-11-19', '20:00', 'shut up and dance')",
+        "('ubwg', '172341', '2026-11-19')"
       ],
       "field_sources": {
         "title": "hive",
@@ -21974,9 +22113,25 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "hive"
+        "last_seen": "hive",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "bierhuebeli_bern-56544c7169550367",
@@ -24254,6 +24409,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-420d5bd9c2ebf7cc",
+      "raw_keys": [
+        "('ubwg', '172361', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-6dca46b08253e518",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/jetzt-der-zauber-ds-augenblicks/|20:00', '2026-11-20')"
@@ -24935,6 +25126,35 @@
       "match_confidence": "independent"
     },
     {
+      "id": "dachstock_bern-26effe58c95ee2f7",
+      "raw_keys": [
+        "('dachstock_bern', 'https://dachstock.ch/events/20-11-2026-edb-dominic-album-release-show', '2026-11-20', '21:00', 'dominic album release show')"
+      ],
+      "field_sources": {
+        "title": "dachstock_bern",
+        "date": "dachstock_bern",
+        "time": "dachstock_bern",
+        "start_at": "dachstock_bern",
+        "time_unknown": "dachstock_bern",
+        "venue": "dachstock_bern",
+        "category": "dachstock_bern",
+        "tags": "dachstock_bern",
+        "status": "dachstock_bern",
+        "description": "dachstock_bern",
+        "image_url": "dachstock_bern",
+        "image_source": "dachstock_bern",
+        "image_type": "dachstock_bern",
+        "municipality": "dachstock_bern",
+        "city": "dachstock_bern",
+        "region": "dachstock_bern",
+        "canton": "dachstock_bern",
+        "country": "dachstock_bern",
+        "first_seen": "dachstock_bern",
+        "last_seen": "dachstock_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "petzi-ebdcfbec28548787",
       "raw_keys": [
         "('petzi', '64292', '2026-11-20')"
@@ -25522,6 +25742,43 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-2311581196ab8b25",
+      "raw_keys": [
+        "('ubwg', '172376', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gaskessel_bern-290e71f92d9570ee",
       "raw_keys": [
         "('gaskessel_bern', 'https://gaskessel.ch/programm', '2026-11-20', '23:00', 'ultra dance w lolalita')"
@@ -26074,6 +26331,43 @@
         "date_precision": "gemeinde_uster",
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-acf37daca4f4660c",
+      "raw_keys": [
+        "('ubwg', '172379', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -28255,6 +28549,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-24674cb5878fbe36",
+      "raw_keys": [
+        "('ubwg', '172367', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-4454b91dc2c4ecc6",
       "raw_keys": [
         "('ubwg', '171531', '2026-11-21')"
@@ -29579,6 +29909,43 @@
         "date_precision": "gemeinde_kloten",
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-8140340af6c11a75",
+      "raw_keys": [
+        "('ubwg', '172381', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -39789,10 +40156,9 @@
         "address": "friedas_ausgangheute",
         "country": "friedas_ausgangheute",
         "date_precision": "friedas_ausgangheute",
+        "retained_fields": "friedas_ausgangheute",
         "first_seen": "friedas_ausgangheute",
-        "last_seen": "friedas_ausgangheute",
-        "coordinate_source": "friedas_ausgangheute",
-        "coordinate_precision": "friedas_ausgangheute"
+        "last_seen": "friedas_ausgangheute"
       },
       "match_confidence": "independent"
     },
@@ -40844,6 +41210,43 @@
         "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "uncertain"
+    },
+    {
+      "id": "ubwg-64efbf16fe0d8c30",
+      "raw_keys": [
+        "('ubwg', '172383', '2026-11-28')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "stadt_zuerich-8c8d0326b9dbae9c",
@@ -42769,6 +43172,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-59b5f48d52342b80",
+      "raw_keys": [
+        "('ubwg', '172371', '2026-11-28')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-e424231f6e6e21cc",
       "raw_keys": [
         "('ubwg', '171309', '2026-11-28')"
@@ -43234,6 +43673,43 @@
         "image_type": "plaza",
         "first_seen": "plaza",
         "last_seen": "plaza"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-21060829ae7d33a6",
+      "raw_keys": [
+        "('ubwg', '172385', '2026-11-28')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -44025,6 +44501,43 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-bab8bf4dba29ff90",
+      "raw_keys": [
+        "('ubwg', '172391', '2026-11-29')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-1ac380407c62018b",
       "raw_keys": [
         "('ubwg', '170898', '2026-11-29')"
@@ -44541,7 +45054,8 @@
     {
       "id": "hive-e5a3d3cabaf83040",
       "raw_keys": [
-        "('hive', 'https://hiveclub.ch/events/muse-9', '2026-11-29', '11:00', 'muse')"
+        "('hive', 'https://hiveclub.ch/events/muse-9', '2026-11-29', '11:00', 'muse')",
+        "('ubwg', '172344', '2026-11-29')"
       ],
       "field_sources": {
         "title": "hive",
@@ -44554,9 +45068,23 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "hive"
+        "last_seen": "hive",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "coordinate_source": "ubwg"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "kulturzueri-cf05641e33cfaa3b",
@@ -44834,6 +45362,41 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-78140c90fc0575bb",
+      "raw_keys": [
+        "('ubwg', '172332', '2026-11-29')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -51324,10 +51887,9 @@
         "source_event_id": "stadt_zuerich",
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -51381,7 +51943,8 @@
     {
       "id": "hive-da45bc875e11a58c",
       "raw_keys": [
-        "('hive', 'https://hiveclub.ch/events/dihive-38', '2026-12-03', '22:00', 'dihive')"
+        "('hive', 'https://hiveclub.ch/events/dihive-38', '2026-12-03', '22:00', 'dihive')",
+        "('ubwg', '172347', '2026-12-03')"
       ],
       "field_sources": {
         "title": "hive",
@@ -51394,9 +51957,25 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "hive"
+        "last_seen": "hive",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "coordinate_source": "ubwg"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "gemeinde_kloten-cbfab3b38d645e88",
@@ -51953,6 +52532,7 @@
         "image_url": "dynamo",
         "image_source": "dynamo",
         "image_type": "dynamo",
+        "retained_fields": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
@@ -53085,7 +53665,41 @@
         "first_seen": "hive",
         "last_seen": "hive"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
+    },
+    {
+      "id": "ubwg-437c03c71840a093",
+      "raw_keys": [
+        "('ubwg', '172349', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "uncertain"
     },
     {
       "id": "onthur-7996d8da68a4801b",
@@ -53295,9 +53909,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "gemeinde_thalwil-4ef225dfd5529448",
+      "id": "gemeinde_thalwil-49ae61ede4cf29a4",
       "raw_keys": [
-        "('gemeinde_thalwil', '7817785', '2026-12-05')"
+        "('gemeinde_thalwil', '7820440', '2026-12-05')"
       ],
       "field_sources": {
         "title": "gemeinde_thalwil",
@@ -55332,6 +55946,40 @@
       "match_confidence": "independent"
     },
     {
+      "id": "ubwg-370be0ce2d7a693d",
+      "raw_keys": [
+        "('ubwg', '172352', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "coordinate_source": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "onthur-ffe2fe9af5ee5770",
       "raw_keys": [
         "('onthur', '/de/kalender/2724/HAPPIG', '2026-12-05')"
@@ -55688,6 +56336,43 @@
         "price_chf": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "ubwg-b84955c0ef28a501",
+      "raw_keys": [
+        "('ubwg', '172393', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "ubwg",
+        "date": "ubwg",
+        "time": "ubwg",
+        "start_at": "ubwg",
+        "time_unknown": "ubwg",
+        "venue": "ubwg",
+        "category": "ubwg",
+        "tags": "ubwg",
+        "status": "ubwg",
+        "description": "ubwg",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "classification_context": "ubwg",
+        "first_seen": "ubwg",
+        "last_seen": "ubwg",
+        "coordinate_source": "ubwg",
+        "coordinate_precision": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -61117,6 +61802,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-c49294d9361e3c1b",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/lesung-mit-regina-schlager.html?calentry=1', '2026-12-09')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-3d3eb0badc9cdbe0",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/vaeterabend.html?calentry=2', '2026-12-09')"
@@ -65019,7 +65739,8 @@
     {
       "id": "hive-3fb70a4ef5f16031",
       "raw_keys": [
-        "('hive', 'https://hiveclub.ch/events/future-house-2', '2026-12-11', '23:00', 'future house')"
+        "('hive', 'https://hiveclub.ch/events/future-house-2', '2026-12-11', '23:00', 'future house')",
+        "('ubwg', '172356', '2026-12-11')"
       ],
       "field_sources": {
         "title": "hive",
@@ -65032,9 +65753,23 @@
         "tags": "hive",
         "status": "hive",
         "first_seen": "hive",
-        "last_seen": "hive"
+        "last_seen": "hive",
+        "latitude": "ubwg",
+        "longitude": "ubwg",
+        "image_url": "ubwg",
+        "image_source": "ubwg",
+        "image_type": "ubwg",
+        "region": "ubwg",
+        "city": "ubwg",
+        "municipality": "ubwg",
+        "country": "ubwg",
+        "original_title": "ubwg",
+        "source_event_id": "ubwg",
+        "address": "ubwg",
+        "original_event_url": "ubwg",
+        "coordinate_source": "ubwg"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "gaskessel_bern-7e0290447ec04f4b",
@@ -65148,6 +65883,32 @@
         "coordinate_source": "ubwg",
         "first_seen": "ubwg",
         "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-7c9e6a4261d99f2d",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7820443', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "independent"
     },
@@ -66583,6 +67344,31 @@
         "image_type": "plaza",
         "first_seen": "plaza",
         "last_seen": "plaza"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_koeniz-045bc2552831bec0",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12422/eventdate/9313', '2026-12-12', '18:00', 'gastspiel femxmas weihnachtsgeschichte n neu erzahlt')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
       },
       "match_confidence": "independent"
     },
@@ -68938,6 +69724,31 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_koeniz-2fc532f272e0d26d",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12423/eventdate/9312', '2026-12-13', '13:30', 'movo theaterkurs')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
       },
       "match_confidence": "independent"
     },
@@ -72116,6 +72927,31 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_koeniz-1ae8a6a2aa2f18a0",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12424/eventdate/9311', '2026-12-16', '18:00', 'heitere weihnachtsschmous')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "rote_fabrik-02f5dbc5c7d961c8",
       "raw_keys": [
         "('rote_fabrik', '34483', '2026-12-16')"
@@ -74245,6 +75081,31 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_koeniz-d0aef3b708e59049",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12425/eventdate/9309', '2026-12-18', '18:00', 'jubilaums konzert bella suss total viel besser')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "dynamo-8cb81c312138cbd3",
       "raw_keys": [
         "('dynamo', 'https://dynamo.ch/kurs/k-pop-dreamers-freitag', '2026-12-18', '18:00', 'k pop dreamers freitag')"
@@ -74912,6 +75773,32 @@
         "coordinate_source": "ubwg",
         "first_seen": "ubwg",
         "last_seen": "ubwg"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-3de8e5e1e7a449b5",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7820446', '2026-12-19')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "independent"
     },
@@ -79261,6 +80148,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_thalwil-38d4ceaa6c9f0b9f",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7820488', '2026-12-24')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-8a621e431beef936",
       "raw_keys": [
         "('gemeinde_uster', '7786777', '2026-12-24')"
@@ -82834,6 +83747,31 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_koeniz-1afc733d44bc5137",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12426/eventdate/9310', '2026-12-31', '17:00', 'heitere silvester roaring twenties')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_koeniz-5abf7090ea787b7a",
       "raw_keys": [
         "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12385/eventdate/9301', '2026-12-31', '19:00', 'quiz dine silvester edition 2026')"
@@ -85891,6 +86829,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_thalwil-b3a2162b8b14ddb4",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7820449', '2027-01-09')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-21b2a0e6c5d7a4b8",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/gespraechsrunde.html?calentry=3', '2027-01-09')"
@@ -88454,6 +89418,28 @@
       "match_confidence": "independent"
     },
     {
+      "id": "exil-018ad42d7c105338",
+      "raw_keys": [
+        "('exil', 'https://exil.club/events/ingrid-lukas-2027', '2027-01-14', '19:30', 'ingrid lukas')"
+      ],
+      "field_sources": {
+        "title": "exil",
+        "date": "exil",
+        "time": "exil",
+        "start_at": "exil",
+        "venue": "exil",
+        "category": "exil",
+        "tags": "exil",
+        "status": "exil",
+        "image_url": "exil",
+        "image_source": "exil",
+        "image_type": "exil",
+        "first_seen": "exil",
+        "last_seen": "exil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-58ccc08d5380ddc2",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/lebenslagen/jugend-und-familie/fruehe-kindheit/motorische-entwicklung.html?calentry=1', '2027-01-15')"
@@ -88776,6 +89762,32 @@
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-92e24623486534f9",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7820452', '2027-01-16')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "independent"
     },
@@ -91258,6 +92270,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_thalwil-d0b947eeadb5b4f8",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7820455', '2027-01-23')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-8958673401f4e4aa",
       "raw_keys": [
         "('gemeinde_kloten', '7559062', '2027-01-23')"
@@ -93472,6 +94510,32 @@
         "country": "bierhuebeli_bern",
         "first_seen": "bierhuebeli_bern",
         "last_seen": "bierhuebeli_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-74c0a0e9c68b37ac",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7820458', '2027-01-30')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "independent"
     },
@@ -95878,6 +96942,32 @@
         "country": "gaskessel_bern",
         "first_seen": "gaskessel_bern",
         "last_seen": "gaskessel_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-403b5b3e118b228b",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7820461', '2027-02-06')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "independent"
     },

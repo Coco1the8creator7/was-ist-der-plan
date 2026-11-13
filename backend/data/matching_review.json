@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T08:41:20+01:00",
+  "generated_at": "2026-11-13T14:33:32+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -682,6 +682,14 @@
       "reason": "shared_title_tokens"
     },
     {
+      "left": "hive-6d82740092c96cf3",
+      "right": "ubwg-e16adf4f038c8104",
+      "date": "2026-11-15",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
       "left": "supermarket-68fbcdd7016dbc2e",
       "right": "ubwg-74064403828903b6",
       "date": "2026-11-28",
@@ -768,6 +776,30 @@
       "score": 85,
       "level": "probable",
       "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_uster-2cc07a250755eafd",
+      "right": "kulturzueri-7876aceafecc29b1",
+      "date": "2026-11-19",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
+    },
+    {
+      "left": "gemeinde_thalwil-74312c78ea396d22",
+      "right": "kulturzueri-9e8a555eeb721685",
+      "date": "2026-11-19",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "hive-cda64ce138e2e521",
+      "right": "ubwg-437c03c71840a093",
+      "date": "2026-12-04",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
     }
   ]
 }
