@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T08:28:16+01:00",
+  "generated_at": "2026-11-14T14:16:51+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-600fd946e7934b3f",
@@ -18221,6 +18221,34 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_ostermundigen-f1b1dc31e63d73c5",
+      "raw_keys": [
+        "('gemeinde_ostermundigen', 'https://ostermundigen.ch/de/veranstaltungen/1146_kerzenziehen-für-erwachsene', '2026-11-19', '20:00', 'kerzenziehen fur erwachsene')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_ostermundigen",
+        "date": "gemeinde_ostermundigen",
+        "time": "gemeinde_ostermundigen",
+        "start_at": "gemeinde_ostermundigen",
+        "time_unknown": "gemeinde_ostermundigen",
+        "venue": "gemeinde_ostermundigen",
+        "category": "gemeinde_ostermundigen",
+        "tags": "gemeinde_ostermundigen",
+        "status": "gemeinde_ostermundigen",
+        "description": "gemeinde_ostermundigen",
+        "city": "gemeinde_ostermundigen",
+        "municipality": "gemeinde_ostermundigen",
+        "region": "gemeinde_ostermundigen",
+        "canton": "gemeinde_ostermundigen",
+        "country": "gemeinde_ostermundigen",
+        "organizer": "gemeinde_ostermundigen",
+        "address": "gemeinde_ostermundigen",
+        "first_seen": "gemeinde_ostermundigen",
+        "last_seen": "gemeinde_ostermundigen"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-c9d0429dbf76e58b",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41766-6014-la_fri_s_che-sainte-aube/|20:00', '2026-11-19')"
@@ -19439,7 +19467,7 @@
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
       },
-      "match_confidence": "independent"
+      "match_confidence": "probable"
     },
     {
       "id": "gemeinde_kloten-6013420ecc660c9f",
@@ -21089,6 +21117,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-034b44a96e021198",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41792-10022-34-tanzfestival_winterthur/|19:30', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-712bbe709d264fbb",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-14148-arsen_und_spitzenhubchen/|19:30', '2026-11-20')"
@@ -21208,6 +21272,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-df7b79db2459b7dd",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-6483-fatoumata_diawara/|19:30', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-4d57bc1d56ed9c80",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/ida-theatersport-liga-5/|19:30', '2026-11-20')"
@@ -21266,6 +21370,42 @@
         "last_seen": "moods"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-46d58329e8200f26",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/lieder-ohne-worte/|19:30', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "probable"
     },
     {
       "id": "kulturzueri-a0b79f7b5691c0e5",
@@ -21342,7 +21482,8 @@
     {
       "id": "exil-db7456639b4df6a2",
       "raw_keys": [
-        "('exil', 'https://exil.club/events/sento', '2026-11-20', '19:30', 'sento')"
+        "('exil', 'https://exil.club/events/sento', '2026-11-20', '19:30', 'sento')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/211502-8406244-sento/|19:30', '2026-11-20')"
       ],
       "field_sources": {
         "title": "exil",
@@ -21357,7 +21498,65 @@
         "image_source": "exil",
         "image_type": "exil",
         "first_seen": "exil",
-        "last_seen": "exil"
+        "last_seen": "exil",
+        "time_unknown": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "certain"
+    },
+    {
+      "id": "kulturzueri-f9cf45f1d5fae40d",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/zw-festival-come-as-much-as-you-are/|19:30', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21853,6 +22052,45 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-b4503586c39511fd",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41794-5757-sherlock_holmes-der_fall_moriarty-1/409898|20:00', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-fd50b94b2112e3b0",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41795-558-tribute_to_queen-1/|20:00', '2026-11-20')"
@@ -21888,6 +22126,86 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-a710532a7a338e2a",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41769-85562-zrcher_poetikvorlesungen_iii_mit_blixa_bargeld/|20:00', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-1e543f62a92448ef",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8813-unerhrt-festival-artifacts_trio/423890|20:00', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -56097,7 +56415,8 @@
     {
       "id": "dynamo-f8c8c8c137f074bc",
       "raw_keys": [
-        "('dynamo', 'https://dynamo.ch/kurs/introduction-cnc', '2026-12-07', '18:00', 'introduction to cnc')"
+        "('dynamo', 'https://dynamo.ch/kurs/introduction-cnc', '2026-12-07', '18:00', 'introduction to cnc')",
+        "('dynamo', 'https://dynamo.ch/kurs/introduction-cnc-0', '2026-12-07', '18:00', 'introduction to cnc')"
       ],
       "field_sources": {
         "title": "dynamo",
@@ -56116,7 +56435,7 @@
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "dynamo-6f05c8090f20c59f",
@@ -59643,6 +59962,45 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-45429247a6c98e52",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41794-5757-sherlock_holmes-der_fall_moriarty-1/409898|19:30', '2026-12-09')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -76281,6 +76639,38 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_ostermundigen-63b2fc44980941ad",
+      "raw_keys": [
+        "('gemeinde_ostermundigen', 'https://ostermundigen.ch/de/veranstaltungen/1147_lyrik--amp;-musik-', '2026-12-20', '15:30', 'lyrik musik')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_ostermundigen",
+        "date": "gemeinde_ostermundigen",
+        "time": "gemeinde_ostermundigen",
+        "start_at": "gemeinde_ostermundigen",
+        "time_unknown": "gemeinde_ostermundigen",
+        "venue": "gemeinde_ostermundigen",
+        "category": "gemeinde_ostermundigen",
+        "tags": "gemeinde_ostermundigen",
+        "status": "gemeinde_ostermundigen",
+        "description": "gemeinde_ostermundigen",
+        "latitude": "gemeinde_ostermundigen",
+        "longitude": "gemeinde_ostermundigen",
+        "city": "gemeinde_ostermundigen",
+        "municipality": "gemeinde_ostermundigen",
+        "region": "gemeinde_ostermundigen",
+        "canton": "gemeinde_ostermundigen",
+        "country": "gemeinde_ostermundigen",
+        "organizer": "gemeinde_ostermundigen",
+        "address": "gemeinde_ostermundigen",
+        "first_seen": "gemeinde_ostermundigen",
+        "last_seen": "gemeinde_ostermundigen",
+        "coordinate_source": "gemeinde_ostermundigen",
+        "coordinate_precision": "gemeinde_ostermundigen"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_koeniz-ae88be7d8bd7f668",
       "raw_keys": [
         "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12395/eventdate/9291', '2026-12-20', '16:00', 'chorkonzert jesus bleibet meine freude')"
@@ -77258,7 +77648,31 @@
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
+    },
+    {
+      "id": "kaufleuten-132aa7f328db1a14-0644589ff8",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/podcast-jontsch', '2026-12-22', '19:00', 'jontsch mit joel basman und michael steiner spaghetti mit ketchup und chas podcast')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "uncertain"
     },
     {
       "id": "onthur-d5d3523878935ff9",
@@ -94369,6 +94783,45 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-6ad6880b10bf9836",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41794-5757-sherlock_holmes-der_fall_moriarty-1/409898|20:00', '2027-02-03')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },

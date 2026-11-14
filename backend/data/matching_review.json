@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T08:28:16+01:00",
+  "generated_at": "2026-11-14T14:16:51+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -666,6 +666,14 @@
       "reason": "same_title_time_unverified"
     },
     {
+      "left": "kaufleuten-132aa7f328db1a14",
+      "right": "kaufleuten-132aa7f328db1a14",
+      "date": "2026-12-22",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
       "left": "petzi-38a4270a029c8968",
       "right": "onthur-fe9246b25e85a4e9",
       "date": "2026-11-18",
@@ -776,6 +784,14 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_uster-a3f72d943510b582",
+      "right": "kulturzueri-46d58329e8200f26",
+      "date": "2026-11-20",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
     }
   ]
 }
