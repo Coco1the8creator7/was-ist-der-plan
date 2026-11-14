@@ -3575,5 +3575,21 @@
       "coordinate_precision": "building",
       "feature_id": "302040793_0"
     }
+  },
+  "grutlistrasse|36|zurich": {
+    "checked_at": "2026-11-14T02:52:59.704187+01:00",
+    "query": [
+      "Grütlistrasse",
+      "36",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36228942871094,
+      "longitude": 8.530921936035156,
+      "address_label": "Grütlistrasse 36 8002 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "143842_0"
+    }
   }
 }
