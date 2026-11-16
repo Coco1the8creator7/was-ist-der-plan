@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T02:48:36+01:00",
+  "generated_at": "2026-11-16T10:10:06+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -661,6 +661,22 @@
       "left": "kaufleuten-132aa7f328db1a14",
       "right": "kaufleuten-132aa7f328db1a14",
       "date": "2026-12-22",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "exil-8b97be08be8e6be2",
+      "right": "exil-8b97be08be8e6be2",
+      "date": "2026-12-12",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_kloten-79a20dd985f06272",
+      "right": "gemeinde_kloten-8df154530d6462af",
+      "date": "2026-12-12",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"

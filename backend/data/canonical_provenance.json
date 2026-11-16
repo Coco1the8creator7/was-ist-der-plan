@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T02:48:36+01:00",
+  "generated_at": "2026-11-16T10:10:06+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-ebbd60133277dab5",
@@ -16272,6 +16272,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-09dfecc882420e12",
+      "raw_keys": [
+        "('gemeinde_uster', '7823341', '2026-11-21')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-bb247f07897eb0da",
       "raw_keys": [
         "('gemeinde_thalwil', '7240664', '2026-11-21')"
@@ -22530,6 +22556,7 @@
         "image_url": "dynamo",
         "image_source": "dynamo",
         "image_type": "dynamo",
+        "retained_fields": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
@@ -23125,7 +23152,6 @@
         "tags": "kaufleuten",
         "status": "kaufleuten",
         "price_chf": "kaufleuten",
-        "retained_fields": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
       },
@@ -54944,6 +54970,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_thalwil-03a75c7e2b5e8c16",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7823509', '2026-12-10')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-19f3302c012ab242",
       "raw_keys": [
         "('gemeinde_thalwil', '7820755', '2026-12-10')"
@@ -58576,6 +58628,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-8df154530d6462af",
+      "raw_keys": [
+        "('gemeinde_kloten', '7823959', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
       "id": "gemeinde_regensdorf-279252e6fab47404",
       "raw_keys": [
         "('gemeinde_regensdorf', '5771674', '2026-12-12')"
@@ -58780,7 +58858,7 @@
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
     },
     {
       "id": "gemeinde_uster-c3ea7d29b373ecee",
@@ -60593,6 +60671,28 @@
       "match_confidence": "independent"
     },
     {
+      "id": "exil-8b97be08be8e6be2-0277f0a082",
+      "raw_keys": [
+        "('exil', 'https://exil.club/events/indierock-dez-26', '2026-12-12', '23:00', '10 years indie rock')"
+      ],
+      "field_sources": {
+        "title": "exil",
+        "date": "exil",
+        "time": "exil",
+        "start_at": "exil",
+        "venue": "exil",
+        "category": "exil",
+        "tags": "exil",
+        "status": "exil",
+        "image_url": "exil",
+        "image_source": "exil",
+        "image_type": "exil",
+        "first_seen": "exil",
+        "last_seen": "exil"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
       "id": "isc_bern-687341654a2b52e9",
       "raw_keys": [
         "('isc_bern', 'https://isc-club.ch/programm/lol-die-2010er-party-by-wildreis-2', '2026-12-12', '23:00', 'dont stop make it pop 2010er soliparty')"
@@ -60641,7 +60741,7 @@
         "first_seen": "exil",
         "last_seen": "exil"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
     },
     {
       "id": "ubwg-95610d9e4ebfb741",
@@ -66041,6 +66141,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_thalwil-271960ab3f21965c",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7823512', '2026-12-17')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-2756ad04d01a6268",
       "raw_keys": [
         "('gemeinde_kloten', '7432012', '2026-12-17')"
@@ -66200,6 +66326,32 @@
       "id": "gemeinde_thalwil-8ece3697d573d74f",
       "raw_keys": [
         "('gemeinde_thalwil', '7292927', '2026-12-17')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-0735e85145741162",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7823506', '2026-12-17')"
       ],
       "field_sources": {
         "title": "gemeinde_thalwil",
@@ -73807,6 +73959,30 @@
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "plaza-7af51bae0e4327fb",
+      "raw_keys": [
+        "('plaza', 'https://tickets.plaza-zurich.ch/de/events/plaze-to-be-209', '2026-12-25', '23:00', 'plaze to be')"
+      ],
+      "field_sources": {
+        "title": "plaza",
+        "date": "plaza",
+        "time": "plaza",
+        "start_at": "plaza",
+        "time_unknown": "plaza",
+        "venue": "plaza",
+        "category": "plaza",
+        "tags": "plaza",
+        "status": "plaza",
+        "price_chf": "plaza",
+        "image_url": "plaza",
+        "image_source": "plaza",
+        "image_type": "plaza",
+        "first_seen": "plaza",
+        "last_seen": "plaza"
       },
       "match_confidence": "independent"
     },
@@ -91854,6 +92030,34 @@
       "match_confidence": "independent"
     },
     {
+      "id": "dachstock_bern-f25a29828d8288bb",
+      "raw_keys": [
+        "('dachstock_bern', 'https://dachstock.ch/events/10-02-2027-og-lu', '2027-02-10', '19:00', 'alle chayas alle bitches tour 2027')"
+      ],
+      "field_sources": {
+        "title": "dachstock_bern",
+        "date": "dachstock_bern",
+        "time": "dachstock_bern",
+        "start_at": "dachstock_bern",
+        "time_unknown": "dachstock_bern",
+        "venue": "dachstock_bern",
+        "category": "dachstock_bern",
+        "tags": "dachstock_bern",
+        "status": "dachstock_bern",
+        "image_url": "dachstock_bern",
+        "image_source": "dachstock_bern",
+        "image_type": "dachstock_bern",
+        "municipality": "dachstock_bern",
+        "city": "dachstock_bern",
+        "region": "dachstock_bern",
+        "canton": "dachstock_bern",
+        "country": "dachstock_bern",
+        "first_seen": "dachstock_bern",
+        "last_seen": "dachstock_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-7d44fea5b3baeacc",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1104-109218-open_space_tanz/|19:00', '2027-02-10')"
@@ -93006,10 +93210,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
