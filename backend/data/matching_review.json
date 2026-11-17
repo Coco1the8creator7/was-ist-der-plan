@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T02:53:49+01:00",
+  "generated_at": "2026-11-17T17:15:34+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -666,6 +666,30 @@
       "reason": "shared_title_tokens"
     },
     {
+      "left": "gemeinde_kloten-000415235c1bb7eb",
+      "right": "gemeinde_kloten-ad928863d23eb099",
+      "date": "2026-11-28",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_uster-645fba13d99266a1",
+      "right": "gemeinde_uster-d5c3423f93f412a1",
+      "date": "2026-12-02",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "kaufleuten-2511db6c4dd599ca",
+      "right": "kaufleuten-aad8ed382bc840a1",
+      "date": "2026-11-20",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
       "left": "petzi-38a4270a029c8968",
       "right": "onthur-fe9246b25e85a4e9",
       "date": "2026-11-18",
@@ -749,9 +773,9 @@
       "left": "gemeinde_uster-a85d93df05d07400",
       "right": "kulturzueri-2fe1a5b1d19f1670",
       "date": "2026-11-20",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
     }
   ]
 }

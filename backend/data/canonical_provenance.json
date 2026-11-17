@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T02:53:49+01:00",
+  "generated_at": "2026-11-17T17:15:34+01:00",
   "events": [
     {
       "id": "gemeinde_kloten-4c5917bbd77b71de",
@@ -135,6 +135,32 @@
       "id": "gemeinde_thalwil-e788e27b2153429d",
       "raw_keys": [
         "('gemeinde_thalwil', '7603477', '2026-11-17')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-681eda454db7121d",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7827256', '2026-11-17')"
       ],
       "field_sources": {
         "title": "gemeinde_thalwil",
@@ -4765,6 +4791,41 @@
       "match_confidence": "uncertain"
     },
     {
+      "id": "petzi-b8238455d836a7a4",
+      "raw_keys": [
+        "('petzi', '62918', '2026-11-18')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "isc_bern-94340d8b3d39a0dc",
       "raw_keys": [
         "('isc_bern', 'https://isc-club.ch/programm/gurriers', '2026-11-18', '20:30', 'gurriers enola gay')"
@@ -4833,42 +4894,6 @@
       "id": "petzi-4aabbb84b37aaca7",
       "raw_keys": [
         "('petzi', '63972', '2026-11-18')"
-      ],
-      "field_sources": {
-        "title": "petzi",
-        "date": "petzi",
-        "time": "petzi",
-        "start_at": "petzi",
-        "time_unknown": "petzi",
-        "venue": "petzi",
-        "category": "petzi",
-        "tags": "petzi",
-        "status": "petzi",
-        "price_chf": "petzi",
-        "description": "petzi",
-        "image_url": "petzi",
-        "image_source": "petzi",
-        "image_type": "petzi",
-        "region": "petzi",
-        "city": "petzi",
-        "municipality": "petzi",
-        "country": "petzi",
-        "original_title": "petzi",
-        "organizer": "petzi",
-        "source_event_id": "petzi",
-        "classification_context": "petzi",
-        "doors_time": "petzi",
-        "ticket_url": "petzi",
-        "retained_fields": "petzi",
-        "first_seen": "petzi",
-        "last_seen": "petzi"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "petzi-b8238455d836a7a4",
-      "raw_keys": [
-        "('petzi', '62918', '2026-11-18')"
       ],
       "field_sources": {
         "title": "petzi",
@@ -5358,6 +5383,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-694c0e8afb39d47d",
+      "raw_keys": [
+        "('gemeinde_uster', '7829098', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-956489e6e0dc6fb3",
       "raw_keys": [
         "('gemeinde_kloten', '7729234', '2026-11-19')"
@@ -5543,6 +5594,32 @@
         "date_precision": "gemeinde_thalwil",
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-5a1d82a906314870",
+      "raw_keys": [
+        "('gemeinde_uster', '7829287', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -10089,7 +10166,7 @@
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
       },
-      "match_confidence": "probable"
+      "match_confidence": "uncertain"
     },
     {
       "id": "gemeinde_thalwil-0ac2853f7c137ff9",
@@ -11572,6 +11649,29 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kaufleuten-aad8ed382bc840a1",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/drake-miligan', '2026-11-20', '19:00', 'drake miligan konzert')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
       "id": "kaufleuten-2511db6c4dd599ca",
       "raw_keys": [
         "('kaufleuten', 'https://kaufleuten.ch/event/edb-konzert', '2026-11-20', '19:00', 'edb konzert')"
@@ -11593,7 +11693,7 @@
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
     },
     {
       "id": "kulturzueri-6d0c682b3560713f",
@@ -12225,6 +12325,30 @@
       "match_confidence": "independent"
     },
     {
+      "id": "dynamo-7c306af588965591",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/veranstaltung/basic-pitches-pitch-us-musical', '2026-11-20', '20:00', 'basic pitches pitch us a musical')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "price_chf": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-6fcf2821f84795c3",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/chillusion-night-adults-only/|20:00', '2026-11-20')"
@@ -12752,7 +12876,7 @@
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
       },
-      "match_confidence": "probable"
+      "match_confidence": "uncertain"
     },
     {
       "id": "kulturzueri-fd50b94b2112e3b0",
@@ -14055,7 +14179,7 @@
         "image_source": "exil",
         "image_type": "exil",
         "first_seen": "exil",
-        "last_seen": "kulturzueri",
+        "last_seen": "exil",
         "time_unknown": "kulturzueri",
         "description": "kulturzueri",
         "latitude": "kulturzueri",
@@ -19707,6 +19831,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-58c267488f27e6a8",
+      "raw_keys": [
+        "('gemeinde_uster', '7829998', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-a03b0255526b36af",
       "raw_keys": [
         "('gemeinde_uster', '7780648', '2026-11-22')"
@@ -20192,40 +20342,6 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-98ebb44e0276481c",
-      "raw_keys": [
-        "('stadt_zuerich', '/nonam/de/veranstaltungen/2026-fuerung-nonam.html?calentry=1', '2026-11-22')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
       "id": "kulturzueri-9595193a66c068ba",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41798-530-das_dschungel_shy_buch/|11:00', '2026-11-22')"
@@ -20411,10 +20527,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21034,10 +21149,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21074,10 +21188,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21114,10 +21227,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21142,6 +21254,40 @@
         "image_type": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-98ebb44e0276481c",
+      "raw_keys": [
+        "('stadt_zuerich', '/nonam/de/veranstaltungen/2026-fuerung-nonam.html?calentry=1', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -21178,10 +21324,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21218,10 +21363,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21258,10 +21402,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21470,10 +21613,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21543,10 +21685,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21671,6 +21812,45 @@
       "id": "kulturzueri-07fd58382e621588",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/138964-27478-agora-tea_talks_ii/|16:00', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-1f1f168bbc75bb43",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1108-362156-das_ende_des_westens/|16:00', '2026-11-22')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -21846,6 +22026,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-f08c3b2ff65eadd5",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-1473-das_problem_ist_meine_frau-ich_htte_lieber_einen_anderen_film_gemacht/430715|17:30', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "rote_fabrik-ebf631135bb086c2",
       "raw_keys": [
         "('rote_fabrik', '33969', '2026-11-22')"
@@ -21990,6 +22210,86 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-743101fac5a2ce9b",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41793-840-kilian_ziegler/|18:00', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-546ee2f47c70b237",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41795-918-mario_und_der_zauberer/|18:00', '2026-11-22')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-f21a40cff0189376",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/nachklang-ein-fest/|18:00', '2026-11-22')"
@@ -22106,10 +22406,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -24396,6 +24695,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-26fbe45705f048f3",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1108-362156-das_ende_des_westens/|20:00', '2026-11-24')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-498e69733bc10761",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/english-stand-up-comedy-2/|20:00', '2026-11-24')"
@@ -25666,6 +26005,40 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-1ba560bfd5aebb02",
+      "raw_keys": [
+        "('stadt_zuerich', '/nonam/de/veranstaltungen/jamesbay.html?calentry=1', '2026-11-25')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-6e54206c318fdd11",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/kultur/karl-der-grosse/veranstaltung5.html?calentry=1', '2026-11-25')"
@@ -25792,6 +26165,41 @@
         "country": "gemeinde_koeniz",
         "first_seen": "gemeinde_koeniz",
         "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-7a624e5f7aa26c22",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/defiance-in-the-details.html?calentry=1', '2026-11-25')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -26654,31 +27062,6 @@
         "country": "gemeinde_thalwil",
         "original_title": "gemeinde_thalwil",
         "organizer": "gemeinde_thalwil",
-        "source_event_id": "gemeinde_thalwil",
-        "date_precision": "gemeinde_thalwil",
-        "first_seen": "gemeinde_thalwil",
-        "last_seen": "gemeinde_thalwil"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_thalwil-079f452721ab2082",
-      "raw_keys": [
-        "('gemeinde_thalwil', '6812704', '2026-11-26')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_thalwil",
-        "date": "gemeinde_thalwil",
-        "time_unknown": "gemeinde_thalwil",
-        "venue": "gemeinde_thalwil",
-        "category": "gemeinde_thalwil",
-        "tags": "gemeinde_thalwil",
-        "status": "gemeinde_thalwil",
-        "region": "gemeinde_thalwil",
-        "city": "gemeinde_thalwil",
-        "municipality": "gemeinde_thalwil",
-        "country": "gemeinde_thalwil",
-        "original_title": "gemeinde_thalwil",
         "source_event_id": "gemeinde_thalwil",
         "date_precision": "gemeinde_thalwil",
         "first_seen": "gemeinde_thalwil",
@@ -29114,6 +29497,32 @@
       "id": "gemeinde_uster-85e3e9fb5165e414",
       "raw_keys": [
         "('gemeinde_uster', '7794829', '2026-11-27')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-f2413a6cbcd4d543",
+      "raw_keys": [
+        "('gemeinde_uster', '7829968', '2026-11-27')"
       ],
       "field_sources": {
         "title": "gemeinde_uster",
@@ -31747,7 +32156,33 @@
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
       },
-      "match_confidence": "independent"
+      "match_confidence": "probable"
+    },
+    {
+      "id": "gemeinde_kloten-ad928863d23eb099",
+      "raw_keys": [
+        "('gemeinde_kloten', '7829509', '2026-11-28')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "probable"
     },
     {
       "id": "gemeinde_kloten-66f81890266a6f6a",
@@ -35352,6 +35787,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-2d02085b9a8aac96",
+      "raw_keys": [
+        "('gemeinde_kloten', '7829512', '2026-11-29')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-c09931f2c20824af",
       "raw_keys": [
         "('gemeinde_kloten', '7706386', '2026-11-29')"
@@ -37934,10 +38395,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -38930,6 +39390,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-00cc81a0813b22c5",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1108-362156-das_ende_des_westens/|20:00', '2026-12-01')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "onthur-d995556faeb9a8fb",
       "raw_keys": [
         "('onthur', '/de/kalender/2617/Dichtungsring', '2026-12-01')"
@@ -39120,6 +39620,58 @@
         "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-645fba13d99266a1",
+      "raw_keys": [
+        "('gemeinde_uster', '7829827', '2026-12-02')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "probable"
+    },
+    {
+      "id": "gemeinde_uster-d5c3423f93f412a1",
+      "raw_keys": [
+        "('gemeinde_uster', '7829995', '2026-12-02')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "probable"
     },
     {
       "id": "gemeinde_uster-95d52fc39efa3f3b",
@@ -41215,32 +41767,6 @@
       "match_confidence": "independent"
     },
     {
-      "id": "gemeinde_kloten-5a7391be279c6145",
-      "raw_keys": [
-        "('gemeinde_kloten', '7654558', '2026-12-03')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
-      },
-      "match_confidence": "independent"
-    },
-    {
       "id": "gemeinde_uster-3077a8a0dbcb2556",
       "raw_keys": [
         "('gemeinde_uster', '7608283', '2026-12-03')"
@@ -41315,6 +41841,32 @@
         "date_precision": "gemeinde_thalwil",
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-31d36f49e551ee86",
+      "raw_keys": [
+        "('gemeinde_uster', '7829641', '2026-12-03')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -41629,6 +42181,32 @@
         "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "uncertain"
+    },
+    {
+      "id": "gemeinde_kloten-5a7391be279c6145",
+      "raw_keys": [
+        "('gemeinde_kloten', '7654558', '2026-12-03')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "gemeinde_thalwil-b5e0b8bd069f19a5",
@@ -42966,6 +43544,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-e64ba4d8b130fc73",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1108-362156-das_ende_des_westens/|20:00', '2026-12-03')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-d0607a16088c601b",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41795-821-dreamer/|20:00', '2026-12-03')"
@@ -43823,6 +44441,7 @@
         "image_url": "dynamo",
         "image_source": "dynamo",
         "image_type": "dynamo",
+        "retained_fields": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
       },
@@ -45254,6 +45873,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_regensdorf-b38164ea0ab7589e",
+      "raw_keys": [
+        "('gemeinde_regensdorf', '7829428', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_regensdorf",
+        "date": "gemeinde_regensdorf",
+        "time_unknown": "gemeinde_regensdorf",
+        "venue": "gemeinde_regensdorf",
+        "category": "gemeinde_regensdorf",
+        "tags": "gemeinde_regensdorf",
+        "status": "gemeinde_regensdorf",
+        "region": "gemeinde_regensdorf",
+        "city": "gemeinde_regensdorf",
+        "municipality": "gemeinde_regensdorf",
+        "country": "gemeinde_regensdorf",
+        "original_title": "gemeinde_regensdorf",
+        "organizer": "gemeinde_regensdorf",
+        "source_event_id": "gemeinde_regensdorf",
+        "date_precision": "gemeinde_regensdorf",
+        "first_seen": "gemeinde_regensdorf",
+        "last_seen": "gemeinde_regensdorf"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-888985c882523a4c",
       "raw_keys": [
         "('gemeinde_kloten', '7791190', '2026-12-05')"
@@ -45432,6 +46077,32 @@
         "date_precision": "gemeinde_kloten",
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-4bd77d9272a80f46",
+      "raw_keys": [
+        "('gemeinde_uster', '7826464', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -46240,6 +46911,30 @@
         "status": "hive",
         "first_seen": "hive",
         "last_seen": "hive"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-7a57e53be99aa04c",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/sanapa-saturday-afternoon-party-4', '2026-12-05', '14:00', 'sanapa saturday afternoon party')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
       },
       "match_confidence": "independent"
     },
@@ -49245,6 +49940,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-bb0e63f0efb1eadf",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1108-362156-das_ende_des_westens/|16:00', '2026-12-06')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "plaza-51c26c0577d68769",
       "raw_keys": [
         "('plaza', 'https://tickets.plaza-zurich.ch/de/events/the-fittparty-2026-12-06', '2026-12-06', '16:00', 'the fittparty')"
@@ -50389,10 +51124,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -51964,6 +52698,32 @@
         "date_precision": "gemeinde_thalwil",
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-2c95438263bcd92f",
+      "raw_keys": [
+        "('gemeinde_uster', '7826467', '2026-12-09')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -54035,6 +54795,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-d8fad9a22d8fbe32",
+      "raw_keys": [
+        "('gemeinde_uster', '7829644', '2026-12-10')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-89f22df28b9efd22",
       "raw_keys": [
         "('gemeinde_thalwil', '7292924', '2026-12-10')"
@@ -56020,6 +56806,32 @@
         "date_precision": "gemeinde_regensdorf",
         "first_seen": "gemeinde_regensdorf",
         "last_seen": "gemeinde_regensdorf"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-2869177b6a32aee8",
+      "raw_keys": [
+        "('gemeinde_uster', '7826470', '2026-12-11')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -60212,6 +61024,32 @@
         "date_precision": "gemeinde_kloten",
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-7ae21d7f5fbe900a",
+      "raw_keys": [
+        "('gemeinde_uster', '7829914', '2026-12-13')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -65372,6 +66210,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-1538cde7e2baef6f",
+      "raw_keys": [
+        "('gemeinde_uster', '7829647', '2026-12-17')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-b0a6833e2a2249c1",
       "raw_keys": [
         "('gemeinde_uster', '7114286', '2026-12-17')"
@@ -66297,6 +67161,30 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "dynamo-c79a095cf253def9",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/veranstaltung/fejka-live-pres-music-originals', '2026-12-17', '19:45', 'fejka live pres by music by originals')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "price_chf": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
       },
       "match_confidence": "independent"
     },
@@ -70479,10 +71367,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -74883,10 +75770,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -75408,10 +76294,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -83090,6 +83975,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_kloten-5c7c8e20ea821150",
+      "raw_keys": [
+        "('gemeinde_kloten', '7829977', '2027-01-17')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-af6cc34d7f8b9e26",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1082-6763-maria_lassnig_und_edvard_munch-malfluss-lebensfluss/|11:00', '2027-01-17')"
@@ -84357,6 +85268,39 @@
       "match_confidence": "independent"
     },
     {
+      "id": "petzi-3f1931e1f1f5a304",
+      "raw_keys": [
+        "('petzi', '65578', '2027-01-21')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-f8eb84ee349c9c1b",
       "raw_keys": [
         "('gemeinde_kloten', '7778716', '2027-01-21')"
@@ -84729,6 +85673,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-800f06bb758b147c",
+      "raw_keys": [
+        "('gemeinde_uster', '7826473', '2027-01-22')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-2c56852b1b768b99",
       "raw_keys": [
         "('gemeinde_uster', '7655647', '2027-01-22')"
@@ -85091,7 +86061,7 @@
         "image_source": "kaufleuten",
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
-        "last_seen": "ubwg",
+        "last_seen": "kaufleuten",
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
@@ -87975,6 +88945,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gaskessel_bern-b2742b85aff91489",
+      "raw_keys": [
+        "('gaskessel_bern', 'https://gaskessel.ch/programm', '2027-01-30', '22:00', 'nokterra')"
+      ],
+      "field_sources": {
+        "title": "gaskessel_bern",
+        "date": "gaskessel_bern",
+        "time": "gaskessel_bern",
+        "start_at": "gaskessel_bern",
+        "time_unknown": "gaskessel_bern",
+        "venue": "gaskessel_bern",
+        "category": "gaskessel_bern",
+        "tags": "gaskessel_bern",
+        "status": "gaskessel_bern",
+        "description": "gaskessel_bern",
+        "municipality": "gaskessel_bern",
+        "city": "gaskessel_bern",
+        "region": "gaskessel_bern",
+        "canton": "gaskessel_bern",
+        "country": "gaskessel_bern",
+        "first_seen": "gaskessel_bern",
+        "last_seen": "gaskessel_bern"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-73c74cc652fbccaa",
       "raw_keys": [
         "('gemeinde_kloten', '7762531', '2027-01-31')"
@@ -88132,6 +89128,35 @@
         "end_at": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "dampfzentrale_bern-ff9b7875b0e3edaa",
+      "raw_keys": [
+        "('dampfzentrale_bern', 'https://dampfzentrale.ch/event/unger-dr-discochugle_31-01-27', '2027-01-31', '11:00', 'unger dr discochugle')"
+      ],
+      "field_sources": {
+        "title": "dampfzentrale_bern",
+        "date": "dampfzentrale_bern",
+        "time": "dampfzentrale_bern",
+        "start_at": "dampfzentrale_bern",
+        "time_unknown": "dampfzentrale_bern",
+        "venue": "dampfzentrale_bern",
+        "category": "dampfzentrale_bern",
+        "tags": "dampfzentrale_bern",
+        "status": "dampfzentrale_bern",
+        "description": "dampfzentrale_bern",
+        "image_url": "dampfzentrale_bern",
+        "image_source": "dampfzentrale_bern",
+        "image_type": "dampfzentrale_bern",
+        "municipality": "dampfzentrale_bern",
+        "city": "dampfzentrale_bern",
+        "region": "dampfzentrale_bern",
+        "canton": "dampfzentrale_bern",
+        "country": "dampfzentrale_bern",
+        "first_seen": "dampfzentrale_bern",
+        "last_seen": "dampfzentrale_bern"
       },
       "match_confidence": "independent"
     },
@@ -92169,6 +93194,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "petzi-ee0ab7cd779a5a2e",
+      "raw_keys": [
+        "('petzi', '65555', '2027-02-12')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-2c567642741b3d43",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41795-820-melody-1/|20:00', '2027-02-12')"
@@ -92838,10 +93898,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
