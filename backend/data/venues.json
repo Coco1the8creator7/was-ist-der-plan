@@ -3648,5 +3648,21 @@
       "coordinate_precision": "building",
       "feature_id": "2323681_0"
     }
+  },
+  "gloriastrasse|98|zurich": {
+    "checked_at": "2026-11-19T17:18:32.536388+01:00",
+    "query": [
+      "Gloriastrasse",
+      "98",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.375701904296875,
+      "longitude": 8.559353828430176,
+      "address_label": "Gloriastrasse 98 8044 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2366972_0"
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T01:32:36+01:00",
+  "generated_at": "2026-11-19T16:54:00+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -682,6 +682,14 @@
       "reason": "shared_title_tokens"
     },
     {
+      "left": "friedas_ausgangheute-581b988024357b1f",
+      "right": "friedas_ausgangheute-090823cdda95f992",
+      "date": "2026-11-21",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
       "left": "supermarket-68fbcdd7016dbc2e",
       "right": "ubwg-74064403828903b6",
       "date": "2026-11-28",
@@ -691,6 +699,14 @@
     },
     {
       "left": "friedas_ausgangheute-581b988024357b1f",
+      "right": "friedas_buexe-135247524149ee86",
+      "date": "2026-11-21",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "friedas_ausgangheute-090823cdda95f992",
       "right": "friedas_buexe-135247524149ee86",
       "date": "2026-11-21",
       "score": 65,
@@ -773,6 +789,14 @@
       "left": "petzi-873f2dd1c76ef20f",
       "right": "onthur-b2d69424a1255579",
       "date": "2026-12-11",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "onthur-700a3813537082b0",
+      "right": "petzi-a3fae7665e97d4a6",
+      "date": "2026-11-28",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"

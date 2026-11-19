@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T01:32:36+01:00",
+  "generated_at": "2026-11-19T16:54:00+01:00",
   "events": [
     {
       "id": "gemeinde_uster-dee6bd4381f94208",
@@ -180,6 +180,32 @@
         "date_precision": "gemeinde_uster",
         "first_seen": "gemeinde_uster",
         "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-fbfafc88383ce92e",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7835647', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "independent"
     },
@@ -657,6 +683,30 @@
         "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "uncertain"
+    },
+    {
+      "id": "kaufleuten-58ead29a52fb10ba",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/amorana', '2026-11-19', '00:00', 'amorana adventskalender verlosung')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "stadt_zuerich-468c33263f5cb1ee",
@@ -1610,9 +1660,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-325342bf0e24f32c",
+      "id": "stadt_zuerich-8379515f6f44dd7e",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/films-for-future--unter-pflanzen---ein-perspektivenwechsel.html?calentry=1', '2026-11-19')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/films-for-future-unter-pflanzen-ein-perspektivenwechsel.html?calentry=1', '2026-11-19')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -1637,9 +1687,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -4178,9 +4229,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-caf088cf29210064",
+      "id": "stadt_zuerich-e308222c0aa9775e",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/films-for-future--groundswell.html?calentry=1', '2026-11-19')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/films-for-future-groundswell.html?calentry=1', '2026-11-19')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -4205,9 +4256,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -4231,41 +4283,6 @@
         "image_type": "dynamo",
         "first_seen": "dynamo",
         "last_seen": "dynamo"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "petzi-f7253caa3938ed63",
-      "raw_keys": [
-        "('petzi', '64888', '2026-11-19')"
-      ],
-      "field_sources": {
-        "title": "petzi",
-        "date": "petzi",
-        "time": "petzi",
-        "start_at": "petzi",
-        "time_unknown": "petzi",
-        "venue": "petzi",
-        "category": "petzi",
-        "tags": "petzi",
-        "status": "petzi",
-        "price_chf": "petzi",
-        "description": "petzi",
-        "image_url": "petzi",
-        "image_source": "petzi",
-        "image_type": "petzi",
-        "region": "petzi",
-        "city": "petzi",
-        "municipality": "petzi",
-        "country": "petzi",
-        "original_title": "petzi",
-        "organizer": "petzi",
-        "source_event_id": "petzi",
-        "classification_context": "petzi",
-        "doors_time": "petzi",
-        "ticket_url": "petzi",
-        "first_seen": "petzi",
-        "last_seen": "petzi"
       },
       "match_confidence": "independent"
     },
@@ -4409,7 +4426,6 @@
         "classification_context": "petzi",
         "doors_time": "petzi",
         "ticket_url": "petzi",
-        "retained_fields": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
       },
@@ -4487,6 +4503,41 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "petzi-f7253caa3938ed63",
+      "raw_keys": [
+        "('petzi', '64888', '2026-11-19')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
       },
       "match_confidence": "independent"
     },
@@ -4822,6 +4873,32 @@
       "id": "gemeinde_uster-769f86316b1a2972",
       "raw_keys": [
         "('gemeinde_uster', '7613602', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-daf72202b68c89ae",
+      "raw_keys": [
+        "('gemeinde_uster', '7833940', '2026-11-20')"
       ],
       "field_sources": {
         "title": "gemeinde_uster",
@@ -6109,6 +6186,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-2604ba2b3c8a0226",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/hook-1991/|16:45', '2026-11-20')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-3012e92af0f5b136",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/backen.html?calentry=1', '2026-11-20')"
@@ -6312,7 +6429,7 @@
     {
       "id": "stadt_zuerich-fd8de739d49bf2c8",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/films-for-future--verteilkampf-im-verkehr.html?calentry=1', '2026-11-20')",
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/films-for-future-verteilkampf-im-verkehr.html?calentry=1', '2026-11-20')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/389514-27413-films_for_future-verteilkampf_im_verkehr/|18:00', '2026-11-20')"
       ],
       "field_sources": {
@@ -6338,9 +6455,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
+        "first_seen": "kulturzueri",
         "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich",
         "image_url": "kulturzueri",
         "image_source": "kulturzueri",
         "image_type": "kulturzueri",
@@ -8043,9 +8161,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-4c8d4aa333358650",
+      "id": "stadt_zuerich-d6b22d159f7819fe",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/films-for-future--hanf-ohne-high.html?calentry=1', '2026-11-20')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/films-for-future-hanf-ohne-high.html?calentry=1', '2026-11-20')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -8070,9 +8188,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -8567,10 +8686,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -8932,6 +9050,36 @@
         "image_type": "friedas_buexe",
         "first_seen": "friedas_buexe",
         "last_seen": "friedas_buexe"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "friedas_ausgangheute-d0948468aea28b4a",
+      "raw_keys": [
+        "('friedas_ausgangheute', 'https://ausgangheute.ch/event/ff250fda-682c-425d-8dcc-98a7e261a393', '2026-11-20', '23:00', 'deeptroit sublee coozy prisco akela yulianya mati cippi philippe j fry ruven medici house')"
+      ],
+      "field_sources": {
+        "title": "friedas_ausgangheute",
+        "date": "friedas_ausgangheute",
+        "time": "friedas_ausgangheute",
+        "start_at": "friedas_ausgangheute",
+        "time_unknown": "friedas_ausgangheute",
+        "venue": "friedas_ausgangheute",
+        "category": "friedas_ausgangheute",
+        "tags": "friedas_ausgangheute",
+        "status": "friedas_ausgangheute",
+        "latitude": "friedas_ausgangheute",
+        "longitude": "friedas_ausgangheute",
+        "city": "friedas_ausgangheute",
+        "municipality": "friedas_ausgangheute",
+        "region": "friedas_ausgangheute",
+        "address": "friedas_ausgangheute",
+        "country": "friedas_ausgangheute",
+        "date_precision": "friedas_ausgangheute",
+        "first_seen": "friedas_ausgangheute",
+        "last_seen": "friedas_ausgangheute",
+        "coordinate_source": "friedas_ausgangheute",
+        "coordinate_precision": "friedas_ausgangheute"
       },
       "match_confidence": "independent"
     },
@@ -11827,7 +11975,8 @@
     {
       "id": "kulturzueri-2e9645ceebaab7d6",
       "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/180532-63865-knuddelsprudel-lu/432103|16:00', '2026-11-21')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/180532-63865-knuddelsprudel-lu/432103|16:00', '2026-11-21')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/180532-63865-knuddelsprudel-lu/|16:00', '2026-11-21')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -11857,12 +12006,13 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri",
         "coordinate_source": "kulturzueri",
         "coordinate_precision": "kulturzueri"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "kulturzueri-5069b9808d097479",
@@ -13815,6 +13965,36 @@
         "image_type": "friedas_buexe",
         "first_seen": "friedas_buexe",
         "last_seen": "friedas_buexe"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
+      "id": "friedas_ausgangheute-090823cdda95f992",
+      "raw_keys": [
+        "('friedas_ausgangheute', 'https://ausgangheute.ch/event/225f0ed7-0212-4bb5-88d5-6617e24b61f9', '2026-11-21', '23:00', 'groove works smuda kuona dennu faln glaskin live scnr cortez simoir house')"
+      ],
+      "field_sources": {
+        "title": "friedas_ausgangheute",
+        "date": "friedas_ausgangheute",
+        "time": "friedas_ausgangheute",
+        "start_at": "friedas_ausgangheute",
+        "time_unknown": "friedas_ausgangheute",
+        "venue": "friedas_ausgangheute",
+        "category": "friedas_ausgangheute",
+        "tags": "friedas_ausgangheute",
+        "status": "friedas_ausgangheute",
+        "latitude": "friedas_ausgangheute",
+        "longitude": "friedas_ausgangheute",
+        "city": "friedas_ausgangheute",
+        "municipality": "friedas_ausgangheute",
+        "region": "friedas_ausgangheute",
+        "address": "friedas_ausgangheute",
+        "country": "friedas_ausgangheute",
+        "date_precision": "friedas_ausgangheute",
+        "first_seen": "friedas_ausgangheute",
+        "last_seen": "friedas_ausgangheute",
+        "coordinate_source": "friedas_ausgangheute",
+        "coordinate_precision": "friedas_ausgangheute"
       },
       "match_confidence": "uncertain"
     },
@@ -16139,7 +16319,8 @@
     {
       "id": "kulturzueri-ddf8cd25c1f8d2b5",
       "raw_keys": [
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/180532-63865-knuddelsprudel-lu/432103|13:00', '2026-11-22')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/180532-63865-knuddelsprudel-lu/432103|13:00', '2026-11-22')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/180532-63865-knuddelsprudel-lu/|13:00', '2026-11-22')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -16169,12 +16350,13 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri",
         "coordinate_source": "kulturzueri",
         "coordinate_precision": "kulturzueri"
       },
-      "match_confidence": "independent"
+      "match_confidence": "certain"
     },
     {
       "id": "kulturzueri-7f556063398a6ea6",
@@ -17076,9 +17258,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -19887,10 +20067,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -19926,10 +20105,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -20075,10 +20253,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -20115,10 +20292,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -20126,40 +20302,6 @@
       "id": "stadt_zuerich-6bcc0072d4968bee",
       "raw_keys": [
         "('stadt_zuerich', '/stadtspital/de/ueber-uns/veranstaltungen/wiederkehrende-veranstaltungen/infoevening_en.html?calentry=21', '2026-11-24')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "stadt_zuerich-5f5fd5d56e254afe",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/keine-angst-vor-wespen-und-hornissen.html?calentry=1', '2026-11-24')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -20330,10 +20472,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -20464,10 +20605,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -20812,10 +20952,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -20852,10 +20991,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -20892,10 +21030,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -20929,10 +21066,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -20969,10 +21105,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21089,10 +21224,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21155,10 +21289,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "probable"
     },
@@ -21198,9 +21331,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -21236,10 +21367,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21312,10 +21442,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21414,10 +21543,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21454,10 +21582,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21494,10 +21621,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21568,10 +21694,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -23166,10 +23291,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -23273,10 +23397,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -23393,10 +23516,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -29364,6 +29486,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_thalwil-b0189f5a73e69444",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7835650', '2026-11-28')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_kloten-14314ae3783f11bc",
       "raw_keys": [
         "('gemeinde_kloten', '7578076', '2026-11-28')"
@@ -30503,6 +30651,39 @@
       "match_confidence": "independent"
     },
     {
+      "id": "petzi-a3fae7665e97d4a6",
+      "raw_keys": [
+        "('petzi', '65628', '2026-11-28')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "uncertain"
+    },
+    {
       "id": "onthur-700a3813537082b0",
       "raw_keys": [
         "('onthur', '/de/kalender/2714/Scissura-Obscuri-Bobby-Tessa-Buesi-Tschau-Tschau-Das-Stroinende-Getrunkel-Leopard-303-Vakui-Zunami', '2026-11-28')"
@@ -30529,7 +30710,7 @@
         "first_seen": "onthur",
         "last_seen": "onthur"
       },
-      "match_confidence": "independent"
+      "match_confidence": "uncertain"
     },
     {
       "id": "kulturzueri-daf6617633bd5719",
@@ -32728,6 +32909,32 @@
         "date_precision": "gemeinde_kloten",
         "first_seen": "gemeinde_kloten",
         "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_thalwil-1eba934e3862398c",
+      "raw_keys": [
+        "('gemeinde_thalwil', '7834705', '2026-11-29')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_thalwil",
+        "date": "gemeinde_thalwil",
+        "time_unknown": "gemeinde_thalwil",
+        "venue": "gemeinde_thalwil",
+        "category": "gemeinde_thalwil",
+        "tags": "gemeinde_thalwil",
+        "status": "gemeinde_thalwil",
+        "region": "gemeinde_thalwil",
+        "city": "gemeinde_thalwil",
+        "municipality": "gemeinde_thalwil",
+        "country": "gemeinde_thalwil",
+        "original_title": "gemeinde_thalwil",
+        "organizer": "gemeinde_thalwil",
+        "source_event_id": "gemeinde_thalwil",
+        "date_precision": "gemeinde_thalwil",
+        "first_seen": "gemeinde_thalwil",
+        "last_seen": "gemeinde_thalwil"
       },
       "match_confidence": "independent"
     },
@@ -36469,9 +36676,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -36957,6 +37162,32 @@
       "id": "gemeinde_kloten-6c26e44729c4b55e",
       "raw_keys": [
         "('gemeinde_kloten', '7729258', '2026-12-02')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_kloten",
+        "date": "gemeinde_kloten",
+        "time_unknown": "gemeinde_kloten",
+        "venue": "gemeinde_kloten",
+        "category": "gemeinde_kloten",
+        "tags": "gemeinde_kloten",
+        "status": "gemeinde_kloten",
+        "region": "gemeinde_kloten",
+        "city": "gemeinde_kloten",
+        "municipality": "gemeinde_kloten",
+        "country": "gemeinde_kloten",
+        "original_title": "gemeinde_kloten",
+        "organizer": "gemeinde_kloten",
+        "source_event_id": "gemeinde_kloten",
+        "date_precision": "gemeinde_kloten",
+        "first_seen": "gemeinde_kloten",
+        "last_seen": "gemeinde_kloten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_kloten-a8f17e6365b513f6",
+      "raw_keys": [
+        "('gemeinde_kloten', '7835398', '2026-12-02')"
       ],
       "field_sources": {
         "title": "gemeinde_kloten",
@@ -40764,9 +40995,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -42105,6 +42334,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "petzi-4330a539b8f72671",
+      "raw_keys": [
+        "('petzi', '64743', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-851f910b2de43154",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-14148-arsen_und_spitzenhubchen/|19:30', '2026-12-04')"
@@ -42371,9 +42635,32 @@
       "match_confidence": "independent"
     },
     {
-      "id": "petzi-4330a539b8f72671",
+      "id": "dynamo-1b87a29c2bfcbffe",
       "raw_keys": [
-        "('petzi', '64743', '2026-12-04')"
+        "('dynamo', 'https://dynamo.ch/veranstaltung/og-florin-zrugg-usem-funkloch', '2026-12-04', '20:00', 'og florin zrugg usem funkloch')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "petzi-0f1ce117a6f09c8a",
+      "raw_keys": [
+        "('petzi', '65445', '2026-12-04')"
       ],
       "field_sources": {
         "title": "petzi",
@@ -42406,32 +42693,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "dynamo-1b87a29c2bfcbffe",
+      "id": "petzi-743618fa287882e5",
       "raw_keys": [
-        "('dynamo', 'https://dynamo.ch/veranstaltung/og-florin-zrugg-usem-funkloch', '2026-12-04', '20:00', 'og florin zrugg usem funkloch')"
-      ],
-      "field_sources": {
-        "title": "dynamo",
-        "date": "dynamo",
-        "time": "dynamo",
-        "start_at": "dynamo",
-        "time_unknown": "dynamo",
-        "venue": "dynamo",
-        "category": "dynamo",
-        "tags": "dynamo",
-        "status": "dynamo",
-        "image_url": "dynamo",
-        "image_source": "dynamo",
-        "image_type": "dynamo",
-        "first_seen": "dynamo",
-        "last_seen": "dynamo"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "petzi-0f1ce117a6f09c8a",
-      "raw_keys": [
-        "('petzi', '65445', '2026-12-04')"
+        "('petzi', '65593', '2026-12-04')"
       ],
       "field_sources": {
         "title": "petzi",
@@ -42575,41 +42839,6 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "petzi-743618fa287882e5",
-      "raw_keys": [
-        "('petzi', '65593', '2026-12-04')"
-      ],
-      "field_sources": {
-        "title": "petzi",
-        "date": "petzi",
-        "time": "petzi",
-        "start_at": "petzi",
-        "time_unknown": "petzi",
-        "venue": "petzi",
-        "category": "petzi",
-        "tags": "petzi",
-        "status": "petzi",
-        "price_chf": "petzi",
-        "description": "petzi",
-        "image_url": "petzi",
-        "image_source": "petzi",
-        "image_type": "petzi",
-        "region": "petzi",
-        "city": "petzi",
-        "municipality": "petzi",
-        "country": "petzi",
-        "original_title": "petzi",
-        "organizer": "petzi",
-        "source_event_id": "petzi",
-        "classification_context": "petzi",
-        "doors_time": "petzi",
-        "ticket_url": "petzi",
-        "first_seen": "petzi",
-        "last_seen": "petzi"
       },
       "match_confidence": "independent"
     },
@@ -43353,6 +43582,32 @@
       "id": "gemeinde_uster-4bd77d9272a80f46",
       "raw_keys": [
         "('gemeinde_uster', '7826464', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-1fc119724e480452",
+      "raw_keys": [
+        "('gemeinde_uster', '7835272', '2026-12-05')"
       ],
       "field_sources": {
         "title": "gemeinde_uster",
@@ -45644,6 +45899,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "petzi-72e006abc585bf4a",
+      "raw_keys": [
+        "('petzi', '65630', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "isc_bern-4d395920261ce84a",
       "raw_keys": [
         "('isc_bern', 'https://isc-club.ch/programm/heatwave', '2026-12-05', '23:00', 'heatwave')"
@@ -47331,9 +47621,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -47382,6 +47670,40 @@
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "stadt_zuerich-2b54e89d68ba50ee",
+      "raw_keys": [
+        "('stadt_zuerich', '/mkz/de/aktuelles/veranstaltungen/advent-alte-musik.html?calentry=1', '2026-12-06')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -50987,10 +51309,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -52909,9 +53230,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-ed5654fbca64ad18",
+      "id": "stadt_zuerich-2bea74a0e16abffe",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/trockene-pflanzen---dekorative-lebensraeume.html?calentry=1', '2026-12-10')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/gartenpause.html?calentry=1', '2026-12-10')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -52936,9 +53257,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -56341,6 +56663,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-608d01ac292c3c66",
+      "raw_keys": [
+        "('gemeinde_uster', '7835479', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_uster-c3ea7d29b373ecee",
       "raw_keys": [
         "('gemeinde_uster', '7565977', '2026-12-12')"
@@ -57557,6 +57905,30 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kaufleuten-7625aa248cb2c251",
+      "raw_keys": [
+        "('kaufleuten', 'https://kaufleuten.ch/event/grls-ctrl-y2k-girls-night', '2026-12-12', '19:30', 'grls ctrl y2k girls night')"
+      ],
+      "field_sources": {
+        "title": "kaufleuten",
+        "date": "kaufleuten",
+        "time": "kaufleuten",
+        "start_at": "kaufleuten",
+        "time_unknown": "kaufleuten",
+        "venue": "kaufleuten",
+        "category": "kaufleuten",
+        "tags": "kaufleuten",
+        "status": "kaufleuten",
+        "price_chf": "kaufleuten",
+        "image_url": "kaufleuten",
+        "image_source": "kaufleuten",
+        "image_type": "kaufleuten",
+        "first_seen": "kaufleuten",
+        "last_seen": "kaufleuten"
       },
       "match_confidence": "independent"
     },
@@ -61907,40 +62279,6 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-60275f25fd471419",
-      "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/zimmerpflanzen-im-winter.html?calentry=1', '2026-12-15')"
-      ],
-      "field_sources": {
-        "title": "stadt_zuerich",
-        "date": "stadt_zuerich",
-        "time": "stadt_zuerich",
-        "start_at": "stadt_zuerich",
-        "time_unknown": "stadt_zuerich",
-        "venue": "stadt_zuerich",
-        "category": "stadt_zuerich",
-        "tags": "stadt_zuerich",
-        "status": "stadt_zuerich",
-        "description": "stadt_zuerich",
-        "latitude": "stadt_zuerich",
-        "longitude": "stadt_zuerich",
-        "region": "stadt_zuerich",
-        "city": "stadt_zuerich",
-        "municipality": "stadt_zuerich",
-        "country": "stadt_zuerich",
-        "original_title": "stadt_zuerich",
-        "address": "stadt_zuerich",
-        "source_event_id": "stadt_zuerich",
-        "date_precision": "stadt_zuerich",
-        "classification_context": "stadt_zuerich",
-        "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
-        "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
-      },
-      "match_confidence": "independent"
-    },
-    {
       "id": "gemeinde_ostermundigen-9dcf1db826024475",
       "raw_keys": [
         "('gemeinde_ostermundigen', 'https://ostermundigen.ch/de/veranstaltungen/1110_gemeinsam-singen', '2026-12-15', '14:15', 'gemeinsam singen')"
@@ -64788,10 +65126,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -68301,6 +68638,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "petzi-9df7102bde1b491f",
+      "raw_keys": [
+        "('petzi', '65633', '2026-12-19')"
+      ],
+      "field_sources": {
+        "title": "petzi",
+        "date": "petzi",
+        "time": "petzi",
+        "start_at": "petzi",
+        "time_unknown": "petzi",
+        "venue": "petzi",
+        "category": "petzi",
+        "tags": "petzi",
+        "status": "petzi",
+        "price_chf": "petzi",
+        "description": "petzi",
+        "image_url": "petzi",
+        "image_source": "petzi",
+        "image_type": "petzi",
+        "region": "petzi",
+        "city": "petzi",
+        "municipality": "petzi",
+        "country": "petzi",
+        "original_title": "petzi",
+        "organizer": "petzi",
+        "source_event_id": "petzi",
+        "classification_context": "petzi",
+        "doors_time": "petzi",
+        "ticket_url": "petzi",
+        "first_seen": "petzi",
+        "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-72b9d88c35670585",
       "raw_keys": [
         "('ubwg', '171708', '2026-12-19')"
@@ -70173,6 +70545,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-0baad4c44a5fc64f",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/hook-1991/|20:15', '2026-12-21')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -72534,6 +72946,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-b001eeade8f61d57",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/hook-1991/|15:00', '2026-12-26')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-f2370dd424768650",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1082-3489-peter_wechsler_zeichnungen/|15:00', '2026-12-26')"
@@ -72764,6 +73216,35 @@
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "bierhuebeli_bern-ee920540eec94325",
+      "raw_keys": [
+        "('bierhuebeli_bern', 'https://bierhuebeli.ch/event/made-in-2010-dezember', '2026-12-26', '23:00', 'made in 2010')"
+      ],
+      "field_sources": {
+        "title": "bierhuebeli_bern",
+        "date": "bierhuebeli_bern",
+        "time": "bierhuebeli_bern",
+        "start_at": "bierhuebeli_bern",
+        "time_unknown": "bierhuebeli_bern",
+        "venue": "bierhuebeli_bern",
+        "category": "bierhuebeli_bern",
+        "tags": "bierhuebeli_bern",
+        "status": "bierhuebeli_bern",
+        "description": "bierhuebeli_bern",
+        "image_url": "bierhuebeli_bern",
+        "image_source": "bierhuebeli_bern",
+        "image_type": "bierhuebeli_bern",
+        "municipality": "bierhuebeli_bern",
+        "city": "bierhuebeli_bern",
+        "region": "bierhuebeli_bern",
+        "canton": "bierhuebeli_bern",
+        "country": "bierhuebeli_bern",
+        "first_seen": "bierhuebeli_bern",
+        "last_seen": "bierhuebeli_bern"
       },
       "match_confidence": "independent"
     },
@@ -76288,6 +76769,32 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-80c3e1104c6322cd",
+      "raw_keys": [
+        "('gemeinde_uster', '7833943', '2027-01-03')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -83508,6 +84015,41 @@
       "match_confidence": "independent"
     },
     {
+      "id": "stadt_zuerich-21cdd15c3ae288a0",
+      "raw_keys": [
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/stadtgaertnerei-technik-trifft-natur.html?calentry=1', '2027-01-20')"
+      ],
+      "field_sources": {
+        "title": "stadt_zuerich",
+        "date": "stadt_zuerich",
+        "time": "stadt_zuerich",
+        "start_at": "stadt_zuerich",
+        "time_unknown": "stadt_zuerich",
+        "venue": "stadt_zuerich",
+        "category": "stadt_zuerich",
+        "tags": "stadt_zuerich",
+        "status": "stadt_zuerich",
+        "description": "stadt_zuerich",
+        "latitude": "stadt_zuerich",
+        "longitude": "stadt_zuerich",
+        "region": "stadt_zuerich",
+        "city": "stadt_zuerich",
+        "municipality": "stadt_zuerich",
+        "country": "stadt_zuerich",
+        "original_title": "stadt_zuerich",
+        "address": "stadt_zuerich",
+        "source_event_id": "stadt_zuerich",
+        "date_precision": "stadt_zuerich",
+        "classification_context": "stadt_zuerich",
+        "end_at": "stadt_zuerich",
+        "first_seen": "stadt_zuerich",
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "rote_fabrik-63b8a59ed510b84a",
       "raw_keys": [
         "('rote_fabrik', '34487', '2027-01-20')"
@@ -83851,6 +84393,32 @@
         "ticket_url": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_uster-a774e1002ac86f87",
+      "raw_keys": [
+        "('gemeinde_uster', '7833946', '2027-01-21')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
       },
       "match_confidence": "independent"
     },
@@ -84654,7 +85222,7 @@
         "image_source": "kaufleuten",
         "image_type": "kaufleuten",
         "first_seen": "kaufleuten",
-        "last_seen": "ubwg",
+        "last_seen": "kaufleuten",
         "description": "ubwg",
         "latitude": "ubwg",
         "longitude": "ubwg",
@@ -85024,6 +85592,30 @@
         "end_at": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "plaza-aac4366d86012222",
+      "raw_keys": [
+        "('plaza', 'https://tickets.plaza-zurich.ch/de/events/all-that-she-wants-mum-n-bass-2027-01-23', '2027-01-23', '18:00', 'all that she wants mum n bass')"
+      ],
+      "field_sources": {
+        "title": "plaza",
+        "date": "plaza",
+        "time": "plaza",
+        "start_at": "plaza",
+        "time_unknown": "plaza",
+        "venue": "plaza",
+        "category": "plaza",
+        "tags": "plaza",
+        "status": "plaza",
+        "price_chf": "plaza",
+        "image_url": "plaza",
+        "image_source": "plaza",
+        "image_type": "plaza",
+        "first_seen": "plaza",
+        "last_seen": "plaza"
       },
       "match_confidence": "independent"
     },
@@ -86030,9 +86622,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -86636,10 +87226,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -87155,9 +87744,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -87399,9 +87986,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-fa4273bf075de842",
+      "id": "stadt_zuerich-64c4b6e399461c18",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=2', '2027-01-30')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=2', '2027-01-30')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -87426,9 +88013,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -87467,9 +88055,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-bdd0a5606df986c0",
+      "id": "stadt_zuerich-65e0aa3945625898",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/botanisches-malen-live---ein-blick-ueber-die-schulter.html?calentry=1', '2027-01-30')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/botanisches-malen-live-ein-blick-ueber-die-schulter.html?calentry=1', '2027-01-30')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -87494,9 +88082,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -87579,9 +88168,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-053ef035a7b53083",
+      "id": "stadt_zuerich-022ad07361a5d90a",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/botanisches-malen-live---ein-blick-ueber-die-schulter.html?calentry=2', '2027-01-30')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/botanisches-malen-live-ein-blick-ueber-die-schulter.html?calentry=2', '2027-01-30')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -87606,9 +88195,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -87866,9 +88456,9 @@
       "match_confidence": "probable"
     },
     {
-      "id": "stadt_zuerich-e07e15917af4c1d9",
+      "id": "stadt_zuerich-b52f0d8df29af4bf",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=3', '2027-01-31')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=3', '2027-01-31')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -87893,9 +88483,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -88248,9 +88839,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-e231233c385f67ae",
+      "id": "stadt_zuerich-b061c0341725055d",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=4', '2027-02-01')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=4', '2027-02-01')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -88275,9 +88866,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -88402,9 +88994,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-92f7bd2218985f77",
+      "id": "stadt_zuerich-820914da12eba5e9",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=5', '2027-02-02')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=5', '2027-02-02')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -88429,9 +89021,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -88783,9 +89376,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-ff65e2ec1d7ec8df",
+      "id": "stadt_zuerich-e97fe1c01abfb4ff",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=6', '2027-02-03')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=6', '2027-02-03')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -88810,9 +89403,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -89452,9 +90046,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-30e9ba261d619000",
+      "id": "stadt_zuerich-0f746eacd8f2c5c9",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=7', '2027-02-04')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=7', '2027-02-04')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -89479,9 +90073,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -89761,9 +90356,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-2865966629d35099",
+      "id": "stadt_zuerich-9d6f1d2bcac8d0ea",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=8', '2027-02-05')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=8', '2027-02-05')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -89788,9 +90383,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -89859,6 +90455,32 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gaskessel_bern-7997b57500fe368b",
+      "raw_keys": [
+        "('gaskessel_bern', 'https://gaskessel.ch/programm', '2027-02-05', '20:00', 'sanae')"
+      ],
+      "field_sources": {
+        "title": "gaskessel_bern",
+        "date": "gaskessel_bern",
+        "time": "gaskessel_bern",
+        "start_at": "gaskessel_bern",
+        "time_unknown": "gaskessel_bern",
+        "venue": "gaskessel_bern",
+        "category": "gaskessel_bern",
+        "tags": "gaskessel_bern",
+        "status": "gaskessel_bern",
+        "description": "gaskessel_bern",
+        "municipality": "gaskessel_bern",
+        "city": "gaskessel_bern",
+        "region": "gaskessel_bern",
+        "canton": "gaskessel_bern",
+        "country": "gaskessel_bern",
+        "first_seen": "gaskessel_bern",
+        "last_seen": "gaskessel_bern"
       },
       "match_confidence": "independent"
     },
@@ -90028,9 +90650,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-d3a4ee8226f1ec90",
+      "id": "stadt_zuerich-5c718d9173ba06be",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=9', '2027-02-06')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=9', '2027-02-06')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -90055,9 +90677,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -90389,9 +91012,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-7c5bd31e47fe7e87",
+      "id": "stadt_zuerich-5281659d6e98eb6c",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=10', '2027-02-07')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=10', '2027-02-07')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -90416,9 +91039,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -90647,9 +91271,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-6f4808aad747e2d5",
+      "id": "stadt_zuerich-5a28cebcd527bf2b",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=11', '2027-02-08')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=11', '2027-02-08')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -90674,9 +91298,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -90841,9 +91466,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-ba3eddbd91c999fa",
+      "id": "stadt_zuerich-2ea8ac3cde661402",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=12', '2027-02-09')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=12', '2027-02-09')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -90868,9 +91493,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -90927,6 +91553,7 @@
         "image_url": "kaufleuten",
         "image_source": "kaufleuten",
         "image_type": "kaufleuten",
+        "retained_fields": "kaufleuten",
         "first_seen": "kaufleuten",
         "last_seen": "kaufleuten"
       },
@@ -91084,9 +91711,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -91264,9 +91889,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-65caa364047a826c",
+      "id": "stadt_zuerich-a1b63c6d73d06156",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=13', '2027-02-10')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=13', '2027-02-10')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -91291,9 +91916,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -91620,9 +92246,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-ef643e15600c553c",
+      "id": "stadt_zuerich-175893bf8b20dfc5",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=14', '2027-02-11')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=14', '2027-02-11')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -91647,9 +92273,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -91891,9 +92518,7 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -92043,9 +92668,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-a05179a9021e42f4",
+      "id": "stadt_zuerich-fb691b2c110c2dea",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=15', '2027-02-12')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=15', '2027-02-12')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -92070,9 +92695,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -92299,6 +92925,32 @@
       "match_confidence": "independent"
     },
     {
+      "id": "gemeinde_uster-f148a7c6f501c989",
+      "raw_keys": [
+        "('gemeinde_uster', '7834603', '2027-02-13')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_uster",
+        "date": "gemeinde_uster",
+        "time_unknown": "gemeinde_uster",
+        "venue": "gemeinde_uster",
+        "category": "gemeinde_uster",
+        "tags": "gemeinde_uster",
+        "status": "gemeinde_uster",
+        "region": "gemeinde_uster",
+        "city": "gemeinde_uster",
+        "municipality": "gemeinde_uster",
+        "country": "gemeinde_uster",
+        "original_title": "gemeinde_uster",
+        "organizer": "gemeinde_uster",
+        "source_event_id": "gemeinde_uster",
+        "date_precision": "gemeinde_uster",
+        "first_seen": "gemeinde_uster",
+        "last_seen": "gemeinde_uster"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_thalwil-61f74c01b60ccf81",
       "raw_keys": [
         "('gemeinde_thalwil', '7686481', '2027-02-13')"
@@ -92351,9 +93003,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-0718e3ea4d9bc95d",
+      "id": "stadt_zuerich-6d5db693f99bcc56",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=16', '2027-02-13')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=16', '2027-02-13')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -92378,9 +93030,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -92705,9 +93358,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-dfa7aaa272e7ae7f",
+      "id": "stadt_zuerich-5154caeb5b2979af",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=17', '2027-02-14')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=17', '2027-02-14')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -92732,9 +93385,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -92824,9 +93478,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-2cc12d0512316c8a",
+      "id": "stadt_zuerich-fc56eda3bfc70f0b",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=18', '2027-02-15')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=18', '2027-02-15')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -92851,9 +93505,10 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
-        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich"
+        "last_seen": "stadt_zuerich",
+        "coordinate_source": "stadt_zuerich",
+        "coordinate_precision": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -93187,9 +93842,9 @@
       "match_confidence": "independent"
     },
     {
-      "id": "stadt_zuerich-2f0d40e74865b03d",
+      "id": "stadt_zuerich-fe1cd0d815d13b9f",
       "raw_keys": [
-        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung--botanik-mit-stift-und-pinsel.html?calentry=19', '2027-02-17')"
+        "('stadt_zuerich', '/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/ausstellung-botanik-mit-stift-und-pinsel.html?calentry=19', '2027-02-17')"
       ],
       "field_sources": {
         "title": "stadt_zuerich",
@@ -93218,6 +93873,31 @@
         "last_seen": "stadt_zuerich",
         "coordinate_source": "stadt_zuerich",
         "coordinate_precision": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "gemeinde_koeniz-4175df918ebec53a",
+      "raw_keys": [
+        "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12389/eventdate/9297', '2027-02-17', '15:30', 'marchen mit martin')"
+      ],
+      "field_sources": {
+        "title": "gemeinde_koeniz",
+        "date": "gemeinde_koeniz",
+        "time": "gemeinde_koeniz",
+        "start_at": "gemeinde_koeniz",
+        "time_unknown": "gemeinde_koeniz",
+        "venue": "gemeinde_koeniz",
+        "category": "gemeinde_koeniz",
+        "tags": "gemeinde_koeniz",
+        "status": "gemeinde_koeniz",
+        "city": "gemeinde_koeniz",
+        "municipality": "gemeinde_koeniz",
+        "region": "gemeinde_koeniz",
+        "canton": "gemeinde_koeniz",
+        "country": "gemeinde_koeniz",
+        "first_seen": "gemeinde_koeniz",
+        "last_seen": "gemeinde_koeniz"
       },
       "match_confidence": "independent"
     },
@@ -93280,10 +93960,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -93348,10 +94027,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
