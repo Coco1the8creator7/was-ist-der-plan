@@ -3616,5 +3616,37 @@
       "coordinate_precision": "building",
       "feature_id": "149347_0"
     }
+  },
+  "hofwiesenstrasse|379|zurich": {
+    "checked_at": "2026-11-19T01:56:34.739003+01:00",
+    "query": [
+      "Hofwiesenstrasse",
+      "379",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.41175079345703,
+      "longitude": 8.545239448547363,
+      "address_label": "Hofwiesenstrasse 379 8050 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "170088_0"
+    }
+  },
+  "rychenbergstrasse|94|winterthur": {
+    "checked_at": "2026-11-19T01:56:34.739003+01:00",
+    "query": [
+      "Rychenbergstrasse",
+      "94",
+      "Winterthur"
+    ],
+    "result": {
+      "latitude": 47.50614547729492,
+      "longitude": 8.734280586242676,
+      "address_label": "Rychenbergstrasse 94 8400 Winterthur",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "2323681_0"
+    }
   }
 }
