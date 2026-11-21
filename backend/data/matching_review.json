@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T08:25:05+01:00",
+  "generated_at": "2026-11-21T20:29:42+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -648,6 +648,14 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
+    },
+    {
+      "left": "dynamo-4ea93bc88bf851a3",
+      "right": "dynamo-2900a06f5e3290c1",
+      "date": "2026-11-21",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
     },
     {
       "left": "supermarket-68fbcdd7016dbc2e",
