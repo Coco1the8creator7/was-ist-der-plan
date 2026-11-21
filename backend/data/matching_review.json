@@ -1,18 +1,10 @@
 {
-  "generated_at": "2026-11-20T16:37:26+01:00",
+  "generated_at": "2026-11-21T01:02:16+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
       "right": "gaskessel_bern-7d19436226e1b1cd",
       "date": "2026-11-28",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_kloten-4bf20fa8b6f381a8",
-      "right": "gemeinde_kloten-27e8408b67eb057a",
-      "date": "2026-11-20",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
@@ -370,14 +362,6 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "gemeinde_koeniz-c7f9d7b235789191",
-      "right": "gemeinde_koeniz-01348f55cd41010f",
-      "date": "2026-11-20",
-      "score": 85,
-      "level": "probable",
-      "reason": "similar_title"
-    },
-    {
       "left": "gemeinde_kloten-cf223aea34900d00",
       "right": "gemeinde_kloten-677065dd705e29d6",
       "date": "2026-12-01",
@@ -650,14 +634,6 @@
       "reason": "same_title_time_unverified"
     },
     {
-      "left": "kaufleuten-2511db6c4dd599ca",
-      "right": "kaufleuten-aad8ed382bc840a1",
-      "date": "2026-11-20",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "exil-24e5db468204e57b",
       "right": "exil-24e5db468204e57b",
       "date": "2026-12-18",
@@ -714,30 +690,6 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "kulturzueri-7024d2a87e9f0944",
-      "right": "kulturzueri-edadef6500fe770f",
-      "date": "2026-11-20",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_uster-a3f72d943510b582",
-      "right": "kulturzueri-46d58329e8200f26",
-      "date": "2026-11-20",
-      "score": 85,
-      "level": "probable",
-      "reason": "same_title_time_unverified"
-    },
-    {
-      "left": "gemeinde_uster-a85d93df05d07400",
-      "right": "kulturzueri-2fe1a5b1d19f1670",
-      "date": "2026-11-20",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "gemeinde_thalwil-58da1bfd96569275",
       "right": "kulturzueri-38430c075aa58c02",
       "date": "2026-11-24",
@@ -768,6 +720,14 @@
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
+    },
+    {
+      "left": "gemeinde_thalwil-d42479ee729b64e0",
+      "right": "kulturzueri-60824a1fc0eae312",
+      "date": "2026-11-26",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
     }
   ]
 }
