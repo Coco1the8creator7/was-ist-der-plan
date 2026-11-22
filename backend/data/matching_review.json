@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T20:29:42+01:00",
+  "generated_at": "2026-11-22T08:06:20+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -101,14 +101,6 @@
       "left": "gemeinde_kloten-528c702c9a4d1d75",
       "right": "gemeinde_kloten-a7ce9df38cfd39c3",
       "date": "2026-11-29",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_kloten-b599683c796d944e",
-      "right": "gemeinde_kloten-07598d9b6ab03f13",
-      "date": "2026-11-21",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
@@ -418,14 +410,6 @@
       "reason": "same_title_time_unverified"
     },
     {
-      "left": "gemeinde_kloten-89ca22fbe00c1e05",
-      "right": "gemeinde_kloten-2a1ed28967e2c481",
-      "date": "2026-11-21",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "gemeinde_kloten-135ba912b07fb188",
       "right": "gemeinde_kloten-ecd7b477e0b30678",
       "date": "2026-11-28",
@@ -642,44 +626,12 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "friedas_ausgangheute-581b988024357b1f",
-      "right": "friedas_ausgangheute-090823cdda95f992",
-      "date": "2026-11-21",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "dynamo-4ea93bc88bf851a3",
-      "right": "dynamo-2900a06f5e3290c1",
-      "date": "2026-11-21",
-      "score": 85,
-      "level": "probable",
-      "reason": "similar_title"
-    },
-    {
       "left": "supermarket-68fbcdd7016dbc2e",
       "right": "ubwg-74064403828903b6",
       "date": "2026-11-28",
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
-    },
-    {
-      "left": "friedas_ausgangheute-581b988024357b1f",
-      "right": "friedas_buexe-135247524149ee86",
-      "date": "2026-11-21",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "friedas_ausgangheute-090823cdda95f992",
-      "right": "friedas_buexe-135247524149ee86",
-      "date": "2026-11-21",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
     },
     {
       "left": "gemeinde_thalwil-81192f6de2b39ef6",
@@ -722,20 +674,28 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "kulturzueri-b2daa8af2ba2d923",
-      "right": "kulturzueri-9dfe618358a467f8",
-      "date": "2026-11-21",
-      "score": 85,
-      "level": "probable",
-      "reason": "similar_title"
-    },
-    {
       "left": "gemeinde_thalwil-d42479ee729b64e0",
       "right": "kulturzueri-60824a1fc0eae312",
       "date": "2026-11-26",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
+    },
+    {
+      "left": "kulturzueri-25a9947f02278f0d",
+      "right": "kulturzueri-7dbf410ada39d565",
+      "date": "2026-11-28",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
+    },
+    {
+      "left": "kulturzueri-cb161586b3f691bb",
+      "right": "kulturzueri-ecce0cbb273bc511",
+      "date": "2026-12-11",
+      "score": 85,
+      "level": "probable",
+      "reason": "similar_title"
     }
   ]
 }
