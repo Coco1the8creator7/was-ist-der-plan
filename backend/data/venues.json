@@ -425,7 +425,7 @@
     "result": null
   },
   "pfingstweidstrasse|28|zurich": {
-    "checked_at": "2026-10-20T22:21:19.644669+02:00",
+    "checked_at": "2026-11-25T00:00:42.096210+01:00",
     "query": [
       "Pfingstweidstrasse",
       "28",
@@ -882,7 +882,7 @@
     }
   },
   "claridenstrasse|7|zurich": {
-    "checked_at": "2026-10-20T22:29:57.367655+02:00",
+    "checked_at": "2026-11-25T00:00:42.096210+01:00",
     "query": [
       "Claridenstrasse",
       "7",
@@ -1060,7 +1060,7 @@
     }
   },
   "zahringerplatz|6|zurich": {
-    "checked_at": "2026-10-20T22:29:57.367655+02:00",
+    "checked_at": "2026-11-25T00:00:42.096210+01:00",
     "query": [
       "Zähringerplatz",
       "6",
@@ -1620,7 +1620,7 @@
     }
   },
   "obere zollgasse|15|ostermundigen": {
-    "checked_at": "2026-10-20T22:58:56.756329+02:00",
+    "checked_at": "2026-11-25T00:00:42.096210+01:00",
     "query": [
       "Obere Zollgasse",
       "15",
@@ -2586,7 +2586,7 @@
     }
   },
   "wasserwerkstrasse|21|zurich": {
-    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "checked_at": "2026-11-25T00:00:42.096210+01:00",
     "query": [
       "Wasserwerkstrasse",
       "21",
@@ -2707,7 +2707,7 @@
     }
   },
   "limmatstrasse|109|zurich": {
-    "checked_at": "2026-10-21T21:27:32.517409+02:00",
+    "checked_at": "2026-11-25T00:00:42.096210+01:00",
     "query": [
       "Limmatstrasse",
       "109",
@@ -2755,7 +2755,7 @@
     }
   },
   "friedaustrasse|23|zurich": {
-    "checked_at": "2026-10-22T22:24:34.869226+02:00",
+    "checked_at": "2026-11-25T00:00:42.096210+01:00",
     "query": [
       "Friedaustrasse",
       "23",
@@ -2997,7 +2997,7 @@
     }
   },
   "alte landstrasse|100|thalwil": {
-    "checked_at": "2026-10-24T09:28:23.771340+02:00",
+    "checked_at": "2026-11-25T00:00:42.096210+01:00",
     "query": [
       "Alte Landstrasse",
       "100",
@@ -3663,6 +3663,22 @@
       "coordinate_source": "geo.admin.ch official address directory",
       "coordinate_precision": "building",
       "feature_id": "2366972_0"
+    }
+  },
+  "schmelzbergstrasse|25|zurich": {
+    "checked_at": "2026-11-25T00:00:42.096210+01:00",
+    "query": [
+      "Schmelzbergstrasse",
+      "25",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37798309326172,
+      "longitude": 8.550639152526855,
+      "address_label": "Schmelzbergstrasse 25 8006 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302007086_0"
     }
   }
 }

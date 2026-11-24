@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T11:06:13+01:00",
+  "generated_at": "2026-11-24T23:36:38+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -594,12 +594,28 @@
       "reason": "shared_title_tokens"
     },
     {
+      "left": "kaufleuten-9f5d60aabaaa6824",
+      "right": "kaufleuten-10bcb935724b022e",
+      "date": "2026-11-27",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
       "left": "supermarket-68fbcdd7016dbc2e",
       "right": "ubwg-74064403828903b6",
       "date": "2026-11-28",
       "score": 85,
       "level": "probable",
       "reason": "similar_title"
+    },
+    {
+      "left": "friedas_ausgangheute-41ffa9c7e70e0fe6",
+      "right": "friedas_buexe-ad155f8a52e1b225",
+      "date": "2026-11-28",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
     },
     {
       "left": "gemeinde_thalwil-81192f6de2b39ef6",
@@ -669,6 +685,38 @@
       "left": "gemeinde_uster-9691fddea9ef7932",
       "right": "kulturzueri-d29569feb11a4460",
       "date": "2026-11-28",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_thalwil-461acd164d384581",
+      "right": "kulturzueri-261f64707bbb0da0",
+      "date": "2026-12-01",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_thalwil-9fd44111c5e45f04",
+      "right": "kulturzueri-825476d064f2ab78",
+      "date": "2026-12-08",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_thalwil-44bb0c1b78ef3e64",
+      "right": "kulturzueri-16ba46baa4487c0b",
+      "date": "2026-12-15",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
+    },
+    {
+      "left": "gemeinde_thalwil-61753f1df4410270",
+      "right": "kulturzueri-0c53f5f911af43d4",
+      "date": "2026-12-12",
       "score": 85,
       "level": "probable",
       "reason": "same_title_time_unverified"
