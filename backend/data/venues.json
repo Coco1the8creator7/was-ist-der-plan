@@ -144,7 +144,7 @@
     }
   },
   "birmensdorferstrasse|497|zurich": {
-    "checked_at": "2026-10-20T22:21:19.644669+02:00",
+    "checked_at": "2026-11-25T23:14:08.280969+01:00",
     "query": [
       "Birmensdorferstrasse",
       "497",
@@ -1044,7 +1044,7 @@
     "result": null
   },
   "theaterstrasse|10|zurich": {
-    "checked_at": "2026-10-20T22:29:57.367655+02:00",
+    "checked_at": "2026-11-25T23:14:08.280969+01:00",
     "query": [
       "Theaterstrasse",
       "10",
@@ -2554,7 +2554,7 @@
     }
   },
   "viaduktstrasse|55|zurich": {
-    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "checked_at": "2026-11-25T23:14:08.280969+01:00",
     "query": [
       "Viaduktstrasse",
       "55",
@@ -2796,7 +2796,7 @@
     "result": null
   },
   "ramistrasse|30|zurich": {
-    "checked_at": "2026-10-22T22:24:34.869226+02:00",
+    "checked_at": "2026-11-25T23:14:08.280969+01:00",
     "query": [
       "Rämistrasse",
       "30",
@@ -3679,6 +3679,22 @@
       "coordinate_source": "geo.admin.ch official address directory",
       "coordinate_precision": "building",
       "feature_id": "302007086_0"
+    }
+  },
+  "geroldstrasse|35|zurich": {
+    "checked_at": "2026-11-25T23:14:08.280969+01:00",
+    "query": [
+      "Geroldstrasse",
+      "35",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.385948181152344,
+      "longitude": 8.518294334411621,
+      "address_label": "Geroldstrasse 35 8005 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302004298_0"
     }
   }
 }
