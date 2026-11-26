@@ -160,7 +160,7 @@
     }
   },
   "butzenstrasse|49|zurich": {
-    "checked_at": "2026-10-20T22:21:19.644669+02:00",
+    "checked_at": "2026-11-26T23:08:06.901794+01:00",
     "query": [
       "Butzenstrasse",
       "49",
@@ -681,7 +681,7 @@
     }
   },
   "marktgasse|25|winterthur": {
-    "checked_at": "2026-10-20T22:29:57.367655+02:00",
+    "checked_at": "2026-11-26T23:08:06.901794+01:00",
     "query": [
       "Marktgasse",
       "25",
@@ -697,7 +697,7 @@
     }
   },
   "morgartenstrasse|40|zurich": {
-    "checked_at": "2026-10-20T22:29:57.367655+02:00",
+    "checked_at": "2026-11-26T23:08:06.901794+01:00",
     "query": [
       "Morgartenstrasse",
       "40",
@@ -2394,7 +2394,7 @@
     }
   },
   "pfingstweidstrasse|16|zurich": {
-    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "checked_at": "2026-11-26T23:08:06.901794+01:00",
     "query": [
       "Pfingstweidstrasse",
       "16",
@@ -2917,7 +2917,7 @@
     }
   },
   "scheideggstrasse|37|winterthur": {
-    "checked_at": "2026-10-23T21:25:33.917807+02:00",
+    "checked_at": "2026-11-26T23:08:06.901794+01:00",
     "query": [
       "Scheideggstrasse",
       "37",
@@ -3029,7 +3029,7 @@
     }
   },
   "ernastrasse|20|zurich": {
-    "checked_at": "2026-10-24T21:17:18.845082+02:00",
+    "checked_at": "2026-11-26T23:08:06.901794+01:00",
     "query": [
       "Ernastrasse",
       "20",
@@ -3695,6 +3695,22 @@
       "coordinate_source": "geo.admin.ch official address directory",
       "coordinate_precision": "building",
       "feature_id": "302004298_0"
+    }
+  },
+  "falkenstrasse|28a|zurich": {
+    "checked_at": "2026-11-26T23:08:06.901794+01:00",
+    "query": [
+      "Falkenstrasse",
+      "28a",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.36552429199219,
+      "longitude": 8.548832893371582,
+      "address_label": "Falkenstrasse 28a 8008 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302010354_0"
     }
   }
 }

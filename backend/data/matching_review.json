@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T09:37:01+01:00",
+  "generated_at": "2026-11-26T22:43:36+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
@@ -1458,6 +1458,22 @@
       "reason": "shared_title_tokens"
     },
     {
+      "left": "isc_bern-00a5720371dc6d14",
+      "right": "isc_bern-1cf098ef7f27fe57",
+      "date": "2026-12-05",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "isc_bern-eb889dca47c62ea3",
+      "right": "isc_bern-144c53aa9d088672",
+      "date": "2026-12-31",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
       "left": "supermarket-68fbcdd7016dbc2e",
       "right": "ubwg-74064403828903b6",
       "date": "2026-11-28",
@@ -1592,6 +1608,14 @@
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
+    },
+    {
+      "left": "gemeinde_uster-10aa435b303a62f8",
+      "right": "kulturzueri-8373e9aa2e86313b",
+      "date": "2026-12-03",
+      "score": 85,
+      "level": "probable",
+      "reason": "same_title_time_unverified"
     }
   ]
 }
