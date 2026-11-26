@@ -1,18 +1,10 @@
 {
-  "generated_at": "2026-11-25T22:50:08+01:00",
+  "generated_at": "2026-11-26T09:37:01+01:00",
   "candidates": [
     {
       "left": "gaskessel_bern-52d27cf83823e390",
       "right": "gaskessel_bern-7d19436226e1b1cd",
       "date": "2026-11-28",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_kloten-c4076861426f1922",
-      "right": "gemeinde_kloten-624824f828e3a5fa",
-      "date": "2026-11-25",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
@@ -325,14 +317,6 @@
       "left": "stadt_zuerich-9a4b6e05a54f9aab",
       "right": "stadt_zuerich-5889642a3bb739b4",
       "date": "2026-12-19",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "isc_bern-671691c8554f4ecc",
-      "right": "isc_bern-2670b5b6eec664d0",
-      "date": "2026-11-25",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
@@ -1474,22 +1458,6 @@
       "reason": "shared_title_tokens"
     },
     {
-      "left": "gemeinde_kloten-a00442172fd6dc17",
-      "right": "gemeinde_kloten-415c099873133e2a",
-      "date": "2026-12-03",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
-      "left": "gemeinde_kloten-04459886fc74a7b8",
-      "right": "gemeinde_kloten-415c099873133e2a",
-      "date": "2026-12-03",
-      "score": 65,
-      "level": "uncertain",
-      "reason": "shared_title_tokens"
-    },
-    {
       "left": "supermarket-68fbcdd7016dbc2e",
       "right": "ubwg-74064403828903b6",
       "date": "2026-11-28",
@@ -1501,6 +1469,14 @@
       "left": "friedas_ausgangheute-41ffa9c7e70e0fe6",
       "right": "friedas_buexe-ad155f8a52e1b225",
       "date": "2026-11-28",
+      "score": 65,
+      "level": "uncertain",
+      "reason": "shared_title_tokens"
+    },
+    {
+      "left": "friedas_ausgangheute-81c271c2b16a61b9",
+      "right": "friedas_buexe-3f0fafcdeefab861",
+      "date": "2026-11-29",
       "score": 65,
       "level": "uncertain",
       "reason": "shared_title_tokens"
