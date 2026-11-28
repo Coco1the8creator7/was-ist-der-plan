@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T09:05:08+01:00",
+  "generated_at": "2026-11-28T21:20:17+01:00",
   "events": [
     {
       "id": "gemeinde_thalwil-100aa573b482ee81",
@@ -24,32 +24,6 @@
         "date_precision": "gemeinde_thalwil",
         "first_seen": "gemeinde_thalwil",
         "last_seen": "gemeinde_thalwil"
-      },
-      "match_confidence": "independent"
-    },
-    {
-      "id": "gemeinde_kloten-b1f88402860a534c",
-      "raw_keys": [
-        "('gemeinde_kloten', '7405438', '2026-11-28')"
-      ],
-      "field_sources": {
-        "title": "gemeinde_kloten",
-        "date": "gemeinde_kloten",
-        "time_unknown": "gemeinde_kloten",
-        "venue": "gemeinde_kloten",
-        "category": "gemeinde_kloten",
-        "tags": "gemeinde_kloten",
-        "status": "gemeinde_kloten",
-        "region": "gemeinde_kloten",
-        "city": "gemeinde_kloten",
-        "municipality": "gemeinde_kloten",
-        "country": "gemeinde_kloten",
-        "original_title": "gemeinde_kloten",
-        "organizer": "gemeinde_kloten",
-        "source_event_id": "gemeinde_kloten",
-        "date_precision": "gemeinde_kloten",
-        "first_seen": "gemeinde_kloten",
-        "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "independent"
     },
@@ -185,6 +159,7 @@
         "classification_context": "petzi",
         "doors_time": "petzi",
         "ticket_url": "petzi",
+        "retained_fields": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
       },
@@ -3936,7 +3911,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430870|20:00', '2026-11-28')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430871|20:00', '2026-11-28')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431242|20:00', '2026-11-28')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|20:00', '2026-11-28')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|20:00', '2026-11-28')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431549|20:00', '2026-11-28')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -3968,7 +3944,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -9949,7 +9927,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|19:00', '2026-11-30')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|19:00', '2026-11-30')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|19:00', '2026-11-30')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|19:00', '2026-11-30')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|19:00', '2026-11-30')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|19:00', '2026-11-30')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -9981,7 +9960,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -14343,7 +14324,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|18:30', '2026-12-02')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|18:30', '2026-12-02')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|18:30', '2026-12-02')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|18:30', '2026-12-02')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|18:30', '2026-12-02')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|18:30', '2026-12-02')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -14375,7 +14357,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -14794,7 +14778,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|19:00', '2026-12-02')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|19:00', '2026-12-02')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|19:00', '2026-12-02')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|19:00', '2026-12-02')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|19:00', '2026-12-02')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|19:00', '2026-12-02')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -14826,7 +14811,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -15895,7 +15882,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|21:00', '2026-12-02')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|21:00', '2026-12-02')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|21:00', '2026-12-02')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|21:00', '2026-12-02')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|21:00', '2026-12-02')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|21:00', '2026-12-02')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -15927,7 +15915,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -19291,7 +19281,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430870|20:00', '2026-12-03')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430871|20:00', '2026-12-03')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431242|20:00', '2026-12-03')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|20:00', '2026-12-03')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|20:00', '2026-12-03')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431549|20:00', '2026-12-03')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -19323,7 +19314,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -19362,6 +19355,45 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-4d9c9539db18b291",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1081-cab4c188-8b88-4caf-8001-5048637a86c2-late_to_the_party/425144|20:00', '2026-12-03')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -21178,6 +21210,29 @@
       "match_confidence": "independent"
     },
     {
+      "id": "dynamo-462e10ba77f6f82b",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/veranstaltung/birth-struggle-death-de-boltgun-de-gone-society-de-no-escape-de-uvm', '2026-12-04', '18:00', 'birth struggle death de boltgun de gone society de no escape de uvm')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "dynamo-287e801589f15d7f",
       "raw_keys": [
         "('dynamo', 'https://dynamo.ch/kurs/k-pop-dreamers-freitag', '2026-12-04', '18:00', 'k pop dreamers freitag')"
@@ -21359,7 +21414,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430870|19:00', '2026-12-04')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430871|19:00', '2026-12-04')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431242|19:00', '2026-12-04')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|19:00', '2026-12-04')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|19:00', '2026-12-04')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431549|19:00', '2026-12-04')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -21391,7 +21447,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -21819,6 +21877,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-6ccab8d8325e5fd1",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/30-jahre-domizil-1/|20:00', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-e378a0e89f6f4b03",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/after-this-you-will-want-to-dance/|20:00', '2026-12-04')"
@@ -21883,6 +21981,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-2c0df4ccb207aa73",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41795-916-bestndige_begleiter/|20:00', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gaskessel_bern-f9e01e8be02871d7",
       "raw_keys": [
         "('gaskessel_bern', 'https://gaskessel.ch/programm', '2026-12-04', '20:00', 'bon jour')"
@@ -21938,6 +22076,46 @@
         "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
         "last_seen": "stadt_zuerich"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-503e447ad14f1f4a",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/132303-19776-care_city_statt_christmas_city/|20:00', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -22048,6 +22226,45 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-8669d005cddb7b3c",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1081-cab4c188-8b88-4caf-8001-5048637a86c2-late_to_the_party/425144|20:00', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "exil-54f4b46040026ba0",
       "raw_keys": [
         "('exil', 'https://exil.club/events/leila-2026', '2026-12-04', '20:00', 'leila')",
@@ -22083,10 +22300,49 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri"
+      },
+      "match_confidence": "certain"
+    },
+    {
+      "id": "kulturzueri-573b75e8a49b9fea",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/muelheim-absturz-ruhr/|20:00', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
         "coordinate_source": "kulturzueri",
         "coordinate_precision": "kulturzueri"
       },
-      "match_confidence": "certain"
+      "match_confidence": "independent"
     },
     {
       "id": "dynamo-1b87a29c2bfcbffe",
@@ -22223,6 +22479,127 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-51e30cbd26dde39f",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/138964-27596-to_be_real_premiere/|20:00', '2026-12-04')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-7569-to_be_real/|20:00', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "certain"
+    },
+    {
+      "id": "kulturzueri-30b4032917dfefdd",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-93458-zrcher_filmbuff-quiz_2026/|20:00', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-59826e64d1efe262",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/eimi-schwuemmt-die-abschweifungen-einer-kindergaertnerin/|20:00', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "petzi-42a4364c7a2df139",
       "raw_keys": [
         "('petzi', '65369', '2026-12-04')"
@@ -22258,13 +22635,127 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-083ae9ca9e51d79d",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/92635-3280-wooden_impact/|20:15', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-204ee2f1868d1e91",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1100-8f2d8c21-73d8-4374-9825-f2314bfcef4f-dele_sosimi/|20:30', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-d195bd05670ee907",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/johannes-millius-im-abgang-lebhaft-1/|20:30', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-2d213d670862682b",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411110|20:30', '2026-12-04')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|20:30', '2026-12-04')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|20:30', '2026-12-04')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|20:30', '2026-12-04')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:30', '2026-12-04')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:30', '2026-12-04')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|20:30', '2026-12-04')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -22296,7 +22787,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -22711,10 +23204,9 @@
         "address": "ubwg",
         "original_event_url": "ubwg",
         "classification_context": "ubwg",
+        "retained_fields": "ubwg",
         "first_seen": "ubwg",
-        "last_seen": "ubwg",
-        "coordinate_source": "ubwg",
-        "coordinate_precision": "ubwg"
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -22839,6 +23331,42 @@
         "retained_fields": "friedas_ausgangheute",
         "first_seen": "friedas_ausgangheute",
         "last_seen": "friedas_ausgangheute"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-d3f9c674fcd6cb34",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1100-d9778d9b-7833-4b09-9463-8d32f27432da-dj_voil_tim/|23:00', '2026-12-04')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -23284,6 +23812,43 @@
         "last_seen": "gemeinde_kloten"
       },
       "match_confidence": "uncertain"
+    },
+    {
+      "id": "kulturzueri-cde7ae93109c7e3d",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/fuer-fortgeschrittene-autorinnen-und-autoren-figurenentwicklung/|None', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
     },
     {
       "id": "gemeinde_kloten-ca63ff87fe4b8118",
@@ -23882,6 +24447,43 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-e9fa82e0375c2600",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41753-5921-faszination_gewrze-geschmack-geschichte_und_botanik-kurs/|10:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-b7af263363e7b5a5",
       "raw_keys": [
         "('stadt_zuerich', '/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/gespraechsrunde.html?calentry=2', '2026-12-05')"
@@ -24044,6 +24646,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-0bcfb636d857d7a0",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1100-8e4aaa3c-b1ec-2148-bb3e-9c5243b234af-dele_sosimi_fr_familien/|11:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-493dd2ea1ad30d43",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-5046-der_lwe-der_nicht_schreiben_konnte/|11:00', '2026-12-05')"
@@ -24083,9 +24721,81 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-e058d09f65ef77b8",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/plakat-bazar-2/|11:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-e97c2ea9815895b2",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/stadtfuehrung-zuercher-altstadt-zu-fuss/|11:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-8259f11984b00fc3",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/88862-32195-vortrag-austern-zitronen-hering_und_wein-was_verrt_der_gedeckte_tisch-zu_tisch_mit_pieter_claesz/|11:00', '2026-12-05')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -24189,6 +24899,86 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-1b62e1457b24e6ba",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/finissage-ausstellung-schillernde-blasen/|13:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-a157d95688cf0845",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/forschungsfeld-vokal-improvisation/|13:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -24302,6 +25092,42 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-a96e870ce8c904bb",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1082-4502-der_himmel_glnzt/|14:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-d902a916832ed593",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/180532-4938-family_literacy_tamil-1/|14:00', '2026-12-05')"
@@ -24396,6 +25222,46 @@
         "status": "hive",
         "first_seen": "hive",
         "last_seen": "hive"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-0d2bca35457935e9",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41800-27850-kinderfhrung/|14:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -24812,6 +25678,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-ed0833f99c535dd2",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-23188-der_grinch-the_grinch/|15:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "gemeinde_koeniz-a35ee77341eada4d",
       "raw_keys": [
         "('gemeinde_koeniz', 'https://koeniz.ch/freizeit/veranstaltungen.page/1093/event/12414/eventdate/9307', '2026-12-05', '15:00', 'me no pause re belle')"
@@ -24833,6 +25739,43 @@
         "country": "gemeinde_koeniz",
         "first_seen": "gemeinde_koeniz",
         "last_seen": "gemeinde_koeniz"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-0340e2a00fe20468",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/nora/|15:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -24869,6 +25812,46 @@
         "end_at": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-6041a8161be6cdca",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/videoscreening-mit-pool-collective/|15:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -24947,6 +25930,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-312cf62b18cdcf31",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41771-27071-artist_conversation_mit_nicole_lhuillier_und_nina_emge-on_listening/|16:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -25101,7 +26124,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430870|16:30', '2026-12-05')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430871|16:30', '2026-12-05')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431242|16:30', '2026-12-05')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|16:30', '2026-12-05')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|16:30', '2026-12-05')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431549|16:30', '2026-12-05')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -25133,7 +26157,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -25173,6 +26199,126 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-06e29cbea60a2091",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/katharina-oratorium-1/|17:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-79aef3de213374d8",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/316754-8185-kerzenziehen/|17:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-eec157bb9999e975",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/mozart-meets-pop-christmas-edition/|17:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -25324,7 +26470,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430870|18:30', '2026-12-05')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430871|18:30', '2026-12-05')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431242|18:30', '2026-12-05')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|18:30', '2026-12-05')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|18:30', '2026-12-05')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431549|18:30', '2026-12-05')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -25356,7 +26503,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -25405,6 +26554,7 @@
         "image_url": "plaza",
         "image_source": "plaza",
         "image_type": "plaza",
+        "retained_fields": "plaza",
         "first_seen": "plaza",
         "last_seen": "plaza"
       },
@@ -25525,6 +26675,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-77922ca73a670cb2",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/mozart-meets-pop-christmas-edition/|19:30', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-3b6335d795ed073e",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/rent-30-jaehriges-jubilaeum-in-zuerich/|19:30', '2026-12-05')"
@@ -25623,6 +26813,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-2970dc009ba66691",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/30-jahre-domizil-1/|20:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -25843,6 +27073,45 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-79e08c39f349b9e3",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1081-cab4c188-8b88-4caf-8001-5048637a86c2-late_to_the_party/425144|20:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "onthur-c0629be045176aaa",
       "raw_keys": [
         "('onthur', '/de/kalender/2403/Lyhre-DE-Verschoben', '2026-12-05')"
@@ -25878,7 +27147,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|20:00', '2026-12-05')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|20:00', '2026-12-05')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|20:00', '2026-12-05')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:00', '2026-12-05')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:00', '2026-12-05')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|20:00', '2026-12-05')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -25910,7 +27180,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -25989,6 +27261,47 @@
         "last_seen": "rote_fabrik"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-d13add751d0a291a",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/138964-27596-to_be_real_premiere/|20:00', '2026-12-05')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-7569-to_be_real/|20:00', '2026-12-05')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "certain"
     },
     {
       "id": "onthur-7fcbe51631410e79",
@@ -29013,6 +30326,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-746cf886b105d61f",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/muelheim-absturz-ruhr/|17:30', '2026-12-06')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-6d514677f5c81127",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-14148-arsen_und_spitzenhubchen/|18:00', '2026-12-06')"
@@ -29224,6 +30577,45 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-8089f3777f497191",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1081-cab4c188-8b88-4caf-8001-5048637a86c2-late_to_the_party/425144|20:00', '2026-12-06')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "rote_fabrik-5aedc42284704285",
       "raw_keys": [
         "('rote_fabrik', '34884', '2026-12-06')"
@@ -29263,6 +30655,47 @@
         "last_seen": "rote_fabrik"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-14669f28687fcf07",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/138964-27596-to_be_real_premiere/|20:00', '2026-12-06')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-7569-to_be_real/|20:00', '2026-12-06')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "certain"
     },
     {
       "id": "kulturzueri-df5451e8a5f5ae83",
@@ -31690,6 +33123,47 @@
         "last_seen": "rote_fabrik"
       },
       "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-425dcda8ef054304",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/138964-27596-to_be_real_premiere/|20:00', '2026-12-08')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41451-7569-to_be_real/|20:00', '2026-12-08')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "certain"
     },
     {
       "id": "stadt_zuerich-440f7c4354ba60ae",
@@ -36134,7 +37608,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|20:00', '2026-12-10')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|20:00', '2026-12-10')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|20:00', '2026-12-10')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:00', '2026-12-10')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:00', '2026-12-10')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|20:00', '2026-12-10')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -36166,7 +37641,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -37822,7 +39299,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|20:00', '2026-12-11')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|20:00', '2026-12-11')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|20:00', '2026-12-11')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:00', '2026-12-11')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:00', '2026-12-11')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|20:00', '2026-12-11')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -37854,7 +39332,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -38119,6 +39599,7 @@
         "classification_context": "petzi",
         "doors_time": "petzi",
         "ticket_url": "petzi",
+        "retained_fields": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
       },
@@ -38311,10 +39792,9 @@
         "address": "ubwg",
         "original_event_url": "ubwg",
         "classification_context": "ubwg",
+        "retained_fields": "ubwg",
         "first_seen": "ubwg",
-        "last_seen": "ubwg",
-        "coordinate_source": "ubwg",
-        "coordinate_precision": "ubwg"
+        "last_seen": "ubwg"
       },
       "match_confidence": "independent"
     },
@@ -40173,6 +41653,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-69bf4f8ba1435879",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-23188-der_grinch-the_grinch/|15:00', '2026-12-12')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-5b4b37df6ac3a924",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1082-3489-peter_wechsler_zeichnungen/|15:00', '2026-12-12')"
@@ -40621,6 +42141,7 @@
         "category": "petzi",
         "tags": "petzi",
         "status": "petzi",
+        "price_chf": "petzi",
         "description": "petzi",
         "image_url": "petzi",
         "image_source": "petzi",
@@ -40634,6 +42155,7 @@
         "source_event_id": "petzi",
         "classification_context": "petzi",
         "doors_time": "petzi",
+        "ticket_url": "petzi",
         "first_seen": "petzi",
         "last_seen": "petzi"
       },
@@ -40955,7 +42477,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|20:00', '2026-12-12')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|20:00', '2026-12-12')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|20:00', '2026-12-12')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:00', '2026-12-12')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:00', '2026-12-12')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|20:00', '2026-12-12')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -40987,7 +42510,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -55315,6 +56840,29 @@
       "match_confidence": "independent"
     },
     {
+      "id": "dynamo-4cc2ee944240bba3",
+      "raw_keys": [
+        "('dynamo', 'https://dynamo.ch/veranstaltung/soulprison-de-deadweight-de-world-war-dech-cancel-ch', '2026-12-20', '19:00', 'soulprison de deadweight de world at war de ch cancel ch')"
+      ],
+      "field_sources": {
+        "title": "dynamo",
+        "date": "dynamo",
+        "time": "dynamo",
+        "start_at": "dynamo",
+        "time_unknown": "dynamo",
+        "venue": "dynamo",
+        "category": "dynamo",
+        "tags": "dynamo",
+        "status": "dynamo",
+        "image_url": "dynamo",
+        "image_source": "dynamo",
+        "image_type": "dynamo",
+        "first_seen": "dynamo",
+        "last_seen": "dynamo"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "petzi-7525e9d767683163",
       "raw_keys": [
         "('petzi', '64708', '2026-12-20')"
@@ -60520,6 +62068,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-c6c8e2f9060966c0",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1102-41841-globi_im_museum-1/|15:00', '2026-12-27')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "rote_fabrik-b5953cb9e6a479f5",
       "raw_keys": [
         "('rote_fabrik', '32362', '2026-12-27')"
@@ -61244,6 +62832,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-229d393ea3bbcc00",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1102-41841-globi_im_museum-1/|14:30', '2026-12-28')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-eabc528c7d9177aa",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/100072-11606-eva/|15:00', '2026-12-28')"
@@ -61837,6 +63465,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-be9bca037bc084a1",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1102-41841-globi_im_museum-1/|14:30', '2026-12-29')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -62793,6 +64461,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-a11a3e2ca147a016",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1102-41841-globi_im_museum-1/|15:00', '2026-12-31')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -63934,6 +65642,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-cbe4c7b84183457a",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1102-41841-globi_im_museum-1/|15:00', '2027-01-01')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "ubwg-4c0ea1ccc2fbeb6a",
       "raw_keys": [
         "('ubwg', '173288', '2027-01-01')"
@@ -64151,6 +65899,46 @@
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-7db979c39d76112c",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/schreibkurs-kreatives-schreiben/|10:30', '2027-01-02')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -67692,6 +69480,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-5be64f31166fe00f",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41800-27850-kinderfhrung/|14:00', '2027-01-09')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "kulturzueri-e31124995b9b1798",
       "raw_keys": [
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/41751-5046-der_lwe-der_nicht_schreiben_konnte/|14:30', '2027-01-09')"
@@ -69365,7 +71193,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|19:00', '2027-01-12')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|19:00', '2027-01-12')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|19:00', '2027-01-12')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|19:00', '2027-01-12')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|19:00', '2027-01-12')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|19:00', '2027-01-12')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -69397,7 +71226,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -70159,7 +71990,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|19:00', '2027-01-13')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|19:00', '2027-01-13')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|19:00', '2027-01-13')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|19:00', '2027-01-13')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|19:00', '2027-01-13')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|19:00', '2027-01-13')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -70191,7 +72023,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -75019,7 +76853,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430870|19:00', '2027-01-22')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430871|19:00', '2027-01-22')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431242|19:00', '2027-01-22')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|19:00', '2027-01-22')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|19:00', '2027-01-22')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431549|19:00', '2027-01-22')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -75051,7 +76886,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -75138,7 +76975,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|20:30', '2027-01-22')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|20:30', '2027-01-22')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|20:30', '2027-01-22')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:30', '2027-01-22')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|20:30', '2027-01-22')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|20:30', '2027-01-22')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -75170,7 +77008,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -75872,7 +77712,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430870|19:30', '2027-01-23')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/430871|19:30', '2027-01-23')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431242|19:30', '2027-01-23')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|19:30', '2027-01-23')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431243|19:30', '2027-01-23')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8543-huis_clos/431549|19:30', '2027-01-23')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -75904,7 +77745,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -76017,7 +77860,8 @@
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411111|21:00', '2027-01-23')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411112|21:00', '2027-01-23')",
         "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411113|21:00', '2027-01-23')",
-        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|21:00', '2027-01-23')"
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411114|21:00', '2027-01-23')",
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/1103-8561-no_exit_pandemonium/411115|21:00', '2027-01-23')"
       ],
       "field_sources": {
         "title": "kulturzueri",
@@ -76049,7 +77893,9 @@
         "end_at": "kulturzueri",
         "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri"
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "certain"
     },
@@ -82660,6 +84506,46 @@
       "match_confidence": "independent"
     },
     {
+      "id": "kulturzueri-a70ecd73cfc96628",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/forschungsfeld-vokal-improvisation/|10:00', '2027-02-07')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
       "id": "stadt_zuerich-259a4cf4e59e3044",
       "raw_keys": [
         "('stadt_zuerich', '/nonam/de/veranstaltungen/fuehrung-dergrossefluss.html?calentry=2', '2027-02-07')"
@@ -85250,6 +87136,46 @@
         "end_at": "kulturzueri",
         "first_seen": "kulturzueri",
         "last_seen": "kulturzueri"
+      },
+      "match_confidence": "independent"
+    },
+    {
+      "id": "kulturzueri-8710862620229e8f",
+      "raw_keys": [
+        "('kulturzueri', 'https://www.kulturzueri.ch/db/veranstaltungen/groove-your-labour/|16:00', '2027-02-13')"
+      ],
+      "field_sources": {
+        "title": "kulturzueri",
+        "date": "kulturzueri",
+        "time": "kulturzueri",
+        "start_at": "kulturzueri",
+        "time_unknown": "kulturzueri",
+        "venue": "kulturzueri",
+        "category": "kulturzueri",
+        "tags": "kulturzueri",
+        "status": "kulturzueri",
+        "description": "kulturzueri",
+        "latitude": "kulturzueri",
+        "longitude": "kulturzueri",
+        "image_url": "kulturzueri",
+        "image_source": "kulturzueri",
+        "image_type": "kulturzueri",
+        "region": "kulturzueri",
+        "city": "kulturzueri",
+        "municipality": "kulturzueri",
+        "country": "kulturzueri",
+        "original_title": "kulturzueri",
+        "address": "kulturzueri",
+        "organizer": "kulturzueri",
+        "ticket_url": "kulturzueri",
+        "original_event_url": "kulturzueri",
+        "source_event_id": "kulturzueri",
+        "classification_context": "kulturzueri",
+        "end_at": "kulturzueri",
+        "first_seen": "kulturzueri",
+        "last_seen": "kulturzueri",
+        "coordinate_source": "kulturzueri",
+        "coordinate_precision": "kulturzueri"
       },
       "match_confidence": "independent"
     },
@@ -88506,10 +90432,9 @@
         "date_precision": "stadt_zuerich",
         "classification_context": "stadt_zuerich",
         "end_at": "stadt_zuerich",
+        "retained_fields": "stadt_zuerich",
         "first_seen": "stadt_zuerich",
-        "last_seen": "stadt_zuerich",
-        "coordinate_source": "stadt_zuerich",
-        "coordinate_precision": "stadt_zuerich"
+        "last_seen": "stadt_zuerich"
       },
       "match_confidence": "independent"
     },
@@ -88546,10 +90471,9 @@
         "source_event_id": "kulturzueri",
         "classification_context": "kulturzueri",
         "end_at": "kulturzueri",
+        "retained_fields": "kulturzueri",
         "first_seen": "kulturzueri",
-        "last_seen": "kulturzueri",
-        "coordinate_source": "kulturzueri",
-        "coordinate_precision": "kulturzueri"
+        "last_seen": "kulturzueri"
       },
       "match_confidence": "independent"
     },

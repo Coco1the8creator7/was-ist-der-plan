@@ -1380,7 +1380,7 @@
     }
   },
   "marktgasse|53|winterthur": {
-    "checked_at": "2026-10-20T22:58:56.756329+02:00",
+    "checked_at": "2026-11-28T21:44:46.867035+01:00",
     "query": [
       "Marktgasse",
       "53",
@@ -1976,7 +1976,7 @@
     }
   },
   "gruzenstrasse|44|winterthur": {
-    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "checked_at": "2026-11-28T21:44:46.867035+01:00",
     "query": [
       "Grüzenstrasse",
       "44",
@@ -2250,7 +2250,7 @@
     }
   },
   "letzistrasse|23|zurich": {
-    "checked_at": "2026-10-21T03:30:01.626493+02:00",
+    "checked_at": "2026-11-28T21:44:46.867035+01:00",
     "query": [
       "Letzistrasse",
       "23",
@@ -2618,7 +2618,7 @@
     }
   },
   "zollikerstrasse|107|zurich": {
-    "checked_at": "2026-10-21T09:33:49.875027+02:00",
+    "checked_at": "2026-11-28T21:44:46.867035+01:00",
     "query": [
       "Zollikerstrasse",
       "107",
@@ -3061,7 +3061,7 @@
     }
   },
   "munsterhof|2|zurich": {
-    "checked_at": "2026-10-25T14:24:13.126347+01:00",
+    "checked_at": "2026-11-28T21:44:46.867035+01:00",
     "query": [
       "Münsterhof",
       "2",
@@ -3711,6 +3711,38 @@
       "coordinate_source": "geo.admin.ch official address directory",
       "coordinate_precision": "building",
       "feature_id": "302010354_0"
+    }
+  },
+  "st annagasse|11|zurich": {
+    "checked_at": "2026-11-28T21:44:46.867035+01:00",
+    "query": [
+      "St. Annagasse",
+      "11",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37285232543945,
+      "longitude": 8.53680419921875,
+      "address_label": "St. Annagasse 11 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302040742_0"
+    }
+  },
+  "gessnerallee|13|zurich": {
+    "checked_at": "2026-11-28T21:44:46.867035+01:00",
+    "query": [
+      "Gessnerallee",
+      "13",
+      "Zürich"
+    ],
+    "result": {
+      "latitude": 47.37502670288086,
+      "longitude": 8.534271240234375,
+      "address_label": "Gessnerallee 13 8001 Zürich",
+      "coordinate_source": "geo.admin.ch official address directory",
+      "coordinate_precision": "building",
+      "feature_id": "302040627_0"
     }
   }
 }
